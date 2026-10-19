@@ -93,6 +93,8 @@ GDACS_SAMPLE = b"""<?xml version="1.0"?>
     <gdacs:alertlevel>Green</gdacs:alertlevel><gdacs:eventid>3003</gdacs:eventid></item>
   <item><title>Orange earthquake</title><gdacs:eventtype>EQ</gdacs:eventtype>
     <gdacs:alertlevel>Orange</gdacs:alertlevel><gdacs:eventid>4004</gdacs:eventid></item>
+  <item><title>Green wildfire</title><gdacs:eventtype>WF</gdacs:eventtype>
+    <gdacs:alertlevel>Green</gdacs:alertlevel><gdacs:eventid>6006</gdacs:eventid></item>
   <item><title>Red earthquake</title><gdacs:eventtype>EQ</gdacs:eventtype>
     <gdacs:alertlevel>Red</gdacs:alertlevel><gdacs:eventid>5005</gdacs:eventid></item>
 </channel></rss>"""
@@ -427,6 +429,12 @@ class WatchAndActTests(unittest.TestCase):
     def test_seed_all_records_quietly(self):
         changes, _ = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW, seed_all=True)
         self.assertEqual(changes[0][0], "seen_at_start")
+
+    def test_narrowed_filter_does_not_log_ends(self):
+        _, state = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+        changes, after = monitor.decide({"G": []}, state, NOW, seed_all=True)
+        self.assertEqual(changes, [])
+        self.assertEqual(after["G"], {})
 
 
 class DigestDashboardWeeklyTests(unittest.TestCase):

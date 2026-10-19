@@ -92,7 +92,7 @@ WEEKLY_WEEKDAY, WEEKLY_HOUR = 0, 8          # Monday 8am, Melbourne time
 
 # Bump this whenever the filters change, so newly-included lower-level events
 # already in the feeds are recorded as "seen_at_start" rather than "new".
-FILTERS_VERSION = 3
+FILTERS_VERSION = 4
 
 LOG_FIRE_HA = 10_000        # recorded
 LARGE_FIRE_HA = 50_000      # card
@@ -173,8 +173,10 @@ GDACS_TYPES = {
     "VO": ("Volcano", "🌋", 6), "TS": ("Tsunami", "🌊", 4),
     "DR": ("Drought", "🏜️", 4),
 }
-GDACS_WEATHER_TYPES = {"TC", "FL", "WF"}   # card at Orange, recorded from Green
-GDACS_NEVER_TYPES = {"DR"}                 # others: card at Red, recorded from Orange
+GDACS_WEATHER_TYPES = {"TC", "FL", "WF"}   # card at Orange (others: card at Red)
+GDACS_GREEN_TYPES = {"TC", "FL"}           # also recorded at Green (Green wildfires
+                                           # are hundreds of small satellite detections)
+GDACS_NEVER_TYPES = {"DR"}                 # everything else recorded from Orange
 LEVEL_RANK = {"green": 0, "orange": 1, "red": 2}
 
 # --- North American fires -------------------------------------------------
@@ -475,7 +477,7 @@ def parse_gdacs(content):
         if event_type in GDACS_NEVER_TYPES:
             continue
         weather = event_type in GDACS_WEATHER_TYPES
-        if rank < (LEVEL_RANK["green"] if weather else LEVEL_RANK["orange"]):
+        if rank < (LEVEL_RANK["green"] if event_type in GDACS_GREEN_TYPES else LEVEL_RANK["orange"]):
             continue
         notify = rank >= (LEVEL_RANK["orange"] if weather else LEVEL_RANK["red"])
 
@@ -729,9 +731,11 @@ def decide(results, old_sources, now, seed_all=False):
                 changes.append(("escalated", source, alert, record))
             current[key] = record
 
-        for key, record in previous.items():
-            if key not in current and record.get("track_end", True):
-                changes.append(("ended", source, None, record))
+        # Items that vanish because a filter was narrowed haven't "ended".
+        if not seed_all:
+            for key, record in previous.items():
+                if key not in current and record.get("track_end", True):
+                    changes.append(("ended", source, None, record))
         new_sources[source] = current
 
     return changes, new_sources
