@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": null,
-  "map_hash": "c8e685edb4e5",
+  "attachment_id": "1561601216369397840",
+  "map_hash": "2505a848b545",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -100,6 +100,7 @@
   "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -131,6 +132,7 @@
     "track_end": true
    },
    "ca:2026_BC_2026-K70748": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -162,6 +164,7 @@
     "track_end": true
    },
    "ca:2026_BC_2026-V10755": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -176,6 +179,7 @@
     "track_end": true
    },
    "ca:2026_NT_FS016-26": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -241,6 +245,7 @@
     "track_end": true
    },
    "ca:2026_ON_FOR_FIRE_014": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -272,6 +277,7 @@
     "track_end": true
    },
    "ca:2026_ON_THU_FIRE_036": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "250,000+ ha · 19 Oct 15:25"
@@ -337,6 +343,7 @@
     "track_end": true
    },
    "ca:2026_PC_2026WB4": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -453,6 +460,7 @@
     "track_end": true
    },
    "ca:2026_QC_413": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
@@ -625,11 +633,15 @@
     "track_end": true
    },
    "gdacs:TC:1001335": {
+    "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001335",
+    "lat": 21.5,
     "level": "",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
+    "lon": -110.3,
     "rank": 1,
-    "title": "gdacs:TC:1001335",
+    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001336": {
@@ -667,11 +679,15 @@
     "track_end": true
    },
    "gdacs:TC:1001338": {
+    "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
+    "lat": 14.0,
     "level": "",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
+    "lon": 139.2,
     "rank": 2,
-    "title": "gdacs:TC:1001338",
+    "title": "Tropical cyclone — Guam, Northern Mariana Islands, Japan",
     "track_end": true
    },
    "gdacs:TC:1001339": {
@@ -834,6 +850,7 @@
     "track_end": true
    },
    "us:2026-WAOWF-260406": {
+    "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
      "50,000+ ha · 19 Oct 15:25"
