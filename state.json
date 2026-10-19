@@ -1,0 +1,17 @@
+{
+  "BoM NSW/ACT": {},
+  "BoM NT": {},
+  "BoM QLD": {},
+  "BoM SA": {},
+  "BoM TAS": {},
+  "BoM VIC": {},
+  "BoM WA": {},
+  "GDACS": {
+    "gdacs:TC:1001335": 1,
+    "gdacs:TC:1001338": 2
+  },
+  "NSW RFS": {},
+  "QLD Fire": {},
+  "SA CFS": {},
+  "VicEmergency": {}
+}
