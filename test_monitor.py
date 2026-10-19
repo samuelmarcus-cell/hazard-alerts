@@ -241,6 +241,16 @@ class DecideTests(unittest.TestCase):
         changes, _ = monitor.decide({"G": [alert("a", 2)]}, state, NOW)
         self.assertEqual(changes, [])
 
+    def test_titles_refresh_from_feed(self):
+        old = {"G": {"gdacs:TC:1": {"key": "gdacs:TC:1", "rank": 2, "title": "gdacs:TC:1",
+                                     "history": [], "track_end": True}}}
+        fresh = monitor.make_alert(key="gdacs:TC:1", rank=1, source="s",
+                                   title="Tropical cyclone — Philippines", link="https://g")
+        changes, state = monitor.decide({"G": [fresh]}, old, NOW)
+        self.assertEqual(changes, [])
+        self.assertEqual(state["G"]["gdacs:TC:1"]["title"], "Tropical cyclone — Philippines")
+        self.assertEqual(state["G"]["gdacs:TC:1"]["rank"], 2)
+
     def test_failed_fetch_changes_nothing(self):
         _, state = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
         changes, after = monitor.decide({"G": None}, state, NOW)
@@ -313,6 +323,13 @@ class DiscordTests(unittest.TestCase):
         names = [f["name"] for f in embed["fields"]]
         self.assertIn("History", names)
         self.assertEqual(names[-1], "Map")
+
+    def test_attachment_id_from_embed_image(self):
+        reply = {"attachments": [], "embeds": [{"image": {
+            "url": "https://cdn.discordapp.com/attachments/111/2222/map.png?ex=1"}}]}
+        self.assertEqual(monitor.attachment_id(reply), "2222")
+        self.assertEqual(monitor.attachment_id({"attachments": [{"id": "9"}]}), "9")
+        self.assertIsNone(monitor.attachment_id(None))
 
     def test_map_gives_up_quietly_without_tiles(self):
         original = monitor.fetch

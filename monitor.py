@@ -723,7 +723,15 @@ def decide(results, old_sources, now, seed_all=False):
                     "track_end": alert["track_end"],
                 }
                 changes.append(("seen_at_start" if seeding else "new", source, alert, record))
-            elif alert["rank"] > record["rank"]:
+                current[key] = record
+                continue
+
+            # Known event: refresh its descriptive details from the feed
+            # (rank and level keep their peak).
+            for field in ("title", "link", "lat", "lon", "emoji"):
+                if alert.get(field) not in (None, ""):
+                    record[field] = alert[field]
+            if alert["rank"] > record["rank"]:
                 record = dict(
                     record, rank=alert["rank"], level=alert["level"],
                     colour=alert["colour"], notify=is_major(record) or alert["notify"],
@@ -983,8 +991,19 @@ def discord_call(method, url, payload, image=None):
 
 
 def attachment_id(reply):
-    attachments = (reply or {}).get("attachments") or []
-    return attachments[0]["id"] if attachments else None
+    """ID of a message's map image. Images shown inside an embed often aren't
+    listed under "attachments", so fall back to the ID in the image's address:
+    .../attachments/<channel id>/<attachment id>/map.png"""
+    reply = reply or {}
+    attachments = reply.get("attachments") or []
+    if attachments:
+        return attachments[0]["id"]
+    for embed in reply.get("embeds") or []:
+        for key in ("url", "proxy_url"):
+            match = re.search(r"/attachments/\d+/(\d+)/", (embed.get("image") or {}).get(key, ""))
+            if match:
+                return match.group(1)
+    return None
 
 
 def post_card(embed, image=None, thread=None):
@@ -1214,7 +1233,7 @@ def dashboard_embed(sources, results, now):
         (f"🌏 International · {len(international)} major",
          block(international, "No major events current.")),
         ("🔥 Fire danger outlook", block(danger, "No Extreme or Catastrophic days forecast.")),
-        ("📒 Last 7 days", f"{week_major} major events · {week_logged} events recorded in total"),
+        ("📒 Last 7 days", f"{week_major} new major events · {week_logged} new events recorded"),
         ("🛠️ Feeds", feeds),
     ]
     embed = {
