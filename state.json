@@ -780,7 +780,7 @@
     "lat": 19.7,
     "level": "Green",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337",
-    "lon": -107.6,
+    "lon": -108.0,
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — México",
@@ -806,10 +806,10 @@
      "Green · 19 Oct 15:42"
     ],
     "key": "gdacs:TC:1001339",
-    "lat": -18.6,
+    "lat": -20.7,
     "level": "Green",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001339",
-    "lon": -160.2,
+    "lon": -156.8,
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — Cook Islands, French Polynesia",
@@ -819,26 +819,7 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {
-   "TasALERT:Bushfire|Patersonia Road Nuamara": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T07:11:20.324092+00:00",
-    "history": [
-     "Watch and Act · 19 Oct 18:11"
-    ],
-    "key": "TasALERT:Bushfire|Patersonia Road Nuamara",
-    "lat": -41.36646,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=219e23cc-d38e-40cc-82a5-06cacc63dc51",
-    "lon": 147.29778,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act - Patersonia Road Nunamara - Monitor conditions as they are changing",
-    "track_end": true
-   }
-  },
+  "TasALERT": {},
   "US fires": {
    "us:2026-CALPF-002271": {
     "colour": 16361509,
