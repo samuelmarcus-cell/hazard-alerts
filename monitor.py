@@ -72,6 +72,7 @@ DISCORD_THREADS = {
     "dashboard": "1561598501882961990",
     "log": "1561598739443879936",
     "weekly": "1561598862957748316",
+    "news": None,          # 📰 Hazard news thread; until it exists, news goes to "log"
 }
 
 COLOUR_RED = 0xD32F2F
@@ -217,6 +218,25 @@ DEPLOYMENT_PHRASES = [
 HAZARD_WORDS = ["fire", "flood", "cyclone", "storm", "hail", "landslide",
                 "earthquake", "tsunami"]
 
+# Hazard news (no card; posted quietly to the Hazard news thread). A story
+# counts if its TITLE matches one of these, or its summary matches two.
+HAZARD_NEWS_PATTERNS = [
+    r"\bbush ?fires?\b", r"\bgrass ?fires?\b", r"\bwild ?fires?\b",
+    r"\bfire (danger|ban|weather|season)", r"\bfloods?\b", r"\bflooding\b",
+    r"\bflash flood", r"\b(thunder)?storms?\b", r"\bhail(stones?|storms?)?\b",
+    r"\bcyclones?\b", r"\bheat ?waves?\b", r"\bsevere weather\b",
+    r"\bdamaging winds?\b", r"\btornado(es)?\b", r"\blandslides?\b",
+    r"\bearthquakes?\b", r"\btsunamis?\b", r"\bevacuat", r"\bemergency warning\b",
+    r"\bwatch and act\b", r"\bheavy rain", r"\brainfall\b", r"\bweather bureau\b",
+    r"\bbureau of meteorology\b",
+]
+# Titles containing these aren't hazard stories ("Melbourne Storm", "a flood of").
+HAZARD_NEWS_EXCLUDE = [
+    r"\bmelbourne storm\b", r"\bperfect storm\b", r"\bpolitical storm\b",
+    r"\bstorm of\b", r"\bflood of\b", r"\bflooded with\b", r"\bflooding (in|back)\b",
+]
+MAX_NEWS_PER_RUN = 8
+
 
 # ---------------------------------------------------------------------------
 # SMALL HELPERS
@@ -253,7 +273,7 @@ def make_alert(**values):
     """An alert with defaults. notify=False means "record, but no card"."""
     alert = {"rank": 1, "level": "", "emoji": "⚠️", "message": "", "link": "",
              "colour": COLOUR_ORANGE, "fields": [], "lat": None, "lon": None,
-             "zoom": 7, "track_end": True, "notify": True}
+             "zoom": 7, "track_end": True, "notify": True, "news": False}
     alert.update(values)
     return alert
 
@@ -562,22 +582,34 @@ def parse_us(content):
     return alerts
 
 
+def is_hazard_news(title, summary):
+    """True for stories about a natural hazard (see HAZARD_NEWS_PATTERNS)."""
+    title_l, summary_l = title.lower(), summary.lower()
+    if any(re.search(p, title_l) for p in HAZARD_NEWS_EXCLUDE):
+        return False
+    if any(re.search(p, title_l) for p in HAZARD_NEWS_PATTERNS):
+        return True
+    return sum(1 for p in HAZARD_NEWS_PATTERNS if re.search(p, summary_l)) >= 2
+
+
 def parse_abc(content):
+    """Deployment/declaration stories -> cards; other hazard stories -> news."""
     alerts = []
     for item in ET.fromstring(content).iter("item"):
         title = (item.findtext("title") or "").strip()
         summary = strip_html(item.findtext("description"))
         text = f"{title} {summary}".lower()
-        if not any(p in text for p in DEPLOYMENT_PHRASES):
-            continue
-        if not any(h in text for h in HAZARD_WORDS):
+        deployment = (any(p in text for p in DEPLOYMENT_PHRASES)
+                      and any(h in text for h in HAZARD_WORDS))
+        if not deployment and not is_hazard_news(title, summary):
             continue
         link = (item.findtext("link") or "").strip()
         alerts.append(make_alert(
             key=f"abc:{(item.findtext('guid') or link or title).strip()}",
-            source="ABC News", level="Deployment news", emoji="📰",
-            title=title, message=summary[:400], link=link, colour=COLOUR_BLUE,
-            track_end=False,
+            source="ABC News", rank=1 if deployment else 0, notify=deployment,
+            news=not deployment, level="Deployment news" if deployment else "Hazard news",
+            emoji="📰", title=title, message=summary[:400], link=link,
+            colour=COLOUR_BLUE, track_end=False,
         ))
     return alerts
 
@@ -720,7 +752,7 @@ def decide(results, old_sources, now, seed_all=False):
                     "first_seen": now.isoformat(),
                     "history": [f"{alert['level'] or 'Listed'} · {stamp}"],
                     "lat": alert["lat"], "lon": alert["lon"], "link": alert["link"],
-                    "track_end": alert["track_end"],
+                    "track_end": alert["track_end"], "news": alert["news"],
                 }
                 changes.append(("seen_at_start" if seeding else "new", source, alert, record))
                 current[key] = record
@@ -1015,9 +1047,9 @@ def post_card(embed, image=None, thread=None):
     return ((reply or {}).get("id"), attachment_id(reply)) if reply else (None, None)
 
 
-def post_text(text, thread=None, quiet=True):
+def post_text(text, thread=None, quiet=True, previews=False):
     """Post plain text (split to Discord's 2000-char limit). quiet = no
-    notification sound and no link previews."""
+    notification sound; previews = show link preview cards."""
     chunk, chunks = "", []
     for line in text.split("\n"):
         if len(chunk) + len(line) + 1 > 1900:
@@ -1028,8 +1060,9 @@ def post_text(text, thread=None, quiet=True):
         chunks.append(chunk)
     for part in chunks:
         payload = {"username": DISCORD_USERNAME, "content": part}
-        if quiet:
-            payload["flags"] = 4 | 4096           # SUPPRESS_EMBEDS | SUPPRESS_NOTIFICATIONS
+        flags = (4096 if quiet else 0) | (0 if previews else 4)
+        if flags:                     # 4096 = no notification sound, 4 = no previews
+            payload["flags"] = flags
         discord_call("POST", webhook(thread=thread, wait=True), payload)
         time.sleep(0.5)
 
@@ -1147,11 +1180,27 @@ def deliver(changes, health_cards, now, dry_run=False):
             post_card(build_embed(card))
 
 
+def post_news(changes, dry_run=False):
+    """Quietly post new hazard stories, one message each with its preview."""
+    stories = [c[2] for c in changes if c[0] == "new" and c[2].get("news")]
+    thread = DISCORD_THREADS.get("news") or DISCORD_THREADS["log"]
+    for story in stories[:MAX_NEWS_PER_RUN]:
+        if dry_run:
+            print(f"  [news] {story['title']}")
+        else:
+            post_text(f"📰 **{story['title']}**\n{story['link']}", thread=thread, previews=True)
+    extra = stories[MAX_NEWS_PER_RUN:]
+    if extra and not dry_run:
+        post_text("📰 More hazard stories:\n" + "\n".join(
+            f"• [{s['title']}](<{s['link']}>)" for s in extra), thread=thread)
+
+
 CHANGE_ICONS = {"new": "🆕", "escalated": "⬆️", "ended": "✔️"}
 
 
 def log_digest(changes, now):
     """Text for the Event log thread, or '' if nothing to say."""
+    changes = [c for c in changes if not c[3].get("news")]
     starting = [c for c in changes if c[0] == "seen_at_start"]
     others = [c for c in changes if c[0] != "seen_at_start"]
     if not changes:
@@ -1216,7 +1265,7 @@ def dashboard_embed(sources, results, now):
              f"⚠️ {total - len(failing)}/{total} working · not responding: "
              + ", ".join(failing))
 
-    week = read_log(now - timedelta(days=7))
+    week = [r for r in read_log(now - timedelta(days=7)) if r.get("level") != "Hazard news"]
     week_major = sum(1 for r in week if r.get("major") == "yes" and r["change"] in ("new", "escalated"))
     week_logged = sum(1 for r in week if r["change"] in ("new", "escalated"))
 
@@ -1292,6 +1341,8 @@ def weekly_due(state, now):
 
 
 def weekly_embed(rows, results, now):
+    news = sum(1 for r in rows if r.get("level") == "Hazard news" and r["change"] == "new")
+    rows = [r for r in rows if r.get("level") != "Hazard news"]
     majors = [r for r in rows if r.get("major") == "yes" and r["change"] in ("new", "escalated")]
     recorded = [r for r in rows if r["change"] in ("new", "escalated")]
     ended = [r for r in rows if r["change"] == "ended"]
@@ -1316,7 +1367,8 @@ def weekly_embed(rows, results, now):
     return {
         "title": f"🗓️ Week of {start.strftime('%-d %b')} – {local_day(now.astimezone(LOCAL_TZ))}",
         "description": (f"**{len(majors)}** major events (cards) · **{len(recorded)}** events "
-                        f"recorded in total · **{len(ended)}** ended."),
+                        f"recorded in total · **{len(ended)}** ended · **{news}** hazard news "
+                        f"stories."),
         "color": COLOUR_BLUE,
         "fields": [
             {"name": "Major events", "value": ("\n".join(major_lines) or "None this week.")[:1024],
@@ -1403,6 +1455,7 @@ def main():
     due = weekly_due(state, now)
     if args.dry_run:
         deliver(changes, health_cards, now, dry_run=True)
+        post_news(changes, dry_run=True)
         print(log_digest(changes, now) or "  [log] nothing")
         update_dashboard(state, results, now, dry_run=True)
         if due:
@@ -1411,6 +1464,7 @@ def main():
 
     log_changes(changes, now)
     deliver(changes, health_cards, now)
+    post_news(changes)
     digest = log_digest(changes, now)
     if digest:
         post_text(digest, thread=DISCORD_THREADS["log"])

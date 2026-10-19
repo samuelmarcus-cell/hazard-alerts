@@ -9,6 +9,7 @@ date, using one webhook on the **#alerts** channel.
 | **📊 Dashboard** thread | One live message, edited every check: everything current, fire danger outlook, feed status, and a world + Australia map |
 | **📒 Event log** thread | A quiet line for everything recorded, including lower-level events with no card |
 | **🗓️ Weekly round-up** thread | Monday 8am (Melbourne): the week's events, counts by source, feed status |
+| **📰 Hazard news** thread | ABC stories about storms, floods, fires, cyclones, heatwaves etc., posted silently with a preview (until this thread exists they go to the Event log) |
 
 ## What gets a card
 
@@ -18,7 +19,7 @@ date, using one webhook on the **#alerts** channel.
 | NSW RFS, VicEmergency, QLD Fire, SA CFS, WA DFES, TasALERT, ACT ESA | Emergency Warning | Watch and Act |
 | GDACS (global) | Cyclones, floods, wildfires at Orange/Red; others at Red | Green cyclones/floods/wildfires; Orange quakes, volcanoes, tsunamis |
 | Canada (CWFIS) and US (NIFC) fires | 50,000 ha+, again at 250,000 ha+ | 10,000 ha+ |
-| ABC News "Just In" | Deployment / disaster-declaration stories mentioning a hazard | — |
+| ABC News "Just In" | Deployment / disaster-declaration stories mentioning a hazard | Other hazard stories → Hazard news thread |
 | Fire danger forecasts (NSW, VIC) | Any district forecast Extreme or Catastrophic | — |
 | Concurrent events | Major events in 3+ Australian jurisdictions at once; or 2+ while a Red / 250,000 ha+ event is active overseas | — |
 | Feed health | A feed failing for 24 hours, and its recovery | — |
@@ -62,6 +63,7 @@ In `monitor.py` under **CONFIGURATION**:
 - `LOG_FIRE_HA`, `LARGE_FIRE_HA`, `HUGE_FIRE_HA`: North American fire thresholds.
 - `FDR_RANK`: fire danger levels that get a card.
 - `DEPLOYMENT_PHRASES` / `HAZARD_WORDS`: what counts as deployment news.
+- `HAZARD_NEWS_PATTERNS` / `HAZARD_NEWS_EXCLUDE`: what counts as hazard news.
 - `MAX_PUSHES_PER_RUN`, `FEED_FAILURE_WARNING_HOURS`, `WEEKLY_WEEKDAY`, `WEEKLY_HOUR`.
 - Changing a filter? Bump `FILTERS_VERSION` so existing events are recorded quietly.
 

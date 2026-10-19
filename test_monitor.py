@@ -543,5 +543,64 @@ class DigestDashboardWeeklyTests(unittest.TestCase):
         self.assertEqual(Image.open(io.BytesIO(png)).size, (960, 300))
 
 
+class HazardNewsTests(unittest.TestCase):
+
+    def test_matching(self):
+        yes = [
+            ("Showers and storms for most of Queensland in unsettled week", ""),
+            ("Bushfire threatens homes near Esperance", ""),
+            ("Residents told to evacuate as river rises", ""),
+            ("Wet week ahead", "Heavy rain and flooding are possible, the Bureau of Meteorology says."),
+        ]
+        no = [
+            ("Melbourne Storm win the grand final", ""),
+            ("Council hit by a flood of complaints over parking", ""),
+            ("Minister fired after report", ""),
+            ("Footy finals preview", "Who will win?"),
+            ("Wet week ahead", "Heavy rain expected."),          # only one summary hit
+        ]
+        for title, summary in yes:
+            self.assertTrue(monitor.is_hazard_news(title, summary), title)
+        for title, summary in no:
+            self.assertFalse(monitor.is_hazard_news(title, summary), title)
+
+    def test_abc_split_into_cards_and_news(self):
+        sample = b"""<?xml version="1.0"?><rss version="2.0"><channel>
+          <item><title>Interstate crews arrive as bushfire threatens towns</title>
+            <link>https://abc/1</link><guid>1</guid><description>x</description></item>
+          <item><title>Queensland weather: showers, storms in unsettled week</title>
+            <link>https://abc/2</link><guid>2</guid><description>y</description></item>
+          <item><title>Melbourne Storm sign new coach</title>
+            <link>https://abc/3</link><guid>3</guid><description>z</description></item>
+        </channel></rss>"""
+        alerts = {a["key"]: a for a in monitor.parse_abc(sample)}
+        self.assertEqual(set(alerts), {"abc:1", "abc:2"})
+        self.assertTrue(alerts["abc:1"]["notify"])
+        self.assertFalse(alerts["abc:1"]["news"])
+        self.assertFalse(alerts["abc:2"]["notify"])
+        self.assertTrue(alerts["abc:2"]["news"])
+
+    def test_news_posts_to_thread_not_log_digest(self):
+        story = monitor.make_alert(key="abc:2", rank=0, notify=False, news=True,
+                                   level="Hazard news", source="ABC News",
+                                   title="Storms", link="https://abc/2", track_end=False)
+        changes, _ = monitor.decide({"ABC News": [story]}, {"ABC News": {}}, NOW)
+        self.assertEqual(monitor.log_digest(changes, NOW), "")
+        sent = []
+        saved = monitor.post_text
+        monitor.post_text = lambda text, thread=None, quiet=True, previews=False: \
+            sent.append((text, thread, previews))
+        try:
+            monitor.post_news(changes)
+        finally:
+            monitor.post_text = saved
+        self.assertEqual(len(sent), 1)
+        text, thread, previews = sent[0]
+        self.assertIn("https://abc/2", text)
+        self.assertTrue(previews)
+        expected = monitor.DISCORD_THREADS.get("news") or monitor.DISCORD_THREADS["log"]
+        self.assertEqual(thread, expected)
+
+
 if __name__ == "__main__":
     unittest.main()
