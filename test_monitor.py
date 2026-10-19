@@ -102,6 +102,21 @@ class FilterTests(unittest.TestCase):
         self.assertEqual(len(alerts), 1)
         self.assertIn("Grampians fire", alerts[0]["title"])
 
+    def test_empty_feed_is_fine(self):
+        feed = monitor.STATE_FEEDS[3]                    # SA CFS
+        self.assertEqual(monitor.parse_state_geojson(feed, b""), [])
+        self.assertEqual(monitor.parse_state_geojson(feed, b"  \n"), [])
+
+    def test_plain_list_feed(self):
+        feed = monitor.STATE_FEEDS[3]                    # SA CFS
+        sample = json.dumps([
+            {"Location": "Quiet Rd", "Status": "Going", "Level": "Advice"},
+            {"Location": "Big Scrub", "Status": "Going", "Level": "Emergency Warning",
+             "IncidentNo": "SA-77"},
+        ]).encode()
+        alerts = monitor.parse_state_geojson(feed, sample)
+        self.assertEqual([a["key"] for a in alerts], ["SA CFS:SA-77"])
+
     def test_gdacs_rules(self):
         keys = {a["key"] for a in monitor.parse_gdacs(GDACS_SAMPLE)}
         # Orange cyclone: yes. Drought: never. Green flood: no.

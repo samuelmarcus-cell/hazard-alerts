@@ -268,8 +268,19 @@ def parse_description(text):
 def parse_state_geojson(feed, content):
     """Pick Emergency Warning-level items out of a state GeoJSON feed."""
     alerts = []
+    if not content.strip():
+        return alerts            # some feeds send an empty file when nothing is happening
     data = json.loads(content)
-    for feature in data.get("features", []):
+
+    # GeoJSON wraps items in {"features": [...]}, with the details under
+    # "properties". Some feeds (SA CFS) are just a plain list of records
+    # instead, so we treat each record as its own properties.
+    if isinstance(data, list):
+        features = [{"properties": record} for record in data if isinstance(record, dict)]
+    else:
+        features = data.get("features", [])
+
+    for feature in features:
         props = feature.get("properties") or {}
 
         # Which text do we search for the level words?
