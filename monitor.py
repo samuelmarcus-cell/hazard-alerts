@@ -90,6 +90,9 @@ ACRES_PER_HA = 2.47105
 # policy asks for an identifying User-Agent.
 HEADERS = {"User-Agent": "hazard-alerts/2.0 (personal, non-commercial; "
                          "+https://github.com/samuelmarcus-cell/hazard-alerts)"}
+# BoM only answers requests that look like a browser.
+BOM_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; personal hazard-alert script; "
+                             "non-commercial; +https://github.com/samuelmarcus-cell/hazard-alerts)"}
 
 # --- BoM: one warnings RSS feed per state ---------------------------------
 BOM_FEEDS = {
@@ -199,8 +202,9 @@ HAZARD_WORDS = ["fire", "flood", "cyclone", "storm", "hail", "landslide",
 
 def fetch(url):
     """Download a URL; return bytes, or None on any network/HTTP error."""
+    headers = BOM_HEADERS if "bom.gov.au" in url else HEADERS
     try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
+        response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         return response.content
     except requests.RequestException as error:
