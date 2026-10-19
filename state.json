@@ -9,31 +9,31 @@
    "warned": false
   },
   "BoM NSW/ACT": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM NT": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM QLD": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM SA": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM TAS": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM VIC": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "BoM WA": {
-   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Canada fires": {
