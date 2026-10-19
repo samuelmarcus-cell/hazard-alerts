@@ -599,23 +599,6 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
-   "gdacs:FL:1104217": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:FL:1104217",
-    "lat": -33.4765918,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217",
-    "lon": -70.5418308,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Chile",
-    "track_end": true
-   },
    "gdacs:FL:1104230": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -631,23 +614,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Türkiye",
-    "track_end": true
-   },
-   "gdacs:FL:1104231": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:FL:1104231",
-    "lat": 32.896672,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231",
-    "lon": 13.1777923,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Libya",
     "track_end": true
    },
    "gdacs:FL:1104235": {
@@ -704,24 +670,6 @@
     "title": "Flood — Nicaragua",
     "track_end": true
    },
-   "gdacs:FL:1104238": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T07:11:20.324092+00:00",
-    "history": [
-     "Green · 19 Oct 18:11"
-    ],
-    "key": "gdacs:FL:1104238",
-    "lat": -32.2702086,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104238",
-    "lon": -58.0837759,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Uruguay",
-    "track_end": true
-   },
    "gdacs:FL:1104239": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -750,23 +698,6 @@
     "lon": -110.3,
     "rank": 1,
     "title": "Tropical cyclone — México",
-    "track_end": true
-   },
-   "gdacs:TC:1001336": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:TC:1001336",
-    "lat": 22.5,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336",
-    "lon": 139.7,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone",
     "track_end": true
    },
    "gdacs:TC:1001337": {
