@@ -103,19 +103,42 @@ class FilterTests(unittest.TestCase):
         self.assertIn("Grampians fire", alerts[0]["title"])
 
     def test_empty_feed_is_fine(self):
-        feed = monitor.STATE_FEEDS[3]                    # SA CFS
+        feed = {"name": "Test", "url": "", "level_field": None}
         self.assertEqual(monitor.parse_state_geojson(feed, b""), [])
-        self.assertEqual(monitor.parse_state_geojson(feed, b"  \n"), [])
+        self.assertEqual(monitor.parse_cap("SA CFS", b"  \n"), [])
 
     def test_plain_list_feed(self):
-        feed = monitor.STATE_FEEDS[3]                    # SA CFS
+        feed = {"name": "Test", "url": "", "level_field": None}
         sample = json.dumps([
             {"Location": "Quiet Rd", "Status": "Going", "Level": "Advice"},
             {"Location": "Big Scrub", "Status": "Going", "Level": "Emergency Warning",
-             "IncidentNo": "SA-77"},
+             "IncidentNo": "T-77"},
         ]).encode()
         alerts = monitor.parse_state_geojson(feed, sample)
-        self.assertEqual([a["key"] for a in alerts], ["SA CFS:SA-77"])
+        self.assertEqual([a["key"] for a in alerts], ["Test:T-77"])
+
+    def test_sa_cap_feed(self):
+        sample = b"""<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry><id>sa-1</id><title>Advice - Quiet Rd</title>
+    <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+      <identifier>CAP-1</identifier>
+      <info><event>Bushfire</event><headline>Advice - Quiet Rd</headline>
+        <area><areaDesc>Quiet Rd area</areaDesc></area></info></alert></entry>
+  <entry><id>sa-2</id><title>Emergency Warning - Big Scrub</title>
+    <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+      <identifier>CAP-2</identifier>
+      <info><event>Bushfire</event><headline>Emergency Warning - Big Scrub</headline>
+        <description>Take shelter now.</description><web>https://www.cfs.sa.gov.au/</web>
+        <area><areaDesc>Big Scrub, Adelaide Hills</areaDesc></area></info></alert></entry>
+</feed>"""
+        alerts = monitor.parse_cap("SA CFS", sample)
+        self.assertEqual(len(alerts), 1)
+        alert = alerts[0]
+        self.assertEqual(alert["key"], "SA CFS:sa-2")        # first ID found wins
+        self.assertIn("Big Scrub", alert["title"])
+        self.assertEqual(alert["link"], "https://www.cfs.sa.gov.au/")
+        self.assertIn(("Area", "Big Scrub, Adelaide Hills"), alert["fields"])
 
     def test_gdacs_rules(self):
         keys = {a["key"] for a in monitor.parse_gdacs(GDACS_SAMPLE)}

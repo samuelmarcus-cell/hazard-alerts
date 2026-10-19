@@ -8,7 +8,7 @@ key details, and includes a map link when the feed gives a location.
 | Source | What counts as "big" |
 |---|---|
 | BoM warnings, every state | Tropical cyclone, major flood, extreme heatwave warnings |
-| NSW RFS, VicEmergency, QLD Fire, SA CFS | Anything at **Emergency Warning** level |
+| NSW RFS, VicEmergency, QLD Fire, SA CFS (CAP warnings feed) | Anything at **Emergency Warning** level |
 | GDACS (global) | Cyclones, floods and wildfires at **Orange or Red**; anything else (quakes, volcanoes) only at **Red**; droughts never |
 
 You get one alert when an event first appears, and one more if it escalates
@@ -88,12 +88,7 @@ All settings are at the top of `monitor.py` under **CONFIGURATION**:
 
 ## Known gaps
 
-- **BoM may block GitHub's servers.** BoM is strict about automated access. If
-  the log shows `403` for every BoM feed, the rest still works. Options are
-  running on your own machine instead or using BoM's FTP warning products.
-- **QLD and SA feeds are untested live.** I couldn't download them while
-  building this. NSW and VIC were checked against real data. If QLD or SA show
-  `could not read`, the field names need adjusting.
+- **SA uses a different format.** SA CFS publishes CAP/Atom XML, read by `parse_cap()`.
 - **Not yet covered:** WA, TAS and NT fire and emergency feeds (BoM weather
   warnings for those states *are* covered). ACT fires appear in the NSW RFS feed.
 - **GDACS rates humanitarian impact, not size.** A huge fire in remote Canada

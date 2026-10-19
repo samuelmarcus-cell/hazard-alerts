@@ -110,13 +110,12 @@ STATE_FEEDS = [
                "/content/Feeds/BushfireCurrentIncidents/bushfireAlert.json",
         "level_field": None,
     },
-    {
-        "name": "SA CFS",
-        "url": "https://data.eso.sa.gov.au/prod/cfs/criimson/cfs_current_incidents.json",
-        "level_field": None,
-    },
 ]
 STATE_KEEP_LEVEL = "emergency warning"
+
+# SA publishes its warnings in CAP (Common Alerting Protocol) XML instead of
+# GeoJSON, so it gets its own reader: parse_cap() below.
+SA_CAP_URL = "https://data.eso.sa.gov.au/feeds/prod/cap-au.xml"
 
 # --- GDACS: global disasters ----------------------------------------------
 GDACS_URL = "https://www.gdacs.org/xml/rss.xml"
@@ -307,6 +306,68 @@ def parse_state_geojson(feed, content):
             fields=parse_description(props.get("description")),
             lat=lat,
             lon=lon,
+        ))
+    return alerts
+
+
+def local_name(element):
+    """'{http://www.w3.org/2005/Atom}entry' -> 'entry'.
+
+    XML tags carry their namespace in {braces}. Different CAP feeds use
+    different namespaces, so for this reader we simply ignore them.
+    """
+    return element.tag.rsplit("}", 1)[-1]
+
+
+def first_text(element, names):
+    """Text of the first descendant whose tag is one of `names`, else ''."""
+    for child in element.iter():
+        if local_name(child) in names and (child.text or "").strip():
+            return child.text.strip()
+    return ""
+
+
+def parse_cap(source, content):
+    """Pick Emergency Warning-level items out of a CAP/Atom warnings feed.
+
+    An Atom feed is a list of <entry> items, each usually holding a CAP
+    <alert>. Rather than depend on one exact layout, we look at all the text
+    inside each entry for the words "emergency warning".
+    """
+    alerts = []
+    if not content.strip():
+        return alerts
+    root = ET.fromstring(content)
+
+    # Use whichever "one item" tag this feed has: Atom <entry>, plain CAP
+    # <alert>, or RSS <item>.
+    for tag in ("entry", "alert", "item"):
+        entries = [e for e in root.iter() if local_name(e) == tag]
+        if entries:
+            break
+
+    for entry in entries:
+        all_text = " ".join(entry.itertext()).lower()
+        if STATE_KEEP_LEVEL not in all_text:
+            continue
+
+        title = first_text(entry, {"headline", "title", "areaDesc"}) or "Unnamed warning"
+        event_id = first_text(entry, {"identifier", "id", "guid"}) or title
+        link = first_text(entry, {"web", "link"})
+        if not link:
+            link_el = next((e for e in entry.iter() if local_name(e) == "link"), None)
+            link = link_el.get("href", "") if link_el is not None else ""
+
+        alerts.append(make_alert(
+            key=f"{source}:{event_id}",
+            source=source,
+            emoji="🔥",
+            title=f"EMERGENCY WARNING: {title}",
+            message=first_text(entry, {"description", "summary"})[:500]
+                    or f"{source} has an Emergency Warning current.",
+            link=link,
+            colour=COLOUR_RED,
+            fields=[("Area", first_text(entry, {"areaDesc"}))] if first_text(entry, {"areaDesc"}) else [],
         ))
     return alerts
 
@@ -506,6 +567,9 @@ def collect():
     for feed in STATE_FEEDS:
         content = fetch(feed["url"])
         results[feed["name"]] = safe_parse(feed["name"], parse_state_geojson, feed, content)
+
+    content = fetch(SA_CAP_URL)
+    results["SA CFS"] = safe_parse("SA CFS", parse_cap, "SA CFS", content)
 
     content = fetch(GDACS_URL)
     results["GDACS"] = safe_parse("GDACS", parse_gdacs, None, content)
