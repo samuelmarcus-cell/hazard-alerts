@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1561747437889126622",
-  "map_hash": "369f7c43f241",
+  "attachment_id": "1561838160319877250",
+  "map_hash": "8d36b7a955e0",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -809,10 +809,10 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 14.8,
+    "lat": 15.4,
     "level": "",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 137.6,
+    "lon": 136.7,
     "rank": 2,
     "title": "Tropical cyclone — Guam, Northern Mariana Islands, Japan",
     "track_end": true
