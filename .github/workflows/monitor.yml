@@ -1,34 +1,42 @@
 # Runs monitor.py every 15 minutes on GitHub's servers.
-# Schedule registered via the GitHub web editor.
-# After each run, state.json (the "already seen" memory) is committed back to
-# the repository so the next run knows what it has already told you about.
+#
+# GitHub's own schedule is unreliable (it never fired for this repo), so each
+# run keeps itself alive for about 5.5 hours, checking every 15 minutes, and
+# then starts its own replacement. A workflow may start itself with its built-in
+# token, so nothing else is needed. The schedule below stays as a backup that
+# restarts the chain if it ever breaks.
+#
+# After each check, state.json and events_log.csv are committed back to the
+# repo so the next check knows what it has already told you about.
 
 name: Hazard monitor
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"   # every 15 min, off the busy :00/:15/:30/:45 marks
-  workflow_dispatch:            # adds a "Run workflow" button for manual runs
+    - cron: "7 */3 * * *"        # backup: restarts the chain if it ever stops
+  workflow_dispatch:
     inputs:
       test_message:
         description: "Just send a sample card to Discord (doesn't check feeds)"
         type: boolean
         default: false
 
-# Never let two runs overlap — they would fight over state.json.
+# Only one chain at a time. A run started while another is going waits for it.
 concurrency:
   group: hazard-monitor
   cancel-in-progress: false
 
 permissions:
-  contents: write               # needed to commit state.json
+  contents: write               # commit state.json and events_log.csv
+  actions: write                # start the next run in the chain
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 350        # GitHub's limit is 360
     env:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,17 +51,27 @@ jobs:
         if: ${{ inputs.test_message }}
         run: python monitor.py --test-message
 
-      - name: Check feeds
-        if: ${{ !inputs.test_message }}
-        run: python monitor.py
-
-      - name: Save state
+      - name: Check feeds every 15 minutes for ~5.5 hours
         if: ${{ !inputs.test_message }}
         run: |
           git config user.name  "hazard-monitor"
           git config user.email "hazard-monitor@users.noreply.github.com"
-          git add state.json
-          if [ -f events_log.csv ]; then git add events_log.csv; fi
-          # Only commit if something actually changed.
-          git diff --cached --quiet || git commit -m "Update state and event log"
-          git push
+          stop_at=$(( $(date +%s) + 330 * 60 ))
+          while true; do
+            started=$(date +%s)
+            git pull -q --rebase || true          # pick up any code changes
+            python monitor.py || echo "::warning::check failed, trying again next time"
+            git add state.json
+            if [ -f events_log.csv ]; then git add events_log.csv; fi
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Update state and event log"
+              git pull -q --rebase && git push -q || echo "::warning::push failed"
+            fi
+            next=$(( started + 15 * 60 ))
+            if [ "$next" -ge "$stop_at" ]; then break; fi
+            sleep $(( next - $(date +%s) > 0 ? next - $(date +%s) : 0 ))
+          done
+
+      - name: Start the next run
+        if: ${{ always() && !inputs.test_message }}
+        run: gh workflow run monitor.yml --ref main --repo "${{ github.repository }}"

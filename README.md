@@ -50,7 +50,7 @@ if the event got a card.
 
 - `monitor.py`: the program (settings at the top under CONFIGURATION)
 - `test_monitor.py`: offline tests (`python -m unittest test_monitor.py`)
-- `.github/workflows/monitor.yml`: runs every 15 minutes, commits state and log
+- `.github/workflows/monitor.yml`: each run checks every 15 minutes for ~5.5 hours, then starts its replacement (GitHub's own schedule never fired for this repo; it's kept as a 3-hourly backup that restarts the chain)
 - `state.json`: what's been seen, and the Discord message for each event
 - `events_log.csv`: the event log
 
