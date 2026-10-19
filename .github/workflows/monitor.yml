@@ -1,5 +1,5 @@
 # Runs monitor.py every 15 minutes on GitHub's servers.
-#
+# Schedule registered via the GitHub web editor.
 # After each run, state.json (the "already seen" memory) is committed back to
 # the repository so the next run knows what it has already told you about.
 
