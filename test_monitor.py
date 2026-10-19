@@ -1,53 +1,82 @@
 """
-Offline tests for monitor.py — no internet needed.
-
-Each test feeds a small, hand-made sample (shaped like the real feeds) through
-the filters and checks the result. Run with:
+Offline tests for monitor.py — no internet needed. Run with:
 
     python -m unittest test_monitor.py
 """
 
+import csv
 import json
+import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import monitor
 
+NOW = datetime(2026, 10, 19, 4, 0, tzinfo=timezone.utc)
 
-BOM_SAMPLE = b"""<?xml version="1.0"?>
-<rss version="2.0"><channel>
-  <item><title>19/14:05 EST Tropical Cyclone Warning for Cape York Peninsula</title>
+BOM_SAMPLE = b"""<?xml version="1.0"?><rss version="2.0"><channel>
+  <item><title>Tropical Cyclone Warning for Cape York Peninsula</title>
         <link>http://www.bom.gov.au/products/IDQ20023.shtml</link></item>
-  <item><title>19/14:10 EST Severe Thunderstorm Warning for Darling Downs</title>
+  <item><title>Severe Thunderstorm Warning for Darling Downs</title>
         <link>http://www.bom.gov.au/products/IDQ21035.shtml</link></item>
-  <item><title>19/14:20 EST Moderate to Major Flood Warning for the Fitzroy River</title>
+  <item><title>Moderate to Major Flood Warning for the Fitzroy River</title>
         <link>http://www.bom.gov.au/products/IDQ20885.shtml</link></item>
-  <item><title>19/15:00 EST Minor Flood Warning for the Logan River</title>
+  <item><title>Minor Flood Warning for the Logan River</title>
         <link>http://www.bom.gov.au/products/IDQ20950.shtml</link></item>
-  <item><title>19/16:00 EST Cancellation of Tropical Cyclone Warning</title>
+  <item><title>Cancellation of Tropical Cyclone Warning</title>
         <link>http://www.bom.gov.au/products/IDQ20024.shtml</link></item>
 </channel></rss>"""
 
 NSW_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
-    {"properties": {"title": "OIL RIG RD, GIBBERAGEE", "category": "Advice",
-                    "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/1",
-                    "link": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me"}},
+    {"properties": {"title": "OIL RIG RD", "category": "Advice", "guid": "nsw/1"}},
     {"geometry": {"type": "GeometryCollection", "geometries": [
-        {"type": "Point", "coordinates": [150.32, -35.48]},
-        {"type": "GeometryCollection", "geometries": []}]},
-     "properties": {"title": "BIG FIRE RD, SOMEWHERE", "category": "Emergency Warning",
-                    "guid": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/2",
+        {"type": "Point", "coordinates": [150.32, -35.48]}]},
+     "properties": {"title": "BIG FIRE RD", "category": "Emergency Warning", "guid": "nsw/2",
                     "link": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
-                    "description": "ALERT LEVEL: Emergency Warning <br />LOCATION: SOMEWHERE 2539 "
-                                   "<br />STATUS: Out of control <br />TYPE: Bush Fire "
-                                   "<br />SIZE: 5200 ha <br />UPDATED: 19 Oct 2026 14:00"}},
+                    "description": "ALERT LEVEL: Emergency Warning <br />STATUS: Out of control"
+                                   " <br />SIZE: 5200 ha <br />UPDATED: 19 Oct 2026 14:00"}},
 ]}).encode()
 
-VIC_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
-    {"properties": {"feedType": "incident", "sourceTitle": "Swallow Cr",
-                    "id": "ESTA:1", "category1": "Fire", "status": "Safe"}},
-    {"properties": {"feedType": "warning", "sourceTitle": "Grampians fire",
-                    "id": "W-99", "category1": "Emergency Warning"}},
-]}).encode()
+# WA style: EDXL wrapper, level only in the headline, CAD_ID parameter.
+WA_SAMPLE = b"""<?xml version="1.0"?>
+<edxlde:EDXLDistribution xmlns:edxlde="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2"><edxlde:contentObject>
+ <cap:alert><cap:identifier>a1</cap:identifier><cap:info><cap:event>Bushfire</cap:event>
+   <cap:severity>Minor</cap:severity>
+   <cap:headline>Bushfire Advice MONITOR CONDITIONS - GIBB</cap:headline>
+   <cap:description>This could become an Emergency Warning.</cap:description>
+   <cap:parameter><cap:valueName>CAD_ID</cap:valueName><cap:value>824261</cap:value></cap:parameter>
+   <cap:area><cap:areaDesc>GIBB</cap:areaDesc><cap:circle>-16.5,126.2 0.0</cap:circle></cap:area>
+ </cap:info></cap:alert>
+ <cap:alert><cap:identifier>a2</cap:identifier><cap:info><cap:event>Bushfire</cap:event>
+   <cap:severity>Extreme</cap:severity>
+   <cap:headline>Bushfire Emergency Warning - TOODYAY</cap:headline>
+   <cap:web>https://emergency.wa.gov.au/warnings/a2</cap:web>
+   <cap:parameter><cap:valueName>CAD_ID</cap:valueName><cap:value>900001</cap:value></cap:parameter>
+   <cap:area><cap:areaDesc>TOODYAY</cap:areaDesc><cap:circle>-31.55,116.47 0.0</cap:circle></cap:area>
+ </cap:info></cap:alert>
+</edxlde:contentObject></edxlde:EDXLDistribution>"""
+
+# TAS/ACT style: explicit AlertLevel parameter.
+TAS_SAMPLE = b"""<?xml version="1.0"?>
+<EDXLDistribution xmlns="urn:oasis:names:tc:emergency:EDXL:DE:1.0">
+ <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><identifier>t1</identifier><info>
+   <event>Bushfire</event><severity>Moderate</severity>
+   <headline>Bushfire Advice - Kingston</headline>
+   <parameter><valueName>AlertLevel</valueName><value>Advice</value></parameter>
+   <area><areaDesc>Kingston</areaDesc></area></info></alert>
+ <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><identifier>t2-87918</identifier><info>
+   <event>Bushfire</event><severity>Severe</severity>
+   <headline>Bushfire - Dolphin Sands - Leave now</headline>
+   <parameter><valueName>AlertLevel</valueName><value>Emergency Warning</value></parameter>
+   <area><areaDesc>Dolphin Sands</areaDesc><circle>-42.1,148.1 10</circle></area></info></alert>
+ <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2"><identifier>t3</identifier><info>
+   <event>Other Urgent Alerts</event><severity>Unknown</severity>
+   <headline>AMBULANCE RESPONSE - PAGE</headline>
+   <parameter><valueName>AlertLevel</valueName><value>N/A</value></parameter>
+   <area><areaDesc>PAGE</areaDesc></area></info></alert>
+</EDXLDistribution>"""
 
 GDACS_SAMPLE = b"""<?xml version="1.0"?>
 <rss version="2.0" xmlns:gdacs="http://www.gdacs.org"
@@ -55,181 +84,245 @@ GDACS_SAMPLE = b"""<?xml version="1.0"?>
   <item><title>Orange alert for tropical cyclone X</title><link>https://gdacs.org/1</link>
     <gdacs:eventtype>TC</gdacs:eventtype><gdacs:alertlevel>Orange</gdacs:alertlevel>
     <gdacs:eventid>1001</gdacs:eventid><gdacs:country>Philippines</gdacs:country>
-    <gdacs:severity unit="km/h" value="185">Typhoon (maximum wind speed of 185 km/h)</gdacs:severity>
+    <gdacs:severity>Typhoon (maximum wind speed of 185 km/h)</gdacs:severity>
     <geo:Point><geo:lat>14.5</geo:lat><geo:long>124.2</geo:long></geo:Point></item>
-  <item><title>Orange drought</title><link>https://gdacs.org/2</link>
-    <gdacs:eventtype>DR</gdacs:eventtype><gdacs:alertlevel>Orange</gdacs:alertlevel>
-    <gdacs:eventid>2002</gdacs:eventid></item>
-  <item><title>Green flood</title><link>https://gdacs.org/3</link>
-    <gdacs:eventtype>FL</gdacs:eventtype><gdacs:alertlevel>Green</gdacs:alertlevel>
-    <gdacs:eventid>3003</gdacs:eventid></item>
-  <item><title>Orange earthquake</title><link>https://gdacs.org/4</link>
-    <gdacs:eventtype>EQ</gdacs:eventtype><gdacs:alertlevel>Orange</gdacs:alertlevel>
-    <gdacs:eventid>4004</gdacs:eventid></item>
-  <item><title>Red earthquake</title><link>https://gdacs.org/5</link>
-    <gdacs:eventtype>EQ</gdacs:eventtype><gdacs:alertlevel>Red</gdacs:alertlevel>
-    <gdacs:eventid>5005</gdacs:eventid></item>
+  <item><title>Orange drought</title><gdacs:eventtype>DR</gdacs:eventtype>
+    <gdacs:alertlevel>Orange</gdacs:alertlevel><gdacs:eventid>2002</gdacs:eventid></item>
+  <item><title>Green flood</title><gdacs:eventtype>FL</gdacs:eventtype>
+    <gdacs:alertlevel>Green</gdacs:alertlevel><gdacs:eventid>3003</gdacs:eventid></item>
+  <item><title>Orange earthquake</title><gdacs:eventtype>EQ</gdacs:eventtype>
+    <gdacs:alertlevel>Orange</gdacs:alertlevel><gdacs:eventid>4004</gdacs:eventid></item>
+  <item><title>Red earthquake</title><gdacs:eventtype>EQ</gdacs:eventtype>
+    <gdacs:alertlevel>Red</gdacs:alertlevel><gdacs:eventid>5005</gdacs:eventid></item>
+</channel></rss>"""
+
+CANADA_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
+    {"properties": {"national_fire_id": "2026_BC_G1", "agency_code": "BC",
+                    "agency_fire_id": "G1", "fire_size": 64000.5,
+                    "stage_of_control_status": "OC", "latitude": 57.1, "longitude": -122.3}},
+    {"properties": {"national_fire_id": "2026_AB_X", "agency_code": "AB",
+                    "fire_size": 312000, "stage_of_control_status": "BH",
+                    "latitude": 58.0, "longitude": -116.0}},
+    {"properties": {"national_fire_id": "small", "agency_code": "ON", "fire_size": 12}},
+]}).encode()
+
+US_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
+    {"geometry": {"type": "Point", "coordinates": [-120.8, 48.0]},
+     "properties": {"IncidentName": "LITTLE GIANT", "UniqueFireIdentifier": "2026-WAOWF-1",
+                    "IncidentSize": 172912, "PercentContained": 95, "POOState": "US-WA"}},
+    {"geometry": {"type": "Point", "coordinates": [-119.0, 48.1]},
+     "properties": {"IncidentName": "SMALLISH", "UniqueFireIdentifier": "2026-X",
+                    "IncidentSize": 20000, "PercentContained": 10, "POOState": "US-WA"}},
+]}).encode()
+
+ABC_SAMPLE = b"""<?xml version="1.0"?><rss version="2.0"><channel>
+  <item><title>Interstate crews arrive as bushfire threatens Gippsland towns</title>
+    <link>https://www.abc.net.au/news/1</link><guid>abc-1</guid>
+    <description>&lt;p&gt;More than 200 interstate firefighters have arrived.&lt;/p&gt;</description></item>
+  <item><title>Defence force budget announced</title><link>https://www.abc.net.au/news/2</link>
+    <guid>abc-2</guid><description>The defence force will get new ships.</description></item>
+  <item><title>Footy finals preview</title><link>https://www.abc.net.au/news/3</link>
+    <guid>abc-3</guid><description>Who will win?</description></item>
 </channel></rss>"""
 
 
-class FilterTests(unittest.TestCase):
+def alert(key, rank=1, track_end=True):
+    return monitor.make_alert(key=key, rank=rank, level=f"L{rank}", source="s",
+                              title=key, track_end=track_end)
+
+
+class ParserTests(unittest.TestCase):
 
     def test_bom_keeps_only_top_tier(self):
         alerts = monitor.parse_bom("QLD", BOM_SAMPLE)
-        self.assertEqual(len(alerts), 2)
-        self.assertIn("Tropical Cyclone Warning", alerts[0]["title"])
-        self.assertEqual(alerts[0]["emoji"], "🌀")
-        self.assertIn("Moderate to Major Flood", alerts[1]["title"])
-        self.assertEqual(alerts[1]["emoji"], "🌊")
-        # thunderstorm, minor flood and the cancellation are all dropped
+        self.assertEqual([a["emoji"] for a in alerts], ["🌀", "🌊"])
 
-    def test_nsw_keeps_only_emergency_warning(self):
-        feed = monitor.STATE_FEEDS[0]                    # NSW RFS
-        alerts = monitor.parse_state_geojson(feed, NSW_SAMPLE)
-        self.assertEqual([a["key"] for a in alerts],
-                         ["NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/2"])
-        alert = alerts[0]
-        # Point dug out of the nested GeometryCollection, lat/lon swapped round
-        self.assertEqual((alert["lat"], alert["lon"]), (-35.48, 150.32))
-        # Useful parts of the description become card fields; others ignored
-        self.assertIn(("Status", "Out of control"), alert["fields"])
-        self.assertIn(("Size", "5200 ha"), alert["fields"])
-        self.assertNotIn("Updated", [name for name, _ in alert["fields"]])
+    def test_nsw_emergency_warning_only(self):
+        alerts = monitor.parse_state_geojson(monitor.STATE_FEEDS[0], NSW_SAMPLE)
+        self.assertEqual([a["key"] for a in alerts], ["NSW RFS:nsw/2"])
+        self.assertEqual((alerts[0]["lat"], alerts[0]["lon"]), (-35.48, 150.32))
+        self.assertIn(("Size", "5200 ha"), alerts[0]["fields"])
 
-    def test_vic_searches_all_fields(self):
-        feed = monitor.STATE_FEEDS[1]                    # VicEmergency
-        alerts = monitor.parse_state_geojson(feed, VIC_SAMPLE)
-        self.assertEqual(len(alerts), 1)
-        self.assertIn("Grampians fire", alerts[0]["title"])
+    def test_empty_geojson_feed(self):
+        self.assertEqual(monitor.parse_state_geojson(monitor.STATE_FEEDS[1], b" "), [])
 
-    def test_empty_feed_is_fine(self):
-        feed = {"name": "Test", "url": "", "level_field": None}
-        self.assertEqual(monitor.parse_state_geojson(feed, b""), [])
-        self.assertEqual(monitor.parse_cap("SA CFS", b"  \n"), [])
+    def test_wa_cap_uses_headline_not_description(self):
+        feed = {"name": "WA DFES", "id_param": "CAD_ID"}
+        alerts = monitor.parse_cap(feed, WA_SAMPLE)
+        # The Advice mentions "Emergency Warning" only in its description: ignored.
+        self.assertEqual([a["key"] for a in alerts], ["WA DFES:900001"])
+        self.assertEqual((alerts[0]["lat"], alerts[0]["lon"]), (-31.55, 116.47))
+        self.assertEqual(alerts[0]["link"], "https://emergency.wa.gov.au/warnings/a2")
 
-    def test_plain_list_feed(self):
-        feed = {"name": "Test", "url": "", "level_field": None}
-        sample = json.dumps([
-            {"Location": "Quiet Rd", "Status": "Going", "Level": "Advice"},
-            {"Location": "Big Scrub", "Status": "Going", "Level": "Emergency Warning",
-             "IncidentNo": "T-77"},
-        ]).encode()
-        alerts = monitor.parse_state_geojson(feed, sample)
-        self.assertEqual([a["key"] for a in alerts], ["Test:T-77"])
+    def test_tas_cap_uses_alert_level_parameter(self):
+        feed = {"name": "TasALERT", "id_param": None}
+        alerts = monitor.parse_cap(feed, TAS_SAMPLE)
+        self.assertEqual([a["key"] for a in alerts], ["TasALERT:Bushfire|Dolphin Sands"])
 
-    def test_sa_cap_feed(self):
-        sample = b"""<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <entry><id>sa-1</id><title>Advice - Quiet Rd</title>
-    <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-      <identifier>CAP-1</identifier>
-      <info><event>Bushfire</event><headline>Advice - Quiet Rd</headline>
-        <area><areaDesc>Quiet Rd area</areaDesc></area></info></alert></entry>
-  <entry><id>sa-2</id><title>Emergency Warning - Big Scrub</title>
-    <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-      <identifier>CAP-2</identifier>
-      <info><event>Bushfire</event><headline>Emergency Warning - Big Scrub</headline>
-        <description>Take shelter now.</description><web>https://www.cfs.sa.gov.au/</web>
-        <area><areaDesc>Big Scrub, Adelaide Hills</areaDesc></area></info></alert></entry>
-</feed>"""
-        alerts = monitor.parse_cap("SA CFS", sample)
-        self.assertEqual(len(alerts), 1)
-        alert = alerts[0]
-        self.assertEqual(alert["key"], "SA CFS:sa-2")        # first ID found wins
-        self.assertIn("Big Scrub", alert["title"])
-        self.assertEqual(alert["link"], "https://www.cfs.sa.gov.au/")
-        self.assertIn(("Area", "Big Scrub, Adelaide Hills"), alert["fields"])
+    def test_act_identifier_key(self):
+        feed = {"name": "ACT ESA", "id_param": "identifier"}
+        alerts = monitor.parse_cap(feed, TAS_SAMPLE)
+        self.assertEqual([a["key"] for a in alerts], ["ACT ESA:t2-87918"])
+
+    def test_cap_atom_entries(self):
+        sample = b"""<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>sa-2</id>
+            <title>Emergency Warning - Big Scrub</title></entry>
+            <entry><id>sa-1</id><title>Advice - Quiet Rd</title></entry></feed>"""
+        alerts = monitor.parse_cap({"name": "SA CFS", "id_param": None}, sample)
+        self.assertEqual([a["key"] for a in alerts], ["SA CFS:sa-2"])
 
     def test_gdacs_rules(self):
-        keys = {a["key"] for a in monitor.parse_gdacs(GDACS_SAMPLE)}
-        # Orange cyclone: yes. Drought: never. Green flood: no.
-        # Orange quake: no (non-weather needs Red). Red quake: yes.
-        self.assertEqual(keys, {"gdacs:TC:1001", "gdacs:EQ:5005"})
+        alerts = monitor.parse_gdacs(GDACS_SAMPLE)
+        self.assertEqual({a["key"] for a in alerts}, {"gdacs:TC:1001", "gdacs:EQ:5005"})
+        cyclone = next(a for a in alerts if a["key"] == "gdacs:TC:1001")
+        self.assertEqual((cyclone["lat"], cyclone["lon"], cyclone["zoom"]), (14.5, 124.2, 4))
 
-    def test_gdacs_card_details(self):
-        cyclone = monitor.parse_gdacs(GDACS_SAMPLE)[0]
-        self.assertEqual((cyclone["lat"], cyclone["lon"]), (14.5, 124.2))
-        self.assertEqual(cyclone["colour"], monitor.COLOUR_ORANGE)
-        self.assertIn(("Country", "Philippines"), cyclone["fields"])
-        self.assertIn("185 km/h", dict(cyclone["fields"])["Severity"])
+    def test_canada_size_tiers(self):
+        alerts = {a["key"]: a for a in monitor.parse_canada(CANADA_SAMPLE)}
+        self.assertEqual(set(alerts), {"ca:2026_BC_G1", "ca:2026_AB_X"})
+        self.assertEqual(alerts["ca:2026_BC_G1"]["rank"], 1)
+        self.assertEqual(alerts["ca:2026_AB_X"]["rank"], 2)
+        self.assertIn("British Columbia", alerts["ca:2026_BC_G1"]["title"])
+        self.assertIn(("Status", "Out of control"), alerts["ca:2026_BC_G1"]["fields"])
 
+    def test_us_acres_converted(self):
+        alerts = monitor.parse_us(US_SAMPLE)
+        self.assertEqual([a["key"] for a in alerts], ["us:2026-WAOWF-1"])
+        self.assertIn(("Size", "69,975 ha"), alerts[0]["fields"])
+        self.assertIn("WA, USA", alerts[0]["title"])
 
-class EmbedTests(unittest.TestCase):
-
-    def test_embed_has_map_link_and_colour(self):
-        alert = monitor.parse_gdacs(GDACS_SAMPLE)[0]
-        embed = monitor.build_embed(alert)
-        self.assertTrue(embed["title"].startswith("🌀"))
-        self.assertEqual(embed["color"], monitor.COLOUR_ORANGE)
-        self.assertEqual(embed["url"], "https://gdacs.org/1")
-        map_field = embed["fields"][-1]
-        self.assertEqual(map_field["name"], "Map")
-        self.assertIn("openstreetmap.org", map_field["value"])
-
-    def test_embed_without_location_has_no_map(self):
-        alert = monitor.parse_bom("QLD", BOM_SAMPLE)[0]
-        names = [f["name"] for f in monitor.build_embed(alert)["fields"]]
-        self.assertNotIn("Map", names)
-
-    def test_long_title_is_trimmed(self):
-        alert = monitor.make_alert(key="x", source="s", title="A" * 500)
-        self.assertLessEqual(len(monitor.build_embed(alert)["title"]), 256)
+    def test_abc_needs_deployment_and_hazard(self):
+        alerts = monitor.parse_abc(ABC_SAMPLE)
+        self.assertEqual([a["key"] for a in alerts], ["abc:abc-1"])
+        self.assertFalse(alerts[0]["track_end"])
+        self.assertNotIn("<p>", alerts[0]["message"])
 
 
 class DecideTests(unittest.TestCase):
 
-    def alert(self, key, rank):
-        return monitor.make_alert(key=key, rank=rank, source="s", title=key)
+    def test_first_read_of_a_source_is_silent(self):
+        changes, _ = monitor.decide({"GDACS": [alert("a")]}, {}, NOW)
+        self.assertEqual([c[0] for c in changes], ["seen_at_start"])
 
-    def test_new_alert_is_sent(self):
-        sent, _ = monitor.decide({"GDACS": [self.alert("a", 1)]}, {})
-        self.assertEqual(len(sent), 1)
+    def test_new_alert(self):
+        changes, _ = monitor.decide({"GDACS": [alert("a")]}, {"GDACS": {}}, NOW)
+        self.assertEqual([c[0] for c in changes], ["new"])
 
     def test_repeat_is_quiet(self):
-        old = {"GDACS": {"a": 1}}
-        sent, _ = monitor.decide({"GDACS": [self.alert("a", 1)]}, old)
-        self.assertEqual(sent, [])
+        _, state = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+        changes, _ = monitor.decide({"G": [alert("a")]}, state, NOW)
+        self.assertEqual(changes, [])
 
-    def test_escalation_is_sent(self):
-        old = {"GDACS": {"a": 1}}                        # was Orange
-        sent, state = monitor.decide({"GDACS": [self.alert("a", 2)]}, old)
-        self.assertEqual(len(sent), 1)                   # now Red -> notify
-        self.assertEqual(state["GDACS"]["a"], 2)
+    def test_escalation_keeps_message_id(self):
+        _, state = monitor.decide({"G": [alert("a", 1)]}, {"G": {}}, NOW)
+        state["G"]["a"]["message_id"] = "123"
+        changes, state = monitor.decide({"G": [alert("a", 2)]}, state, NOW)
+        self.assertEqual([c[0] for c in changes], ["escalated"])
+        self.assertEqual(state["G"]["a"]["message_id"], "123")
+        self.assertEqual(len(state["G"]["a"]["history"]), 2)
 
-    def test_downgrade_then_reescalate_is_quiet(self):
-        old = {"GDACS": {"a": 2}}                        # was Red
-        _, state = monitor.decide({"GDACS": [self.alert("a", 1)]}, old)
-        self.assertEqual(state["GDACS"]["a"], 2)         # remembers the peak
-        sent, _ = monitor.decide({"GDACS": [self.alert("a", 2)]}, state)
-        self.assertEqual(sent, [])
+    def test_peak_is_remembered(self):
+        _, state = monitor.decide({"G": [alert("a", 2)]}, {"G": {}}, NOW)
+        _, state = monitor.decide({"G": [alert("a", 1)]}, state, NOW)
+        changes, _ = monitor.decide({"G": [alert("a", 2)]}, state, NOW)
+        self.assertEqual(changes, [])
 
-    def test_failed_fetch_keeps_memory(self):
-        old = {"GDACS": {"a": 1}}
-        sent, state = monitor.decide({"GDACS": None}, old)
-        self.assertEqual(sent, [])
-        self.assertEqual(state, old)
+    def test_failed_fetch_changes_nothing(self):
+        _, state = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+        changes, after = monitor.decide({"G": None}, state, NOW)
+        self.assertEqual(changes, [])
+        self.assertEqual(after, state)
 
-    def test_finished_event_is_forgotten(self):
-        old = {"GDACS": {"a": 1}}
-        _, state = monitor.decide({"GDACS": []}, old)
-        self.assertEqual(state["GDACS"], {})
+    def test_ended(self):
+        _, state = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+        changes, after = monitor.decide({"G": []}, state, NOW)
+        self.assertEqual([c[0] for c in changes], ["ended"])
+        self.assertEqual(after["G"], {})
+
+    def test_news_does_not_end(self):
+        _, state = monitor.decide({"N": [alert("a", track_end=False)]}, {"N": {}}, NOW)
+        changes, _ = monitor.decide({"N": []}, state, NOW)
+        self.assertEqual(changes, [])
 
 
-class DeliverTests(unittest.TestCase):
+class HealthTests(unittest.TestCase):
+
+    def test_warns_once_after_a_day_then_recovers(self):
+        cards, health = monitor.update_health({"F": None}, {}, NOW)
+        self.assertEqual(cards, [])
+        cards, health = monitor.update_health({"F": None}, health, NOW + timedelta(hours=23))
+        self.assertEqual(cards, [])
+        cards, health = monitor.update_health({"F": None}, health, NOW + timedelta(hours=24))
+        self.assertEqual([c["title"] for c in cards], ["Feed not working: F"])
+        cards, health = monitor.update_health({"F": None}, health, NOW + timedelta(hours=30))
+        self.assertEqual(cards, [])                      # only warned once
+        cards, health = monitor.update_health({"F": []}, health, NOW + timedelta(hours=31))
+        self.assertEqual([c["title"] for c in cards], ["Feed working again: F"])
+        self.assertEqual(health["F"], {"failing_since": None, "warned": False})
+
+    def test_short_outage_is_silent(self):
+        _, health = monitor.update_health({"F": None}, {}, NOW)
+        cards, _ = monitor.update_health({"F": []}, health, NOW + timedelta(hours=2))
+        self.assertEqual(cards, [])
+
+
+class FileTests(unittest.TestCase):
+
+    def test_log_writes_header_once(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "log.csv"
+            changes, _ = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+            monitor.log_changes(changes, NOW, path)
+            monitor.log_changes(changes, NOW, path)
+            rows = list(csv.reader(path.open()))
+            self.assertEqual(rows[0], monitor.LOG_COLUMNS)
+            self.assertEqual(len(rows), 3)
+            self.assertEqual(rows[1][1:4], ["new", "G", "a"])
+
+    def test_old_state_is_upgraded(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "state.json"
+            path.write_text(json.dumps({"GDACS": {"gdacs:TC:1": 2}, "BoM VIC": {}}))
+            state = monitor.load_state(path)
+            self.assertEqual(state["version"], 2)
+            self.assertEqual(state["sources"]["GDACS"]["gdacs:TC:1"]["rank"], 2)
+            self.assertEqual(state["sources"]["BoM VIC"], {})
+
+
+class DiscordTests(unittest.TestCase):
+
+    def test_embed(self):
+        cyclone = monitor.parse_gdacs(GDACS_SAMPLE)[0]
+        embed = monitor.build_embed(cyclone, history=["Orange · x", "Red · y"])
+        self.assertTrue(embed["title"].startswith("🌀"))
+        names = [f["name"] for f in embed["fields"]]
+        self.assertIn("History", names)
+        self.assertEqual(names[-1], "Map")
+
+    def test_map_gives_up_quietly_without_tiles(self):
+        original = monitor.fetch
+        monitor.fetch = lambda url: None
+        try:
+            self.assertIsNone(monitor.render_map(-37.8, 145.0, 7))
+        finally:
+            monitor.fetch = original
 
     def test_overflow_is_summarised(self):
-        sent = []
-        original_send, original_sleep = monitor.send_discord, monitor.time.sleep
-        monitor.send_discord = sent.append              # capture instead of sending
-        monitor.time.sleep = lambda seconds: None       # don't actually wait
+        posted = []
+        original_post, original_render, original_sleep = (
+            monitor.post_card, monitor.render_map, monitor.time.sleep)
+        monitor.post_card = lambda embed, image=None: posted.append(embed) or ("m", None)
+        monitor.render_map = lambda *a: None
+        monitor.time.sleep = lambda s: None
         try:
-            many = [monitor.make_alert(key=f"k{i}", source="s", title=f"t{i}")
-                    for i in range(8)]
-            monitor.deliver(many, dry_run=False)
+            alerts = [alert(f"k{i}") for i in range(8)]
+            changes, _ = monitor.decide({"G": alerts}, {"G": {}}, NOW)
+            monitor.deliver(changes, [], NOW)
         finally:
-            monitor.send_discord, monitor.time.sleep = original_send, original_sleep
-        self.assertEqual(len(sent), monitor.MAX_PUSHES_PER_RUN + 1)
-        self.assertIn("+3 more", sent[-1]["title"])
+            monitor.post_card, monitor.render_map, monitor.time.sleep = (
+                original_post, original_render, original_sleep)
+        self.assertEqual(len(posted), monitor.MAX_PUSHES_PER_RUN + 1)
+        self.assertIn("+3 more", posted[-1]["title"])
 
 
 if __name__ == "__main__":

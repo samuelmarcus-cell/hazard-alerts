@@ -1,100 +1,71 @@
 # Hazard alerts
 
-A small service that checks public warning feeds every 15 minutes and posts a
-card to a Discord channel **only for big events**. Each card is coloured by
-severity (red or orange), starts with an emoji for the hazard type, lists the
-key details, and includes a map link when the feed gives a location.
+Checks public warning feeds every 15 minutes and posts a card to Discord
+**only for big events**. Each card is coloured by severity, has a map preview,
+and links to the official page.
 
-| Source | What counts as "big" |
+| Source | What gets a card |
 |---|---|
 | BoM warnings, every state | Tropical cyclone, major flood, extreme heatwave warnings |
-| NSW RFS, VicEmergency, QLD Fire, SA CFS (CAP warnings feed) | Anything at **Emergency Warning** level |
-| GDACS (global) | Cyclones, floods and wildfires at **Orange or Red**; anything else (quakes, volcanoes) only at **Red**; droughts never |
+| NSW RFS, VicEmergency, QLD Fire, SA CFS, WA DFES, TasALERT, ACT ESA | **Emergency Warning** level only |
+| GDACS (global) | Cyclones, floods, wildfires at **Orange/Red**; quakes, volcanoes etc. at **Red**; droughts never |
+| Canada (CWFIS) and US (NIFC) fires | Any wildfire past **50,000 ha**, again past **250,000 ha** |
+| ABC News "Just In" | Stories mentioning interstate/international crews, the ADF, or disaster declarations **and** a hazard |
 
-You get one alert when an event first appears, and one more if it escalates
-(e.g. GDACS Orange to Red). Repeated updates about the same event stay quiet.
-No run sends more than 5 alerts; extras are bundled into one summary card.
+NT has no machine-readable warnings feed; its cyclones and floods come through BoM.
+
+## How alerts behave
+
+- **New event:** one card.
+- **Escalation** (GDACS Orange → Red, fire 50k → 250k ha): the original card is
+  updated in place with a history line, and a short "Escalated" card links back to it.
+- **Event ends** (leaves the feed): the original card turns grey with
+  "No longer listed". No new message.
+- **Busy days:** at most 5 cards per check; the rest are summarised in one card.
+- **Broken feeds:** if a feed fails for 24 hours you get a 🛠️ card, and a ✅ card when it recovers.
+- **New sources** are read silently the first time, so adding one never floods you
+  with everything already active.
+
+## Event log
+
+Every change is appended to `events_log.csv` in the repo:
+
+`time_utc, change, source, key, level, title, lat, lon, link`
+
+`change` is one of `seen_at_start`, `new`, `escalated`, `ended`. Over time this
+is a consistent, timestamped record of major events. Download it from GitHub
+whenever you want it.
 
 ## Files
 
-- `monitor.py`: the whole program, with comments explaining each part
-- `test_monitor.py`: offline tests using sample feed data
-- `.github/workflows/monitor.yml`: tells GitHub to run it every 15 minutes
-- `state.json`: created automatically; the "already told you about this" memory
+- `monitor.py`: the program
+- `test_monitor.py`: offline tests (`python -m unittest test_monitor.py`)
+- `.github/workflows/monitor.yml`: runs it every 15 minutes, commits state and log
+- `state.json`: what's been seen, and the Discord message for each event
+- `events_log.csv`: the event log
 
-## Setup (about 15 minutes)
+## Setup (already done for this repo)
 
-**1. A private Discord server.** In Discord, tap **+** (Add a Server) →
-**Create My Own** → **For me and my friends**, and call it something like
-"Hazards". The default `#general` channel is fine, or make a `#alerts` one.
-
-**2. Create a webhook.** On a computer: open the channel's settings (gear icon)
-→ **Integrations** → **Webhooks** → **New Webhook** → **Copy Webhook URL**.
-Anyone with that URL can post into your channel, so treat it like a password.
-
-**3. Make sure your phone buzzes.** On your phone, long-press the server icon →
-**Notifications** → **All Messages**. Discord's default for servers is
-"Only @mentions", which would make alerts arrive silently.
-
-**4. GitHub repository.** Create a new **public** repository and upload these
-files, keeping the `.github/workflows/` folder structure. Hidden folders are
-easy to miss when uploading, so check `.github` made it.
-
-Make it public because scheduled Actions are free and unlimited on public
-repositories. A private one runs out of free minutes at this frequency.
-Nothing sensitive is in the repo: the webhook URL lives in a secret, and
-`state.json` only holds public event IDs.
-
-**5. Add the secret.** In the repo, go to **Settings → Secrets and variables →
-Actions → New repository secret**. Set the name to `DISCORD_WEBHOOK_URL` and
-paste the webhook URL as the value.
-
-**6. Send a test card.** Open the **Actions** tab → **Hazard monitor** →
-**Run workflow**, tick **Just send a sample card**, and run it. A green ✅
-card should appear in Discord, with a map link to Melbourne.
-
-**7. First real run.** Run the workflow again with the box unticked. This first
-run is deliberately silent: it records everything currently active as "already
-seen", so you aren't flooded. After that it runs on its own every 15 minutes.
-
-**8. Read the log.** Click into that run and open **Check feeds**. Each source
-prints either `N item(s) pass the filter` or a `could not fetch` line. That's
-how you'll know which feeds work from GitHub's servers.
-
-## Trying it on your laptop
-
-```bash
-pip install requests
-python -m unittest test_monitor.py     # offline tests
-python monitor.py --dry-run            # live feeds, prints instead of sending
-
-export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
-python monitor.py --test-message       # posts one sample card
-```
-
-`--dry-run` never changes `state.json`, so you can run it repeatedly while
-tuning the rules.
+1. Discord: a server, a channel, and a webhook (channel settings → Integrations → Webhooks).
+2. GitHub secret `DISCORD_WEBHOOK_URL` = the webhook URL.
+3. Actions → Hazard monitor → Run workflow (tick "Just send a sample card" to test).
 
 ## Tuning
 
-All settings are at the top of `monitor.py` under **CONFIGURATION**:
+Settings are at the top of `monitor.py` under **CONFIGURATION**:
 
-- **More BoM warnings:** add a phrase and emoji to `BOM_KEEP_PHRASES`, e.g.
-  `"severe thunderstorm": "⛈️"`. Be warned: in spring that can be daily.
-- **Different card colours:** change `COLOUR_RED` / `COLOUR_ORANGE`.
-- **Quieter GDACS:** remove `"FL"` from `GDACS_ORANGE_TYPES` so floods need Red.
-- **Fewer alerts per run:** lower `MAX_PUSHES_PER_RUN`.
-- **Less often:** change the cron line in the workflow, e.g. `"*/30 * * * *"`.
+- `BOM_KEEP_PHRASES`: add e.g. `"severe thunderstorm": "⛈️"` (expect daily cards in spring).
+- `GDACS_ORANGE_TYPES`: remove `"FL"` so floods need Red.
+- `LARGE_FIRE_HA` / `HUGE_FIRE_HA`: the North American fire thresholds.
+- `DEPLOYMENT_PHRASES` / `HAZARD_WORDS`: what counts as deployment news.
+- `MAX_PUSHES_PER_RUN`, `FEED_FAILURE_WARNING_HOURS`.
 
-## Known gaps
+## Notes
 
-- **SA uses a different format.** SA CFS publishes CAP/Atom XML, read by `parse_cap()`.
-- **Not yet covered:** WA, TAS and NT fire and emergency feeds (BoM weather
-  warnings for those states *are* covered). ACT fires appear in the NSW RFS feed.
-- **GDACS rates humanitarian impact, not size.** A huge fire in remote Canada
-  can stay Green and never notify.
-- **GitHub timing.** Scheduled runs can start a few minutes late at busy times.
-- **BoM cards have no map link.** The BoM feeds don't include coordinates.
-
-Data: Bureau of Meteorology, NSW RFS, Emergency Management Victoria, QFD,
-SA CFS, GDACS (EC-JRC/UN). Personal, non-commercial use.
+- GitHub pauses schedules after 60 days without commits. Quiet periods can
+  trigger this; re-enable from the Actions tab.
+- GDACS scores humanitarian impact, so remote fires stay Green; the CWFIS/NIFC
+  size rules cover that gap for North America.
+- Maps © OpenStreetMap contributors. Data: Bureau of Meteorology, NSW RFS,
+  Emergency Management Victoria, QFD, SA CFS, DFES, TasALERT, ACT ESA, GDACS
+  (EC-JRC/UN), NRCan CWFIS, NIFC, ABC. Personal, non-commercial use.
