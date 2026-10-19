@@ -91,8 +91,7 @@ ACRES_PER_HA = 2.47105
 HEADERS = {"User-Agent": "hazard-alerts/2.0 (personal, non-commercial; "
                          "+https://github.com/samuelmarcus-cell/hazard-alerts)"}
 # BoM only answers requests that look like a browser.
-BOM_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; personal hazard-alert script; "
-                             "non-commercial; +https://github.com/samuelmarcus-cell/hazard-alerts)"}
+BOM_HEADERS = {"User-Agent": "Mozilla/5.0 (personal hazard-alert script; non-commercial)"}
 
 # --- BoM: one warnings RSS feed per state ---------------------------------
 BOM_FEEDS = {
