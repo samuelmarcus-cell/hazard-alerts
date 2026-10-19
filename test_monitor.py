@@ -30,6 +30,7 @@ BOM_SAMPLE = b"""<?xml version="1.0"?><rss version="2.0"><channel>
 
 NSW_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
     {"properties": {"title": "OIL RIG RD", "category": "Advice", "guid": "nsw/1"}},
+    {"properties": {"title": "WATCH RD", "category": "Watch and Act", "guid": "nsw/3"}},
     {"geometry": {"type": "GeometryCollection", "geometries": [
         {"type": "Point", "coordinates": [150.32, -35.48]}]},
      "properties": {"title": "BIG FIRE RD", "category": "Emergency Warning", "guid": "nsw/2",
@@ -103,6 +104,7 @@ CANADA_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [
     {"properties": {"national_fire_id": "2026_AB_X", "agency_code": "AB",
                     "fire_size": 312000, "stage_of_control_status": "BH",
                     "latitude": 58.0, "longitude": -116.0}},
+    {"properties": {"national_fire_id": "mid", "agency_code": "ON", "fire_size": 20000}},
     {"properties": {"national_fire_id": "small", "agency_code": "ON", "fire_size": 12}},
 ]}).encode()
 
@@ -133,15 +135,21 @@ def alert(key, rank=1, track_end=True):
 
 class ParserTests(unittest.TestCase):
 
-    def test_bom_keeps_only_top_tier(self):
+    def test_bom_tiers(self):
         alerts = monitor.parse_bom("QLD", BOM_SAMPLE)
-        self.assertEqual([a["emoji"] for a in alerts], ["🌀", "🌊"])
+        # cyclone + major flood get cards; thunderstorm is recorded only;
+        # minor flood and the cancellation are dropped.
+        self.assertEqual([(a["emoji"], a["notify"]) for a in alerts],
+                         [("🌀", True), ("⛈️", False), ("🌊", True)])
 
-    def test_nsw_emergency_warning_only(self):
+    def test_nsw_levels(self):
         alerts = monitor.parse_state_geojson(monitor.STATE_FEEDS[0], NSW_SAMPLE)
-        self.assertEqual([a["key"] for a in alerts], ["NSW RFS:nsw/2"])
-        self.assertEqual((alerts[0]["lat"], alerts[0]["lon"]), (-35.48, 150.32))
-        self.assertIn(("Size", "5200 ha"), alerts[0]["fields"])
+        self.assertEqual([(a["key"], a["notify"]) for a in alerts],
+                         [("NSW RFS:nsw/3", False), ("NSW RFS:nsw/2", True)])
+        ew = alerts[1]
+        self.assertEqual((ew["lat"], ew["lon"]), (-35.48, 150.32))
+        self.assertIn(("Size", "5200 ha"), ew["fields"])
+        self.assertTrue(alerts[0]["title"].startswith("Watch and Act"))
 
     def test_empty_geojson_feed(self):
         self.assertEqual(monitor.parse_state_geojson(monitor.STATE_FEEDS[1], b" "), [])
@@ -173,13 +181,17 @@ class ParserTests(unittest.TestCase):
 
     def test_gdacs_rules(self):
         alerts = monitor.parse_gdacs(GDACS_SAMPLE)
-        self.assertEqual({a["key"] for a in alerts}, {"gdacs:TC:1001", "gdacs:EQ:5005"})
+        cards = {a["key"] for a in alerts if a["notify"]}
+        recorded = {a["key"] for a in alerts if not a["notify"]}
+        self.assertEqual(cards, {"gdacs:TC:1001", "gdacs:EQ:5005"})
+        self.assertEqual(recorded, {"gdacs:FL:3003", "gdacs:EQ:4004"})   # no drought
         cyclone = next(a for a in alerts if a["key"] == "gdacs:TC:1001")
         self.assertEqual((cyclone["lat"], cyclone["lon"], cyclone["zoom"]), (14.5, 124.2, 4))
 
     def test_canada_size_tiers(self):
         alerts = {a["key"]: a for a in monitor.parse_canada(CANADA_SAMPLE)}
-        self.assertEqual(set(alerts), {"ca:2026_BC_G1", "ca:2026_AB_X"})
+        self.assertEqual(set(alerts), {"ca:2026_BC_G1", "ca:2026_AB_X", "ca:mid"})
+        self.assertEqual((alerts["ca:mid"]["rank"], alerts["ca:mid"]["notify"]), (0, False))
         self.assertEqual(alerts["ca:2026_BC_G1"]["rank"], 1)
         self.assertEqual(alerts["ca:2026_AB_X"]["rank"], 2)
         self.assertIn("British Columbia", alerts["ca:2026_BC_G1"]["title"])
@@ -274,7 +286,8 @@ class FileTests(unittest.TestCase):
             changes, _ = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
             monitor.log_changes(changes, NOW, path)
             monitor.log_changes(changes, NOW, path)
-            rows = list(csv.reader(path.open()))
+            with path.open() as f:
+                rows = list(csv.reader(f))
             self.assertEqual(rows[0], monitor.LOG_COLUMNS)
             self.assertEqual(len(rows), 3)
             self.assertEqual(rows[1][1:4], ["new", "G", "a"])
@@ -311,7 +324,7 @@ class DiscordTests(unittest.TestCase):
         posted = []
         original_post, original_render, original_sleep = (
             monitor.post_card, monitor.render_map, monitor.time.sleep)
-        monitor.post_card = lambda embed, image=None: posted.append(embed) or ("m", None)
+        monitor.post_card = lambda embed, image=None, thread=None: posted.append(embed) or ("m", None)
         monitor.render_map = lambda *a: None
         monitor.time.sleep = lambda s: None
         try:
@@ -323,6 +336,186 @@ class DiscordTests(unittest.TestCase):
                 original_post, original_render, original_sleep)
         self.assertEqual(len(posted), monitor.MAX_PUSHES_PER_RUN + 1)
         self.assertIn("+3 more", posted[-1]["title"])
+
+
+NSW_FDR_SAMPLE = b"""<?xml version="1.0"?><FireDangerMap>
+  <District><Name>Greater Sydney Region</Name><DangerLevelToday>HIGH</DangerLevelToday>
+    <DangerLevelTomorrow>EXTREME</DangerLevelTomorrow></District>
+  <District><Name>Far South Coast</Name><DangerLevelToday>MODERATE</DangerLevelToday>
+    <DangerLevelTomorrow>CATASTROPHIC</DangerLevelTomorrow></District>
+  <District><Name>North Coast</Name><DangerLevelToday>MODERATE</DangerLevelToday>
+    <DangerLevelTomorrow>HIGH</DangerLevelTomorrow></District>
+</FireDangerMap>"""
+
+VIC_FDR_SAMPLE = json.dumps({"type": "FeatureCollection", "features": [], "properties": {
+    "conditions": {"forecasts": [
+        {"date": "2026-10-18T13:00:00.000Z", "fdr": {"Mallee": "EXTREME", "Central": "HIGH"}},
+        {"date": "2026-10-19T13:00:00.000Z", "fdr": {"Mallee": "HIGH"}},
+        {"date": "2026-10-17T13:00:00.000Z", "fdr": {"Mallee": "CATASTROPHIC"}},
+    ]}}}).encode()
+
+TODAY = NOW.astimezone(monitor.LOCAL_TZ).date()       # Mon 19 Oct 2026
+
+
+class FireDangerTests(unittest.TestCase):
+
+    def test_nsw(self):
+        alerts = monitor.parse_nsw_fdr(NSW_FDR_SAMPLE, TODAY)
+        self.assertEqual(len(alerts), 1)                    # only tomorrow is bad
+        a = alerts[0]
+        self.assertEqual(a["key"], "fdr:NSW:2026-10-20")
+        self.assertEqual((a["rank"], a["level"]), (2, "Catastrophic"))
+        self.assertIn(("Catastrophic", "Far South Coast"), a["fields"])
+        self.assertIn(("Extreme", "Greater Sydney Region"), a["fields"])
+        self.assertFalse(a["track_end"])
+
+    def test_vic_dates_are_local_and_past_days_skipped(self):
+        alerts = monitor.parse_vic_fdr(VIC_FDR_SAMPLE, TODAY)
+        self.assertEqual([a["key"] for a in alerts], ["fdr:VIC:2026-10-19"])
+        self.assertEqual(alerts[0]["level"], "Extreme")
+
+
+def record(title, rank=1, notify=True, lat=None, lon=None):
+    return {"key": title, "title": title, "rank": rank, "notify": notify,
+            "level": "Emergency Warning", "lat": lat, "lon": lon, "link": "",
+            "colour": monitor.COLOUR_RED, "emoji": "🔥"}
+
+
+class ConcurrentTests(unittest.TestCase):
+
+    def test_three_jurisdictions(self):
+        sources = {"NSW RFS": {"a": record("A")}, "VicEmergency": {"b": record("B")},
+                   "BoM QLD": {"c": record("C")}, "TasALERT": {"w": record("W", 0, False)}}
+        alerts = monitor.concurrent_alerts(sources)
+        self.assertEqual([a["key"] for a in alerts], ["concurrent:australia"])
+        self.assertIn("3 states", alerts[0]["title"])
+
+    def test_two_plus_overseas_red(self):
+        sources = {"NSW RFS": {"a": record("A")}, "WA DFES": {"b": record("B")},
+                   "GDACS": {"g": record("Cyclone", rank=2)}}
+        self.assertEqual([a["key"] for a in monitor.concurrent_alerts(sources)],
+                         ["concurrent:global"])
+
+    def test_quiet_when_not_overlapping(self):
+        sources = {"NSW RFS": {"a": record("A")}, "GDACS": {"g": record("C", rank=1)}}
+        self.assertEqual(monitor.concurrent_alerts(sources), [])
+
+
+class WatchAndActTests(unittest.TestCase):
+
+    def test_escalation_to_emergency_warning_posts_a_card(self):
+        watch = monitor.make_alert(key="k", rank=0, notify=False, level="Watch and Act",
+                                   source="s", title="Fire")
+        ew = monitor.make_alert(key="k", rank=1, notify=True, level="Emergency Warning",
+                                source="s", title="Fire")
+        changes, state = monitor.decide({"NSW RFS": [watch]}, {"NSW RFS": {}}, NOW)
+        self.assertFalse(changes[0][2]["notify"])
+        changes, state = monitor.decide({"NSW RFS": [ew]}, state, NOW)
+        self.assertEqual(changes[0][0], "escalated")
+        posted = []
+        saved = monitor.post_card, monitor.render_map, monitor.time.sleep
+        monitor.post_card = lambda e, image=None, thread=None: posted.append(e) or ("m1", None)
+        monitor.render_map = lambda *a: None
+        monitor.time.sleep = lambda s: None
+        try:
+            monitor.deliver(changes, [], NOW)
+        finally:
+            monitor.post_card, monitor.render_map, monitor.time.sleep = saved
+        self.assertEqual(len(posted), 1)                 # a full card, not "escalated"
+        self.assertEqual(state["NSW RFS"]["k"]["message_id"], "m1")
+
+    def test_seed_all_records_quietly(self):
+        changes, _ = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW, seed_all=True)
+        self.assertEqual(changes[0][0], "seen_at_start")
+
+
+class DigestDashboardWeeklyTests(unittest.TestCase):
+
+    def test_log_digest(self):
+        changes, _ = monitor.decide({"G": [alert("a"), alert("b", track_end=True)]},
+                                    {"G": {}}, NOW)
+        text = monitor.log_digest(changes, NOW)
+        self.assertIn("🆕", text)
+        self.assertEqual(text.count("\n"), 2)
+        start, _ = monitor.decide({"G": [alert("a")]}, {}, NOW)
+        self.assertIn("1 event(s) already active", monitor.log_digest(start, NOW))
+        self.assertEqual(monitor.log_digest([], NOW), "")
+
+    def test_dashboard(self):
+        sources = {"NSW RFS": {"a": record("Big fire", lat=-33.0, lon=150.0),
+                               "w": dict(record("Small", 0, False), level="Watch and Act")},
+                   "GDACS": {"g": dict(record("Cyclone", 2, lat=14.0, lon=124.0), link="https://x")},
+                   "Fire danger (NSW)": {"f": record("Extreme fire danger")},
+                   "ABC News": {"n": record("Story")}}
+        results = {"NSW RFS": [], "GDACS": [], "US fires": None}
+        embed, markers = monitor.dashboard_embed(sources, results, NOW)
+        names = [f["name"] for f in embed["fields"]]
+        self.assertIn("🇦🇺 Australia · 1 major · 1 Watch and Act", names)
+        self.assertIn("🌏 International · 1 major", names)
+        values = " ".join(f["value"] for f in embed["fields"])
+        self.assertIn("[Cyclone](https://x)", values)
+        self.assertIn("Extreme fire danger", values)
+        self.assertNotIn("Story", values)                 # news isn't "active"
+        self.assertIn("not responding: US fires", values)
+        self.assertEqual(len(markers), 2)
+        self.assertEqual(embed["color"], monitor.COLOUR_RED)
+
+    def test_weekly_due_once_per_week(self):
+        state = {}
+        sunday = datetime(2026, 10, 18, 4, 0, tzinfo=timezone.utc)      # Sun 3pm AEDT
+        monday_7am = datetime(2026, 10, 18, 20, 0, tzinfo=timezone.utc)  # Mon 7am
+        monday_9am = datetime(2026, 10, 18, 22, 0, tzinfo=timezone.utc)  # Mon 9am
+        state["last_weekly"] = monitor.weekly_due({}, sunday).isoformat()  # last week's
+        self.assertIsNone(monitor.weekly_due(state, sunday))
+        self.assertIsNone(monitor.weekly_due(state, monday_7am))
+        due = monitor.weekly_due(state, monday_9am)
+        self.assertIsNotNone(due)
+        state["last_weekly"] = due.isoformat()
+        self.assertIsNone(monitor.weekly_due(state, monday_9am + timedelta(hours=5)))
+
+    def test_weekly_embed(self):
+        rows = [
+            {"time_utc": "2026-10-18T04:00:00Z", "change": "new", "source": "NSW RFS",
+             "title": "Big fire", "link": "https://x", "major": "yes"},
+            {"time_utc": "2026-10-18T05:00:00Z", "change": "new", "source": "BoM QLD",
+             "title": "Storm", "link": "", "major": "no"},
+            {"time_utc": "2026-10-18T06:00:00Z", "change": "ended", "source": "NSW RFS",
+             "title": "Big fire", "link": "", "major": "yes"},
+        ]
+        embed = monitor.weekly_embed(rows, {"a": [], "b": None}, NOW)
+        self.assertIn("**1** major events", embed["description"])
+        self.assertIn("**2** events recorded", embed["description"])
+        self.assertIn("[Big fire](https://x)", embed["fields"][0]["value"])
+        self.assertIn("Not responding now: b", embed["fields"][2]["value"])
+
+    def test_log_gains_new_column(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "log.csv"
+            path.write_text("time_utc,change,source,key,level,title,lat,lon,link\n"
+                            "2026-10-19T04:25:52Z,seen_at_start,US fires,k,x,t,,,\n")
+            changes, _ = monitor.decide({"G": [alert("a")]}, {"G": {}}, NOW)
+            monitor.log_changes(changes, NOW, path)
+            with path.open() as f:
+                rows = list(csv.reader(f))
+            self.assertEqual(rows[0], monitor.LOG_COLUMNS)
+            self.assertEqual(rows[1][-1], "")
+            self.assertEqual(rows[2][-1], "yes")
+
+    def test_dashboard_map_renders(self):
+        import io
+        from PIL import Image
+        def fake(url):
+            b = io.BytesIO()
+            Image.new("RGB", (256, 256), (170, 210, 170)).save(b, "PNG")
+            return b.getvalue()
+        saved = monitor.fetch
+        monitor.fetch = fake
+        try:
+            png = monitor.render_dashboard_map([(-33.0, 150.0, (211, 47, 47)),
+                                                (14.0, 124.0, (245, 124, 0))])
+        finally:
+            monitor.fetch = saved
+        self.assertEqual(Image.open(io.BytesIO(png)).size, (960, 300))
 
 
 if __name__ == "__main__":

@@ -2,33 +2,30 @@
 Hazard alert monitor
 ====================
 
-Checks public warning feeds every 15 minutes and posts a Discord card ONLY for
-the biggest events:
+Checks public warning feeds every 15 minutes and keeps a Discord server up to
+date. Everything goes through one webhook on the #alerts channel:
 
-  Australia, weather   BoM warnings, every state: tropical cyclones, major
-                       floods, extreme heatwaves.
-  Australia, fire etc. State emergency feeds (NSW, VIC, QLD, SA, WA, TAS, ACT):
-                       only items at "Emergency Warning", the top level of the
-                       Australian Warning System. (NT has no machine-readable
-                       feed; its cyclones and floods come through BoM.)
-  International        GDACS: cyclones, floods, wildfires at Orange or Red;
-                       anything else at Red; droughts never.
-  Large fires          Canada (CWFIS) and the US (NIFC): any wildfire past
-                       50,000 ha, again past 250,000 ha.
-  Deployments          ABC "Just In" stories that mention interstate or
-                       international crews, the ADF, or disaster declarations
-                       together with a hazard.
+  #alerts                cards for major events only (buzzes your phone)
+  📊 Dashboard thread    one live status message, edited every run, with a map
+  📒 Event log thread    a quiet line for EVERYTHING recorded, including
+                         lower-level events that don't get a card
+  🗓️ Weekly round-up     a summary every Monday at 8am (Melbourne time)
 
-Each run:
-  1. FETCH + FILTER every source
-  2. DECIDE what changed since last run (state.json):
-       new event         -> post a card
-       higher level      -> update the original card + post a short update
-       gone from feed    -> grey out the original card ("no longer listed")
-  3. LOG every change to events_log.csv (a research record of major events)
-  4. HEALTH: if a feed has been failing for 24 hours, post a warning card,
-     and another when it recovers
-  5. SAVE state.json
+What gets a card in #alerts:
+  BoM (all states)       tropical cyclone, major flood, extreme heatwave warnings
+  State emergency feeds  Emergency Warning level (NSW, VIC, QLD, SA, WA, TAS, ACT)
+  GDACS (global)         cyclones/floods/wildfires at Orange or Red; others at Red
+  Canada + US fires      past 50,000 ha, again past 250,000 ha
+  ABC News               deployment / disaster-declaration stories about a hazard
+  Fire danger            forecast Extreme or Catastrophic days (NSW, VIC)
+  Concurrent events      major events in 3+ Australian jurisdictions at once, or
+                         2+ while there's a top-level disaster overseas
+  Feed health            a feed failing for 24 hours, and its recovery
+
+Recorded but NOT carded (log + Event log thread only): Watch and Act warnings,
+severe thunderstorm / severe weather / moderate flood / fire weather / severe
+heatwave warnings, GDACS Green cyclones/floods/fires and Orange quakes etc.,
+North American fires past 10,000 ha.
 
 Run locally:  python monitor.py --dry-run        (prints, sends nothing)
               python monitor.py --test-message   (posts one sample card)
@@ -36,6 +33,7 @@ Run locally:  python monitor.py --dry-run        (prints, sends nothing)
 
 import argparse
 import csv
+import hashlib
 import io
 import json
 import math
@@ -44,21 +42,21 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, time as dtime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
 
 import requests
 
-try:                                   # Pillow draws the map previews. If it's
-    from PIL import Image, ImageDraw   # missing, cards simply go without a map.
+try:                                   # Pillow draws the maps. Without it, cards
+    from PIL import Image, ImageDraw   # and the dashboard simply have no image.
 except ImportError:
     Image = None
 
 try:
     from zoneinfo import ZoneInfo
     LOCAL_TZ = ZoneInfo("Australia/Melbourne")
-except Exception:                      # no time-zone database: fall back to UTC
+except Exception:
     LOCAL_TZ = timezone.utc
 
 
@@ -69,31 +67,44 @@ except Exception:                      # no time-zone database: fall back to UTC
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 DISCORD_USERNAME = "Hazard Monitor"
 
-COLOUR_RED = 0xD32F2F       # Emergency Warning, GDACS Red, 250,000 ha+ fires
-COLOUR_ORANGE = 0xF57C00    # BoM top-tier warnings, GDACS Orange, 50,000 ha+ fires
-COLOUR_BLUE = 0x1E88E5      # deployment news
-COLOUR_GREY = 0x607D8B      # finished events, summaries
-COLOUR_GREEN = 0x43A047     # feed recovered, test card
+# Threads inside #alerts (IDs aren't secret; they only work with the webhook).
+DISCORD_THREADS = {
+    "dashboard": "1561598501882961990",
+    "log": "1561598739443879936",
+    "weekly": "1561598862957748316",
+}
+
+COLOUR_RED = 0xD32F2F
+COLOUR_ORANGE = 0xF57C00
+COLOUR_YELLOW = 0xF9A825
+COLOUR_BLUE = 0x1E88E5
+COLOUR_PURPLE = 0x8E24AA
+COLOUR_GREY = 0x607D8B
+COLOUR_GREEN = 0x43A047
 
 HERE = Path(__file__).parent
 STATE_FILE = HERE / "state.json"
 LOG_FILE = HERE / "events_log.csv"
 
-MAX_PUSHES_PER_RUN = 5          # new/escalated cards per run; extras are summarised
-FEED_FAILURE_WARNING_HOURS = 24  # warn once a feed has failed this long
+MAX_PUSHES_PER_RUN = 5
+FEED_FAILURE_WARNING_HOURS = 24
+WEEKLY_WEEKDAY, WEEKLY_HOUR = 0, 8          # Monday 8am, Melbourne time
 
-LARGE_FIRE_HA = 50_000
-HUGE_FIRE_HA = 250_000
+# Bump this whenever the filters change, so newly-included lower-level events
+# already in the feeds are recorded as "seen_at_start" rather than "new".
+FILTERS_VERSION = 3
+
+LOG_FIRE_HA = 10_000        # recorded
+LARGE_FIRE_HA = 50_000      # card
+HUGE_FIRE_HA = 250_000      # escalation card
 ACRES_PER_HA = 2.47105
 
-# Identify ourselves; BoM rejects Python's default, and OpenStreetMap's tile
-# policy asks for an identifying User-Agent.
 HEADERS = {"User-Agent": "hazard-alerts/2.0 (personal, non-commercial; "
                          "+https://github.com/samuelmarcus-cell/hazard-alerts)"}
-# BoM only answers requests that look like a browser.
+# BoM only accepts this exact browser-style string.
 BOM_HEADERS = {"User-Agent": "Mozilla/5.0 (personal hazard-alert script; non-commercial)"}
 
-# --- BoM: one warnings RSS feed per state ---------------------------------
+# --- BoM ------------------------------------------------------------------
 BOM_FEEDS = {
     "NSW/ACT": "http://www.bom.gov.au/fwo/IDZ00054.warnings_nsw.xml",
     "NT":      "http://www.bom.gov.au/fwo/IDZ00055.warnings_nt.xml",
@@ -103,16 +114,22 @@ BOM_FEEDS = {
     "VIC":     "http://www.bom.gov.au/fwo/IDZ00059.warnings_vic.xml",
     "WA":      "http://www.bom.gov.au/fwo/IDZ00060.warnings_wa.xml",
 }
-BOM_KEEP_PHRASES = {               # phrase in title -> emoji on the card
+BOM_CARD_PHRASES = {               # title contains -> emoji; gets a card
     "tropical cyclone": "🌀",
-    "major flood": "🌊",           # also catches "Moderate to Major Flood Warning"
+    "major flood": "🌊",           # also "Moderate to Major Flood Warning"
     "extreme heatwave": "🌡️",
+}
+BOM_LOG_PHRASES = {                # recorded only
+    "severe thunderstorm": "⛈️",
+    "severe weather": "🌬️",
+    "moderate flood": "🌊",
+    "fire weather": "🔥",
+    "severe heatwave": "🌡️",
 }
 BOM_SKIP_PHRASES = ["cancellation", "final flood warning"]
 
-# --- State emergency feeds in GeoJSON -------------------------------------
-# level_field: the property holding the warning level; None = search all.
-STATE_FEEDS = [
+# --- State emergency feeds ------------------------------------------------
+STATE_FEEDS = [            # GeoJSON
     {"name": "NSW RFS", "level_field": "category",
      "url": "https://www.rfs.nsw.gov.au/feeds/majorIncidents.json"},
     {"name": "VicEmergency", "level_field": None,
@@ -121,14 +138,7 @@ STATE_FEEDS = [
      "url": "https://publiccontent-gis-psba-qld-gov-au.s3.amazonaws.com"
             "/content/Feeds/BushfireCurrentIncidents/bushfireAlert.json"},
 ]
-STATE_KEEP_LEVEL = "emergency warning"
-
-# --- State emergency feeds in CAP (Common Alerting Protocol) XML ----------
-# id_param: what identifies one incident across re-issued warnings:
-#   "identifier" = the CAP message ID (ACT keeps it per incident)
-#   any other name = a CAP <parameter> with that name (WA's CAD_ID)
-#   None = the event type plus the area description
-CAP_FEEDS = [
+CAP_FEEDS = [              # CAP (Common Alerting Protocol) XML; see parse_cap
     {"name": "SA CFS", "id_param": None,
      "url": "https://data.eso.sa.gov.au/feeds/prod/cap-au.xml"},
     {"name": "WA DFES", "id_param": "CAD_ID",
@@ -138,35 +148,46 @@ CAP_FEEDS = [
     {"name": "ACT ESA", "id_param": "identifier",
      "url": "https://data.esa.act.gov.au/feeds/esa-cap-incidents.xml"},
 ]
+# Australian Warning System: what we keep, and its rank.
+AWS_RANK = {"Emergency Warning": 1, "Watch and Act": 0}
 
-# --- GDACS: global disasters ----------------------------------------------
+# Which jurisdiction each Australian source belongs to (for concurrency).
+AU_JURISDICTION = {
+    "NSW RFS": "NSW", "VicEmergency": "VIC", "QLD Fire": "QLD", "SA CFS": "SA",
+    "WA DFES": "WA", "TasALERT": "TAS", "ACT ESA": "ACT",
+    "BoM NSW/ACT": "NSW", "BoM NT": "NT", "BoM QLD": "QLD", "BoM SA": "SA",
+    "BoM TAS": "TAS", "BoM VIC": "VIC", "BoM WA": "WA",
+}
+
+# --- Fire danger forecasts ------------------------------------------------
+NSW_FDR_URL = "https://www.rfs.nsw.gov.au/feeds/fdrToban.xml"
+FDR_RANK = {"EXTREME": 1, "CATASTROPHIC": 2}
+
+# --- GDACS ----------------------------------------------------------------
 GDACS_URL = "https://www.gdacs.org/xml/rss.xml"
 GDACS_NS = {"gdacs": "http://www.gdacs.org",
             "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"}
-GDACS_TYPES = {                    # code -> (name, emoji, map zoom)
-    "TC": ("Tropical cyclone", "🌀", 4),
-    "FL": ("Flood", "🌊", 5),
-    "WF": ("Wildfire", "🔥", 6),
-    "EQ": ("Earthquake", "🌍", 5),
-    "VO": ("Volcano", "🌋", 6),
-    "TS": ("Tsunami", "🌊", 4),
+GDACS_TYPES = {
+    "TC": ("Tropical cyclone", "🌀", 4), "FL": ("Flood", "🌊", 5),
+    "WF": ("Wildfire", "🔥", 6), "EQ": ("Earthquake", "🌍", 5),
+    "VO": ("Volcano", "🌋", 6), "TS": ("Tsunami", "🌊", 4),
     "DR": ("Drought", "🏜️", 4),
 }
-GDACS_ORANGE_TYPES = {"TC", "FL", "WF"}
-GDACS_NEVER_TYPES = {"DR"}
+GDACS_WEATHER_TYPES = {"TC", "FL", "WF"}   # card at Orange, recorded from Green
+GDACS_NEVER_TYPES = {"DR"}                 # others: card at Red, recorded from Orange
 LEVEL_RANK = {"green": 0, "orange": 1, "red": 2}
 
-# --- Large North American fires -------------------------------------------
+# --- North American fires -------------------------------------------------
 CANADA_URL = "https://geoserver.cwfif.nrcan.gc.ca/geoserver/ows?" + urlencode({
     "service": "WFS", "version": "2.0.0", "request": "GetFeature",
     "outputFormat": "application/json", "srsName": "EPSG:4326",
     "typeName": "public:cwfif_national_activefires",
-    "CQL_FILTER": f"record_start<=now() AND record_end>now() AND fire_size>={LARGE_FIRE_HA}",
+    "CQL_FILTER": f"record_start<=now() AND record_end>now() AND fire_size>={LOG_FIRE_HA}",
 })
 US_URL = ("https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/"
           "WFIGS_Incident_Locations_Current/FeatureServer/0/query?" + urlencode({
               "where": (f"IncidentTypeCategory='WF' "
-                        f"AND IncidentSize>={round(LARGE_FIRE_HA * ACRES_PER_HA)} "
+                        f"AND IncidentSize>={round(LOG_FIRE_HA * ACRES_PER_HA)} "
                         f"AND (PercentContained IS NULL OR PercentContained<100)"),
               "outFields": "IncidentName,UniqueFireIdentifier,IncidentSize,"
                            "PercentContained,POOState",
@@ -181,7 +202,7 @@ CANADA_REGIONS = {
 }
 CANADA_STAGES = {"OC": "Out of control", "BH": "Being held", "UC": "Under control"}
 
-# --- ABC news: deployments and declarations -------------------------------
+# --- ABC news -------------------------------------------------------------
 ABC_URL = "https://www.abc.net.au/news/feed/10719976/rss.xml"     # "Just In"
 DEPLOYMENT_PHRASES = [
     "interstate firefighters", "interstate crews", "interstate fire crews",
@@ -219,31 +240,27 @@ def to_float(text):
 
 
 def local_time(moment):
-    """'19 Oct 15:07' in Melbourne time, for cards."""
     return moment.astimezone(LOCAL_TZ).strftime("%-d %b %H:%M")
 
 
-def make_alert(**values):
-    """An alert with defaults filled in. Fields every parser can set:
+def local_day(day):
+    return day.strftime("%a %-d %b")
 
-    key, source, rank (bigger = worse), level (readable rank), emoji, title,
-    message, link, colour, fields [(label, value)], lat, lon, zoom (map),
-    track_end (False = don't grey out / log when it leaves the feed).
-    """
+
+def make_alert(**values):
+    """An alert with defaults. notify=False means "record, but no card"."""
     alert = {"rank": 1, "level": "", "emoji": "⚠️", "message": "", "link": "",
              "colour": COLOUR_ORANGE, "fields": [], "lat": None, "lon": None,
-             "zoom": 7, "track_end": True}
+             "zoom": 7, "track_end": True, "notify": True}
     alert.update(values)
     return alert
 
 
 def local_name(element):
-    """'{namespace}entry' -> 'entry'. CAP feeds vary in namespaces."""
     return element.tag.rsplit("}", 1)[-1]
 
 
 def first_text(element, names):
-    """Text of the first descendant whose tag is in `names`, else ''."""
     for child in element.iter():
         if local_name(child) in names and (child.text or "").strip():
             return child.text.strip()
@@ -252,6 +269,19 @@ def first_text(element, names):
 
 def strip_html(text):
     return re.sub(r"<[^>]+>", " ", text or "").replace("&nbsp;", " ").strip()
+
+
+def aws_level(text):
+    """The highest Australian Warning System level we keep, found in text."""
+    lower = text.lower()
+    for name in AWS_RANK:                     # Emergency Warning checked first
+        if name.lower() in lower:
+            return name
+    return ""
+
+
+def rgb(colour):
+    return (colour >> 16) & 255, (colour >> 8) & 255, colour & 255
 
 
 # ---------------------------------------------------------------------------
@@ -263,13 +293,18 @@ def parse_bom(region, content):
     for item in ET.fromstring(content).iter("item"):
         title = (item.findtext("title") or "").strip()
         lower = title.lower()
-        emoji = next((e for phrase, e in BOM_KEEP_PHRASES.items() if phrase in lower), None)
-        if emoji is None or any(p in lower for p in BOM_SKIP_PHRASES):
+        if any(p in lower for p in BOM_SKIP_PHRASES):
+            continue
+        card = next((e for p, e in BOM_CARD_PHRASES.items() if p in lower), None)
+        logged = next((e for p, e in BOM_LOG_PHRASES.items() if p in lower), None)
+        if not (card or logged):
             continue
         link = (item.findtext("link") or "").strip()
         alerts.append(make_alert(
             key=f"bom:{link or title}", source="Bureau of Meteorology",
-            level="Warning", emoji=emoji, title=title, link=link,
+            rank=1 if card else 0, notify=bool(card),
+            level="Major warning" if card else "Warning",
+            emoji=card or logged, title=title, link=link,
             fields=[("Region", region)],
         ))
     return alerts
@@ -294,7 +329,7 @@ def find_point(geometry):
     if not geometry:
         return None, None
     if geometry.get("type") == "Point":
-        lon, lat = geometry["coordinates"][:2]      # GeoJSON order is lon, lat
+        lon, lat = geometry["coordinates"][:2]
         return lat, lon
     for inner in geometry.get("geometries", []):
         lat, lon = find_point(inner)
@@ -304,7 +339,6 @@ def find_point(geometry):
 
 
 def parse_description(text):
-    """'STATUS: Out of control <br />TYPE: Bush Fire' -> card fields."""
     fields = []
     for part in re.split(r"<br\s*/?>", text or ""):
         label, _, value = part.partition(":")
@@ -314,12 +348,23 @@ def parse_description(text):
     return fields
 
 
+def warning_alert(source, key, level, headline, **extra):
+    """Shared shape for Emergency Warning / Watch and Act alerts."""
+    major = level == "Emergency Warning"
+    return make_alert(
+        key=f"{source}:{key}", source=source, rank=AWS_RANK[level], level=level,
+        notify=major, colour=COLOUR_RED if major else COLOUR_YELLOW,
+        title=f"{'EMERGENCY WARNING' if major else 'Watch and Act'}: {headline}",
+        **extra,
+    )
+
+
 def parse_state_geojson(feed, content):
     alerts = []
     if not content.strip():
         return alerts
     data = json.loads(content)
-    if isinstance(data, list):                       # some feeds are bare lists
+    if isinstance(data, list):
         features = [{"properties": r} for r in data if isinstance(r, dict)]
     else:
         features = data.get("features", [])
@@ -330,24 +375,21 @@ def parse_state_geojson(feed, content):
             level_text = str(props.get(feed["level_field"], ""))
         else:
             level_text = " ".join(str(v) for v in props.values())
-        if STATE_KEEP_LEVEL not in level_text.lower():
+        level = aws_level(level_text)
+        if not level:
             continue
-
         title = first_present(props, TITLE_FIELDS) or "Unnamed incident"
         lat, lon = find_point(feature.get("geometry"))
-        alerts.append(make_alert(
-            key=f"{feed['name']}:{first_present(props, ID_FIELDS) or title}",
-            source=feed["name"], level="Emergency Warning", emoji="🔥",
-            title=f"EMERGENCY WARNING: {title}",
-            message=f"{feed['name']} has an Emergency Warning current.",
-            link=first_present(props, LINK_FIELDS), colour=COLOUR_RED,
+        alerts.append(warning_alert(
+            feed["name"], first_present(props, ID_FIELDS) or title, level, title,
+            emoji="🔥", message=f"{feed['name']}: {level} current.",
+            link=first_present(props, LINK_FIELDS),
             fields=parse_description(props.get("description")), lat=lat, lon=lon,
         ))
     return alerts
 
 
 def cap_parameters(alert_el):
-    """CAP <parameter><valueName>X</valueName><value>Y</value> -> {X: Y}."""
     params = {}
     for el in alert_el.iter():
         if local_name(el) == "parameter":
@@ -358,14 +400,10 @@ def cap_parameters(alert_el):
 
 
 def cap_level(alert_el, params):
-    """The Australian Warning System level of one CAP alert, or ''.
-
-    Order of trust: an explicit AlertLevel parameter (TAS, ACT), then the
-    headline wording (WA: "Bushfire Emergency Warning ..."), then CAP-AU's
-    severity mapping (Extreme = Emergency Warning). We deliberately do NOT
-    search the description, which often says things like "this may be
-    upgraded to an Emergency Warning".
-    """
+    """Australian Warning System level of a CAP alert. Trusts, in order: an
+    AlertLevel parameter (TAS, ACT), the headline (WA), then CAP-AU severity
+    (Extreme = Emergency Warning). Never the description, which can say
+    "this may be upgraded to an Emergency Warning"."""
     level = params.get("AlertLevel", "").strip()
     if level and level.lower() not in ("n/a", "not yet known", "none"):
         return level
@@ -383,9 +421,6 @@ def parse_cap(feed, content):
     if not content.strip():
         return alerts
     root = ET.fromstring(content)
-
-    # A CAP feed is a list of <alert>s (often wrapped in EDXL or Atom). Fall
-    # back to Atom <entry> or RSS <item> if there are no <alert> elements.
     for tag in ("alert", "entry", "item"):
         items = [e for e in root.iter() if local_name(e) == tag]
         if items:
@@ -393,7 +428,8 @@ def parse_cap(feed, content):
 
     for item in items:
         params = cap_parameters(item)
-        if cap_level(item, params).lower() != STATE_KEEP_LEVEL:
+        level = next((n for n in AWS_RANK if n.lower() == cap_level(item, params).lower()), "")
+        if not level:
             continue
 
         headline = first_text(item, {"headline", "title"}) or "Unnamed warning"
@@ -410,11 +446,9 @@ def parse_cap(feed, content):
             event_id = first_text(item, {"identifier", "id"}) or headline
 
         lat = lon = None
-        spot = first_text(item, {"circle", "point"})
-        match = re.match(r"\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)", spot)
+        match = re.match(r"\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)", first_text(item, {"circle", "point"}))
         if match:
             lat, lon = float(match.group(1)), float(match.group(2))
-
         link = first_text(item, {"web"})
         if not link:
             link_el = next((e for e in item.iter() if local_name(e) == "link"), None)
@@ -423,12 +457,11 @@ def parse_cap(feed, content):
         fields = [("Area", area)] if area else []
         if event:
             fields.append(("Type", event))
-        alerts.append(make_alert(
-            key=f"{feed['name']}:{event_id}", source=feed["name"],
-            level="Emergency Warning", emoji="🔥" if "fire" in event.lower() else "⚠️",
-            title=f"EMERGENCY WARNING: {headline}",
+        alerts.append(warning_alert(
+            feed["name"], event_id, level, headline,
+            emoji="🔥" if "fire" in event.lower() else "⚠️",
             message=strip_html(first_text(item, {"description", "summary"}))[:500],
-            link=link, colour=COLOUR_RED, fields=fields, lat=lat, lon=lon,
+            link=link, fields=fields, lat=lat, lon=lon,
         ))
     return alerts
 
@@ -441,9 +474,10 @@ def parse_gdacs(content):
         rank = LEVEL_RANK.get(level, 0)
         if event_type in GDACS_NEVER_TYPES:
             continue
-        needed = LEVEL_RANK["orange"] if event_type in GDACS_ORANGE_TYPES else LEVEL_RANK["red"]
-        if rank < needed:
+        weather = event_type in GDACS_WEATHER_TYPES
+        if rank < (LEVEL_RANK["green"] if weather else LEVEL_RANK["orange"]):
             continue
+        notify = rank >= (LEVEL_RANK["orange"] if weather else LEVEL_RANK["red"])
 
         event_id = item.findtext("gdacs:eventid", namespaces=GDACS_NS) or ""
         country = item.findtext("gdacs:country", namespaces=GDACS_NS) or ""
@@ -457,11 +491,11 @@ def parse_gdacs(content):
 
         alerts.append(make_alert(
             key=f"gdacs:{event_type}:{event_id}", rank=rank, level=level.title(),
-            source="GDACS", emoji=emoji,
+            notify=notify, source="GDACS", emoji=emoji,
             title=f"{kind}{' — ' + country if country else ''}",
             message=(item.findtext("title") or "").strip(),
             link=(item.findtext("link") or "").strip(),
-            colour=COLOUR_RED if rank == LEVEL_RANK["red"] else COLOUR_ORANGE,
+            colour={2: COLOUR_RED, 1: COLOUR_ORANGE}.get(rank, COLOUR_GREEN),
             fields=fields, zoom=zoom,
             lat=to_float(item.findtext("geo:Point/geo:lat", namespaces=GDACS_NS)),
             lon=to_float(item.findtext("geo:Point/geo:long", namespaces=GDACS_NS)),
@@ -470,13 +504,16 @@ def parse_gdacs(content):
 
 
 def fire_size_alert(key, source, title, hectares, link, fields, lat, lon):
-    """Shared shape for the North American large-fire alerts."""
-    rank = 2 if hectares >= HUGE_FIRE_HA else 1
-    threshold = HUGE_FIRE_HA if rank == 2 else LARGE_FIRE_HA
+    if hectares >= HUGE_FIRE_HA:
+        rank, threshold, colour = 2, HUGE_FIRE_HA, COLOUR_RED
+    elif hectares >= LARGE_FIRE_HA:
+        rank, threshold, colour = 1, LARGE_FIRE_HA, COLOUR_ORANGE
+    else:
+        rank, threshold, colour = 0, LOG_FIRE_HA, COLOUR_YELLOW
     return make_alert(
         key=key, source=source, rank=rank, level=f"{threshold:,}+ ha",
-        emoji="🔥", title=title, message=f"{hectares:,.0f} hectares burned.",
-        link=link, colour=COLOUR_RED if rank == 2 else COLOUR_ORANGE,
+        notify=rank >= 1, emoji="🔥", title=title,
+        message=f"{hectares:,.0f} hectares burned.", link=link, colour=colour,
         fields=[("Size", f"{hectares:,.0f} ha")] + fields,
         lat=lat, lon=lon, zoom=6,
     )
@@ -487,15 +524,14 @@ def parse_canada(content):
     for feature in json.loads(content).get("features", []):
         p = feature.get("properties") or {}
         hectares = to_float(p.get("fire_size")) or 0
-        if hectares < LARGE_FIRE_HA:
+        if hectares < LOG_FIRE_HA:
             continue
         region = CANADA_REGIONS.get(p.get("agency_code", ""), p.get("agency_code", ""))
         stage = p.get("stage_of_control_status", "")
         alerts.append(fire_size_alert(
             key=f"ca:{p.get('national_fire_id') or p.get('id')}",
             source="Canada (CWFIS)", title=f"Large wildfire — {region}, Canada",
-            hectares=hectares,
-            link="https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+            hectares=hectares, link="https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
             fields=[("Status", CANADA_STAGES.get(stage, stage or "Unknown")),
                     ("Fire ID", p.get("agency_fire_id", ""))],
             lat=to_float(p.get("latitude")), lon=to_float(p.get("longitude")),
@@ -508,7 +544,7 @@ def parse_us(content):
     for feature in json.loads(content).get("features", []):
         p = feature.get("properties") or {}
         hectares = (to_float(p.get("IncidentSize")) or 0) / ACRES_PER_HA
-        if hectares < LARGE_FIRE_HA:
+        if hectares < LOG_FIRE_HA:
             continue
         lat, lon = find_point(feature.get("geometry"))
         state = (p.get("POOState") or "").replace("US-", "")
@@ -539,9 +575,60 @@ def parse_abc(content):
             key=f"abc:{(item.findtext('guid') or link or title).strip()}",
             source="ABC News", level="Deployment news", emoji="📰",
             title=title, message=summary[:400], link=link, colour=COLOUR_BLUE,
-            track_end=False,          # stories leave the feed; that isn't an "end"
+            track_end=False,
         ))
     return alerts
+
+
+def fdr_alerts(state, by_day, link):
+    """{day: {district: rating}} -> one alert per day with Extreme+ districts."""
+    alerts = []
+    for day, ratings in sorted(by_day.items()):
+        bad = {d: r for d, r in ratings.items() if r in FDR_RANK}
+        if not bad:
+            continue
+        rank = max(FDR_RANK[r] for r in bad.values())
+        worst = "Catastrophic" if rank == 2 else "Extreme"
+        fields = []
+        for rating in ("CATASTROPHIC", "EXTREME"):
+            names = sorted(d for d, r in bad.items() if r == rating)
+            if names:
+                fields.append((rating.title(), ", ".join(names)))
+        alerts.append(make_alert(
+            key=f"fdr:{state}:{day.isoformat()}", source=f"Fire danger ({state})",
+            rank=rank, level=worst, emoji="🔥",
+            title=f"{worst} fire danger forecast — {state}, {local_day(day)}",
+            message=f"{len(bad)} district(s) forecast Extreme or higher.",
+            link=link, colour=COLOUR_RED if rank == 2 else COLOUR_ORANGE,
+            fields=fields, track_end=False,
+        ))
+    return alerts
+
+
+def parse_nsw_fdr(content, today):
+    by_day = {today: {}, today + timedelta(days=1): {}}
+    for district in ET.fromstring(content).iter("District"):
+        name = (district.findtext("Name") or "").strip()
+        by_day[today][name] = (district.findtext("DangerLevelToday") or "").strip().upper()
+        by_day[today + timedelta(days=1)][name] = (
+            district.findtext("DangerLevelTomorrow") or "").strip().upper()
+    return fdr_alerts("NSW", by_day,
+                      "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans")
+
+
+def parse_vic_fdr(content, today):
+    data = json.loads(content)
+    forecasts = ((data.get("properties") or {}).get("conditions") or {}).get("forecasts", [])
+    by_day = {}
+    for forecast in forecasts:
+        stamp = forecast.get("date")
+        if not stamp:
+            continue
+        day = datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(LOCAL_TZ).date()
+        if day < today:
+            continue
+        by_day[day] = {d: str(r).strip().upper() for d, r in (forecast.get("fdr") or {}).items()}
+    return fdr_alerts("VIC", by_day, "https://emergency.vic.gov.au/respond/")
 
 
 # ---------------------------------------------------------------------------
@@ -549,7 +636,6 @@ def parse_abc(content):
 # ---------------------------------------------------------------------------
 
 def safe_parse(source, parser, content):
-    """Run a parser; None if the download failed or the content is unreadable."""
     if content is None:
         return None
     try:
@@ -563,8 +649,9 @@ def safe_parse(source, parser, content):
         return None
 
 
-def collect():
+def collect(now):
     """Fetch and filter every source -> {source: alerts, or None if it failed}."""
+    today = now.astimezone(LOCAL_TZ).date()
     jobs = []
     for region, url in BOM_FEEDS.items():
         jobs.append((f"BoM {region}", url, lambda c, r=region: parse_bom(r, c)))
@@ -573,43 +660,50 @@ def collect():
     for feed in CAP_FEEDS:
         jobs.append((feed["name"], feed["url"], lambda c, f=feed: parse_cap(f, c)))
     jobs += [
+        ("Fire danger (NSW)", NSW_FDR_URL, lambda c: parse_nsw_fdr(c, today)),
+        ("Fire danger (VIC)", STATE_FEEDS[1]["url"], lambda c: parse_vic_fdr(c, today)),
         ("GDACS", GDACS_URL, parse_gdacs),
         ("Canada fires", CANADA_URL, parse_canada),
         ("US fires", US_URL, parse_us),
         ("ABC News", ABC_URL, parse_abc),
     ]
-    return {source: safe_parse(source, parser, fetch(url)) for source, url, parser in jobs}
+    downloaded = {}                       # VicEmergency is used twice: fetch once
+    results = {}
+    for source, url, parser in jobs:
+        if url not in downloaded:
+            downloaded[url] = fetch(url)
+        results[source] = safe_parse(source, parser, downloaded[url])
+    return results
 
 
 # ---------------------------------------------------------------------------
-# DECIDING WHAT CHANGED  (no network or files here, so it's easy to test)
+# DECIDING WHAT CHANGED  (pure functions: no network, no files)
 # ---------------------------------------------------------------------------
 
-def decide(results, old_sources, now):
+def is_major(record):
+    """Did/does this event get a card? (Older records lack the flag.)"""
+    return record.get("notify", record.get("rank", 0) >= 1)
+
+
+def decide(results, old_sources, now, seed_all=False):
     """Compare this run's alerts with memory.
 
-    results     {source: [alerts] or None (fetch failed)}
-    old_sources {source: {key: record}}   from state.json
-    now         datetime of this run
-
-    Returns (changes, new_sources). Each change is (kind, source, alert, record):
-      "seen_at_start"  first time we've ever read this source: record, don't post
-      "new"            a new event
-      "escalated"      a known event at a higher rank
-      "ended"          a known event no longer in the feed (alert is None)
-
-    A record remembers: key, rank (the PEAK seen), level, title, first_seen,
-    history, lat/lon/link, track_end, and later the Discord message ids.
+    Returns (changes, new_sources); each change is (kind, source, alert, record):
+      seen_at_start  first read of a source (or filters changed): record only
+      new            a new event
+      escalated      a known event at a higher rank
+      ended          a known event no longer in the feed (alert is None)
+    Records keep the PEAK rank, so wobbling Red->Orange->Red notifies once.
     """
     changes, new_sources = [], {}
     stamp = local_time(now)
 
     for source, alerts in results.items():
-        if alerts is None:                        # feed failed: change nothing
+        if alerts is None:
             new_sources[source] = old_sources.get(source, {})
             continue
 
-        seeding = source not in old_sources       # never read this source before
+        seeding = seed_all or source not in old_sources
         previous = old_sources.get(source, {})
         current = {}
 
@@ -619,18 +713,20 @@ def decide(results, old_sources, now):
             if record is None:
                 record = {
                     "key": key, "rank": alert["rank"], "level": alert["level"],
-                    "title": alert["title"], "first_seen": now.isoformat(),
+                    "title": alert["title"], "emoji": alert["emoji"],
+                    "colour": alert["colour"], "notify": alert["notify"],
+                    "first_seen": now.isoformat(),
                     "history": [f"{alert['level'] or 'Listed'} · {stamp}"],
                     "lat": alert["lat"], "lon": alert["lon"], "link": alert["link"],
                     "track_end": alert["track_end"],
                 }
                 changes.append(("seen_at_start" if seeding else "new", source, alert, record))
             elif alert["rank"] > record["rank"]:
-                record = dict(record, rank=alert["rank"], level=alert["level"],
-                              history=record.get("history", []) + [f"{alert['level']} · {stamp}"])
+                record = dict(
+                    record, rank=alert["rank"], level=alert["level"],
+                    colour=alert["colour"], notify=is_major(record) or alert["notify"],
+                    history=record.get("history", []) + [f"{alert['level']} · {stamp}"])
                 changes.append(("escalated", source, alert, record))
-            # Same or lower rank: stay quiet, and keep the PEAK rank so a
-            # cyclone wobbling Red -> Orange -> Red doesn't notify twice.
             current[key] = record
 
         for key, record in previous.items():
@@ -641,14 +737,54 @@ def decide(results, old_sources, now):
     return changes, new_sources
 
 
-def update_health(results, health, now):
-    """Track failing feeds. Returns (cards_to_post, new_health).
+def concurrent_alerts(sources):
+    """Alerts describing overlapping major events, from the current state."""
+    by_place = {}
+    for source, events in sources.items():
+        place = AU_JURISDICTION.get(source)
+        if place:
+            for record in events.values():
+                if is_major(record):
+                    by_place.setdefault(place, []).append(record["title"])
+    overseas = [r["title"] for s in ("GDACS", "Canada fires", "US fires")
+                for r in sources.get(s, {}).values() if r.get("rank", 0) >= 2]
 
-    health {source: {"failing_since": iso or None, "warned": bool}}
-    """
+    def lines(names):
+        return "\n".join(f"• {n[:90]}" for n in names[:6]) + (
+            f"\n…and {len(names) - 6} more" if len(names) > 6 else "")
+
+    alerts = []
+    places = sorted(by_place)
+    if len(places) >= 3:
+        rank = 2 if len(places) >= 5 else 1
+        alerts.append(make_alert(
+            key="concurrent:australia", source="Concurrent events", rank=rank,
+            level=f"{len(places)} jurisdictions", emoji="🧭",
+            title=f"Major events in {len(places)} states and territories at once",
+            message=("When several jurisdictions are responding at the same time, "
+                     "interstate resource sharing is likely to be stretched."),
+            colour=COLOUR_PURPLE,
+            fields=[(p, lines(by_place[p])) for p in places],
+        ))
+    if len(places) >= 2 and overseas:
+        alerts.append(make_alert(
+            key="concurrent:global", source="Concurrent events",
+            level="Australia + overseas", emoji="🌏",
+            title="Major Australian events overlapping a top-level disaster overseas",
+            message=("Major events in " + ", ".join(places) + " while a Red-level or "
+                     "250,000 ha+ event is active overseas, competing for the same "
+                     "international resources."),
+            colour=COLOUR_PURPLE,
+            fields=[("Australia", lines([t for p in places for t in by_place[p]])),
+                    ("Overseas", lines(overseas))],
+        ))
+    return alerts
+
+
+def update_health(results, health, now):
+    """Track failing feeds. Returns (cards_to_post, new_health)."""
     cards, new_health = [], {}
     limit = timedelta(hours=FEED_FAILURE_WARNING_HOURS)
-
     for source, alerts in results.items():
         entry = dict(health.get(source) or {"failing_since": None, "warned": False})
         if alerts is None:
@@ -662,31 +798,45 @@ def update_health(results, health, now):
                     message=(f"{source} has failed every check since {local_time(since)}. "
                              "Its events won't be reported until it recovers. The "
                              "Actions log ('Check feeds') shows what it's returning."),
-                    colour=COLOUR_GREY,
-                ))
+                    colour=COLOUR_GREY))
         else:
             if entry["warned"]:
                 cards.append(make_alert(
                     key=f"health:{source}", source="Hazard Monitor", emoji="✅",
-                    title=f"Feed working again: {source}", colour=COLOUR_GREEN,
-                ))
+                    title=f"Feed working again: {source}", colour=COLOUR_GREEN))
             entry = {"failing_since": None, "warned": False}
         new_health[source] = entry
     return cards, new_health
 
 
 # ---------------------------------------------------------------------------
-# EVENT LOG (research record)
+# EVENT LOG FILE
 # ---------------------------------------------------------------------------
 
 LOG_COLUMNS = ["time_utc", "change", "source", "key", "level", "title",
-               "lat", "lon", "link"]
+               "lat", "lon", "link", "major"]
+
+
+def ensure_log_columns(path):
+    """Add any new columns to an existing log (older rows get blanks)."""
+    if not path.exists():
+        return
+    with path.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.reader(handle))
+    if not rows or rows[0] == LOG_COLUMNS:
+        return
+    width = len(LOG_COLUMNS)
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(LOG_COLUMNS)
+        for row in rows[1:]:
+            writer.writerow((row + [""] * width)[:width])
 
 
 def log_changes(changes, now, path=LOG_FILE):
-    """Append every change to events_log.csv (header written on first use)."""
     if not changes:
         return
+    ensure_log_columns(path)
     is_new_file = not path.exists()
     with path.open("a", newline="", encoding="utf-8") as handle:
         writer = csv.writer(handle)
@@ -696,30 +846,44 @@ def log_changes(changes, now, path=LOG_FILE):
             writer.writerow([
                 now.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), kind,
                 source, record["key"], record.get("level", ""), record.get("title", ""),
-                record.get("lat") if record.get("lat") is not None else "",
-                record.get("lon") if record.get("lon") is not None else "",
-                record.get("link", ""),
+                "" if record.get("lat") is None else record["lat"],
+                "" if record.get("lon") is None else record["lon"],
+                record.get("link", ""), "yes" if is_major(record) else "no",
             ])
 
 
+def read_log(since, path=LOG_FILE):
+    """Rows (as dicts) logged at or after `since`."""
+    if not path.exists():
+        return []
+    cutoff = since.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with path.open(newline="", encoding="utf-8") as handle:
+        return [row for row in csv.DictReader(handle) if row.get("time_utc", "") >= cutoff]
+
+
 # ---------------------------------------------------------------------------
-# MAP PREVIEWS
+# MAPS
 # ---------------------------------------------------------------------------
 
-def render_map(lat, lon, zoom, width=600, height=300):
-    """PNG bytes of an OpenStreetMap view centred on (lat, lon), or None.
+def render_view(lat, lon, zoom, width, height, markers):
+    """An OpenStreetMap view centred on (lat, lon) with coloured dots, as a
+    Pillow image, or None if Pillow or any tile is unavailable.
 
-    Map tiles are 256 px squares in "Web Mercator". We work out which pixel
-    of the whole-world map the point falls on, download the few tiles around
-    it, paste them together, and draw a marker in the middle.
+    markers: [(lat, lon, (r, g, b)), ...]
     """
-    if Image is None or lat is None or lon is None:
+    if Image is None:
         return None
     tile, n = 256, 2 ** zoom
-    x = (lon + 180) / 360 * n * tile
-    y = (1 - math.asinh(math.tan(math.radians(lat))) / math.pi) / 2 * n * tile
-    left, top = x - width / 2, y - height / 2
+    world = n * tile
 
+    def to_pixel(p_lat, p_lon):           # Web Mercator: lat/lon -> world pixels
+        x = (p_lon + 180) / 360 * world
+        p_lat = max(min(p_lat, 85.0), -85.0)
+        y = (1 - math.asinh(math.tan(math.radians(p_lat))) / math.pi) / 2 * world
+        return x, y
+
+    cx, cy = to_pixel(lat, lon)
+    left, top = cx - width / 2, cy - height / 2
     canvas = Image.new("RGB", (width, height), (225, 225, 225))
     for tx in range(math.floor(left / tile), math.floor((left + width) / tile) + 1):
         for ty in range(math.floor(top / tile), math.floor((top + height) / tile) + 1):
@@ -732,55 +896,69 @@ def render_map(lat, lon, zoom, width=600, height=300):
             canvas.paste(piece, (round(tx * tile - left), round(ty * tile - top)))
 
     draw = ImageDraw.Draw(canvas)
-    cx, cy, r = width / 2, height / 2, 9
-    draw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(211, 47, 47),
-                 outline=(255, 255, 255), width=3)
+    radius = 9 if len(markers) == 1 else 6
+    for m_lat, m_lon, colour in markers:
+        x, y = to_pixel(m_lat, m_lon)
+        x -= left
+        if x < 0:
+            x += world                    # wrap around the date line
+        elif x > width:
+            x -= world
+        y -= top
+        if 0 <= x <= width and 0 <= y <= height:
+            draw.ellipse((x - radius, y - radius, x + radius, y + radius),
+                         fill=colour, outline=(255, 255, 255), width=2)
+    return canvas
+
+
+def to_png(image):
+    """Add the OpenStreetMap credit and return PNG bytes."""
+    draw = ImageDraw.Draw(image)
     credit = "© OpenStreetMap contributors"
     w = draw.textlength(credit)
+    width, height = image.size
     draw.rectangle((width - w - 8, height - 16, width, height), fill=(255, 255, 255))
     draw.text((width - w - 4, height - 14), credit, fill=(60, 60, 60))
-
     buffer = io.BytesIO()
-    canvas.save(buffer, "PNG", optimize=True)
+    image.save(buffer, "PNG", optimize=True)
     return buffer.getvalue()
+
+
+def render_map(lat, lon, zoom, width=600, height=300):
+    """Single-event map for a card, or None."""
+    if lat is None or lon is None:
+        return None
+    view = render_view(lat, lon, zoom, width, height, [(lat, lon, rgb(COLOUR_RED))])
+    return to_png(view) if view else None
+
+
+def render_dashboard_map(markers):
+    """World view and Australia view side by side, or None."""
+    world = render_view(20, 20, 1, 512, 300, markers)
+    australia = render_view(-27, 134, 3, 440, 300, markers)
+    if world is None or australia is None:
+        return None
+    combined = Image.new("RGB", (512 + 8 + 440, 300), (255, 255, 255))
+    combined.paste(world, (0, 0))
+    combined.paste(australia, (520, 0))
+    return to_png(combined)
 
 
 # ---------------------------------------------------------------------------
 # DISCORD
 # ---------------------------------------------------------------------------
 
-def build_embed(alert, history=None, status=None):
-    """One alert -> a Discord embed (the coloured card). Trimmed to Discord's
-    limits: title 256 chars, description 2000, field values 1024."""
-    embed = {
-        "title": f"{alert['emoji']} {alert['title']}"[:256],
-        "color": alert["colour"],
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        "footer": {"text": alert.get("source", "")},
-    }
-    if alert.get("message"):
-        embed["description"] = alert["message"][:2000]
-    if alert.get("link"):
-        embed["url"] = alert["link"]
-
-    fields = list(alert.get("fields", []))
-    if history and len(history) > 1:
-        fields.append(("History", "\n".join(history[-6:])))
-    if status:
-        fields.append(("Status", status))
-    if alert.get("lat") is not None and alert.get("lon") is not None:
-        lat, lon = alert["lat"], alert["lon"]
-        fields.append(("Map", f"[Open map](https://www.openstreetmap.org/?mlat={lat:.4f}"
-                              f"&mlon={lon:.4f}#map=8/{lat:.4f}/{lon:.4f})"))
-    embed["fields"] = [{"name": name, "value": str(value)[:1024] or "—",
-                        "inline": name not in ("History", "Status")}
-                       for name, value in fields]
-    return embed
+def webhook(path="", thread=None, wait=False):
+    params = []
+    if wait:
+        params.append("wait=true")
+    if thread:
+        params.append(f"thread_id={thread}")
+    return DISCORD_WEBHOOK_URL + path + ("?" + "&".join(params) if params else "")
 
 
 def discord_call(method, url, payload, image=None):
-    """Send to Discord, waiting and retrying once if rate-limited (429).
-    Returns the response JSON (or {}), or None on failure."""
+    """Send to Discord, retrying once if rate-limited. Response JSON or None."""
     for attempt in range(2):
         try:
             if image:
@@ -800,32 +978,60 @@ def discord_call(method, url, payload, image=None):
     return None
 
 
-def post_card(embed, image=None):
-    """Post a new card. Returns (message_id, attachment_id) or (None, None)."""
+def attachment_id(reply):
+    attachments = (reply or {}).get("attachments") or []
+    return attachments[0]["id"] if attachments else None
+
+
+def post_card(embed, image=None, thread=None):
+    """Post a card. Returns (message_id, attachment_id) or (None, None)."""
     if image:
         embed = dict(embed, image={"url": "attachment://map.png"})
-    reply = discord_call("POST", f"{DISCORD_WEBHOOK_URL}?wait=true",
+    reply = discord_call("POST", webhook(thread=thread, wait=True),
                          {"username": DISCORD_USERNAME, "embeds": [embed]}, image)
-    if not reply:
-        return None, None
-    attachments = reply.get("attachments") or []
-    return reply.get("id"), (attachments[0]["id"] if attachments else None)
+    return ((reply or {}).get("id"), attachment_id(reply)) if reply else (None, None)
 
 
-def edit_card(message_id, embed, attachment_id=None):
-    """Replace an earlier card's embed, keeping its map image."""
+def post_text(text, thread=None, quiet=True):
+    """Post plain text (split to Discord's 2000-char limit). quiet = no
+    notification sound and no link previews."""
+    chunk, chunks = "", []
+    for line in text.split("\n"):
+        if len(chunk) + len(line) + 1 > 1900:
+            chunks.append(chunk)
+            chunk = ""
+        chunk += line[:1900] + "\n"
+    if chunk.strip():
+        chunks.append(chunk)
+    for part in chunks:
+        payload = {"username": DISCORD_USERNAME, "content": part}
+        if quiet:
+            payload["flags"] = 4 | 4096           # SUPPRESS_EMBEDS | SUPPRESS_NOTIFICATIONS
+        discord_call("POST", webhook(thread=thread, wait=True), payload)
+        time.sleep(0.5)
+
+
+def edit_card(message_id, embed, keep_attachment=None, thread=None, image=None):
+    """Replace a card's embed. Keeps its existing image unless `image` is new."""
     payload = {"embeds": [embed], "attachments": []}
-    if attachment_id:
+    if image:
         payload["embeds"] = [dict(embed, image={"url": "attachment://map.png"})]
-        payload["attachments"] = [{"id": attachment_id}]
-    return discord_call("PATCH", f"{DISCORD_WEBHOOK_URL}/messages/{message_id}", payload)
+        payload["attachments"] = [{"id": 0, "filename": "map.png"}]
+    elif keep_attachment:
+        payload["embeds"] = [dict(embed, image={"url": "attachment://map.png"})]
+        payload["attachments"] = [{"id": keep_attachment}]
+    return discord_call("PATCH", webhook(f"/messages/{message_id}", thread=thread),
+                        payload, image)
+
+
+def delete_message(message_id, thread=None):
+    discord_call("DELETE", webhook(f"/messages/{message_id}", thread=thread), None)
 
 
 _channel_link = None
 
 
 def message_link(message_id):
-    """https://discord.com/channels/<server>/<channel>/<message> for a card."""
     global _channel_link
     if _channel_link is None:
         info = discord_call("GET", DISCORD_WEBHOOK_URL, None) or {}
@@ -834,11 +1040,41 @@ def message_link(message_id):
     return f"{_channel_link}/{message_id}" if _channel_link and message_id else ""
 
 
+def build_embed(alert, history=None, status=None):
+    embed = {
+        "title": f"{alert['emoji']} {alert['title']}"[:256],
+        "color": alert["colour"],
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "footer": {"text": alert.get("source", "")},
+    }
+    if alert.get("message"):
+        embed["description"] = alert["message"][:2000]
+    if alert.get("link"):
+        embed["url"] = alert["link"]
+    fields = list(alert.get("fields", []))
+    if history and len(history) > 1:
+        fields.append(("History", "\n".join(history[-6:])))
+    if status:
+        fields.append(("Status", status))
+    if alert.get("lat") is not None and alert.get("lon") is not None:
+        lat, lon = alert["lat"], alert["lon"]
+        fields.append(("Map", f"[Open map](https://www.openstreetmap.org/?mlat={lat:.4f}"
+                              f"&mlon={lon:.4f}#map=8/{lat:.4f}/{lon:.4f})"))
+    long_fields = {"History", "Status", "Australia", "Overseas"}
+    embed["fields"] = [{"name": str(name)[:256], "value": str(value)[:1024] or "—",
+                        "inline": name not in long_fields and len(str(value)) < 60}
+                       for name, value in fields][:25]
+    return embed
+
+
+# ---------------------------------------------------------------------------
+# DELIVERY: cards, event log thread, dashboard, weekly round-up
+# ---------------------------------------------------------------------------
+
 def deliver(changes, health_cards, now, dry_run=False):
-    """Turn changes into Discord posts/edits, saving message ids on records."""
+    """Cards in #alerts for major changes; grey out ended cards."""
     stamp = local_time(now)
-    loud = [c for c in changes if c[0] in ("new", "escalated")]
-    quiet_ends = [c for c in changes if c[0] == "ended"]
+    loud = [c for c in changes if c[0] in ("new", "escalated") and c[2]["notify"]]
     sent, overflow = loud[:MAX_PUSHES_PER_RUN], loud[MAX_PUSHES_PER_RUN:]
 
     for kind, source, alert, record in sent:
@@ -846,23 +1082,19 @@ def deliver(changes, health_cards, now, dry_run=False):
             print(f"  [{kind}] {alert['emoji']} {alert['title']}")
             continue
         embed = build_embed(alert, history=record["history"])
-        if kind == "new" or not record.get("message_id"):
+        if not record.get("message_id"):
             image = render_map(alert["lat"], alert["lon"], alert["zoom"])
             record["message_id"], record["attachment_id"] = post_card(embed, image)
-            record["embed"] = embed
         else:
-            # Update the original card in place, then post a short pointer so
-            # the escalation still makes your phone buzz.
             edit_card(record["message_id"], embed, record.get("attachment_id"))
-            record["embed"] = embed
             link = message_link(record["message_id"])
             post_card({
                 "title": f"⬆️ Escalated to {alert['level']}: {alert['title']}"[:256],
                 "description": f"[See the original alert]({link})" if link else "",
-                "color": alert["colour"],
-                "footer": {"text": source},
+                "color": alert["colour"], "footer": {"text": source},
             })
-        time.sleep(1)                                   # stay under rate limits
+        record["embed"] = embed
+        time.sleep(1)
 
     if overflow:
         names = "\n".join(f"• {a['emoji']} {a['title']}" for _, _, a, _ in overflow)[:2000]
@@ -872,17 +1104,18 @@ def deliver(changes, health_cards, now, dry_run=False):
             post_card({"title": f"📋 +{len(overflow)} more alerts this check",
                        "description": names, "color": COLOUR_GREY})
 
-    for kind, source, alert, record in quiet_ends:
+    for kind, source, alert, record in changes:
+        if kind != "ended" or not record.get("message_id") or not record.get("embed"):
+            continue
         if dry_run:
             print(f"  [ended] {record.get('title')}")
             continue
-        if record.get("message_id") and record.get("embed"):
-            embed = dict(record["embed"], color=COLOUR_GREY)
-            embed["fields"] = [f for f in embed.get("fields", []) if f["name"] != "Status"]
-            embed["fields"].append({"name": "Status", "value": f"No longer listed · {stamp}",
-                                    "inline": False})
-            edit_card(record["message_id"], embed, record.get("attachment_id"))
-            time.sleep(1)
+        embed = dict(record["embed"], color=COLOUR_GREY)
+        embed["fields"] = [f for f in embed.get("fields", []) if f["name"] != "Status"]
+        embed["fields"].append({"name": "Status", "value": f"No longer listed · {stamp}",
+                                "inline": False})
+        edit_card(record["message_id"], embed, record.get("attachment_id"))
+        time.sleep(1)
 
     for card in health_cards:
         if dry_run:
@@ -891,22 +1124,205 @@ def deliver(changes, health_cards, now, dry_run=False):
             post_card(build_embed(card))
 
 
+CHANGE_ICONS = {"new": "🆕", "escalated": "⬆️", "ended": "✔️"}
+
+
+def log_digest(changes, now):
+    """Text for the Event log thread, or '' if nothing to say."""
+    starting = [c for c in changes if c[0] == "seen_at_start"]
+    others = [c for c in changes if c[0] != "seen_at_start"]
+    if not changes:
+        return ""
+    lines = [f"**{local_time(now)}**"]
+    for kind, source, alert, record in others:
+        title = record.get("title", "")[:110]
+        link = record.get("link")
+        shown = f"[{title}](<{link}>)" if link else title
+        star = " ⭐" if is_major(record) else ""
+        lines.append(f"{CHANGE_ICONS[kind]} {record.get('emoji', '')} "
+                     f"**{record.get('level') or kind}** · {source} · {shown}{star}")
+    if starting:
+        lines.append(f"📥 {len(starting)} event(s) already active when monitoring of "
+                     f"their source began (recorded in events_log.csv)")
+    return "\n".join(lines)
+
+
+def dashboard_embed(sources, results, now):
+    """(embed, markers) describing everything that's currently major."""
+    australia, international, danger, concurrent = [], [], [], []
+    watch_and_act = 0
+    markers = []
+
+    for source, events in sources.items():
+        for record in events.values():
+            if source in AU_JURISDICTION and record.get("level") == "Watch and Act":
+                watch_and_act += 1
+            if not is_major(record) or source == "ABC News":
+                continue
+            line = (f"{record.get('emoji', '')} "
+                    + (f"[{record['title'][:70]}]({record['link']})" if record.get("link")
+                       else record["title"][:70]))
+            if source.startswith("Fire danger"):
+                danger.append(line)
+            elif source == "Concurrent events":
+                concurrent.append(line)
+            elif source in AU_JURISDICTION:
+                australia.append((record.get("rank", 0), line))
+            else:
+                international.append((record.get("rank", 0), line))
+            if record.get("lat") is not None and record.get("lon") is not None:
+                markers.append((round(record["lat"], 3), round(record["lon"], 3),
+                                rgb(record.get("colour", COLOUR_RED))))
+
+    def block(items, empty):
+        items = [i[1] if isinstance(i, tuple) else i
+                 for i in sorted(items, key=lambda x: -x[0] if isinstance(x, tuple) else 0)]
+        text, shown = "", 0
+        for item in items:
+            if len(text) + len(item) + 30 > 1000:
+                break
+            text += item + "\n"
+            shown += 1
+        if shown < len(items):
+            text += f"…and {len(items) - shown} more"
+        return text.strip() or empty
+
+    failing = sorted(s for s, a in results.items() if a is None)
+    total = len(results)
+    feeds = (f"✅ All {total} feeds working" if not failing else
+             f"⚠️ {total - len(failing)}/{total} working · not responding: "
+             + ", ".join(failing))
+
+    week = read_log(now - timedelta(days=7))
+    week_major = sum(1 for r in week if r.get("major") == "yes" and r["change"] in ("new", "escalated"))
+    week_logged = sum(1 for r in week if r["change"] in ("new", "escalated"))
+
+    worst = max([r.get("rank", 0) for e in sources.values() for r in e.values() if is_major(r)],
+                default=-1)
+    colour = COLOUR_RED if worst >= 2 else COLOUR_ORANGE if worst >= 1 else COLOUR_GREEN
+
+    fields = []
+    if concurrent:
+        fields.append(("🧭 Overlapping events", block(concurrent, "")))
+    fields += [
+        (f"🇦🇺 Australia · {len(australia)} major · {watch_and_act} Watch and Act",
+         block(australia, "No major warnings current.")),
+        (f"🌏 International · {len(international)} major",
+         block(international, "No major events current.")),
+        ("🔥 Fire danger outlook", block(danger, "No Extreme or Catastrophic days forecast.")),
+        ("📒 Last 7 days", f"{week_major} major events · {week_logged} events recorded in total"),
+        ("🛠️ Feeds", feeds),
+    ]
+    embed = {
+        "title": "📊 Hazard dashboard",
+        "description": (f"Updated {local_time(now)} (Melbourne time). Refreshes every "
+                        "check, about every 15 minutes."),
+        "color": colour,
+        "fields": [{"name": n[:256], "value": v[:1024], "inline": False} for n, v in fields],
+        "footer": {"text": "Map: dots are current major events. Left: world · Right: Australia"},
+    }
+    return embed, sorted(set(markers))
+
+
+def update_dashboard(state, results, now, dry_run=False):
+    embed, markers = dashboard_embed(state["sources"], results, now)
+    if dry_run:
+        print("  [dashboard]", " | ".join(f["name"] for f in embed["fields"]))
+        return
+    dash = state.setdefault("dashboard", {})
+    thread = DISCORD_THREADS["dashboard"]
+    map_hash = hashlib.sha1(json.dumps(markers).encode()).hexdigest()[:12]
+    image = None
+    if map_hash != dash.get("map_hash") or not dash.get("attachment_id"):
+        image = render_dashboard_map(markers)
+
+    # Edit the existing dashboard message. If that fails (first run, message
+    # deleted, or the thread archived itself after a quiet week), post a new
+    # one, which also re-opens the thread, and remove the old one.
+    reply = None
+    if dash.get("message_id"):
+        reply = edit_card(dash["message_id"], embed, dash.get("attachment_id"), thread, image)
+    if reply is None:
+        old = dash.get("message_id")
+        if image is None:
+            image = render_dashboard_map(markers)
+        message_id, att = post_card(embed, image, thread)
+        if message_id:
+            if old:
+                delete_message(old, thread)
+            dash.update(message_id=message_id, attachment_id=att,
+                        map_hash=map_hash if image else None)
+        return
+    if image:
+        dash.update(attachment_id=attachment_id(reply) or dash.get("attachment_id"),
+                    map_hash=map_hash)
+
+
+def weekly_due(state, now):
+    """The Monday-8am mark for this week if a round-up is due, else None."""
+    local = now.astimezone(LOCAL_TZ)
+    monday = local.date() - timedelta(days=(local.weekday() - WEEKLY_WEEKDAY) % 7)
+    mark = datetime.combine(monday, dtime(WEEKLY_HOUR), LOCAL_TZ)
+    if local >= mark and state.get("last_weekly") != mark.isoformat():
+        return mark
+    return None
+
+
+def weekly_embed(rows, results, now):
+    majors = [r for r in rows if r.get("major") == "yes" and r["change"] in ("new", "escalated")]
+    recorded = [r for r in rows if r["change"] in ("new", "escalated")]
+    ended = [r for r in rows if r["change"] == "ended"]
+
+    by_source = {}
+    for r in recorded:
+        by_source[r["source"]] = by_source.get(r["source"], 0) + 1
+    top = sorted(by_source.items(), key=lambda kv: -kv[1])[:10]
+
+    major_lines = []
+    for r in majors[:15]:
+        when = datetime.strptime(r["time_utc"], "%Y-%m-%dT%H:%M:%SZ").replace(
+            tzinfo=timezone.utc)
+        title = r["title"][:80]
+        shown = f"[{title}]({r['link']})" if r.get("link") else title
+        major_lines.append(f"{local_time(when)} · {shown}")
+    if len(majors) > 15:
+        major_lines.append(f"…and {len(majors) - 15} more")
+
+    failing = sorted(s for s, a in results.items() if a is None)
+    start = (now - timedelta(days=7)).astimezone(LOCAL_TZ)
+    return {
+        "title": f"🗓️ Week of {start.strftime('%-d %b')} – {local_day(now.astimezone(LOCAL_TZ))}",
+        "description": (f"**{len(majors)}** major events (cards) · **{len(recorded)}** events "
+                        f"recorded in total · **{len(ended)}** ended."),
+        "color": COLOUR_BLUE,
+        "fields": [
+            {"name": "Major events", "value": ("\n".join(major_lines) or "None this week.")[:1024],
+             "inline": False},
+            {"name": "Recorded by source",
+             "value": ("\n".join(f"{s}: {n}" for s, n in top) or "Nothing recorded.")[:1024],
+             "inline": False},
+            {"name": "Feeds",
+             "value": (f"✅ All {len(results)} working" if not failing else
+                       "⚠️ Not responding now: " + ", ".join(failing))[:1024],
+             "inline": False},
+        ],
+        "footer": {"text": "Full detail: events_log.csv in the GitHub repo"},
+    }
+
+
 # ---------------------------------------------------------------------------
 # STATE FILE
 # ---------------------------------------------------------------------------
 
 def load_state(path=STATE_FILE):
-    """Read state.json, upgrading the old {source: {key: rank}} layout."""
     if not path.exists():
         return {"version": 2, "sources": {}, "health": {}}
     raw = json.loads(path.read_text())
     if raw.get("version") == 2:
         return raw
-    sources = {}
-    for source, events in raw.items():
-        sources[source] = {key: {"key": key, "rank": rank, "level": "", "title": key,
-                                 "history": [], "track_end": True}
-                           for key, rank in events.items()}
+    sources = {s: {k: {"key": k, "rank": r, "level": "", "title": k, "history": [],
+                       "track_end": True} for k, r in events.items()}
+               for s, events in raw.items()}
     return {"version": 2, "sources": sources, "health": {}}
 
 
@@ -941,10 +1357,19 @@ def main():
 
     now = datetime.now(timezone.utc)
     state = load_state()
+    seed_all = state.get("filters_version") != FILTERS_VERSION
 
     print("Checking feeds...")
-    results = collect()
-    changes, state["sources"] = decide(results, state["sources"], now)
+    results = collect(now)
+    changes, state["sources"] = decide(results, state["sources"], now, seed_all=seed_all)
+
+    # Overlapping events are judged from the updated state, then go through
+    # the same new/escalated/ended logic as everything else.
+    concurrent = {"Concurrent events": concurrent_alerts(state["sources"])}
+    more, updated = decide(concurrent, state["sources"], now)
+    changes += more
+    state["sources"].update(updated)
+
     health_cards, state["health"] = update_health(results, state.get("health", {}), now)
 
     counts = {}
@@ -952,12 +1377,26 @@ def main():
         counts[kind] = counts.get(kind, 0) + 1
     print("Changes:", ", ".join(f"{n} {k}" for k, n in counts.items()) or "none")
 
+    due = weekly_due(state, now)
     if args.dry_run:
         deliver(changes, health_cards, now, dry_run=True)
+        print(log_digest(changes, now) or "  [log] nothing")
+        update_dashboard(state, results, now, dry_run=True)
+        if due:
+            print("  [weekly] round-up would be posted")
         return
 
     log_changes(changes, now)
     deliver(changes, health_cards, now)
+    digest = log_digest(changes, now)
+    if digest:
+        post_text(digest, thread=DISCORD_THREADS["log"])
+    update_dashboard(state, results, now)
+    if due:
+        post_card(weekly_embed(read_log(now - timedelta(days=7)), results, now),
+                  thread=DISCORD_THREADS["weekly"])
+        state["last_weekly"] = due.isoformat()
+    state["filters_version"] = FILTERS_VERSION
     save_state(state)
 
 

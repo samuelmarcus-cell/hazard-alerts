@@ -1,69 +1,76 @@
 # Hazard alerts
 
-Checks public warning feeds every 15 minutes and posts a card to Discord
-**only for big events**. Each card is coloured by severity, has a map preview,
-and links to the official page.
+Checks public warning feeds every 15 minutes and keeps a Discord server up to
+date, using one webhook on the **#alerts** channel.
 
-| Source | What gets a card |
+| Where | What |
 |---|---|
-| BoM warnings, every state | Tropical cyclone, major flood, extreme heatwave warnings |
-| NSW RFS, VicEmergency, QLD Fire, SA CFS, WA DFES, TasALERT, ACT ESA | **Emergency Warning** level only |
-| GDACS (global) | Cyclones, floods, wildfires at **Orange/Red**; quakes, volcanoes etc. at **Red**; droughts never |
-| Canada (CWFIS) and US (NIFC) fires | Any wildfire past **50,000 ha**, again past **250,000 ha** |
-| ABC News "Just In" | Stories mentioning interstate/international crews, the ADF, or disaster declarations **and** a hazard |
+| **#alerts** | A card for each major event (buzzes your phone) |
+| **📊 Dashboard** thread | One live message, edited every check: everything current, fire danger outlook, feed status, and a world + Australia map |
+| **📒 Event log** thread | A quiet line for everything recorded, including lower-level events with no card |
+| **🗓️ Weekly round-up** thread | Monday 8am (Melbourne): the week's events, counts by source, feed status |
+
+## What gets a card
+
+| Source | Card | Recorded only |
+|---|---|---|
+| BoM warnings, every state | Tropical cyclone, major flood, extreme heatwave | Severe thunderstorm, severe weather, moderate flood, fire weather, severe heatwave |
+| NSW RFS, VicEmergency, QLD Fire, SA CFS, WA DFES, TasALERT, ACT ESA | Emergency Warning | Watch and Act |
+| GDACS (global) | Cyclones, floods, wildfires at Orange/Red; others at Red | Green cyclones/floods/wildfires; Orange quakes, volcanoes, tsunamis |
+| Canada (CWFIS) and US (NIFC) fires | 50,000 ha+, again at 250,000 ha+ | 10,000 ha+ |
+| ABC News "Just In" | Deployment / disaster-declaration stories mentioning a hazard | — |
+| Fire danger forecasts (NSW, VIC) | Any district forecast Extreme or Catastrophic | — |
+| Concurrent events | Major events in 3+ Australian jurisdictions at once; or 2+ while a Red / 250,000 ha+ event is active overseas | — |
+| Feed health | A feed failing for 24 hours, and its recovery | — |
 
 NT has no machine-readable warnings feed; its cyclones and floods come through BoM.
 
 ## How alerts behave
 
-- **New event:** one card.
-- **Escalation** (GDACS Orange → Red, fire 50k → 250k ha): the original card is
-  updated in place with a history line, and a short "Escalated" card links back to it.
-- **Event ends** (leaves the feed): the original card turns grey with
-  "No longer listed". No new message.
+- **New major event:** one card in #alerts, with a map.
+- **Escalation** (e.g. Watch and Act → Emergency Warning, Orange → Red): the
+  original card is updated with a history line and a short "Escalated" card
+  links to it. If there was no card yet (it was recorded only), a full card is posted.
+- **Event ends:** its card turns grey with "No longer listed".
 - **Busy days:** at most 5 cards per check; the rest are summarised in one card.
-- **Broken feeds:** if a feed fails for 24 hours you get a 🛠️ card, and a ✅ card when it recovers.
-- **New sources** are read silently the first time, so adding one never floods you
-  with everything already active.
+- **New sources or changed filters:** whatever is already active is recorded
+  quietly as `seen_at_start`, so changes never flood you.
 
 ## Event log
 
-Every change is appended to `events_log.csv` in the repo:
+`events_log.csv` in the repo gets a row for every change:
 
-`time_utc, change, source, key, level, title, lat, lon, link`
+`time_utc, change, source, key, level, title, lat, lon, link, major`
 
-`change` is one of `seen_at_start`, `new`, `escalated`, `ended`. Over time this
-is a consistent, timestamped record of major events. Download it from GitHub
-whenever you want it.
+`change` is `seen_at_start`, `new`, `escalated` or `ended`; `major` is `yes`
+if the event got a card.
 
 ## Files
 
-- `monitor.py`: the program
+- `monitor.py`: the program (settings at the top under CONFIGURATION)
 - `test_monitor.py`: offline tests (`python -m unittest test_monitor.py`)
-- `.github/workflows/monitor.yml`: runs it every 15 minutes, commits state and log
+- `.github/workflows/monitor.yml`: runs every 15 minutes, commits state and log
 - `state.json`: what's been seen, and the Discord message for each event
 - `events_log.csv`: the event log
 
-## Setup (already done for this repo)
-
-1. Discord: a server, a channel, and a webhook (channel settings → Integrations → Webhooks).
-2. GitHub secret `DISCORD_WEBHOOK_URL` = the webhook URL.
-3. Actions → Hazard monitor → Run workflow (tick "Just send a sample card" to test).
-
 ## Tuning
 
-Settings are at the top of `monitor.py` under **CONFIGURATION**:
+In `monitor.py` under **CONFIGURATION**:
 
-- `BOM_KEEP_PHRASES`: add e.g. `"severe thunderstorm": "⛈️"` (expect daily cards in spring).
-- `GDACS_ORANGE_TYPES`: remove `"FL"` so floods need Red.
-- `LARGE_FIRE_HA` / `HUGE_FIRE_HA`: the North American fire thresholds.
+- `BOM_CARD_PHRASES` / `BOM_LOG_PHRASES`: which BoM warnings get cards vs are recorded.
+- `GDACS_WEATHER_TYPES`: which GDACS types card at Orange.
+- `LOG_FIRE_HA`, `LARGE_FIRE_HA`, `HUGE_FIRE_HA`: North American fire thresholds.
+- `FDR_RANK`: fire danger levels that get a card.
 - `DEPLOYMENT_PHRASES` / `HAZARD_WORDS`: what counts as deployment news.
-- `MAX_PUSHES_PER_RUN`, `FEED_FAILURE_WARNING_HOURS`.
+- `MAX_PUSHES_PER_RUN`, `FEED_FAILURE_WARNING_HOURS`, `WEEKLY_WEEKDAY`, `WEEKLY_HOUR`.
+- Changing a filter? Bump `FILTERS_VERSION` so existing events are recorded quietly.
 
 ## Notes
 
-- GitHub pauses schedules after 60 days without commits. Quiet periods can
-  trigger this; re-enable from the Actions tab.
+- Threads archive themselves after a quiet spell. The monitor re-posts the
+  dashboard when that happens, which re-opens the thread.
+- GitHub pauses schedules after 60 days without commits; the weekly round-up
+  commit prevents that.
 - GDACS scores humanitarian impact, so remote fires stay Green; the CWFIS/NIFC
   size rules cover that gap for North America.
 - Maps © OpenStreetMap contributors. Data: Bureau of Meteorology, NSW RFS,
