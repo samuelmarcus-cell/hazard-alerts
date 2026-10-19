@@ -1,0 +1,58 @@
+# Runs monitor.py every 15 minutes on GitHub's servers.
+#
+# After each run, state.json (the "already seen" memory) is committed back to
+# the repository so the next run knows what it has already told you about.
+
+name: Hazard monitor
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 minutes (UTC; GitHub may delay a few minutes)
+  workflow_dispatch:            # adds a "Run workflow" button for manual runs
+    inputs:
+      test_message:
+        description: "Just send a sample card to Discord (doesn't check feeds)"
+        type: boolean
+        default: false
+
+# Never let two runs overlap — they would fight over state.json.
+concurrency:
+  group: hazard-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write               # needed to commit state.json
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Send test card
+        if: ${{ inputs.test_message }}
+        run: python monitor.py --test-message
+
+      - name: Check feeds
+        if: ${{ !inputs.test_message }}
+        run: python monitor.py
+
+      - name: Save state
+        if: ${{ !inputs.test_message }}
+        run: |
+          git config user.name  "hazard-monitor"
+          git config user.email "hazard-monitor@users.noreply.github.com"
+          git add state.json
+          # Only commit if something actually changed.
+          git diff --cached --quiet || git commit -m "Update state"
+          git push
