@@ -581,6 +581,24 @@
     "title": "Flood — Colombia",
     "track_end": true
    },
+   "gdacs:FL:1104216": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104216",
+    "lat": -22.1167884,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
+    "lon": -43.2087226,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Brazil",
+    "track_end": true
+   },
    "gdacs:FL:1104217": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -630,6 +648,96 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Libya",
+    "track_end": true
+   },
+   "gdacs:FL:1104235": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104235",
+    "lat": 41.3825802,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104235",
+    "lon": 2.177073,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Spain",
+    "track_end": true
+   },
+   "gdacs:FL:1104236": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104236",
+    "lat": 13.7307422,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104236",
+    "lon": -88.8834422,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — El Salvador",
+    "track_end": true
+   },
+   "gdacs:FL:1104237": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104237",
+    "lat": 14.0282255,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104237",
+    "lon": -83.3805727,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Nicaragua",
+    "track_end": true
+   },
+   "gdacs:FL:1104238": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104238",
+    "lat": -32.2702086,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104238",
+    "lon": -58.0837759,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Uruguay",
+    "track_end": true
+   },
+   "gdacs:FL:1104239": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Green · 19 Oct 18:11"
+    ],
+    "key": "gdacs:FL:1104239",
+    "lat": 5.3676907,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
+    "lon": 100.46174,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Malaysia",
     "track_end": true
    },
    "gdacs:TC:1001335": {
@@ -711,7 +819,26 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {},
+  "TasALERT": {
+   "TasALERT:Bushfire|Patersonia Road Nuamara": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T07:11:20.324092+00:00",
+    "history": [
+     "Watch and Act · 19 Oct 18:11"
+    ],
+    "key": "TasALERT:Bushfire|Patersonia Road Nuamara",
+    "lat": -41.36646,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=219e23cc-d38e-40cc-82a5-06cacc63dc51",
+    "lon": 147.29778,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act - Patersonia Road Nunamara - Monitor conditions as they are changing",
+    "track_end": true
+   }
+  },
   "US fires": {
    "us:2026-CALPF-002271": {
     "colour": 16361509,

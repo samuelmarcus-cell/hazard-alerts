@@ -44,3 +44,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORBUD-002693,"10,000+ ha","Large wildfire — Second Flat, OR, USA",43.6086726552229,-119.439180587863,https://inciweb.wildfire.gov/,no
 2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORBUD-002694,"10,000+ ha","Large wildfire — Jackass Butte, OR, USA",43.0450056563701,-118.955680407526,https://inciweb.wildfire.gov/,no
 2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-CALPF-002271,"10,000+ ha","Large wildfire — Timber, CA, USA",36.2158988589877,-121.717520940307,https://inciweb.wildfire.gov/,no
+2026-10-19T07:11:20Z,new,TasALERT,TasALERT:Bushfire|Patersonia Road Nuamara,Watch and Act,Watch and Act: Bushfire Watch and Act - Patersonia Road Nunamara - Monitor conditions as they are changing,-41.36646,147.29778,https://alert.tas.gov.au/?id=219e23cc-d38e-40cc-82a5-06cacc63dc51,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104235,Green,Flood — Spain,41.3825802,2.177073,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104235,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104237,Green,Flood — Nicaragua,14.0282255,-83.3805727,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104237,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104236,Green,Flood — El Salvador,13.7307422,-88.8834422,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104236,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,5.3676907,100.46174,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104238,Green,Flood — Uruguay,-32.2702086,-58.0837759,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104238,no
+2026-10-19T07:11:20Z,new,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-22.1167884,-43.2087226,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
