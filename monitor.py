@@ -523,7 +523,10 @@ def safe_parse(source, parser, arg, content):
         return alerts
     except (ET.ParseError, json.JSONDecodeError, AttributeError,
             KeyError, TypeError, ValueError) as error:
-        print(f"  ! could not read {source}: {error}")
+        # Show the start of what we actually got, so the log tells us why
+        # (an HTML error page, a login page, a different format...).
+        preview = content[:150].decode("utf-8", errors="replace").replace("\n", " ")
+        print(f"  ! could not read {source}: {error}\n    it starts with: {preview!r}")
         return None
 
 
