@@ -1,4 +1,81 @@
 {
+ "health": {
+  "ABC News": {
+   "failing_since": null,
+   "warned": false
+  },
+  "ACT ESA": {
+   "failing_since": null,
+   "warned": false
+  },
+  "BoM NSW/ACT": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM NT": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM QLD": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM SA": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM TAS": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM VIC": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "BoM WA": {
+   "failing_since": "2026-10-19T04:25:52.402037+00:00",
+   "warned": false
+  },
+  "Canada fires": {
+   "failing_since": null,
+   "warned": false
+  },
+  "GDACS": {
+   "failing_since": null,
+   "warned": false
+  },
+  "NSW RFS": {
+   "failing_since": null,
+   "warned": false
+  },
+  "QLD Fire": {
+   "failing_since": null,
+   "warned": false
+  },
+  "SA CFS": {
+   "failing_since": null,
+   "warned": false
+  },
+  "TasALERT": {
+   "failing_since": null,
+   "warned": false
+  },
+  "US fires": {
+   "failing_since": null,
+   "warned": false
+  },
+  "VicEmergency": {
+   "failing_since": null,
+   "warned": false
+  },
+  "WA DFES": {
+   "failing_since": null,
+   "warned": false
+  }
+ },
+ "sources": {
+  "ABC News": {},
+  "ACT ESA": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {},
@@ -6,12 +83,160 @@
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
+  "Canada fires": {
+   "ca:2026_BC_2026-C40983": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_BC_2026-C40983",
+    "lat": 50.97912,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -121.80867,
+    "rank": 1,
+    "title": "Large wildfire — British Columbia, Canada",
+    "track_end": true
+   },
+   "ca:2026_BC_2026-K70748": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_BC_2026-K70748",
+    "lat": 51.25133,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -122.20717,
+    "rank": 1,
+    "title": "Large wildfire — British Columbia, Canada",
+    "track_end": true
+   },
+   "ca:2026_BC_2026-V10755": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_BC_2026-V10755",
+    "lat": 49.94747,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -121.45838,
+    "rank": 1,
+    "title": "Large wildfire — British Columbia, Canada",
+    "track_end": true
+   },
+   "ca:2026_NT_FS016-26": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_NT_FS016-26",
+    "lat": 61.77583,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -121.4275,
+    "rank": 1,
+    "title": "Large wildfire — Northwest Territories, Canada",
+    "track_end": true
+   },
+   "ca:2026_ON_FOR_FIRE_014": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_ON_FOR_FIRE_014",
+    "lat": 48.8934,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -90.9869,
+    "rank": 1,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
+   "ca:2026_ON_THU_FIRE_036": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "250,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_ON_THU_FIRE_036",
+    "lat": 50.6828,
+    "level": "250,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -89.468,
+    "rank": 2,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
+   "ca:2026_PC_2026WB4": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_PC_2026WB4",
+    "lat": 60.354,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -113.1068,
+    "rank": 1,
+    "title": "Large wildfire — Parks Canada, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_413": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "ca:2026_QC_413",
+    "lat": 50.0783,
+    "level": "50,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -79.1022,
+    "rank": 1,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   }
+  },
   "GDACS": {
-    "gdacs:TC:1001335": 1,
-    "gdacs:TC:1001338": 2
+   "gdacs:TC:1001335": {
+    "history": [],
+    "key": "gdacs:TC:1001335",
+    "level": "",
+    "rank": 1,
+    "title": "gdacs:TC:1001335",
+    "track_end": true
+   },
+   "gdacs:TC:1001338": {
+    "history": [],
+    "key": "gdacs:TC:1001338",
+    "level": "",
+    "rank": 2,
+    "title": "gdacs:TC:1001338",
+    "track_end": true
+   }
   },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "VicEmergency": {}
+  "TasALERT": {},
+  "US fires": {
+   "us:2026-WAOWF-260406": {
+    "first_seen": "2026-10-19T04:25:52.402037+00:00",
+    "history": [
+     "50,000+ ha · 19 Oct 15:25"
+    ],
+    "key": "us:2026-WAOWF-260406",
+    "lat": 48.0162228019826,
+    "level": "50,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -120.846631747952,
+    "rank": 1,
+    "title": "Large wildfire — LITTLE GIANT, WA, USA",
+    "track_end": true
+   }
+  },
+  "VicEmergency": {},
+  "WA DFES": {}
+ },
+ "version": 2
 }
