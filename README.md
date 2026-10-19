@@ -9,7 +9,7 @@ date, using one webhook on the **#alerts** channel.
 | **📊 Dashboard** thread | One live message, edited every check: everything current, fire danger outlook, feed status, and a world + Australia map |
 | **📒 Event log** thread | A quiet line for everything recorded, including lower-level events with no card |
 | **🗓️ Weekly round-up** thread | Monday 8am (Melbourne): the week's events, counts by source, feed status |
-| **📰 Hazard news** thread | ABC stories about storms, floods, fires, cyclones, heatwaves etc., posted silently with a preview (until this thread exists they go to the Event log) |
+| **📰 Hazard news** thread | ABC stories about storms, floods, fires, cyclones, heatwaves etc., posted silently with a preview |
 
 ## What gets a card
 

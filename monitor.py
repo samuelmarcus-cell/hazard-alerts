@@ -72,7 +72,7 @@ DISCORD_THREADS = {
     "dashboard": "1561598501882961990",
     "log": "1561598739443879936",
     "weekly": "1561598862957748316",
-    "news": None,          # 📰 Hazard news thread; until it exists, news goes to "log"
+    "news": "1561640830702329887",
 }
 
 COLOUR_RED = 0xD32F2F
