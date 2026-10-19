@@ -1,10 +1,224 @@
-time_utc,change,source,key,level,title,lat,lon,link
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-K70748,"50,000+ ha","Large wildfire — British Columbia, Canada",51.25133,-122.20717,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_NT_FS016-26,"50,000+ ha","Large wildfire — Northwest Territories, Canada",61.77583,-121.4275,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-V10755,"50,000+ ha","Large wildfire — British Columbia, Canada",49.94747,-121.45838,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_ON_THU_FIRE_036,"250,000+ ha","Large wildfire — Ontario, Canada",50.6828,-89.468,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-C40983,"50,000+ ha","Large wildfire — British Columbia, Canada",50.97912,-121.80867,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_PC_2026WB4,"50,000+ ha","Large wildfire — Parks Canada, Canada",60.354,-113.1068,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_ON_FOR_FIRE_014,"50,000+ ha","Large wildfire — Ontario, Canada",48.8934,-90.9869,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_QC_413,"50,000+ ha","Large wildfire — Quebec, Canada",50.0783,-79.1022,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map
-2026-10-19T04:25:52Z,seen_at_start,US fires,us:2026-WAOWF-260406,"50,000+ ha","Large wildfire — LITTLE GIANT, WA, USA",48.0162228019826,-120.846631747952,https://inciweb.wildfire.gov/
+time_utc,change,source,key,level,title,lat,lon,link,major
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-K70748,"50,000+ ha","Large wildfire — British Columbia, Canada",51.25133,-122.20717,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_NT_FS016-26,"50,000+ ha","Large wildfire — Northwest Territories, Canada",61.77583,-121.4275,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-V10755,"50,000+ ha","Large wildfire — British Columbia, Canada",49.94747,-121.45838,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_ON_THU_FIRE_036,"250,000+ ha","Large wildfire — Ontario, Canada",50.6828,-89.468,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_BC_2026-C40983,"50,000+ ha","Large wildfire — British Columbia, Canada",50.97912,-121.80867,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_PC_2026WB4,"50,000+ ha","Large wildfire — Parks Canada, Canada",60.354,-113.1068,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_ON_FOR_FIRE_014,"50,000+ ha","Large wildfire — Ontario, Canada",48.8934,-90.9869,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,Canada fires,ca:2026_QC_413,"50,000+ ha","Large wildfire — Quebec, Canada",50.0783,-79.1022,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,
+2026-10-19T04:25:52Z,seen_at_start,US fires,us:2026-WAOWF-260406,"50,000+ ha","Large wildfire — LITTLE GIANT, WA, USA",48.0162228019826,-120.846631747952,https://inciweb.wildfire.gov/,
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032908,Green,Wildfire — Australia,-17.958154510349956,128.86426840040684,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032908,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032909,Green,Wildfire — Australia,-17.591750779459993,133.15191698855054,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032909,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032891,Green,Wildfire — Australia,-16.306139447566377,129.39454507585688,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032891,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032892,Green,Wildfire — Australia,-16.483713680737452,125.16124322100775,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032892,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:TC:1001339,Green,"Tropical cyclone — Cook Islands, French Polynesia",-18.6,-160.2,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001339,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032898,Green,Wildfire — Namibia,-18.94516719237363,19.92676127983383,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032898,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032899,Green,Wildfire — Nigeria,11.84102500335694,14.045299717272108,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032899,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032865,Green,Wildfire — Australia,-21.43154832747376,140.04588269601356,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032865,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032862,Green,Wildfire — Australia,-15.8903680975014,135.16955716833195,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032862,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032870,Green,Wildfire — Australia,-17.063523979754805,133.6333204206242,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032870,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032846,Green,Wildfire — Australia,-16.499248824366774,142.4879512883364,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032846,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032857,Green,Wildfire — Australia,-18.163273060731527,131.59122284308438,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032857,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032883,Green,Wildfire — Australia,-21.940887211098236,142.06759860378872,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032883,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032900,Green,Wildfire — Mozambique,-22.718511180003897,32.52383588252127,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032900,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032895,Green,Wildfire — Australia,-19.6265898193687,142.93677157589002,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032895,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032896,Green,Wildfire — Papua New Guinea,-8.86967107362603,141.78246984823704,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032896,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032910,Green,Wildfire — Australia,-21.948827149331247,129.5675945034214,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032910,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032863,Green,Wildfire — Australia,-18.19148281769704,131.82663761536048,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032863,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032858,Green,Wildfire — Australia,-13.680748465388172,143.0362506646818,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032858,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032851,Green,Wildfire — Australia,-19.40567879084217,134.6209220572142,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032851,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032871,Green,Wildfire — Brazil,-3.95486257679106,-49.2078327100916,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032871,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032872,Green,Wildfire — Sudan,10.078781475386158,29.208139226409756,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032872,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032806,Green,Wildfire — Australia,-17.37774270910658,135.31001785564928,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032806,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032850,Green,Wildfire — China,48.45323048388517,125.0648922431204,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032850,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:TC:1001337,Green,Tropical cyclone — México,19.7,-107.6,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:FL:1104231,Green,Flood — Libya,32.896672,13.1777923,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032808,Green,Wildfire — Australia,-16.37192144535291,126.18162280548142,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032808,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032783,Green,Wildfire — Australia,-18.322037738637842,133.4215905169486,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032783,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032864,Green,Wildfire — Brazil,1.6045895614188195,-55.74081071881479,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032864,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032901,Green,Wildfire — Zambia,-13.817918966189186,30.846171283082086,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032901,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032902,Green,Wildfire — Nigeria,11.909951477290386,13.87165813288504,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032902,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032903,Green,Wildfire — Mali,14.46781164470019,-11.75586216966137,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032903,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032873,Green,Wildfire — Zimbabwe,-16.12716642759797,29.864569251846888,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032873,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032874,Green,Wildfire — Australia,-19.439072957785147,133.3612736235401,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032874,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032875,Green,Wildfire — Sudan,9.891057346986056,24.702469015436694,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032875,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032884,Green,Wildfire — Australia,-13.374997177980477,142.86240959160307,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032884,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:FL:1104230,Green,Flood — Türkiye,41.1157496,28.9985596,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104230,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032820,Green,Wildfire — Brazil,-10.392809651534552,-43.38989443632425,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032820,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032809,Green,Wildfire — Australia,-12.384713172793374,134.58840016315148,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032809,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032810,Green,Wildfire — Australia,-13.898339769393043,135.87257385820385,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032810,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032831,Green,Wildfire — Australia,-16.89571023018937,122.91367022200319,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032831,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:TC:1001336,Green,Tropical cyclone,22.5,139.7,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032823,Green,Wildfire — China,48.36953610145147,124.68465042896482,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032823,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032893,Green,Wildfire — Indonesia,-4.080043809643795,138.40650305435722,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032893,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032886,Green,Wildfire — Mali,14.426583505928107,-12.03369434940768,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032886,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032876,Green,Wildfire — Madagascar,-15.5659300403859,48.23080864838685,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032876,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032877,Green,Wildfire — Mali,14.388715749282756,-11.637216141980737,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032877,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032852,Green,Wildfire — Zambia,-10.142800798742536,33.21986667635116,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032852,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032885,Green,Wildfire — Mali,14.415872619180986,-11.931689939754794,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032885,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032866,Green,Wildfire — Australia,-11.951191468421444,133.71004688755536,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032866,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032904,Green,Wildfire — Mozambique,-16.221185677716765,36.301404181718844,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032904,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032824,Green,Wildfire — Australia,-17.414836205304287,145.29843590375435,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032824,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032811,Green,Wildfire — Mozambique,-18.939512238941802,35.171098383354746,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032811,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032766,Green,Wildfire — Tanzania,-6.8580288506397045,34.334161069782056,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032766,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032785,Green,Wildfire — Botswana,-18.239021293164566,25.308765869813886,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032785,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032765,Green,Wildfire — Australia,-16.734348958811097,144.7395228479564,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032765,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032844,Green,Wildfire — Zambia,-12.836477958609594,31.551589163619564,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032844,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032813,Green,Wildfire — Zambia,-12.428771450812278,31.527997805670932,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032813,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032878,Green,Wildfire — Mozambique,-19.10812389827502,34.84134154920043,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032878,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032799,Green,Wildfire — Australia,-15.083030423186118,129.79408414686867,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032799,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032812,Green,Wildfire — Zambia,-13.057022050620795,31.332891725865448,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032812,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032728,Green,Wildfire — Australia,-12.603786075218084,142.71844465742228,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032728,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032725,Green,Wildfire — Australia,-16.180563809121843,137.09542899609158,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032725,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032832,Green,Wildfire — Mozambique,-18.827306905885965,35.22442927465482,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032832,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032854,Green,Wildfire — South Africa,-24.428840145085267,27.615577787452402,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032854,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032754,Green,Wildfire — Australia,-15.575313612156862,134.79296710654666,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032754,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032787,Green,Wildfire — Australia,-17.09852632413362,127.96625372979594,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032787,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032897,Green,Wildfire — Botswana,-19.891733757522726,26.19188921887877,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032897,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032867,Green,Wildfire — Australia,-14.288625338151277,135.55460690409183,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032867,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032853,Green,Wildfire — Chad,11.319643923277484,20.96433385947621,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032853,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032847,Green,Wildfire — Mozambique,-19.017865086585086,34.88011890614835,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032847,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032848,Green,Wildfire — Australia,-22.60516643433229,129.21235279702455,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032879,Green,Wildfire — Mozambique,-19.201695687734023,34.85162093565122,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032879,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032880,Green,Wildfire — Mozambique,-16.042274718627343,39.458809603671426,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032880,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032894,Green,Wildfire — Papua New Guinea,-4.365133558082021,144.5372367568873,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032894,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032911,Green,Wildfire — Australia,-15.071878426848375,134.67776124074285,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032911,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032790,Green,Wildfire — Mozambique,-16.425861306493896,36.6080617956259,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032790,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032758,Green,Wildfire — Australia,-21.297759586059506,129.60198926920316,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032758,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032859,Green,Wildfire — Papua New Guinea,-4.205041539139122,144.4808172259696,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032859,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032774,Green,Wildfire — Brazil,-1.6325319161554155,-54.44002302758492,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032774,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032815,Green,Wildfire — Brazil,-7.0139696510182645,-47.69261352942686,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032815,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032756,Green,Wildfire — Australia,-16.00092519708202,134.59235352191385,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032756,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032814,Green,Wildfire — Papua New Guinea,-4.019716181514603,144.39259653358798,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032814,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032789,Green,Wildfire — Zambia,-13.160954782101706,31.480397280444087,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032789,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032803,Green,Wildfire — Mozambique,-20.041251731664474,33.12927684793275,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032803,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032804,Green,Wildfire — Mozambique,-12.258373934859309,36.98123450239743,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032804,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032840,Green,Wildfire — Brazil,-3.5147439142328047,-54.243300165018454,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032840,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032788,Green,Wildfire — Zambia,-12.922011037851407,31.65151986238689,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032788,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032702,Green,Wildfire — Australia,-15.320579189790005,134.8938221067207,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032702,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032868,Green,Wildfire — Brazil,-6.42015402069611,-55.25595767819111,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032868,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032653,Green,Wildfire — Australia,-17.027602104653976,142.8893519495709,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032653,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032825,Green,Wildfire — Australia,-14.162688585691027,136.51647368290404,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032825,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032805,Green,Wildfire — Zambia,-11.510916214287743,32.19976081309427,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032805,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032759,Green,Wildfire — Australia,-18.76528921453368,126.17476987398271,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032759,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032791,Green,Wildfire — Brazil,-10.89169979502456,-44.815149584027004,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032791,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032684,Green,Wildfire — Brazil,-11.088510253992938,-44.0684720608125,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032684,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032768,Green,Wildfire — Mozambique,-12.187726743366134,37.48113337348768,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032768,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032905,Green,Wildfire — Mozambique,-18.000987938942888,36.600638233393745,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032905,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032855,Green,Wildfire — Mozambique,-18.87235145363141,35.219114792361665,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032794,Green,Wildfire — Tanzania,-2.5800584504762645,35.10724293969988,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032794,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032686,Green,Wildfire — Bolivia,-13.170750937660504,-63.12922747571556,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032686,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032713,Green,Wildfire — Brazil,-11.77748179599954,-45.468005403487844,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032713,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032826,Green,Wildfire — Brazil,-8.388903821397337,-44.15661608687717,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032826,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032833,Green,Wildfire — Mozambique,-17.1012026993857,33.78096486010942,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032833,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032834,Green,Wildfire — Mozambique,-16.76365054232901,38.59672978060215,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032834,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032835,Green,Wildfire — Nigeria,13.17405608928392,13.760009579252499,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032835,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032760,Green,Wildfire — Brazil,-3.2903454127110603,-54.696079807206125,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032760,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032777,Green,Wildfire — Australia,-12.276748781216732,132.99784665534682,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032777,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032843,Green,Wildfire — Brazil,-6.080414416867348,-52.746311097346116,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032843,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032856,Green,Wildfire — Mozambique,-16.683638675310892,33.64711407566456,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032856,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032849,Green,Wildfire — Mozambique,-13.096142734227515,36.09816243060384,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032849,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032881,Green,Wildfire — Mozambique,-16.881450106013524,33.63377898961,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032881,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032887,Green,Wildfire — Indonesia,-2.9504339626579705,112.72767267292564,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032887,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032869,Green,Wildfire — Brazil,-7.963875366843323,-54.753190869814325,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032869,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032906,Green,Wildfire — Nigeria,12.947567089919295,13.893919338939577,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032906,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032907,Green,Wildfire — Mozambique,-16.835331478821768,33.42611030063824,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032907,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:FL:1104217,Green,Flood — Chile,-33.4765918,-70.5418308,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032714,Green,Wildfire — Mozambique,-12.128823170189598,36.79074550442383,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032714,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032733,Green,Wildfire — Brazil,-5.721877855474305,-41.75285927828954,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032733,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032827,Green,Wildfire — Brazil,-1.3598834414532974,-55.457010128627516,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032827,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032770,Green,Wildfire — Mozambique,-16.20026550942037,36.60763225433414,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032770,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032781,Green,Wildfire — Brazil,-3.496682082543454,-59.29373019831599,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032781,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032715,Green,Wildfire — Mozambique,-16.54066675203472,32.95824535536724,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032715,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032639,Green,Wildfire — Zambia,-10.307993736504512,33.21918366573472,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032639,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032724,Green,Wildfire — Peru,-13.619162389399627,-72.46982581919137,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032724,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032743,Green,Wildfire — Australia,-13.044109932580621,132.01385217067806,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032743,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032836,Green,Wildfire — Zambia,-11.089759172506445,32.35092137617419,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032836,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032837,Green,Wildfire — The Democratic Republic of Congo,-7.658057614442436,30.122323495420492,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032837,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032801,Green,Wildfire — Australia,-12.520613522329727,136.2796649508574,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032801,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032888,Green,Wildfire — Papua New Guinea,-4.203344999911912,144.61147017740947,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032888,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032861,Green,Wildfire — Papua New Guinea,-2.9616909618553175,151.34844024492386,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032861,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032828,Green,Wildfire — Papua New Guinea,-8.973197583499791,142.13876364098522,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032828,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032838,Green,Wildfire — Zambia,-11.908652893712386,31.692028938115286,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032838,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032839,Green,Wildfire — Malawi,-12.160529768177398,33.92219548559775,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032839,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032778,Green,Wildfire — Indonesia,-2.8694545700173606,112.62864307721985,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032778,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032672,Green,Wildfire — Mozambique,-16.38418706638931,36.48252380627469,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032672,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032674,Green,Wildfire — Mozambique,-13.667690127103086,35.83718417439353,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032674,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032677,Green,Wildfire — Mozambique,-16.05369662730751,36.773620824854994,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032677,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032655,Green,Wildfire — Brazil,-11.864461934313557,-47.339455206642505,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032655,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032882,Green,Wildfire — Brazil,-1.2758702885246218,-55.757448191055666,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032882,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032705,Green,Wildfire — Brazil,-5.732533133540995,-41.64765805258427,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032705,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032688,Green,Wildfire — Brazil,-12.01065025585613,-43.45659350622462,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032688,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032772,Green,Wildfire — Mozambique,-15.939924949876593,39.43980298471235,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032772,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032773,Green,Wildfire — Mozambique,-14.68317512525995,39.36443573146046,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032773,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032795,Green,Wildfire — Brazil,-11.211787875699404,-44.88563209647802,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032795,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032641,Green,Wildfire — Tanzania,-6.908778234250901,34.18333622074932,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032641,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032666,Green,Wildfire — Papua New Guinea,-9.160367754229302,142.53319963051422,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032666,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032796,Green,Wildfire — Zambia,-11.495972281986635,32.0183234204405,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032796,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032718,Green,Wildfire — Brazil,-1.505273463263545,-54.53897284275757,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032718,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032620,Green,Wildfire — Australia,-16.19779138760299,136.7039365376047,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032620,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032717,Green,Wildfire — Zambia,-11.072584514981813,32.31008481077631,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032717,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032818,Green,Wildfire — Brazil,-4.556054122717054,-54.9722963580257,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032818,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032829,Green,Wildfire — Brazil,-1.4612114269933247,-54.753698212641055,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032829,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032664,Green,Wildfire — Australia,-11.844801155039518,142.61153672765698,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032664,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032665,Green,Wildfire — Papua New Guinea,-8.690125756528907,142.34444616716252,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032665,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032699,Green,Wildfire — Papua New Guinea,-8.733583761896714,142.5430932293883,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032699,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032761,Green,Wildfire — Brazil,-3.23082549819201,-50.44297408885292,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032761,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032747,Green,Wildfire — Indonesia,-1.705557117963254,104.35522061197757,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032747,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032817,Green,Wildfire — Indonesia,-3.079290279582936,112.81539764820562,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032817,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032819,Green,Wildfire — Nigeria,12.783291310361282,13.91251858089125,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032819,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032821,Green,Wildfire — Brazil,-5.7596414738152815,-53.46958477183414,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032821,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032889,Green,Wildfire — Papua New Guinea,-8.89452111536385,142.73216109790394,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032889,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032860,Green,Wildfire — Papua New Guinea,-4.521732348336841,152.26474476473052,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032860,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032736,Green,Wildfire — Brazil,-3.17457282598905,-50.583229719839466,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032736,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032802,Green,Wildfire — Indonesia,-3.4597873021868586,116.26053824038465,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032802,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032797,Green,Wildfire — Indonesia,-1.4901450329722048,104.39802960529244,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032797,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032719,Green,Wildfire — Papua New Guinea,-8.736487248364437,141.98145135459333,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032719,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032668,Green,Wildfire — Papua New Guinea,-8.856193014146434,141.7026957076985,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032668,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032622,Green,Wildfire — Brazil,-3.537277917932041,-54.6698220291545,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032622,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032890,Green,Wildfire — Brazil,-3.5214394550948556,-55.46069572340754,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032890,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032596,Green,Wildfire — Australia,-14.72048102292627,143.85696552139984,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032596,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032691,Green,Wildfire — Brazil,-7.208931913986211,-55.13879772983032,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032691,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032737,Green,Wildfire — Papua New Guinea,-7.526686958984866,141.0847516768325,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032737,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032700,Green,Wildfire — Papua New Guinea,-9.098991194302844,142.36884538723032,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032700,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032798,Green,Wildfire — Indonesia,-3.134673677241305,113.39436879579239,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032798,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032830,Green,Wildfire — Brazil,-6.195053360330502,-52.686395063680344,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032830,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032841,Green,Wildfire — Brazil,-3.6470730871956194,-55.501293401412354,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032841,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032842,Green,Wildfire — Brazil,-4.134427843298616,-54.02785422916142,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032842,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032845,Green,Wildfire — Papua New Guinea,-3.234374377883719,151.77509056834882,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032845,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032696,Green,Wildfire — Brazil,-12.214774971445006,-57.112700221448065,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032696,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032575,Green,Wildfire — Brazil,-3.1075041603076548,-53.767599784013896,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032575,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032645,Green,Wildfire — Angola,-8.679534967101645,14.129273088656952,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032645,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032780,Green,Wildfire — Papua New Guinea,-6.459725956016351,141.07964325503426,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032780,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:WF:1032822,Green,Wildfire — Australia,-12.862367945774563,136.41088970684893,https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032822,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,4.8339551,-75.6713013,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
+2026-10-19T04:42:07Z,seen_at_start,GDACS,gdacs:FL:1103888,Green,Flood — United States,35.4729886,-97.5170536,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_ON_FOR_FIRE_013,"10,000+ ha","Large wildfire — Ontario, Canada",48.2768,-91.3078,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_BC_2026-K71082,"10,000+ ha","Large wildfire — British Columbia, Canada",51.0397,-122.85758,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_BC_2026-K51490,"10,000+ ha","Large wildfire — British Columbia, Canada",49.62617,-119.88352,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_ON_DRY_FIRE_034,"10,000+ ha","Large wildfire — Ontario, Canada",49.9828,-90.1717,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_ON_DRY_FIRE_035,"10,000+ ha","Large wildfire — Ontario, Canada",49.6301,-90.098,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_PC_2026WB20,"10,000+ ha","Large wildfire — Parks Canada, Canada",60.116,-112.8568,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_PC_2026WB19,"10,000+ ha","Large wildfire — Parks Canada, Canada",60.209,-113.3417,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_PC_2026WB17,"10,000+ ha","Large wildfire — Parks Canada, Canada",60.0874,-113.9371,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_ON_FOR_FIRE_015,"10,000+ ha","Large wildfire — Ontario, Canada",48.5429,-91.4154,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_459,"10,000+ ha","Large wildfire — Quebec, Canada",53.4958,-70.6275,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_473,"10,000+ ha","Large wildfire — Quebec, Canada",50.5758,-78.5522,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_271,"10,000+ ha","Large wildfire — Quebec, Canada",51.605,-78.3261,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_284,"10,000+ ha","Large wildfire — Quebec, Canada",50.055,-78.9553,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_332,"10,000+ ha","Large wildfire — Quebec, Canada",56.3919,-67.9417,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_377,"10,000+ ha","Large wildfire — Quebec, Canada",50.8892,-78.9503,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_416,"10,000+ ha","Large wildfire — Quebec, Canada",56.9258,-66.5569,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_421,"10,000+ ha","Large wildfire — Quebec, Canada",56.1703,-69.2275,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_290,"10,000+ ha","Large wildfire — Quebec, Canada",50.2878,-78.6331,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,Canada fires,ca:2026_QC_215,"10,000+ ha","Large wildfire — Quebec, Canada",52.315,-69.7017,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-COGMF-000099,"10,000+ ha","Large wildfire — Gold Mountain, CO, USA",38.0515730057394,-107.682134525332,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-COCUX-001160,"10,000+ ha","Large wildfire — Aspen Acres, CO, USA",38.0193211711361,-105.0712779393,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORUMF-000324,"10,000+ ha","Large wildfire — Hagen, OR, USA",45.7070059239597,-118.269013783122,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-WAOWF-260448,"10,000+ ha","Large wildfire — PTARMIGAN, WA, USA",48.9420058793899,-120.60951494068,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORWSA-000100,"10,000+ ha","Large wildfire — Bench, OR, USA",44.6317835436221,-121.350236093876,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORMHF-000688,"10,000+ ha","Large wildfire — GRASSHOPPER, OR, USA",45.2529725674808,-121.510147242498,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORBUD-002693,"10,000+ ha","Large wildfire — Second Flat, OR, USA",43.6086726552229,-119.439180587863,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-ORBUD-002694,"10,000+ ha","Large wildfire — Jackass Butte, OR, USA",43.0450056563701,-118.955680407526,https://inciweb.wildfire.gov/,no
+2026-10-19T04:42:07Z,seen_at_start,US fires,us:2026-CALPF-002271,"10,000+ ha","Large wildfire — Timber, CA, USA",36.2158988589877,-121.717520940307,https://inciweb.wildfire.gov/,no

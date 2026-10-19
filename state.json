@@ -1,4 +1,10 @@
 {
+ "dashboard": {
+  "attachment_id": null,
+  "map_hash": "c8e685edb4e5",
+  "message_id": "1561600365747507283"
+ },
+ "filters_version": 3,
  "health": {
   "ABC News": {
    "failing_since": null,
@@ -40,6 +46,14 @@
    "failing_since": null,
    "warned": false
   },
+  "Fire danger (NSW)": {
+   "failing_since": null,
+   "warned": false
+  },
+  "Fire danger (VIC)": {
+   "failing_since": null,
+   "warned": false
+  },
   "GDACS": {
    "failing_since": null,
    "warned": false
@@ -73,6 +87,7 @@
    "warned": false
   }
  },
+ "last_weekly": "2026-10-19T08:00:00+11:00",
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
@@ -98,6 +113,23 @@
     "title": "Large wildfire — British Columbia, Canada",
     "track_end": true
    },
+   "ca:2026_BC_2026-K51490": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_BC_2026-K51490",
+    "lat": 49.62617,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -119.88352,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — British Columbia, Canada",
+    "track_end": true
+   },
    "ca:2026_BC_2026-K70748": {
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
@@ -109,6 +141,23 @@
     "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
     "lon": -122.20717,
     "rank": 1,
+    "title": "Large wildfire — British Columbia, Canada",
+    "track_end": true
+   },
+   "ca:2026_BC_2026-K71082": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_BC_2026-K71082",
+    "lat": 51.0397,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -122.85758,
+    "notify": false,
+    "rank": 0,
     "title": "Large wildfire — British Columbia, Canada",
     "track_end": true
    },
@@ -140,6 +189,57 @@
     "title": "Large wildfire — Northwest Territories, Canada",
     "track_end": true
    },
+   "ca:2026_ON_DRY_FIRE_034": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_ON_DRY_FIRE_034",
+    "lat": 49.9828,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -90.1717,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
+   "ca:2026_ON_DRY_FIRE_035": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_ON_DRY_FIRE_035",
+    "lat": 49.6301,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -90.098,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
+   "ca:2026_ON_FOR_FIRE_013": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_ON_FOR_FIRE_013",
+    "lat": 48.2768,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -91.3078,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
    "ca:2026_ON_FOR_FIRE_014": {
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
@@ -151,6 +251,23 @@
     "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
     "lon": -90.9869,
     "rank": 1,
+    "title": "Large wildfire — Ontario, Canada",
+    "track_end": true
+   },
+   "ca:2026_ON_FOR_FIRE_015": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_ON_FOR_FIRE_015",
+    "lat": 48.5429,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -91.4154,
+    "notify": false,
+    "rank": 0,
     "title": "Large wildfire — Ontario, Canada",
     "track_end": true
    },
@@ -168,6 +285,57 @@
     "title": "Large wildfire — Ontario, Canada",
     "track_end": true
    },
+   "ca:2026_PC_2026WB17": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_PC_2026WB17",
+    "lat": 60.0874,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -113.9371,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Parks Canada, Canada",
+    "track_end": true
+   },
+   "ca:2026_PC_2026WB19": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_PC_2026WB19",
+    "lat": 60.209,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -113.3417,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Parks Canada, Canada",
+    "track_end": true
+   },
+   "ca:2026_PC_2026WB20": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_PC_2026WB20",
+    "lat": 60.116,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -112.8568,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Parks Canada, Canada",
+    "track_end": true
+   },
    "ca:2026_PC_2026WB4": {
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
@@ -180,6 +348,108 @@
     "lon": -113.1068,
     "rank": 1,
     "title": "Large wildfire — Parks Canada, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_215": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_215",
+    "lat": 52.315,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -69.7017,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_271": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_271",
+    "lat": 51.605,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -78.3261,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_284": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_284",
+    "lat": 50.055,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -78.9553,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_290": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_290",
+    "lat": 50.2878,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -78.6331,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_332": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_332",
+    "lat": 56.3919,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -67.9417,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_377": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_377",
+    "lat": 50.8892,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -78.9503,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
     "track_end": true
    },
    "ca:2026_QC_413": {
@@ -195,15 +465,205 @@
     "rank": 1,
     "title": "Large wildfire — Quebec, Canada",
     "track_end": true
+   },
+   "ca:2026_QC_416": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_416",
+    "lat": 56.9258,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -66.5569,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_421": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_421",
+    "lat": 56.1703,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -69.2275,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_459": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_459",
+    "lat": 53.4958,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -70.6275,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
+   },
+   "ca:2026_QC_473": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "ca:2026_QC_473",
+    "lat": 50.5758,
+    "level": "10,000+ ha",
+    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
+    "lon": -78.5522,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Quebec, Canada",
+    "track_end": true
    }
   },
+  "Concurrent events": {},
+  "Fire danger (NSW)": {},
+  "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1103888": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:FL:1103888",
+    "lat": 35.4729886,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
+    "lon": -97.5170536,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — United States",
+    "track_end": true
+   },
+   "gdacs:FL:1104200": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:FL:1104200",
+    "lat": 4.8339551,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
+    "lon": -75.6713013,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Colombia",
+    "track_end": true
+   },
+   "gdacs:FL:1104217": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:FL:1104217",
+    "lat": -33.4765918,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217",
+    "lon": -70.5418308,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Chile",
+    "track_end": true
+   },
+   "gdacs:FL:1104230": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:FL:1104230",
+    "lat": 41.1157496,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104230",
+    "lon": 28.9985596,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Türkiye",
+    "track_end": true
+   },
+   "gdacs:FL:1104231": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:FL:1104231",
+    "lat": 32.896672,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231",
+    "lon": 13.1777923,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Libya",
+    "track_end": true
+   },
    "gdacs:TC:1001335": {
     "history": [],
     "key": "gdacs:TC:1001335",
     "level": "",
     "rank": 1,
     "title": "gdacs:TC:1001335",
+    "track_end": true
+   },
+   "gdacs:TC:1001336": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:TC:1001336",
+    "lat": 22.5,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336",
+    "lon": 139.7,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone",
+    "track_end": true
+   },
+   "gdacs:TC:1001337": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:TC:1001337",
+    "lat": 19.7,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337",
+    "lon": -107.6,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001338": {
@@ -213,6 +673,3049 @@
     "rank": 2,
     "title": "gdacs:TC:1001338",
     "track_end": true
+   },
+   "gdacs:TC:1001339": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:TC:1001339",
+    "lat": -18.6,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001339",
+    "lon": -160.2,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone — Cook Islands, French Polynesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032575": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032575",
+    "lat": -3.1075041603076548,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032575",
+    "lon": -53.767599784013896,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032596": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032596",
+    "lat": -14.72048102292627,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032596",
+    "lon": 143.85696552139984,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032620": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032620",
+    "lat": -16.19779138760299,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032620",
+    "lon": 136.7039365376047,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032622": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032622",
+    "lat": -3.537277917932041,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032622",
+    "lon": -54.6698220291545,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032639": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032639",
+    "lat": -10.307993736504512,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032639",
+    "lon": 33.21918366573472,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032641": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032641",
+    "lat": -6.908778234250901,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032641",
+    "lon": 34.18333622074932,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Tanzania",
+    "track_end": true
+   },
+   "gdacs:WF:1032645": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032645",
+    "lat": -8.679534967101645,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032645",
+    "lon": 14.129273088656952,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Angola",
+    "track_end": true
+   },
+   "gdacs:WF:1032653": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032653",
+    "lat": -17.027602104653976,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032653",
+    "lon": 142.8893519495709,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032655": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032655",
+    "lat": -11.864461934313557,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032655",
+    "lon": -47.339455206642505,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032664": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032664",
+    "lat": -11.844801155039518,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032664",
+    "lon": 142.61153672765698,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032665": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032665",
+    "lat": -8.690125756528907,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032665",
+    "lon": 142.34444616716252,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032666": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032666",
+    "lat": -9.160367754229302,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032666",
+    "lon": 142.53319963051422,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032668": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032668",
+    "lat": -8.856193014146434,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032668",
+    "lon": 141.7026957076985,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032672": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032672",
+    "lat": -16.38418706638931,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032672",
+    "lon": 36.48252380627469,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032674": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032674",
+    "lat": -13.667690127103086,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032674",
+    "lon": 35.83718417439353,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032677": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032677",
+    "lat": -16.05369662730751,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032677",
+    "lon": 36.773620824854994,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032684": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032684",
+    "lat": -11.088510253992938,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032684",
+    "lon": -44.0684720608125,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032686": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032686",
+    "lat": -13.170750937660504,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032686",
+    "lon": -63.12922747571556,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Bolivia",
+    "track_end": true
+   },
+   "gdacs:WF:1032688": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032688",
+    "lat": -12.01065025585613,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032688",
+    "lon": -43.45659350622462,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032691": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032691",
+    "lat": -7.208931913986211,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032691",
+    "lon": -55.13879772983032,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032696": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032696",
+    "lat": -12.214774971445006,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032696",
+    "lon": -57.112700221448065,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032699": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032699",
+    "lat": -8.733583761896714,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032699",
+    "lon": 142.5430932293883,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032700": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032700",
+    "lat": -9.098991194302844,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032700",
+    "lon": 142.36884538723032,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032702": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032702",
+    "lat": -15.320579189790005,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032702",
+    "lon": 134.8938221067207,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032705": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032705",
+    "lat": -5.732533133540995,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032705",
+    "lon": -41.64765805258427,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032713": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032713",
+    "lat": -11.77748179599954,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032713",
+    "lon": -45.468005403487844,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032714": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032714",
+    "lat": -12.128823170189598,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032714",
+    "lon": 36.79074550442383,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032715": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032715",
+    "lat": -16.54066675203472,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032715",
+    "lon": 32.95824535536724,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032717": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032717",
+    "lat": -11.072584514981813,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032717",
+    "lon": 32.31008481077631,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032718": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032718",
+    "lat": -1.505273463263545,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032718",
+    "lon": -54.53897284275757,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032719": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032719",
+    "lat": -8.736487248364437,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032719",
+    "lon": 141.98145135459333,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032724": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032724",
+    "lat": -13.619162389399627,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032724",
+    "lon": -72.46982581919137,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Peru",
+    "track_end": true
+   },
+   "gdacs:WF:1032725": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032725",
+    "lat": -16.180563809121843,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032725",
+    "lon": 137.09542899609158,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032728": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032728",
+    "lat": -12.603786075218084,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032728",
+    "lon": 142.71844465742228,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032733": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032733",
+    "lat": -5.721877855474305,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032733",
+    "lon": -41.75285927828954,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032736": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032736",
+    "lat": -3.17457282598905,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032736",
+    "lon": -50.583229719839466,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032737": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032737",
+    "lat": -7.526686958984866,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032737",
+    "lon": 141.0847516768325,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032743": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032743",
+    "lat": -13.044109932580621,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032743",
+    "lon": 132.01385217067806,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032747": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032747",
+    "lat": -1.705557117963254,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032747",
+    "lon": 104.35522061197757,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032754": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032754",
+    "lat": -15.575313612156862,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032754",
+    "lon": 134.79296710654666,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032756": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032756",
+    "lat": -16.00092519708202,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032756",
+    "lon": 134.59235352191385,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032758": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032758",
+    "lat": -21.297759586059506,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032758",
+    "lon": 129.60198926920316,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032759": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032759",
+    "lat": -18.76528921453368,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032759",
+    "lon": 126.17476987398271,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032760": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032760",
+    "lat": -3.2903454127110603,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032760",
+    "lon": -54.696079807206125,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032761": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032761",
+    "lat": -3.23082549819201,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032761",
+    "lon": -50.44297408885292,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032765": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032765",
+    "lat": -16.734348958811097,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032765",
+    "lon": 144.7395228479564,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032766": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032766",
+    "lat": -6.8580288506397045,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032766",
+    "lon": 34.334161069782056,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Tanzania",
+    "track_end": true
+   },
+   "gdacs:WF:1032768": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032768",
+    "lat": -12.187726743366134,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032768",
+    "lon": 37.48113337348768,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032770": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032770",
+    "lat": -16.20026550942037,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032770",
+    "lon": 36.60763225433414,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032772": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032772",
+    "lat": -15.939924949876593,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032772",
+    "lon": 39.43980298471235,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032773": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032773",
+    "lat": -14.68317512525995,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032773",
+    "lon": 39.36443573146046,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032774": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032774",
+    "lat": -1.6325319161554155,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032774",
+    "lon": -54.44002302758492,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032777": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032777",
+    "lat": -12.276748781216732,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032777",
+    "lon": 132.99784665534682,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032778": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032778",
+    "lat": -2.8694545700173606,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032778",
+    "lon": 112.62864307721985,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032780": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032780",
+    "lat": -6.459725956016351,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032780",
+    "lon": 141.07964325503426,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032781": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032781",
+    "lat": -3.496682082543454,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032781",
+    "lon": -59.29373019831599,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032783": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032783",
+    "lat": -18.322037738637842,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032783",
+    "lon": 133.4215905169486,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032785": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032785",
+    "lat": -18.239021293164566,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032785",
+    "lon": 25.308765869813886,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Botswana",
+    "track_end": true
+   },
+   "gdacs:WF:1032787": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032787",
+    "lat": -17.09852632413362,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032787",
+    "lon": 127.96625372979594,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032788": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032788",
+    "lat": -12.922011037851407,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032788",
+    "lon": 31.65151986238689,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032789": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032789",
+    "lat": -13.160954782101706,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032789",
+    "lon": 31.480397280444087,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032790": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032790",
+    "lat": -16.425861306493896,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032790",
+    "lon": 36.6080617956259,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032791": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032791",
+    "lat": -10.89169979502456,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032791",
+    "lon": -44.815149584027004,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032794": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032794",
+    "lat": -2.5800584504762645,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032794",
+    "lon": 35.10724293969988,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Tanzania",
+    "track_end": true
+   },
+   "gdacs:WF:1032795": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032795",
+    "lat": -11.211787875699404,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032795",
+    "lon": -44.88563209647802,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032796": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032796",
+    "lat": -11.495972281986635,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032796",
+    "lon": 32.0183234204405,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032797": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032797",
+    "lat": -1.4901450329722048,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032797",
+    "lon": 104.39802960529244,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032798": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032798",
+    "lat": -3.134673677241305,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032798",
+    "lon": 113.39436879579239,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032799": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032799",
+    "lat": -15.083030423186118,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032799",
+    "lon": 129.79408414686867,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032801": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032801",
+    "lat": -12.520613522329727,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032801",
+    "lon": 136.2796649508574,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032802": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032802",
+    "lat": -3.4597873021868586,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032802",
+    "lon": 116.26053824038465,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032803": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032803",
+    "lat": -20.041251731664474,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032803",
+    "lon": 33.12927684793275,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032804": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032804",
+    "lat": -12.258373934859309,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032804",
+    "lon": 36.98123450239743,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032805": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032805",
+    "lat": -11.510916214287743,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032805",
+    "lon": 32.19976081309427,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032806": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032806",
+    "lat": -17.37774270910658,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032806",
+    "lon": 135.31001785564928,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032808": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032808",
+    "lat": -16.37192144535291,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032808",
+    "lon": 126.18162280548142,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032809": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032809",
+    "lat": -12.384713172793374,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032809",
+    "lon": 134.58840016315148,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032810": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032810",
+    "lat": -13.898339769393043,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032810",
+    "lon": 135.87257385820385,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032811": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032811",
+    "lat": -18.939512238941802,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032811",
+    "lon": 35.171098383354746,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032812": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032812",
+    "lat": -13.057022050620795,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032812",
+    "lon": 31.332891725865448,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032813": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032813",
+    "lat": -12.428771450812278,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032813",
+    "lon": 31.527997805670932,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032814": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032814",
+    "lat": -4.019716181514603,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032814",
+    "lon": 144.39259653358798,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032815": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032815",
+    "lat": -7.0139696510182645,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032815",
+    "lon": -47.69261352942686,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032817": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032817",
+    "lat": -3.079290279582936,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032817",
+    "lon": 112.81539764820562,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032818": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032818",
+    "lat": -4.556054122717054,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032818",
+    "lon": -54.9722963580257,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032819": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032819",
+    "lat": 12.783291310361282,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032819",
+    "lon": 13.91251858089125,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Nigeria",
+    "track_end": true
+   },
+   "gdacs:WF:1032820": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032820",
+    "lat": -10.392809651534552,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032820",
+    "lon": -43.38989443632425,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032821": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032821",
+    "lat": -5.7596414738152815,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032821",
+    "lon": -53.46958477183414,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032822": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032822",
+    "lat": -12.862367945774563,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032822",
+    "lon": 136.41088970684893,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032823": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032823",
+    "lat": 48.36953610145147,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032823",
+    "lon": 124.68465042896482,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — China",
+    "track_end": true
+   },
+   "gdacs:WF:1032824": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032824",
+    "lat": -17.414836205304287,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032824",
+    "lon": 145.29843590375435,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032825": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032825",
+    "lat": -14.162688585691027,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032825",
+    "lon": 136.51647368290404,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032826": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032826",
+    "lat": -8.388903821397337,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032826",
+    "lon": -44.15661608687717,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032827": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032827",
+    "lat": -1.3598834414532974,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032827",
+    "lon": -55.457010128627516,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032828": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032828",
+    "lat": -8.973197583499791,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032828",
+    "lon": 142.13876364098522,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032829": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032829",
+    "lat": -1.4612114269933247,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032829",
+    "lon": -54.753698212641055,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032830": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032830",
+    "lat": -6.195053360330502,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032830",
+    "lon": -52.686395063680344,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032831": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032831",
+    "lat": -16.89571023018937,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032831",
+    "lon": 122.91367022200319,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032832": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032832",
+    "lat": -18.827306905885965,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032832",
+    "lon": 35.22442927465482,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032833": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032833",
+    "lat": -17.1012026993857,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032833",
+    "lon": 33.78096486010942,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032834": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032834",
+    "lat": -16.76365054232901,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032834",
+    "lon": 38.59672978060215,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032835": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032835",
+    "lat": 13.17405608928392,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032835",
+    "lon": 13.760009579252499,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Nigeria",
+    "track_end": true
+   },
+   "gdacs:WF:1032836": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032836",
+    "lat": -11.089759172506445,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032836",
+    "lon": 32.35092137617419,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032837": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032837",
+    "lat": -7.658057614442436,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032837",
+    "lon": 30.122323495420492,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — The Democratic Republic of Congo",
+    "track_end": true
+   },
+   "gdacs:WF:1032838": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032838",
+    "lat": -11.908652893712386,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032838",
+    "lon": 31.692028938115286,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032839": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032839",
+    "lat": -12.160529768177398,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032839",
+    "lon": 33.92219548559775,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Malawi",
+    "track_end": true
+   },
+   "gdacs:WF:1032840": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032840",
+    "lat": -3.5147439142328047,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032840",
+    "lon": -54.243300165018454,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032841": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032841",
+    "lat": -3.6470730871956194,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032841",
+    "lon": -55.501293401412354,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032842": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032842",
+    "lat": -4.134427843298616,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032842",
+    "lon": -54.02785422916142,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032843": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032843",
+    "lat": -6.080414416867348,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032843",
+    "lon": -52.746311097346116,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032844": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032844",
+    "lat": -12.836477958609594,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032844",
+    "lon": 31.551589163619564,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032845": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032845",
+    "lat": -3.234374377883719,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032845",
+    "lon": 151.77509056834882,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032846": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032846",
+    "lat": -16.499248824366774,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032846",
+    "lon": 142.4879512883364,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032847": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032847",
+    "lat": -19.017865086585086,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032847",
+    "lon": 34.88011890614835,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032848": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032848",
+    "lat": -22.60516643433229,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848",
+    "lon": 129.21235279702455,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032849": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032849",
+    "lat": -13.096142734227515,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032849",
+    "lon": 36.09816243060384,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032850": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032850",
+    "lat": 48.45323048388517,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032850",
+    "lon": 125.0648922431204,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — China",
+    "track_end": true
+   },
+   "gdacs:WF:1032851": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032851",
+    "lat": -19.40567879084217,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032851",
+    "lon": 134.6209220572142,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032852": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032852",
+    "lat": -10.142800798742536,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032852",
+    "lon": 33.21986667635116,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032853": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032853",
+    "lat": 11.319643923277484,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032853",
+    "lon": 20.96433385947621,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Chad",
+    "track_end": true
+   },
+   "gdacs:WF:1032854": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032854",
+    "lat": -24.428840145085267,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032854",
+    "lon": 27.615577787452402,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — South Africa",
+    "track_end": true
+   },
+   "gdacs:WF:1032855": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032855",
+    "lat": -18.87235145363141,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855",
+    "lon": 35.219114792361665,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032856": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032856",
+    "lat": -16.683638675310892,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032856",
+    "lon": 33.64711407566456,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032857": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032857",
+    "lat": -18.163273060731527,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032857",
+    "lon": 131.59122284308438,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032858": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032858",
+    "lat": -13.680748465388172,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032858",
+    "lon": 143.0362506646818,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032859": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032859",
+    "lat": -4.205041539139122,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032859",
+    "lon": 144.4808172259696,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032860": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032860",
+    "lat": -4.521732348336841,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032860",
+    "lon": 152.26474476473052,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032861": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032861",
+    "lat": -2.9616909618553175,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032861",
+    "lon": 151.34844024492386,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032862": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032862",
+    "lat": -15.8903680975014,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032862",
+    "lon": 135.16955716833195,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032863": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032863",
+    "lat": -18.19148281769704,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032863",
+    "lon": 131.82663761536048,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032864": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032864",
+    "lat": 1.6045895614188195,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032864",
+    "lon": -55.74081071881479,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032865": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032865",
+    "lat": -21.43154832747376,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032865",
+    "lon": 140.04588269601356,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032866": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032866",
+    "lat": -11.951191468421444,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032866",
+    "lon": 133.71004688755536,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032867": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032867",
+    "lat": -14.288625338151277,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032867",
+    "lon": 135.55460690409183,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032868": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032868",
+    "lat": -6.42015402069611,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032868",
+    "lon": -55.25595767819111,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032869": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032869",
+    "lat": -7.963875366843323,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032869",
+    "lon": -54.753190869814325,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032870": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032870",
+    "lat": -17.063523979754805,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032870",
+    "lon": 133.6333204206242,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032871": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032871",
+    "lat": -3.95486257679106,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032871",
+    "lon": -49.2078327100916,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032872": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032872",
+    "lat": 10.078781475386158,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032872",
+    "lon": 29.208139226409756,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Sudan",
+    "track_end": true
+   },
+   "gdacs:WF:1032873": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032873",
+    "lat": -16.12716642759797,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032873",
+    "lon": 29.864569251846888,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zimbabwe",
+    "track_end": true
+   },
+   "gdacs:WF:1032874": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032874",
+    "lat": -19.439072957785147,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032874",
+    "lon": 133.3612736235401,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032875": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032875",
+    "lat": 9.891057346986056,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032875",
+    "lon": 24.702469015436694,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Sudan",
+    "track_end": true
+   },
+   "gdacs:WF:1032876": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032876",
+    "lat": -15.5659300403859,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032876",
+    "lon": 48.23080864838685,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Madagascar",
+    "track_end": true
+   },
+   "gdacs:WF:1032877": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032877",
+    "lat": 14.388715749282756,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032877",
+    "lon": -11.637216141980737,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mali",
+    "track_end": true
+   },
+   "gdacs:WF:1032878": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032878",
+    "lat": -19.10812389827502,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032878",
+    "lon": 34.84134154920043,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032879": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032879",
+    "lat": -19.201695687734023,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032879",
+    "lon": 34.85162093565122,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032880": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032880",
+    "lat": -16.042274718627343,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032880",
+    "lon": 39.458809603671426,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032881": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032881",
+    "lat": -16.881450106013524,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032881",
+    "lon": 33.63377898961,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032882": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032882",
+    "lat": -1.2758702885246218,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032882",
+    "lon": -55.757448191055666,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032883": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032883",
+    "lat": -21.940887211098236,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032883",
+    "lon": 142.06759860378872,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032884": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032884",
+    "lat": -13.374997177980477,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032884",
+    "lon": 142.86240959160307,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032885": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032885",
+    "lat": 14.415872619180986,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032885",
+    "lon": -11.931689939754794,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mali",
+    "track_end": true
+   },
+   "gdacs:WF:1032886": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032886",
+    "lat": 14.426583505928107,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032886",
+    "lon": -12.03369434940768,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mali",
+    "track_end": true
+   },
+   "gdacs:WF:1032887": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032887",
+    "lat": -2.9504339626579705,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032887",
+    "lon": 112.72767267292564,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032888": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032888",
+    "lat": -4.203344999911912,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032888",
+    "lon": 144.61147017740947,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032889": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032889",
+    "lat": -8.89452111536385,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032889",
+    "lon": 142.73216109790394,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032890": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032890",
+    "lat": -3.5214394550948556,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032890",
+    "lon": -55.46069572340754,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Brazil",
+    "track_end": true
+   },
+   "gdacs:WF:1032891": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032891",
+    "lat": -16.306139447566377,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032891",
+    "lon": 129.39454507585688,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032892": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032892",
+    "lat": -16.483713680737452,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032892",
+    "lon": 125.16124322100775,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032893": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032893",
+    "lat": -4.080043809643795,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032893",
+    "lon": 138.40650305435722,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Indonesia",
+    "track_end": true
+   },
+   "gdacs:WF:1032894": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032894",
+    "lat": -4.365133558082021,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032894",
+    "lon": 144.5372367568873,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032895": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032895",
+    "lat": -19.6265898193687,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032895",
+    "lon": 142.93677157589002,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032896": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032896",
+    "lat": -8.86967107362603,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032896",
+    "lon": 141.78246984823704,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Papua New Guinea",
+    "track_end": true
+   },
+   "gdacs:WF:1032897": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032897",
+    "lat": -19.891733757522726,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032897",
+    "lon": 26.19188921887877,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Botswana",
+    "track_end": true
+   },
+   "gdacs:WF:1032898": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032898",
+    "lat": -18.94516719237363,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032898",
+    "lon": 19.92676127983383,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Namibia",
+    "track_end": true
+   },
+   "gdacs:WF:1032899": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032899",
+    "lat": 11.84102500335694,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032899",
+    "lon": 14.045299717272108,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Nigeria",
+    "track_end": true
+   },
+   "gdacs:WF:1032900": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032900",
+    "lat": -22.718511180003897,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032900",
+    "lon": 32.52383588252127,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032901": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032901",
+    "lat": -13.817918966189186,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032901",
+    "lon": 30.846171283082086,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Zambia",
+    "track_end": true
+   },
+   "gdacs:WF:1032902": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032902",
+    "lat": 11.909951477290386,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032902",
+    "lon": 13.87165813288504,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Nigeria",
+    "track_end": true
+   },
+   "gdacs:WF:1032903": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032903",
+    "lat": 14.46781164470019,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032903",
+    "lon": -11.75586216966137,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mali",
+    "track_end": true
+   },
+   "gdacs:WF:1032904": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032904",
+    "lat": -16.221185677716765,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032904",
+    "lon": 36.301404181718844,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032905": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032905",
+    "lat": -18.000987938942888,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032905",
+    "lon": 36.600638233393745,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032906": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032906",
+    "lat": 12.947567089919295,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032906",
+    "lon": 13.893919338939577,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Nigeria",
+    "track_end": true
+   },
+   "gdacs:WF:1032907": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032907",
+    "lat": -16.835331478821768,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032907",
+    "lon": 33.42611030063824,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Mozambique",
+    "track_end": true
+   },
+   "gdacs:WF:1032908": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032908",
+    "lat": -17.958154510349956,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032908",
+    "lon": 128.86426840040684,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032909": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032909",
+    "lat": -17.591750779459993,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032909",
+    "lon": 133.15191698855054,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032910": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032910",
+    "lat": -21.948827149331247,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032910",
+    "lon": 129.5675945034214,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
+   },
+   "gdacs:WF:1032911": {
+    "colour": 4431943,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "Green · 19 Oct 15:42"
+    ],
+    "key": "gdacs:WF:1032911",
+    "lat": -15.071878426848375,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032911",
+    "lon": 134.67776124074285,
+    "notify": false,
+    "rank": 0,
+    "title": "Wildfire — Australia",
+    "track_end": true
    }
   },
   "NSW RFS": {},
@@ -220,6 +3723,142 @@
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
+   "us:2026-CALPF-002271": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-CALPF-002271",
+    "lat": 36.2158988589877,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -121.717520940307,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Timber, CA, USA",
+    "track_end": true
+   },
+   "us:2026-COCUX-001160": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-COCUX-001160",
+    "lat": 38.0193211711361,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -105.0712779393,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Aspen Acres, CO, USA",
+    "track_end": true
+   },
+   "us:2026-COGMF-000099": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-COGMF-000099",
+    "lat": 38.0515730057394,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -107.682134525332,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Gold Mountain, CO, USA",
+    "track_end": true
+   },
+   "us:2026-ORBUD-002693": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-ORBUD-002693",
+    "lat": 43.6086726552229,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -119.439180587863,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Second Flat, OR, USA",
+    "track_end": true
+   },
+   "us:2026-ORBUD-002694": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-ORBUD-002694",
+    "lat": 43.0450056563701,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -118.955680407526,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Jackass Butte, OR, USA",
+    "track_end": true
+   },
+   "us:2026-ORMHF-000688": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-ORMHF-000688",
+    "lat": 45.2529725674808,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -121.510147242498,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — GRASSHOPPER, OR, USA",
+    "track_end": true
+   },
+   "us:2026-ORUMF-000324": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-ORUMF-000324",
+    "lat": 45.7070059239597,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -118.269013783122,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Hagen, OR, USA",
+    "track_end": true
+   },
+   "us:2026-ORWSA-000100": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-ORWSA-000100",
+    "lat": 44.6317835436221,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -121.350236093876,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Bench, OR, USA",
+    "track_end": true
+   },
    "us:2026-WAOWF-260406": {
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
     "history": [
@@ -232,6 +3871,23 @@
     "lon": -120.846631747952,
     "rank": 1,
     "title": "Large wildfire — LITTLE GIANT, WA, USA",
+    "track_end": true
+   },
+   "us:2026-WAOWF-260448": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-19T04:42:07.759122+00:00",
+    "history": [
+     "10,000+ ha · 19 Oct 15:42"
+    ],
+    "key": "us:2026-WAOWF-260448",
+    "lat": 48.9420058793899,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -120.60951494068,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — PTARMIGAN, WA, USA",
     "track_end": true
    }
   },
