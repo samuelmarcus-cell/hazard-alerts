@@ -113,7 +113,26 @@
     "track_end": true
    }
   },
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-20T03:57:28.133715+00:00",
+    "history": [
+     "Warning · 20 Oct 14:57"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "20/14:26 CDT \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Mid North, Riverland, Flinders and North East Pastoral districts.",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
