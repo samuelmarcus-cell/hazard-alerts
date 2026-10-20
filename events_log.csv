@@ -63,3 +63,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
             
 for 
                 parts of Central West and Maranoa and Warrego Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-20T01:57:27Z,ended,Canada fires,ca:2026_BC_2026-K70748,"50,000+ ha","Large wildfire — British Columbia, Canada",51.25133,-122.20717,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,yes
+2026-10-20T01:57:27Z,ended,Canada fires,ca:2026_BC_2026-K71082,"10,000+ ha","Large wildfire — British Columbia, Canada",51.0397,-122.85758,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
