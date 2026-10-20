@@ -58,3 +58,8 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:FL:1104231,Green,Flood — Libya,32.896672,13.1777923,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231,no
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:FL:1104238,Green,Flood — Uruguay,-32.2702086,-58.0837759,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104238,no
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:TC:1001336,Green,Tropical cyclone,22.5,139.7,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336,no
+2026-10-20T01:27:27Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"20/11:13 EST 
+                Severe Thunderstorm Warning
+            
+for 
+                parts of Central West and Maranoa and Warrego Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no

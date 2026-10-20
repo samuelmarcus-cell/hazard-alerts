@@ -93,7 +93,26 @@
   "ACT ESA": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-20T01:27:27.873586+00:00",
+    "history": [
+     "Warning · 20 Oct 12:27"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "20/11:13 EST \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Central West and Maranoa and Warrego Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
