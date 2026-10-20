@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562208720513925172",
-  "map_hash": "55ae0b22fd18",
+  "attachment_id": "1562231374092570684",
+  "map_hash": "2f366542d705",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -515,23 +515,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1103888": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:FL:1103888",
-    "lat": 35.4729886,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
-    "lon": -97.5170536,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — United States",
-    "track_end": true
-   },
    "gdacs:FL:1104099": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -566,23 +549,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Ecuador",
-    "track_end": true
-   },
-   "gdacs:FL:1104200": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:FL:1104200",
-    "lat": 4.8339551,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
-    "lon": -75.6713013,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Colombia",
     "track_end": true
    },
    "gdacs:FL:1104216": {
@@ -637,23 +603,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Costa Rica",
-    "track_end": true
-   },
-   "gdacs:FL:1104230": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "Green · 19 Oct 15:42"
-    ],
-    "key": "gdacs:FL:1104230",
-    "lat": 41.1157496,
-    "level": "Green",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104230",
-    "lon": 28.9985596,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Türkiye",
     "track_end": true
    },
    "gdacs:FL:1104235": {
@@ -762,18 +711,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Thailand",
-    "track_end": true
-   },
-   "gdacs:TC:1001335": {
-    "emoji": "🌀",
-    "history": [],
-    "key": "gdacs:TC:1001335",
-    "lat": 21.5,
-    "level": "",
-    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
-    "lon": -110.3,
-    "rank": 1,
-    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001337": {
