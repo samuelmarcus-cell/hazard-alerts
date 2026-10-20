@@ -570,6 +570,24 @@
     "title": "Flood — United States",
     "track_end": true
    },
+   "gdacs:FL:1104099": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-20T05:57:52.969296+00:00",
+    "history": [
+     "Green · 20 Oct 16:57"
+    ],
+    "key": "gdacs:FL:1104099",
+    "lat": 28.5000001,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099",
+    "lon": -106.0000001,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Mexico",
+    "track_end": true
+   },
    "gdacs:FL:1104200": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -603,6 +621,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Brazil",
+    "track_end": true
+   },
+   "gdacs:FL:1104227": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-20T05:57:52.969296+00:00",
+    "history": [
+     "Green · 20 Oct 16:57"
+    ],
+    "key": "gdacs:FL:1104227",
+    "lat": 10.0254946,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104227",
+    "lon": -84.1255559,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Costa Rica",
     "track_end": true
    },
    "gdacs:FL:1104230": {
