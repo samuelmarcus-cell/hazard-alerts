@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1561928865058791556",
-  "map_hash": "745a4e69ff47",
+  "attachment_id": "1562019573979414589",
+  "map_hash": "54be4634e895",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -129,7 +129,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "20/17:15 CDT \n                Severe Thunderstorm Warning\n            \nfor \n                Riverland and parts of Flinders, Mid North, Murraylands, Upper South East and North East Pastoral districts.",
+    "title": "20/18:55 CDT \n                Severe Thunderstorm Warning\n            \nfor \n                Riverland and parts of Flinders, Murraylands, Upper South East, North East Pastoral and Mid North districts.",
     "track_end": true
    }
   },
@@ -150,7 +150,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "20/17:45 EDT \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Mallee, Wimmera and South West Forecast Districts.",
+    "title": "20/19:24 EDT \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Mallee, South West and Wimmera Forecast Districts.",
     "track_end": true
    }
   },
@@ -170,7 +170,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "20/14:05 WST \n                Severe Thunderstorm Warning\n            \nfor \n                parts of North Interior, South Interior and Pilbara districts.",
+    "title": "20/16:12 WST \n                Severe Thunderstorm Warning\n            \nfor \n                parts of North Interior and South Interior districts.",
     "track_end": true
    }
   },
@@ -661,6 +661,24 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
+   "gdacs:FL:1104220": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-20T08:27:52.636829+00:00",
+    "history": [
+     "Green · 20 Oct 19:27"
+    ],
+    "key": "gdacs:FL:1104220",
+    "lat": 43.4586541,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
+    "lon": 11.1389204,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Italy",
+    "track_end": true
+   },
    "gdacs:FL:1104227": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -801,10 +819,10 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 15.9,
+    "lat": 16.5,
     "level": "",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 135.6,
+    "lon": 134.4,
     "rank": 2,
     "title": "Tropical cyclone — Guam, Northern Mariana Islands, Japan",
     "track_end": true
