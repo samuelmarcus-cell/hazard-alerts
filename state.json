@@ -728,6 +728,42 @@
     "title": "Flood — Malaysia",
     "track_end": true
    },
+   "gdacs:FL:1104240": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-20T14:58:21.584763+00:00",
+    "history": [
+     "Green · 21 Oct 01:58"
+    ],
+    "key": "gdacs:FL:1104240",
+    "lat": 37.2808823,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104240",
+    "lon": 127.4429132,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — South Korea",
+    "track_end": true
+   },
+   "gdacs:FL:1104241": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-20T14:58:21.584763+00:00",
+    "history": [
+     "Green · 21 Oct 01:58"
+    ],
+    "key": "gdacs:FL:1104241",
+    "lat": 7.0366682,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241",
+    "lon": 99.9615397,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Thailand",
+    "track_end": true
+   },
    "gdacs:TC:1001335": {
     "emoji": "🌀",
     "history": [],
