@@ -58,52 +58,20 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:FL:1104231,Green,Flood — Libya,32.896672,13.1777923,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231,no
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:FL:1104238,Green,Flood — Uruguay,-32.2702086,-58.0837759,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104238,no
 2026-10-19T22:12:00Z,ended,GDACS,gdacs:TC:1001336,Green,Tropical cyclone,22.5,139.7,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336,no
-2026-10-20T01:27:27Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"20/11:13 EST 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Central West and Maranoa and Warrego Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-20T01:27:27Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,20/11:13 EST Severe Thunderstorm Warning for parts of Central West and Maranoa and Warrego Forecast Districts.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-10-20T01:57:27Z,ended,Canada fires,ca:2026_BC_2026-K70748,"50,000+ ha","Large wildfire — British Columbia, Canada",51.25133,-122.20717,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,yes
 2026-10-20T01:57:27Z,ended,Canada fires,ca:2026_BC_2026-K71082,"10,000+ ha","Large wildfire — British Columbia, Canada",51.0397,-122.85758,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
-2026-10-20T03:57:28Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,"20/14:26 CDT 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Mid North, Riverland, Flinders and North East Pastoral districts.",,,http://reg.bom.gov.au/products/IDS21033.shtml,no
+2026-10-20T03:57:28Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,"20/14:26 CDT Severe Thunderstorm Warning for parts of Mid North, Riverland, Flinders and North East Pastoral districts.",,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-10-20T05:57:52Z,new,GDACS,gdacs:FL:1104227,Green,Flood — Costa Rica,10.0254946,-84.1255559,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104227,no
 2026-10-20T05:57:52Z,new,GDACS,gdacs:FL:1104099,Green,Flood — Mexico,28.5000001,-106.0000001,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099,no
-2026-10-20T06:12:52Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"20/14:05 WST 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of North Interior, South Interior and Pilbara districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
-2026-10-20T06:57:52Z,new,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,"20/17:45 EDT 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Mallee, Wimmera and South West Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21033.shtml,no
+2026-10-20T06:12:52Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"20/14:05 WST Severe Thunderstorm Warning for parts of North Interior, South Interior and Pilbara districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
+2026-10-20T06:57:52Z,new,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,"20/17:45 EDT Severe Thunderstorm Warning for parts of Mallee, Wimmera and South West Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21033.shtml,no
 2026-10-20T08:27:52Z,new,GDACS,gdacs:FL:1104220,Green,Flood — Italy,43.4586541,11.1389204,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220,no
 2026-10-20T10:43:21Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-3.2588565,-79.9588518,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
-2026-10-20T11:43:21Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"20/18:57 EST 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Central West and Channel Country Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
-2026-10-20T12:28:22Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,"20/22:03 EDT 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Mallee and Wimmera Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21033.shtml,no
-2026-10-20T13:28:21Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,"20/21:33 CDT 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of North East Pastoral district.",,,http://reg.bom.gov.au/products/IDS21033.shtml,no
-2026-10-20T13:28:21Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"20/18:44 WST 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of North Interior and South Interior districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
+2026-10-20T11:43:21Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,20/18:57 EST Severe Thunderstorm Warning for parts of Central West and Channel Country Forecast Districts.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-20T12:28:22Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,20/22:03 EDT Severe Thunderstorm Warning for parts of Mallee and Wimmera Forecast Districts.,,,http://reg.bom.gov.au/products/IDV21033.shtml,no
+2026-10-20T13:28:21Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,20/21:33 CDT Severe Thunderstorm Warning for parts of North East Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
+2026-10-20T13:28:21Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,20/18:44 WST Severe Thunderstorm Warning for parts of North Interior and South Interior districts.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-10-20T14:58:21Z,new,GDACS,gdacs:FL:1104240,Green,Flood — South Korea,37.2808823,127.4429132,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104240,no
 2026-10-20T14:58:21Z,new,GDACS,gdacs:FL:1104241,Green,Flood — Thailand,7.0366682,99.9615397,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241,no
 2026-10-20T22:29:28Z,ended,GDACS,gdacs:FL:1103888,Green,Flood — United States,35.4729886,-97.5170536,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
@@ -111,10 +79,6 @@ for
 2026-10-20T22:29:28Z,ended,GDACS,gdacs:FL:1104230,Green,Flood — Türkiye,41.1157496,28.9985596,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104230,no
 2026-10-20T22:29:28Z,ended,GDACS,gdacs:TC:1001335,,Tropical cyclone — México,21.5,-110.3,https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335,yes
 2026-10-21T02:14:57Z,new,ABC News,abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766,Hazard news,Hail damages crops in a matter of minutes ahead of bumper harvest,,,https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766,no
-2026-10-21T02:29:57Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"21/12:28 EST 
-                Severe Thunderstorm Warning
-            
-for 
-                parts of Channel Country and Maranoa and Warrego Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-21T02:29:57Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,21/12:28 EST Severe Thunderstorm Warning for parts of Channel Country and Maranoa and Warrego Forecast Districts.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-10-21T04:59:58Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-10-21T04:59:58Z,seen_at_start,ASMC haze,asmc:Southern,Alert Level 3,"Transboundary haze — Alert Level 3, Southern ASEAN",0.5,110.0,https://asmc.asean.org/asmc-alerts/,yes

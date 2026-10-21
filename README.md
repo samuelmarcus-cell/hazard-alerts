@@ -18,6 +18,7 @@ date, using one webhook on the **#alerts** channel.
 | BoM warnings, every state | Tropical cyclone, major flood, extreme heatwave | Severe thunderstorm, severe weather, moderate flood, fire weather, severe heatwave |
 | NSW RFS, VicEmergency, QLD Fire, SA CFS, WA DFES, TasALERT, ACT ESA | Emergency Warning | Watch and Act |
 | GDACS (global) | Cyclones, floods, wildfires at Orange/Red; others at Red | Green cyclones/floods/wildfires; Orange quakes, volcanoes, tsunamis |
+| ASMC ASEAN haze alerts | Alert Level 3 (highest) for the Southern or Northern ASEAN region | Alert Level 2 |
 | Canada (CWFIS) and US (NIFC) fires | 50,000 ha+, again at 250,000 ha+ | 10,000 ha+ |
 | ABC News "Just In" | Deployment / disaster-declaration stories mentioning a hazard | Other hazard stories → Hazard news thread |
 | Fire danger forecasts (NSW, VIC) | Any district forecast Extreme or Catastrophic | — |
