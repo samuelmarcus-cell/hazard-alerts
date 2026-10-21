@@ -118,7 +118,8 @@
   "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
   "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
   "https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
-  "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation"
+  "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation",
+  "https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072"
  ],
  "sources": {
   "ABC News": {
@@ -138,6 +139,24 @@
     "notify": false,
     "rank": 0,
     "title": "Bushfires cost Australia $6b a year as El Niño summer looms, report finds",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T20:31:38.097083+00:00",
+    "history": [
+     "Hazard news · 22 Oct 07:31"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Snail shell rings could hold prehistoric cyclone information",
     "track_end": false
    }
   },
