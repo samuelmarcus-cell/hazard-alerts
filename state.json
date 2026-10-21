@@ -116,26 +116,28 @@
   "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
   "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai",
   "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
-  "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis"
+  "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
+  "https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
+  "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation"
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752": {
+   "abc:https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-21T06:29:57.916376+00:00",
+    "first_seen": "2026-10-21T18:16:37.716807+00:00",
     "history": [
-     "Hazard news · 21 Oct 17:29"
+     "Hazard news · 22 Oct 05:16"
     ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
+    "key": "abc:https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
+    "link": "https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Australia at 'crossroads' as police warn of 'tsunami' of radicalisation",
+    "title": "Supercharged fire seasons now threaten half Australia's homes: report",
     "track_end": false
    }
   },
@@ -250,26 +252,7 @@
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-21T02:29:57.942098+00:00",
-    "history": [
-     "Warning · 21 Oct 13:29"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -1025,6 +1008,24 @@
     "notify": false,
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T18:16:37.716807+00:00",
+    "history": [
+     "Hazard news · 22 Oct 05:16"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Chemical tank explosion in Toledo, Ohio, prompts mass evacuation",
     "track_end": false
    }
   },
