@@ -1026,24 +1026,6 @@
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T10:15:37.532395+00:00",
-    "history": [
-     "Hazard news · 21 Oct 21:15"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "US extreme weather survivors are a growing group – now they want to be a political force",
-    "track_end": false
    }
   },
   "NSW RFS": {},
