@@ -18,6 +18,18 @@
    "failing_since": null,
    "warned": false
   },
+  "Al Jazeera": {
+   "failing_since": null,
+   "warned": false
+  },
+  "BBC Asia": {
+   "failing_since": null,
+   "warned": false
+  },
+  "BBC World": {
+   "failing_since": null,
+   "warned": false
+  },
   "BoM NSW/ACT": {
    "failing_since": null,
    "warned": false
@@ -62,6 +74,10 @@
    "failing_since": null,
    "warned": false
   },
+  "Guardian World": {
+   "failing_since": null,
+   "warned": false
+  },
   "NSW RFS": {
    "failing_since": null,
    "warned": false
@@ -92,6 +108,13 @@
   }
  },
  "last_weekly": "2026-10-19T08:00:00+11:00",
+ "news_posted": [
+  "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+  "https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
+  "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires"
+ ],
  "sources": {
   "ABC News": {
    "abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766": {
@@ -114,7 +137,114 @@
    }
   },
   "ACT ESA": {},
-  "ASMC haze": {},
+  "ASMC haze": {
+   "asmc:Southern": {
+    "attachment_id": "1562333404782137464",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Activation of Alert Level 3 for the Southern ASEAN Region &nbsp; In recent days, the hotspot and smoke haze situation over the southern ASEAN region has deteriorated further under the prolonged dry conditions. Based on satellite surveillance, widespread moderate to dense smoke haze was observed to emanate from clusters of hotspots detected in Kalimantan, with moderate to dense transboundary haze observed to drift northwards from the hotspot clusters in West Kalimantan. Moderate to dense smoke ha",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "26 Aug 2026"
+      },
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "Southern ASEAN"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=0.5000&mlon=110.0000#map=8/0.5000/110.0000)"
+      }
+     ],
+     "footer": {
+      "text": "ASMC (ASEAN haze)"
+     },
+     "timestamp": "2026-10-21T05:15:09.799448+00:00",
+     "title": "🌫️ Transboundary haze — Alert Level 3, Southern ASEAN",
+     "url": "https://asmc.asean.org/asmc-alerts/"
+    },
+    "emoji": "🌫️",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Alert Level 3 · 21 Oct 16:14"
+    ],
+    "key": "asmc:Southern",
+    "lat": 0.5,
+    "level": "Alert Level 3",
+    "link": "https://asmc.asean.org/asmc-alerts/",
+    "lon": 110.0,
+    "message_id": "1562333404622622793",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Transboundary haze — Alert Level 3, Southern ASEAN",
+    "track_end": true
+   }
+  },
+  "Al Jazeera": {},
+  "BBC Asia": {
+   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
+    "track_end": false
+   },
+   "BBC Asia:https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo#2": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo#2",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+    "track_end": false
+   }
+  },
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -820,6 +950,62 @@
     "rank": 0,
     "title": "Tropical cyclone — Cook Islands, French Polynesia",
     "track_end": true
+   }
+  },
+  "Guardian World": {
+   "Guardian World:https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Flash floods destroy villages in central Nepal",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:14"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Firefighters voice growing concerns over water supplies to tackle UK wildfires",
+    "track_end": false
    }
   },
   "NSW RFS": {},
