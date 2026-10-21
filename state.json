@@ -89,7 +89,26 @@
  },
  "last_weekly": "2026-10-19T08:00:00+11:00",
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T02:14:57.752744+00:00",
+    "history": [
+     "Hazard news · 21 Oct 13:14"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Hail damages crops in a matter of minutes ahead of bumper harvest",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
