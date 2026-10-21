@@ -650,5 +650,42 @@ for
             self.assertTrue(monitor.is_hazard_news(title, ""), title)
 
 
+class WorldNewsTests(unittest.TestCase):
+
+    SAMPLE = b"""<?xml version="1.0"?><rss version="2.0"><channel>
+      <item><title>Haze chokes Kuala Lumpur as Indonesia&#039;s fires burn</title>
+        <link>https://bbc.co.uk/news/1</link><guid>https://bbc.co.uk/news/1</guid>
+        <description><![CDATA[Schools shut as air quality worsens.]]></description></item>
+      <item><title>Trump commits $400m ahead of midterms</title>
+        <link>https://bbc.co.uk/news/2</link><guid>2</guid><description>x</description></item>
+    </channel></rss>"""
+
+    def test_parse_news(self):
+        alerts = monitor.parse_news("BBC Asia", self.SAMPLE)
+        self.assertEqual(len(alerts), 1)
+        a = alerts[0]
+        self.assertEqual(a["title"], "Haze chokes Kuala Lumpur as Indonesia's fires burn")
+        self.assertTrue(a["news"])
+        self.assertFalse(a["notify"])             # world news never gets a card
+        self.assertEqual(a["key"], "BBC Asia:https://bbc.co.uk/news/1")
+
+    def test_same_article_in_two_feeds_posts_once_and_first_read_posts(self):
+        world = monitor.parse_news("BBC World", self.SAMPLE)
+        asia = monitor.parse_news("BBC Asia", self.SAMPLE)
+        changes, _ = monitor.decide({"BBC World": world, "BBC Asia": asia}, {}, NOW)
+        self.assertEqual({c[0] for c in changes}, {"seen_at_start"})
+        sent, state = [], {}
+        saved = monitor.post_text
+        monitor.post_text = lambda text, thread=None, quiet=True, previews=False: sent.append(text)
+        try:
+            monitor.post_news(changes, state)
+            monitor.post_news(changes, state)    # a later run seeing them again
+        finally:
+            monitor.post_text = saved
+        self.assertEqual(len(sent), 1)
+        self.assertIn("· BBC", sent[0])
+        self.assertEqual(state["news_posted"], ["https://bbc.co.uk/news/1"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -34,6 +34,7 @@ Run locally:  python monitor.py --dry-run        (prints, sends nothing)
 import argparse
 import csv
 import hashlib
+import html
 import io
 import json
 import math
@@ -207,6 +208,13 @@ CANADA_STAGES = {"OC": "Out of control", "BH": "Being held", "UC": "Under contro
 
 # --- ABC news -------------------------------------------------------------
 ABC_URL = "https://www.abc.net.au/news/feed/10719976/rss.xml"     # "Just In"
+# International outlets: hazard stories go to the Hazard news thread (no cards).
+WORLD_NEWS_FEEDS = {
+    "BBC World": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "BBC Asia": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+    "Guardian World": "https://www.theguardian.com/world/rss",
+    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+}
 
 # --- ASEAN transboundary haze alerts (ASMC) -------------------------------
 # A table on this page lists each alert, newest first: date, level, details
@@ -305,7 +313,8 @@ def first_text(element, names):
 
 
 def strip_html(text):
-    return re.sub(r"<[^>]+>", " ", text or "").replace("&nbsp;", " ").strip()
+    """Remove tags and decode entities like &#039; and &nbsp;."""
+    return html.unescape(re.sub(r"<[^>]+>", " ", text or "")).strip()
 
 
 def aws_level(text):
@@ -612,26 +621,35 @@ def is_hazard_news(title, summary):
     return sum(1 for p in HAZARD_NEWS_PATTERNS if re.search(p, summary_l)) >= 2
 
 
-def parse_abc(content):
-    """Deployment/declaration stories -> cards; other hazard stories -> news."""
+def parse_news(source, content, deployments=False):
+    """Hazard stories from an RSS news feed -> quiet news items.
+
+    deployments=True (ABC only): stories about interstate/international crews
+    or disaster declarations get a full card in #alerts instead.
+    """
     alerts = []
     for item in ET.fromstring(content).iter("item"):
-        title = (item.findtext("title") or "").strip()
+        title = strip_html(item.findtext("title"))
         summary = strip_html(item.findtext("description"))
         text = f"{title} {summary}".lower()
-        deployment = (any(p in text for p in DEPLOYMENT_PHRASES)
-                      and any(h in text for h in HAZARD_WORDS))
+        deployment = deployments and (any(p in text for p in DEPLOYMENT_PHRASES)
+                                      and any(h in text for h in HAZARD_WORDS))
         if not deployment and not is_hazard_news(title, summary):
             continue
         link = (item.findtext("link") or "").strip()
+        prefix = "abc" if source == "ABC News" else source
         alerts.append(make_alert(
-            key=f"abc:{(item.findtext('guid') or link or title).strip()}",
-            source="ABC News", rank=1 if deployment else 0, notify=deployment,
+            key=f"{prefix}:{(item.findtext('guid') or link or title).strip()}",
+            source=source, rank=1 if deployment else 0, notify=deployment,
             news=not deployment, level="Deployment news" if deployment else "Hazard news",
             emoji="📰", title=title, message=summary[:400], link=link,
             colour=COLOUR_BLUE, track_end=False,
         ))
     return alerts
+
+
+def parse_abc(content):
+    return parse_news("ABC News", content, deployments=True)
 
 
 def parse_asmc(content):
@@ -754,6 +772,10 @@ def collect(now):
         ("Canada fires", CANADA_URL, parse_canada),
         ("US fires", US_URL, parse_us),
         ("ABC News", ABC_URL, parse_abc),
+    ]
+    for name, url in WORLD_NEWS_FEEDS.items():
+        jobs.append((name, url, lambda c, n=name: parse_news(n, c)))
+    jobs += [
         ("ASMC haze", ASMC_URL, parse_asmc),
     ]
     downloaded = {}                       # VicEmergency is used twice: fetch once
@@ -1235,15 +1257,29 @@ def deliver(changes, health_cards, now, dry_run=False):
             post_card(build_embed(card))
 
 
-def post_news(changes, dry_run=False):
-    """Quietly post new hazard stories, one message each with its preview."""
-    stories = [c[2] for c in changes if c[0] == "new" and c[2].get("news")]
+def post_news(changes, state=None, dry_run=False):
+    """Quietly post hazard stories, one message each with its preview.
+
+    Stories already in a feed the first time it's read are posted too (a news
+    feed only holds recent stories, so there's no backlog to flood you with).
+    The same article seen in two feeds (BBC World and BBC Asia) posts once.
+    """
+    posted = list((state or {}).get("news_posted", []))
+    stories, seen = [], set(posted)
+    for kind, source, alert, record in changes:
+        if kind in ("new", "seen_at_start") and alert and alert.get("news"):
+            if alert["link"] and alert["link"] not in seen:
+                seen.add(alert["link"])
+                stories.append(alert)
+    if state is not None and not dry_run:
+        state["news_posted"] = (posted + [s["link"] for s in stories])[-500:]
     thread = DISCORD_THREADS.get("news") or DISCORD_THREADS["log"]
     for story in stories[:MAX_NEWS_PER_RUN]:
         if dry_run:
             print(f"  [news] {story['title']}")
         else:
-            post_text(f"📰 **{story['title']}**\n{story['link']}", thread=thread, previews=True)
+            post_text(f"📰 **{story['title']}** · {story['source']}\n{story['link']}",
+                      thread=thread, previews=True)
     extra = stories[MAX_NEWS_PER_RUN:]
     if extra and not dry_run:
         post_text("📰 More hazard stories:\n" + "\n".join(
@@ -1510,7 +1546,7 @@ def main():
     due = weekly_due(state, now)
     if args.dry_run:
         deliver(changes, health_cards, now, dry_run=True)
-        post_news(changes, dry_run=True)
+        post_news(changes, state, dry_run=True)
         print(log_digest(changes, now) or "  [log] nothing")
         update_dashboard(state, results, now, dry_run=True)
         if due:
@@ -1519,7 +1555,7 @@ def main():
 
     log_changes(changes, now)
     deliver(changes, health_cards, now)
-    post_news(changes)
+    post_news(changes, state)
     digest = log_digest(changes, now)
     if digest:
         post_text(digest, thread=DISCORD_THREADS["log"])

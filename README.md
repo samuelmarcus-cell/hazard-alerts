@@ -9,7 +9,7 @@ date, using one webhook on the **#alerts** channel.
 | **📊 Dashboard** thread | One live message, edited every check: everything current, fire danger outlook, feed status, and a world + Australia map |
 | **📒 Event log** thread | A quiet line for everything recorded, including lower-level events with no card |
 | **🗓️ Weekly round-up** thread | Monday 8am (Melbourne): the week's events, counts by source, feed status |
-| **📰 Hazard news** thread | ABC stories about storms, floods, fires, cyclones, heatwaves etc., posted silently with a preview |
+| **📰 Hazard news** thread | Stories about storms, floods, fires, haze, cyclones, heatwaves etc. from ABC, BBC (World, Asia), The Guardian (World) and Al Jazeera, posted silently with a preview; an article in two feeds posts once |
 
 ## What gets a card
 
@@ -21,6 +21,7 @@ date, using one webhook on the **#alerts** channel.
 | ASMC ASEAN haze alerts | Alert Level 3 (highest) for the Southern or Northern ASEAN region | Alert Level 2 |
 | Canada (CWFIS) and US (NIFC) fires | 50,000 ha+, again at 250,000 ha+ | 10,000 ha+ |
 | ABC News "Just In" | Deployment / disaster-declaration stories mentioning a hazard | Other hazard stories → Hazard news thread |
+| BBC, Guardian, Al Jazeera | — | Hazard stories → Hazard news thread |
 | Fire danger forecasts (NSW, VIC) | Any district forecast Extreme or Catastrophic | — |
 | Concurrent events | Major events in 3+ Australian jurisdictions at once; or 2+ while a Red / 250,000 ha+ event is active overseas | — |
 | Feed health | A feed failing for 24 hours, and its recovery | — |
@@ -65,6 +66,7 @@ In `monitor.py` under **CONFIGURATION**:
 - `FDR_RANK`: fire danger levels that get a card.
 - `DEPLOYMENT_PHRASES` / `HAZARD_WORDS`: what counts as deployment news.
 - `HAZARD_NEWS_PATTERNS` / `HAZARD_NEWS_EXCLUDE`: what counts as hazard news.
+- `WORLD_NEWS_FEEDS`: which international outlets are read (add any RSS feed).
 - `MAX_PUSHES_PER_RUN`, `FEED_FAILURE_WARNING_HOURS`, `WEEKLY_WEEKDAY`, `WEEKLY_HOUR`.
 - Changing a filter? Bump `FILTERS_VERSION` so existing events are recorded quietly.
 
