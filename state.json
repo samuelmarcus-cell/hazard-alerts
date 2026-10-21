@@ -232,24 +232,6 @@
     "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
     "track_end": false
    },
-   "BBC Asia:https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T05:14:57.608679+00:00",
-    "history": [
-     "Hazard news · 21 Oct 16:14"
-    ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
-    "track_end": false
-   },
    "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#0": {
     "colour": 2001125,
     "emoji": "📰",
