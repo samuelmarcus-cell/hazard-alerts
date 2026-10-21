@@ -123,24 +123,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T18:16:37.716807+00:00",
-    "history": [
-     "Hazard news · 22 Oct 05:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Bushfires cost Australia $6b a year as El Niño summer looms, report finds",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072": {
     "colour": 2001125,
     "emoji": "📰",
