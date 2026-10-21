@@ -120,10 +120,29 @@
   "https://www.abc.net.au/news/2026-10-22/bushfires-costing-australia-6b-annually/107272000",
   "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation",
   "https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
-  "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T23:02:08.575964+00:00",
+    "history": [
+     "Hazard news · 22 Oct 10:02"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Roads and schools closed as flash flooding hits south-east Queensland",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072": {
     "colour": 2001125,
     "emoji": "📰",
@@ -324,7 +343,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Moreton Bay Council Area.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Sunshine Coast and Moreton Bay Council Areas.",
     "track_end": true
    }
   },
