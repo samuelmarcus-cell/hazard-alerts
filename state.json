@@ -193,14 +193,14 @@
   },
   "Al Jazeera": {},
   "BBC Asia": {
-   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#0": {
+   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-21T05:14:57.608679+00:00",
+    "first_seen": "2026-10-21T18:31:38.073105+00:00",
     "history": [
-     "Hazard news · 21 Oct 16:14"
+     "Hazard news · 22 Oct 05:31"
     ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#0",
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
