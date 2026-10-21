@@ -988,6 +988,24 @@
     "rank": 0,
     "title": "Tropical cyclone — Cook Islands, French Polynesia",
     "track_end": true
+   },
+   "gdacs:TC:1001341": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-21T15:01:11.262323+00:00",
+    "history": [
+     "Green · 22 Oct 02:01"
+    ],
+    "key": "gdacs:TC:1001341",
+    "lat": 9.5,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
+    "lon": -99.3,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone",
+    "track_end": true
    }
   },
   "Guardian World": {
