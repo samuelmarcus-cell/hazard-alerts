@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562231374092570684",
-  "map_hash": "2f366542d705",
+  "attachment_id": "1562291885907906570",
+  "map_hash": "dc3e5af5977f",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -112,7 +112,26 @@
   "ACT ESA": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-21T02:29:57.942098+00:00",
+    "history": [
+     "Warning · 21 Oct 13:29"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "21/12:28 EST \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Channel Country and Maranoa and Warrego Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -753,10 +772,10 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 17.4,
+    "lat": 18.1,
     "level": "",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 131.5,
+    "lon": 130.1,
     "rank": 2,
     "title": "Tropical cyclone — Guam, Northern Mariana Islands, Japan",
     "track_end": true
