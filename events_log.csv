@@ -97,3 +97,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-21T10:15:37Z,new,GDACS,gdacs:FL:1104242,Green,Flood — Ukraine,44.4341131,34.0919813,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104242,no
 2026-10-21T10:15:37Z,new,GDACS,gdacs:FL:1104243,Green,Flood — France,43.6989653,4.1146915,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243,no
 2026-10-21T10:15:37Z,new,Guardian World,Guardian World:https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis,Hazard news,US extreme weather survivors are a growing group – now they want to be a political force,,,https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis,no
+2026-10-21T11:00:37Z,new,GDACS,gdacs:FL:1104244,Green,Flood — Guatemala,15.3832579,-90.2390014,https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104244,no

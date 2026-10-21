@@ -963,6 +963,24 @@
     "title": "Flood — France",
     "track_end": true
    },
+   "gdacs:FL:1104244": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-21T11:00:37.588037+00:00",
+    "history": [
+     "Green · 21 Oct 22:00"
+    ],
+    "key": "gdacs:FL:1104244",
+    "lat": 15.3832579,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104244",
+    "lon": -90.2390014,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Guatemala",
+    "track_end": true
+   },
    "gdacs:TC:1001337": {
     "colour": 4431943,
     "emoji": "🌀",
