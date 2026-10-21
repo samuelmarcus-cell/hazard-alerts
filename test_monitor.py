@@ -602,5 +602,53 @@ class HazardNewsTests(unittest.TestCase):
         self.assertEqual(thread, expected)
 
 
+ASMC_SAMPLE = b"""<html><body>
+<table><tr><td class="col-1"><strong>Level 0</strong></td><td>No transboundary smoke haze.</td></tr>
+<tr><td class="col-1"><strong>Level 3</strong></td><td>High risk of severe haze.</td></tr></table>
+<table>
+<tr><td>Date of Issue</td><td>Alert Level</td><td>Details</td></tr>
+<tr><td>26 Aug 2026</td><td>Level 3</td><td><p>Activation of Alert Level 3 for the Southern ASEAN Region</p>
+  <p>Moderate to dense smoke haze over Kalimantan.</p></td></tr>
+<tr><td>12 Aug 2026</td><td>Level 2</td><td>Activation of Alert Level 2 for the Southern ASEAN Region</td></tr>
+<tr><td>1 Jun 2026</td><td>Level 1</td><td>Activation of Alert Level 1 for the Northern ASEAN Region</td></tr>
+</table></body></html>"""
+
+
+class HazeAndTitleTests(unittest.TestCase):
+
+    def test_asmc_current_level_per_region(self):
+        alerts = monitor.parse_asmc(ASMC_SAMPLE)
+        self.assertEqual(len(alerts), 1)        # Northern is only Level 1
+        a = alerts[0]
+        self.assertEqual((a["key"], a["rank"], a["notify"]), ("asmc:Southern", 1, True))
+        self.assertEqual(a["level"], "Alert Level 3")   # newest row wins, not the Level 2
+        self.assertIn(("Issued", "26 Aug 2026"), a["fields"])
+        self.assertIn("Kalimantan", a["message"])
+
+    def test_asmc_level_2_is_recorded_only(self):
+        sample = ASMC_SAMPLE.replace(b"<td>26 Aug 2026</td><td>Level 3</td>",
+                                     b"<td>26 Aug 2026</td><td>Level 2</td>")
+        a = monitor.parse_asmc(sample)[0]
+        self.assertEqual((a["rank"], a["notify"]), (0, False))
+
+    def test_bom_title_line_breaks_and_issue_time(self):
+        sample = b"""<rss><channel><item><title>20/11:13 EST
+                Severe Thunderstorm Warning
+
+for
+                parts of Central West and Maranoa and Warrego Forecast Districts.</title>
+            <link>http://www.bom.gov.au/products/IDQ21035.shtml</link></item></channel></rss>"""
+        a = monitor.parse_bom("QLD", sample)[0]
+        self.assertEqual(a["title"], "Severe Thunderstorm Warning for parts of Central West "
+                                     "and Maranoa and Warrego Forecast Districts.")
+        self.assertIn(("Issued", "20/11:13 EST"), a["fields"])
+
+    def test_haze_and_forest_fire_news(self):
+        for title in ["Haze triggers highest-level alert in parts of South-East Asia",
+                      "Indonesia battles peatland fires as smoke blankets Borneo",
+                      "Forest fires rage across Sumatra"]:
+            self.assertTrue(monitor.is_hazard_news(title, ""), title)
+
+
 if __name__ == "__main__":
     unittest.main()

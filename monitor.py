@@ -207,6 +207,15 @@ CANADA_STAGES = {"OC": "Out of control", "BH": "Being held", "UC": "Under contro
 
 # --- ABC news -------------------------------------------------------------
 ABC_URL = "https://www.abc.net.au/news/feed/10719976/rss.xml"     # "Just In"
+
+# --- ASEAN transboundary haze alerts (ASMC) -------------------------------
+# A table on this page lists each alert, newest first: date, level, details
+# naming the region. Level 3 (the highest) gets a card; Level 2 is recorded.
+ASMC_URL = "https://asmc.asean.org/asmc-alerts/"
+ASMC_REGIONS = {                     # region -> rough centre, for the map
+    "Southern": (0.5, 110.0),        # Borneo / Sumatra
+    "Northern": (18.0, 101.0),       # Mekong sub-region
+}
 DEPLOYMENT_PHRASES = [
     "interstate firefighters", "interstate crews", "interstate fire crews",
     "interstate personnel", "interstate help", "interstate assistance",
@@ -228,7 +237,9 @@ HAZARD_NEWS_PATTERNS = [
     r"\bdamaging winds?\b", r"\btornado(es)?\b", r"\blandslides?\b",
     r"\bearthquakes?\b", r"\btsunamis?\b", r"\bevacuat", r"\bemergency warning\b",
     r"\bwatch and act\b", r"\bheavy rain", r"\brainfall\b", r"\bweather bureau\b",
-    r"\bbureau of meteorology\b",
+    r"\bbureau of meteorology\b", r"\bhaze\b", r"\bforest ?fires?\b",
+    r"\bpeat(land)? ?fires?\b", r"\bland (and forest )?fires?\b", r"\bsmoke\b",
+    r"\bair quality\b", r"\bair pollution\b",
 ]
 # Titles containing these aren't hazard stories ("Melbourne Storm", "a flood of").
 HAZARD_NEWS_EXCLUDE = [
@@ -275,6 +286,10 @@ def make_alert(**values):
              "colour": COLOUR_ORANGE, "fields": [], "lat": None, "lon": None,
              "zoom": 7, "track_end": True, "notify": True, "news": False}
     alert.update(values)
+    # Feeds sometimes put line breaks inside titles (BoM does); Discord then
+    # shows only the first line. Collapse all runs of whitespace to one space.
+    for field in ("title", "message"):
+        alert[field] = " ".join(str(alert.get(field) or "").split())
     return alert
 
 
@@ -322,12 +337,17 @@ def parse_bom(region, content):
         if not (card or logged):
             continue
         link = (item.findtext("link") or "").strip()
+        title = " ".join(title.split())
+        fields = [("Region", region)]
+        issued = re.match(r"(\d{1,2}/\d{1,2}:\d{2} [A-Z]{3,4})\s+(.*)", title)
+        if issued:                     # "20/11:13 EST Severe Thunderstorm ..."
+            fields.append(("Issued", issued.group(1)))
+            title = issued.group(2)
         alerts.append(make_alert(
             key=f"bom:{link or title}", source="Bureau of Meteorology",
             rank=1 if card else 0, notify=bool(card),
             level="Major warning" if card else "Warning",
-            emoji=card or logged, title=title, link=link,
-            fields=[("Region", region)],
+            emoji=card or logged, title=title, link=link, fields=fields,
         ))
     return alerts
 
@@ -614,6 +634,40 @@ def parse_abc(content):
     return alerts
 
 
+def parse_asmc(content):
+    """Current ASMC haze alert level for each ASEAN region."""
+    page = content.decode("utf-8", errors="replace")
+    current = {}
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", page, flags=re.S | re.I):
+        cells = [" ".join(re.sub(r"<[^>]+>", " ", c).split())
+                 for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S | re.I)]
+        if len(cells) < 3:
+            continue                    # the level-definition table has 2 columns
+        issued, level_text, details = cells[0], cells[1], cells[2]
+        level = re.search(r"Level\s*(\d)", level_text)
+        region = re.search(r"(Southern|Northern) ASEAN", details)
+        if not level or not region or region.group(1) in current:
+            continue                    # rows are newest first: keep the first per region
+        current[region.group(1)] = (int(level.group(1)), issued, details)
+
+    alerts = []
+    for region, (level, issued, details) in current.items():
+        if level < 2:
+            continue
+        lat, lon = ASMC_REGIONS[region]
+        alerts.append(make_alert(
+            key=f"asmc:{region}", source="ASMC (ASEAN haze)",
+            rank=1 if level >= 3 else 0, notify=level >= 3,
+            level=f"Alert Level {level}", emoji="🌫️",
+            title=f"Transboundary haze — Alert Level {level}, {region} ASEAN",
+            message=details[:500], link=ASMC_URL,
+            colour=COLOUR_RED if level >= 3 else COLOUR_ORANGE,
+            fields=[("Issued", issued), ("Region", f"{region} ASEAN")],
+            lat=lat, lon=lon, zoom=4,
+        ))
+    return alerts
+
+
 def fdr_alerts(state, by_day, link):
     """{day: {district: rating}} -> one alert per day with Extreme+ districts."""
     alerts = []
@@ -700,6 +754,7 @@ def collect(now):
         ("Canada fires", CANADA_URL, parse_canada),
         ("US fires", US_URL, parse_us),
         ("ABC News", ABC_URL, parse_abc),
+        ("ASMC haze", ASMC_URL, parse_asmc),
     ]
     downloaded = {}                       # VicEmergency is used twice: fetch once
     results = {}
