@@ -305,7 +305,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Logan, Brisbane City, Moreton Bay, Somerset and Scenic Rim Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Logan, Scenic Rim, Brisbane City, Moreton Bay, Somerset and Sunshine Coast Council Areas.",
     "track_end": true
    }
   },
@@ -1044,6 +1044,24 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone",
+    "track_end": true
+   },
+   "gdacs:TC:1001342": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-21T21:16:38.221861+00:00",
+    "history": [
+     "Green · 22 Oct 08:16"
+    ],
+    "key": "gdacs:TC:1001342",
+    "lat": 37.4,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001342",
+    "lon": -69.5,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone — United States, Canada, Saint Pierre and Miquelon",
     "track_end": true
    }
   },
