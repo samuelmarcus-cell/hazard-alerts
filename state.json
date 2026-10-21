@@ -117,26 +117,7 @@
   "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T02:14:57.752744+00:00",
-    "history": [
-     "Hazard news · 21 Oct 13:14"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-21/heavy-rain-hail-damage-crops-before-record-breaking-harvest/107290766",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hail damages crops in a matter of minutes ahead of bumper harvest",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -1025,24 +1006,6 @@
     "notify": false,
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T05:14:57.608679+00:00",
-    "history": [
-     "Hazard news · 21 Oct 16:14"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Firefighters voice growing concerns over water supplies to tackle UK wildfires",
     "track_end": false
    }
   },
