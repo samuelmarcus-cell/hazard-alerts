@@ -115,7 +115,8 @@
   "https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
   "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
   "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai",
-  "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752"
+  "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
+  "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis"
  ],
  "sources": {
   "ABC News": {
@@ -307,7 +308,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of South Interior district.",
+    "title": "Severe Thunderstorm Warning for parts of North Interior and South Interior districts.",
     "track_end": true
    }
   },
@@ -790,10 +791,10 @@
      "Green · 20 Oct 19:27"
     ],
     "key": "gdacs:FL:1104220",
-    "lat": 43.4586541,
+    "lat": 42.7587718,
     "level": "Green",
     "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 11.1389204,
+    "lon": 10.1989696,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -926,6 +927,42 @@
     "title": "Flood — Thailand",
     "track_end": true
    },
+   "gdacs:FL:1104242": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-21T10:15:37.532395+00:00",
+    "history": [
+     "Green · 21 Oct 21:15"
+    ],
+    "key": "gdacs:FL:1104242",
+    "lat": 44.4341131,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104242",
+    "lon": 34.0919813,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ukraine",
+    "track_end": true
+   },
+   "gdacs:FL:1104243": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-21T10:15:37.532395+00:00",
+    "history": [
+     "Green · 21 Oct 21:15"
+    ],
+    "key": "gdacs:FL:1104243",
+    "lat": 43.6989653,
+    "level": "Green",
+    "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243",
+    "lon": 4.1146915,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — France",
+    "track_end": true
+   },
    "gdacs:TC:1001337": {
     "colour": 4431943,
     "emoji": "🌀",
@@ -1008,6 +1045,24 @@
     "notify": false,
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T10:15:37.532395+00:00",
+    "history": [
+     "Hazard news · 21 Oct 21:15"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/21/extreme-weather-survivors-climate-crisis",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "US extreme weather survivors are a growing group – now they want to be a political force",
     "track_end": false
    }
   },
