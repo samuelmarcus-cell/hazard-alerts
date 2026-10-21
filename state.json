@@ -114,10 +114,30 @@
   "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
   "https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
   "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
-  "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai"
+  "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai",
+  "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T06:29:57.916376+00:00",
+    "history": [
+     "Hazard news · 21 Oct 17:29"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-21/youth-radicalisation-crime-police-warning-ideological-violence/107292752",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Australia at 'crossroads' as police warn of 'tsunami' of radicalisation",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -245,7 +265,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Maranoa and Warrego and Channel Country Forecast Districts.",
     "track_end": true
    }
   },
