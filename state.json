@@ -113,7 +113,8 @@
   "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
   "https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal",
-  "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires"
+  "https://www.theguardian.com/uk-news/2026/oct/21/firefighters-growing-concerns-water-supplies-tackle-wildfires",
+  "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai"
  ],
  "sources": {
   "ABC News": {
@@ -953,6 +954,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-21T05:29:57.558823+00:00",
+    "history": [
+     "Hazard news · 21 Oct 16:29"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/oct/21/afp-warns-australia-of-tsunami-of-youth-and-radicalisation-accelerated-by-ai",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "AFP warns Australia of ‘tsunami of youth crime’ and radicalisation accelerated by AI",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/environment/2026/oct/16/flash-floods-deaths-nepal-high-temperatures-portugal": {
     "colour": 2001125,
     "emoji": "📰",
