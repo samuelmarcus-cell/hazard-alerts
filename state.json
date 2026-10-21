@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562291885907906570",
-  "map_hash": "dc3e5af5977f",
+  "attachment_id": "1562329670744145960",
+  "map_hash": "4c943c695550",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -11,6 +11,10 @@
    "warned": false
   },
   "ACT ESA": {
+   "failing_since": null,
+   "warned": false
+  },
+  "ASMC haze": {
    "failing_since": null,
    "warned": false
   },
@@ -110,6 +114,26 @@
    }
   },
   "ACT ESA": {},
+  "ASMC haze": {
+   "asmc:Southern": {
+    "colour": 13840175,
+    "emoji": "🌫️",
+    "first_seen": "2026-10-21T04:59:58.339990+00:00",
+    "history": [
+     "Alert Level 3 · 21 Oct 15:59"
+    ],
+    "key": "asmc:Southern",
+    "lat": 0.5,
+    "level": "Alert Level 3",
+    "link": "https://asmc.asean.org/asmc-alerts/",
+    "lon": 110.0,
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Transboundary haze — Alert Level 3, Southern ASEAN",
+    "track_end": true
+   }
+  },
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -128,14 +152,33 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "21/13:44 EST \n                Severe Thunderstorm Warning\n            \nfor \n                parts of Central Highlands and Coalfields, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-21T04:59:58.339990+00:00",
+    "history": [
+     "Warning · 21 Oct 15:59"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of South Interior district.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
