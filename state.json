@@ -35,7 +35,7 @@
    "warned": false
   },
   "BoM NT": {
-   "failing_since": null,
+   "failing_since": "2026-10-22T07:02:35.657830+00:00",
    "warned": false
   },
   "BoM QLD": {
