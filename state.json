@@ -252,24 +252,6 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T05:14:57.608679+00:00",
-    "history": [
-     "Hazard news · 21 Oct 16:14"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#3": {
     "colour": 2001125,
     "emoji": "📰",
