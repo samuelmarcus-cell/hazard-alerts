@@ -155,24 +155,6 @@
     "title": "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
     "track_end": false
    },
-   "abc:https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T18:33:55.433091+00:00",
-    "history": [
-     "Hazard news · 23 Oct 05:33"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Friday news quiz: Royal reconciliation, muddled maps and an island evacuation",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790": {
     "colour": 2001125,
     "emoji": "📰",
