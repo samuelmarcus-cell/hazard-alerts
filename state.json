@@ -217,24 +217,6 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T09:17:35.904763+00:00",
-    "history": [
-     "Hazard news · 22 Oct 20:17"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Some New Yorkers hail ban on horse-drawn carriages, but drivers fear for incomes",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#3": {
     "colour": 2001125,
     "emoji": "📰",
