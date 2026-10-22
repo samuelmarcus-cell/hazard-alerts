@@ -177,14 +177,14 @@
   },
   "Al Jazeera": {},
   "BBC Asia": {
-   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#1": {
+   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-21T18:31:38.073105+00:00",
+    "first_seen": "2026-10-22T04:17:36.285236+00:00",
     "history": [
-     "Hazard news · 22 Oct 05:31"
+     "Hazard news · 22 Oct 15:17"
     ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#1",
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
@@ -195,14 +195,14 @@
     "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
     "track_end": false
    },
-   "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#0": {
+   "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-21T22:16:38.413789+00:00",
+    "first_seen": "2026-10-22T04:17:36.285236+00:00",
     "history": [
-     "Hazard news · 22 Oct 09:16"
+     "Hazard news · 22 Oct 15:17"
     ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#0",
+    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
@@ -271,7 +271,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Darling Downs and Granite Belt and parts of Central Highlands and Coalfields, Maranoa and Warrego and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Darling Downs and Granite Belt and parts of Central Highlands and Coalfields, Wide Bay and Burnett, Maranoa and Warrego and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -289,7 +289,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Lockyer Valley, Moreton Bay, Somerset, Toowoomba and Sunshine Coast Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Somerset, Scenic Rim, Southern Downs, Toowoomba, Lockyer Valley, Sunshine Coast and Moreton Bay Council Areas.",
     "track_end": true
    }
   },
