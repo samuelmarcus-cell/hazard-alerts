@@ -131,7 +131,9 @@
   "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
   "https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
-  "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584"
+  "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584",
+  "https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat",
+  "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -240,7 +242,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1792703596": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T21:49:30.348223+00:00",
+    "history": [
+     "Hazard news · 23 Oct 08:49"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792703596",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+    "track_end": false
+   }
+  },
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
     "colour": 2001125,
@@ -1181,7 +1202,26 @@
     "track_end": true
    }
   },
-  "Guardian World": {},
+  "Guardian World": {
+   "Guardian World:https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T21:49:30.348223+00:00",
+    "history": [
+     "Hazard news · 23 Oct 08:49"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Burnham to reveal plans for AI unit to tackle wildfires after scorching summer",
+    "track_end": false
+   }
+  },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
