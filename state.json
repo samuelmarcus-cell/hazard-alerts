@@ -1288,23 +1288,6 @@
     "rank": 1,
     "title": "Large wildfire — LITTLE GIANT, WA, USA",
     "track_end": true
-   },
-   "us:2026-WAOWF-260448": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "us:2026-WAOWF-260448",
-    "lat": 48.9420058793899,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -120.60951494068,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — PTARMIGAN, WA, USA",
-    "track_end": true
    }
   },
   "VicEmergency": {},
