@@ -182,26 +182,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792561558": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T11:48:04.134389+00:00",
-    "history": [
-     "Hazard news · 22 Oct 22:48"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792561558",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/economy/2026/10/22/southeast-asias-toxic-haze-spurs-calls-for-legal-action-against-polluters?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Southeast Asia’s toxic haze spurs calls for legal action against polluters",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
     "colour": 2001125,
