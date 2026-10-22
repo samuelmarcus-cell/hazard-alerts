@@ -142,24 +142,6 @@
     "rank": 0,
     "title": "Roads and schools closed as flash flooding hits south-east Queensland",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T20:31:38.097083+00:00",
-    "history": [
-     "Hazard news · 22 Oct 07:31"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-22/snail-shells-linked-to-extreme-weather-events/107291072",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Snail shell rings could hold prehistoric cyclone information",
-    "track_end": false
    }
   },
   "ACT ESA": {},
@@ -307,7 +289,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Sunshine Coast and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Moreton Bay and Sunshine Coast Council Areas.",
     "track_end": true
    }
   },
