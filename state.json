@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562658601921806356",
-  "map_hash": "58c2dfe2fd68",
+  "attachment_id": "1562749409400455208",
+  "map_hash": "7ffadce65bd3",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -914,12 +914,12 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 20.3,
+    "lat": 20.9,
     "level": "",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 126.0,
+    "lon": 125.4,
     "rank": 2,
-    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan",
+    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
     "track_end": true
    },
    "gdacs:TC:1001339": {
