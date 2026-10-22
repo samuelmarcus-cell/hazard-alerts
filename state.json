@@ -125,7 +125,8 @@
   "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
   "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-  "https://www.aljazeera.com/economy/2026/10/22/southeast-asias-toxic-haze-spurs-calls-for-legal-action-against-polluters?traffic_source=rss"
+  "https://www.aljazeera.com/economy/2026/10/22/southeast-asias-toxic-haze-spurs-calls-for-legal-action-against-polluters?traffic_source=rss",
+  "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning"
  ],
  "sources": {
   "ABC News": {},
@@ -1053,6 +1054,24 @@
     "notify": false,
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T12:48:03.827948+00:00",
+    "history": [
+     "Hazard news · 22 Oct 23:48"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Arizona storms topple trees and bring golf ball-sized hail in possible tornado",
     "track_end": false
    }
   },
