@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562828871324270692",
-  "map_hash": "f5cc0f01c31f",
+  "attachment_id": "1562847821726748843",
+  "map_hash": "37742ae0ffc7",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -720,6 +720,63 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:EQ:1573141": {
+    "attachment_id": "1562847801828843582",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Orange earthquake (Magnitude 7M, Depth:10km) in China 22/10/2026 14:33 UTC, 130 thousand in 100km.",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Level",
+       "value": "Red"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Earthquake"
+      },
+      {
+       "inline": true,
+       "name": "Country",
+       "value": "China"
+      },
+      {
+       "inline": true,
+       "name": "Severity",
+       "value": "Magnitude 7M, Depth:10km"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=32.3357&mlon=93.7138#map=8/32.3357/93.7138)"
+      }
+     ],
+     "footer": {
+      "text": "GDACS"
+     },
+     "timestamp": "2026-10-22T15:19:11.679864+00:00",
+     "title": "🌍 Earthquake — China",
+     "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141"
+    },
+    "emoji": "🌍",
+    "first_seen": "2026-10-22T15:18:56.395706+00:00",
+    "history": [
+     "Red · 23 Oct 02:18"
+    ],
+    "key": "gdacs:EQ:1573141",
+    "lat": 32.3357,
+    "level": "Red",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
+    "lon": 93.7138,
+    "message_id": "1562847802076438639",
+    "news": false,
+    "notify": true,
+    "rank": 2,
+    "title": "Earthquake — China",
+    "track_end": true
+   },
    "gdacs:FL:1104099": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -993,11 +1050,11 @@
     "lat": 9.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -101.5,
+    "lon": -101.0,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone",
+    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001342": {
@@ -1072,24 +1129,6 @@
     "notify": false,
     "rank": 0,
     "title": "UK must prepare for infrastructure attacks by hostile states, says Streeting",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T12:48:03.827948+00:00",
-    "history": [
-     "Hazard news · 22 Oct 23:48"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Arizona storms topple trees and bring golf ball-sized hail in possible tornado",
     "track_end": false
    }
   },
