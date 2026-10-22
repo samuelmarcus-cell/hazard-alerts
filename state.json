@@ -1076,26 +1076,7 @@
     "track_end": true
    }
   },
-  "Guardian World": {
-   "Guardian World:https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T05:14:57.608679+00:00",
-    "history": [
-     "Hazard news · 21 Oct 16:14"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
-    "track_end": false
-   }
-  },
+  "Guardian World": {},
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
