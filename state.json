@@ -126,7 +126,8 @@
   "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
   "https://www.aljazeera.com/economy/2026/10/22/southeast-asias-toxic-haze-spurs-calls-for-legal-action-against-polluters?traffic_source=rss",
-  "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning"
+  "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
+  "https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting"
  ],
  "sources": {
   "ABC News": {},
@@ -277,26 +278,7 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-22T11:18:03.804362+00:00",
-    "history": [
-     "Warning · 22 Oct 22:18"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Simpson and Lasseter districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
     "colour": 16088064,
@@ -1054,6 +1036,24 @@
     "notify": false,
     "rank": 0,
     "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T13:48:03.738768+00:00",
+    "history": [
+     "Hazard news · 23 Oct 00:48"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "UK must prepare for infrastructure attacks by hostile states, says Streeting",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning": {
