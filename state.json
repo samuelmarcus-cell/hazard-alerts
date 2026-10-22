@@ -128,10 +128,30 @@
   "https://www.aljazeera.com/economy/2026/10/22/southeast-asias-toxic-haze-spurs-calls-for-legal-action-against-polluters?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
   "https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting",
-  "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T18:33:55.433091+00:00",
+    "history": [
+     "Hazard news · 23 Oct 05:33"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Friday news quiz: Royal reconciliation, muddled maps and an island evacuation",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -281,21 +301,50 @@
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
+    "attachment_id": null,
     "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "QLD"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "23/04:31 EST"
+      },
+      {
+       "inline": false,
+       "name": "History",
+       "value": "Warning · 22 Oct 22:03\nMajor warning · 23 Oct 05:33"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-22T18:34:10.201773+00:00",
+     "title": "🌊 Major Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
+     "url": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml"
+    },
     "emoji": "🌊",
     "first_seen": "2026-10-22T11:03:03.531779+00:00",
     "history": [
-     "Warning · 22 Oct 22:03"
+     "Warning · 22 Oct 22:03",
+     "Major warning · 23 Oct 05:33"
     ],
     "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
     "lat": null,
-    "level": "Warning",
+    "level": "Major warning",
     "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
     "lon": null,
+    "message_id": "1562896867140833374",
     "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Initial Moderate Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
+    "notify": true,
+    "rank": 1,
+    "title": "Major Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
     "track_end": true
    }
   },
