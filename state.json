@@ -123,7 +123,8 @@
   "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406",
   "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-  "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -217,6 +218,24 @@
    }
   },
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T11:33:03.534137+00:00",
+    "history": [
+     "Hazard news · 22 Oct 22:33"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "At least four dead after storm brings flooding to southern France",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2": {
     "colour": 2001125,
     "emoji": "📰",
