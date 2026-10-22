@@ -129,7 +129,8 @@
   "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
   "https://www.theguardian.com/politics/2026/oct/22/britain-prepare-infrastructure-attacks-hostile-states-wes-streeting",
   "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
-  "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500"
+  "https://www.abc.net.au/news/2026-10-23/october-23-news-quiz/107295500",
+  "https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790"
  ],
  "sources": {
   "ABC News": {
@@ -149,6 +150,24 @@
     "notify": false,
     "rank": 0,
     "title": "Friday news quiz: Royal reconciliation, muddled maps and an island evacuation",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T18:48:55.657193+00:00",
+    "history": [
+     "Hazard news · 23 Oct 05:48"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Heavy rain forces south-east Qld school closures but falls set to ease",
     "track_end": false
    }
   },
