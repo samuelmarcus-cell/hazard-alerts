@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562855357141753928",
-  "map_hash": "e3c35bd0eb21",
+  "attachment_id": "1562934762027483360",
+  "map_hash": "c743c544845a",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1100,10 +1100,10 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 21.2,
+    "lat": 21.9,
     "level": "",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 124.9,
+    "lon": 124.3,
     "rank": 2,
     "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
     "track_end": true
@@ -1133,10 +1133,10 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 9.7,
+    "lat": 10.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -101.0,
+    "lon": -101.5,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1151,10 +1151,10 @@
      "Green · 22 Oct 08:16"
     ],
     "key": "gdacs:TC:1001342",
-    "lat": 39.2,
+    "lat": 40.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001342",
-    "lon": -67.3,
+    "lon": -65.8,
     "news": false,
     "notify": false,
     "rank": 0,
