@@ -217,14 +217,14 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#3": {
+   "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-21T22:16:38.413789+00:00",
+    "first_seen": "2026-10-22T11:03:03.531779+00:00",
     "history": [
-     "Hazard news · 22 Oct 09:16"
+     "Hazard news · 22 Oct 22:03"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#3",
+    "key": "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
@@ -238,7 +238,26 @@
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-22T11:03:03.531779+00:00",
+    "history": [
+     "Warning · 22 Oct 22:03"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Moderate Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
