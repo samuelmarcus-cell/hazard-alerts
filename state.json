@@ -250,7 +250,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Tablelands Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains Forecast District.",
     "track_end": true
    }
   },
@@ -271,25 +271,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Darling Downs and Granite Belt and parts of Central Highlands and Coalfields, Wide Bay and Burnett, Maranoa and Warrego and Southeast Coast Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-21T19:46:37.581420+00:00",
-    "history": [
-     "Warning · 22 Oct 06:46"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for Somerset, Scenic Rim, Southern Downs, Toowoomba, Lockyer Valley, Sunshine Coast and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
     "track_end": true
    }
   },
