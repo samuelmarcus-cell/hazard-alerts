@@ -124,26 +124,7 @@
   "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-21T23:02:08.575964+00:00",
-    "history": [
-     "Hazard news · 22 Oct 10:02"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Roads and schools closed as flash flooding hits south-east Queensland",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
