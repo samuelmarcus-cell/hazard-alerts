@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562847821726748843",
-  "map_hash": "37742ae0ffc7",
+  "attachment_id": "1562855357141753928",
+  "map_hash": "e3c35bd0eb21",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -785,10 +785,10 @@
      "Red · 23 Oct 02:18"
     ],
     "key": "gdacs:EQ:1573141",
-    "lat": 32.3357,
+    "lat": 32.3805,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
-    "lon": 93.7138,
+    "lon": 93.7797,
     "message_id": "1562847802076438639",
     "news": false,
     "notify": true,
@@ -1096,24 +1096,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T14:48:55.510893+00:00",
-    "history": [
-     "Hazard news · 23 Oct 01:48"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods": {
     "colour": 2001125,
     "emoji": "📰",
