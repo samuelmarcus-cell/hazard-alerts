@@ -11,7 +11,7 @@
    "warned": false
   },
   "ACT ESA": {
-   "failing_since": null,
+   "failing_since": "2026-10-22T02:02:09.304749+00:00",
    "warned": false
   },
   "ASMC haze": {
@@ -270,7 +270,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Lockyer Valley, Moreton Bay, Somerset, Toowoomba and Sunshine Coast Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Scenic Rim, Southern Downs, Lockyer Valley, Sunshine Coast, Moreton Bay, Toowoomba and Brisbane City Council Areas.",
     "track_end": true
    }
   },
