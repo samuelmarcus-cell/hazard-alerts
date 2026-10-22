@@ -289,7 +289,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Scenic Rim, Southern Downs, Lockyer Valley, Sunshine Coast, Moreton Bay, Toowoomba and Brisbane City Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Lockyer Valley, Moreton Bay, Somerset, Toowoomba and Sunshine Coast Council Areas.",
     "track_end": true
    }
   },
@@ -1002,10 +1002,10 @@
      "Green · 22 Oct 08:16"
     ],
     "key": "gdacs:TC:1001342",
-    "lat": 37.4,
+    "lat": 37.7,
     "level": "Green",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001342",
-    "lon": -69.5,
+    "lon": -69.4,
     "news": false,
     "notify": false,
     "rank": 0,
