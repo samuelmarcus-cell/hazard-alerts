@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1562567988828180631",
-  "map_hash": "4fa06afa49bb",
+  "attachment_id": "1562658601921806356",
+  "map_hash": "58c2dfe2fd68",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -252,7 +252,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Darling Downs and Granite Belt and parts of Central Highlands and Coalfields, Maranoa and Warrego and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -932,12 +932,12 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 19.9,
+    "lat": 20.3,
     "level": "",
     "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 126.9,
+    "lon": 126.0,
     "rank": 2,
-    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
+    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan",
     "track_end": true
    },
    "gdacs:TC:1001339": {
