@@ -133,10 +133,30 @@
   "https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
   "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584",
   "https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat",
-  "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-10-23/cave-divers-search-for-ghost-bats-near-mount-isa/107296978",
+  "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-23/cave-divers-search-for-ghost-bats-near-mount-isa/107296978": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T23:34:29.584360+00:00",
+    "history": [
+     "Hazard news · 23 Oct 10:34"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-23/cave-divers-search-for-ghost-bats-near-mount-isa/107296978",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-23/cave-divers-search-for-ghost-bats-near-mount-isa/107296978",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Cave divers search for rare ghost bats after flooding",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584": {
     "colour": 2001125,
     "emoji": "📰",
@@ -153,24 +173,6 @@
     "notify": false,
     "rank": 0,
     "title": "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
-    "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T18:48:55.657193+00:00",
-    "history": [
-     "Hazard news · 23 Oct 05:48"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-23/south-east-queensland-rain-forecast-friday/107298790",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heavy rain forces south-east Qld school closures but falls set to ease",
     "track_end": false
    }
   },
@@ -283,14 +285,32 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-22T11:33:03.534137+00:00",
+    "first_seen": "2026-10-22T23:34:29.584360+00:00",
     "history": [
-     "Hazard news · 22 Oct 22:33"
+     "Hazard news · 23 Oct 10:34"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+    "track_end": false
+   },
+   "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#1": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T23:34:29.584360+00:00",
+    "history": [
+     "Hazard news · 23 Oct 10:34"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
@@ -1131,6 +1151,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-22T23:34:29.584360+00:00",
+    "history": [
+     "Hazard news · 23 Oct 10:34"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "A possible three tornados wallop Arizona, bringing golf-ball sized hail",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat": {
     "colour": 2001125,
     "emoji": "📰",
