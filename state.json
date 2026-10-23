@@ -1210,7 +1210,26 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {},
+  "TasALERT": {
+   "TasALERT:Bushfire|Browns Road, Ranelagh": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-23T01:19:59.778948+00:00",
+    "history": [
+     "Watch and Act · 23 Oct 12:19"
+    ],
+    "key": "TasALERT:Bushfire|Browns Road, Ranelagh",
+    "lat": -42.98266,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=b6f6248e-6d49-4417-b3a0-5a8234f24260",
+    "lon": 146.99692,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act - Browns Road, Ranelagh - Monitor conditions as they are changing",
+    "track_end": true
+   }
+  },
   "US fires": {
    "us:2026-CALPF-002271": {
     "colour": 16361509,
