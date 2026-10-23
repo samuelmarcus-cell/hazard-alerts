@@ -1033,24 +1033,6 @@
     "title": "UK politics: Andy Burnham warns of ‘winter of greater flooding’ – as it happened",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-23T11:51:02.299112+00:00",
-    "history": [
-     "Hazard news · 23 Oct 22:51"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Thousands of homes without power as Storm Austen hits south-west England",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
     "colour": 2001125,
     "emoji": "📰",
