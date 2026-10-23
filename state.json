@@ -192,24 +192,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792703596": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T21:49:30.348223+00:00",
-    "history": [
-     "Hazard news · 23 Oct 08:49"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792703596",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Powerful earthquake in Tibet kills at least 16 people",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1792715422": {
     "colour": 2001125,
     "emoji": "📰",
