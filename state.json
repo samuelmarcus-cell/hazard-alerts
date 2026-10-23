@@ -139,10 +139,30 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
   "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
   "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
-  "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england"
+  "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
+  "https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-23T19:36:33.036590+00:00",
+    "history": [
+     "Hazard news · 24 Oct 06:36"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Weekend washout for most states as storm season intensifies",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
