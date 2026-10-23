@@ -271,24 +271,6 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-23T10:35:32.001460+00:00",
-    "history": [
-     "Hazard news · 23 Oct 21:35"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do#2": {
     "colour": 2001125,
     "emoji": "📰",
