@@ -340,25 +340,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Central Highlands and Coalfields and parts of Northern Goldfields and Upper Flinders, Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-23T04:35:00.348527+00:00",
-    "history": [
-     "Warning · 23 Oct 15:35"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for Toowoomba Council Area.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Goldfields and Upper Flinders, Herbert and Lower Burdekin, Central Coast and Whitsundays, Central Highlands and Coalfields, Central West and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    }
   },
