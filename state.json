@@ -157,24 +157,6 @@
     "rank": 0,
     "title": "Cave divers search for rare ghost bats after flooding",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T21:34:29.514073+00:00",
-    "history": [
-     "Hazard news · 23 Oct 08:34"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-23/magnitude-7-earthquake-hits-chinas-tibet-region/107299584",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Magnitude-7 earthquake hits China's Tibet region, killing 16 people",
-    "track_end": false
    }
   },
   "ACT ESA": {},
