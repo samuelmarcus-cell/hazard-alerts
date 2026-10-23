@@ -207,7 +207,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet",
+    "title": "Powerful earthquake in Tibet kills at least 16 people",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1792715422": {
@@ -286,6 +286,24 @@
    }
   },
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-23T05:50:00.354220+00:00",
+    "history": [
+     "Hazard news · 23 Oct 16:50"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#1": {
     "colour": 2001125,
     "emoji": "📰",
@@ -359,7 +377,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Maranoa and Warrego, Darling Downs and Granite Belt and Northern Goldfields and Upper Flinders Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Maranoa and Warrego, Darling Downs and Granite Belt, Northern Goldfields and Upper Flinders, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
