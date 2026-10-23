@@ -207,7 +207,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+    "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1792715422": {
@@ -378,53 +378,6 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Toowoomba Council Area.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "23/04:31 EST"
-      },
-      {
-       "inline": false,
-       "name": "History",
-       "value": "Warning · 22 Oct 22:03\nMajor warning · 23 Oct 05:33"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-22T18:34:10.201773+00:00",
-     "title": "🌊 Major Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
-     "url": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml"
-    },
-    "emoji": "🌊",
-    "first_seen": "2026-10-22T11:03:03.531779+00:00",
-    "history": [
-     "Warning · 22 Oct 22:03",
-     "Major warning · 23 Oct 05:33"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lon": null,
-    "message_id": "1562896867140833374",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Moderate Flood Warning for Warrill Creek and Minor Flood Warning for the Bremer River",
     "track_end": true
    }
   },
