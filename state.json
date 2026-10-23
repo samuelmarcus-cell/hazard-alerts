@@ -138,7 +138,8 @@
   "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
   "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet",
-  "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates"
+  "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
+  "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england"
  ],
  "sources": {
   "ABC News": {},
@@ -1049,6 +1050,24 @@
     "notify": false,
     "rank": 0,
     "title": "Andy Burnham warns of ‘winter of greater flooding’ – UK politics live",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-23T11:51:02.299112+00:00",
+    "history": [
+     "Hazard news · 23 Oct 22:51"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Thousands of homes without power as Storm Austen hits south-west England",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
