@@ -293,7 +293,26 @@
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {},
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-23T21:21:32.897655+00:00",
+    "history": [
+     "Warning · 24 Oct 08:21"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of West Coast, Eastern Eyre Peninsula and North West Pastoral districts.",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
