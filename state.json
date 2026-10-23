@@ -135,7 +135,8 @@
   "https://www.theguardian.com/world/2026/oct/22/burnham-plans-ai-unit-spot-fight-fires-faster-record-breaking-summer-heat",
   "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-23/cave-divers-search-for-ghost-bats-near-mount-isa/107296978",
-  "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -244,6 +245,24 @@
     "rank": 0,
     "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
     "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1792715422": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-23T01:04:29.520510+00:00",
+    "history": [
+     "Hazard news · 23 Oct 12:04"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792715422",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Tibet rocked by 7.0-magnitude earthquake",
+    "track_end": false
    }
   },
   "BBC Asia": {
@@ -303,24 +322,6 @@
    }
   },
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T23:34:29.584360+00:00",
-    "history": [
-     "Hazard news · 23 Oct 10:34"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo#1": {
     "colour": 2001125,
     "emoji": "📰",
