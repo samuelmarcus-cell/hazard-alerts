@@ -191,26 +191,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792715422": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-23T01:04:29.520510+00:00",
-    "history": [
-     "Hazard news · 23 Oct 12:04"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792715422",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Tibet rocked by 7.0-magnitude earthquake",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
     "colour": 2001125,
@@ -377,7 +358,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Toowoomba Council Area.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Toowoomba Council Area.",
     "track_end": true
    }
   },
