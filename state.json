@@ -302,24 +302,6 @@
     "rank": 0,
     "title": "Damaging hail pelts Phoenix in rare storm",
     "track_end": false
-   },
-   "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T11:03:03.531779+00:00",
-    "history": [
-     "Hazard news · 22 Oct 22:03"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
-    "track_end": false
    }
   },
   "BoM NSW/ACT": {},
@@ -1068,24 +1050,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T23:34:29.584360+00:00",
-    "history": [
-     "Hazard news · 23 Oct 10:34"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "A possible three tornados wallop Arizona, bringing golf-ball sized hail",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
     "colour": 2001125,
     "emoji": "📰",
