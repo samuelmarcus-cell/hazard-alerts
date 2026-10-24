@@ -292,9 +292,47 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-24T03:52:30.490031+00:00",
+    "history": [
+     "Warning · 24 Oct 14:52"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Weir River",
+    "track_end": true
+   }
+  },
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-24T03:52:30.490031+00:00",
+    "history": [
+     "Warning · 24 Oct 14:52"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Weir River",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
