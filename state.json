@@ -146,7 +146,8 @@
   "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
   "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-chemical-plant-fire-triggers-mass-evacuations-in-mexico?traffic_source=rss",
-  "https://www.aljazeera.com/sports/2026/10/24/chicago-bulls-storm-back-from-early-deficit-to-beat-milwaukee-bucks-in-nba?traffic_source=rss"
+  "https://www.aljazeera.com/sports/2026/10/24/chicago-bulls-storm-back-from-early-deficit-to-beat-milwaukee-bucks-in-nba?traffic_source=rss",
+  "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk"
  ],
  "sources": {
   "ABC News": {
@@ -1170,6 +1171,24 @@
     "notify": false,
     "rank": 0,
     "title": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-24T11:38:02.532029+00:00",
+    "history": [
+     "Hazard news · 24 Oct 22:38"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
     "track_end": false
    }
   },
