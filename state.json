@@ -372,6 +372,24 @@
     "rank": 0,
     "title": "Moderate Flood Warning for the Weir River",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-24T15:53:35.002528+00:00",
+    "history": [
+     "Warning · 25 Oct 02:53"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Mary River",
+    "track_end": true
    }
   },
   "BoM SA": {},
