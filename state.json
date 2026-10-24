@@ -465,7 +465,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western and Geelong and Bellarine Peninsula Local Warning Areas.",
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western Port, Mornington Peninsula, Geelong and Bellarine Peninsula and Western Local Warning Areas.",
     "track_end": true
    }
   },
@@ -1213,26 +1213,7 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {
-   "TasALERT:Bushfire|Bonds Rd, Judds Creek Rd and Wallis Rd, Judbury and surrounding areas": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-24T05:22:30.799628+00:00",
-    "history": [
-     "Watch and Act · 24 Oct 16:22"
-    ],
-    "key": "TasALERT:Bushfire|Bonds Rd, Judds Creek Rd and Wallis Rd, Judbury and surrounding areas",
-    "lat": -42.97371,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=668484e9-54ad-4837-97d7-2ba185a33735",
-    "lon": 146.95253,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act - Bonds Rd, Judds Creek Rd and Wallis Rd, Judbury - Be aware of ember attacks",
-    "track_end": true
-   }
-  },
+  "TasALERT": {},
   "US fires": {
    "us:2026-CALPF-002271": {
     "colour": 16361509,
