@@ -318,24 +318,6 @@
   },
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-24T08:22:30.802241+00:00",
-    "history": [
-     "Warning · 24 Oct 19:22"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
