@@ -295,26 +295,7 @@
     "track_end": false
    }
   },
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T15:33:55.852873+00:00",
-    "history": [
-     "Hazard news · 23 Oct 02:33"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/videos/cm5ynpz5jj5do?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Damaging hail pelts Phoenix in rare storm",
-    "track_end": false
-   }
-  },
+  "BBC World": {},
   "BoM NSW/ACT": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
