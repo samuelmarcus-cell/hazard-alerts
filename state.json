@@ -353,6 +353,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-24T08:22:30.802241+00:00",
+    "history": [
+     "Warning · 24 Oct 19:22"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields Forecast District.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -409,7 +427,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, North Central, West and South Gippsland and Northern Country Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, South West and West and South Gippsland Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
@@ -427,7 +445,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Northern and Western Local Warning Areas.",
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Western and Northern Local Warning Areas.",
     "track_end": true
    }
   },
