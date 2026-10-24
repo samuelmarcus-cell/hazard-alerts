@@ -426,7 +426,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Eastern Eyre Peninsula, Flinders, North West Pastoral and North East Pastoral districts.",
+    "title": "Severe Thunderstorm Warning for Flinders and parts of Eastern Eyre Peninsula, North West Pastoral, North East Pastoral and Mid North districts.",
     "track_end": true
    }
   },
@@ -465,7 +465,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western Port, Mornington Peninsula, Geelong and Bellarine Peninsula and Western Local Warning Areas.",
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western Port, Mornington Peninsula and Geelong and Bellarine Peninsula Local Warning Areas.",
     "track_end": true
    }
   },
