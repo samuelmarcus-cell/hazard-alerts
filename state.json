@@ -151,24 +151,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-24T01:36:59.449460+00:00",
-    "history": [
-     "Hazard news · 24 Oct 12:36"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900": {
     "colour": 2001125,
     "emoji": "📰",
