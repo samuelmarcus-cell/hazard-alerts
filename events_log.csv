@@ -199,3 +199,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104241,Green,Flood — Thailand,7.0366682,99.9615397,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241,no
 2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104244,Green,Flood — Guatemala,15.3832579,-90.2390014,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104244,no
 2026-10-24T22:09:06Z,ended,GDACS,gdacs:TC:1001337,Green,Tropical cyclone — México,19.5,-108.0,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337,no
+2026-10-24T22:24:06Z,new,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/warrego-river-basin.shtml,Warning,Moderate Flood Warning for the Warrego River (QLD),,,http://reg.bom.gov.au/qld/warnings/flood/warrego-river-basin.shtml,no
