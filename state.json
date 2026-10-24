@@ -148,10 +148,30 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-chemical-plant-fire-triggers-mass-evacuations-in-mexico?traffic_source=rss",
   "https://www.aljazeera.com/sports/2026/10/24/chicago-bulls-storm-back-from-early-deficit-to-beat-milwaukee-bucks-in-nba?traffic_source=rss",
   "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
-  "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain"
+  "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
+  "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-24T23:39:06.229274+00:00",
+    "history": [
+     "Hazard news · 25 Oct 10:39"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Multiple flood warnings as Queensland braces for more wild weather",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -421,24 +441,6 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of East Gippsland and North East Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-10-24T17:08:35.204620+00:00",
-    "history": [
-     "Warning · 25 Oct 04:08"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of North East, West and South Gippsland and East Gippsland Forecast Districts.",
     "track_end": true
    }
   },
