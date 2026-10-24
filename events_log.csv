@@ -192,3 +192,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-24T19:54:06Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Channel Country, Maranoa and Warrego and Central West Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-10-24T20:39:06Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21037.shtml,Warning,Severe Weather Warning for parts of Snowy Mountains Forecast District.,,,http://reg.bom.gov.au/products/IDN21037.shtml,no
 2026-10-24T21:39:06Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Channel Country, Maranoa and Warrego and Central West Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.1900572,-79.8868669,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104227,Green,Flood — Costa Rica,10.0254946,-84.1255559,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104227,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104235,Green,Flood — Spain,38.7062157,1.4334101,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104235,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104240,Green,Flood — South Korea,37.2808823,127.4429132,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104240,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104241,Green,Flood — Thailand,7.0366682,99.9615397,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:FL:1104244,Green,Flood — Guatemala,15.3832579,-90.2390014,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104244,no
+2026-10-24T22:09:06Z,ended,GDACS,gdacs:TC:1001337,Green,Tropical cyclone — México,19.5,-108.0,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337,no
