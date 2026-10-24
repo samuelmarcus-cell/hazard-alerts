@@ -144,7 +144,8 @@
   "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
   "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
   "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-  "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-chemical-plant-fire-triggers-mass-evacuations-in-mexico?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -236,22 +237,22 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792791431": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1792828772": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-24T05:07:30.868336+00:00",
+    "first_seen": "2026-10-24T08:37:30.685492+00:00",
     "history": [
-     "Hazard news · 24 Oct 16:07"
+     "Hazard news · 24 Oct 19:37"
     ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792791431",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792828772",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-chemical-plant-fire-triggers-mass-evacuations-in-mexico?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
+    "title": "Massive chemical plant fire triggers mass evacuations in Mexico",
     "track_end": false
    }
   },
@@ -406,7 +407,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral and North East Pastoral districts.",
+    "title": "Severe Thunderstorm Warning for parts of Eastern Eyre Peninsula, Flinders, North West Pastoral and North East Pastoral districts.",
     "track_end": true
    }
   },
@@ -445,7 +446,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Western and Northern Local Warning Areas.",
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western, Geelong and Bellarine Peninsula and Northern Local Warning Areas.",
     "track_end": true
    }
   },
