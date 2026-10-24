@@ -141,10 +141,30 @@
   "https://www.theguardian.com/politics/live/2026/oct/23/uk-warnings-stockpile-storm-austen-treasury-autumn-budget-latest-news-updates",
   "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
   "https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350",
-  "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia"
+  "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
+  "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-24T01:36:59.449460+00:00",
+    "history": [
+     "Hazard news · 24 Oct 12:36"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
