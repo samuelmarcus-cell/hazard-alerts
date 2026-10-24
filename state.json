@@ -299,24 +299,6 @@
     "title": "Severe Thunderstorm Warning for parts of Central West Slopes and Plains, South West Slopes, Riverina, Lower Western, Upper Western and Snowy Mountains Forecast Districts.",
     "track_end": true
    },
-   "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-10-24T20:39:06.127093+00:00",
-    "history": [
-     "Warning · 25 Oct 07:39"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of Snowy Mountains Forecast District.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
