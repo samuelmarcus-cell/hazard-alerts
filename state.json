@@ -337,21 +337,50 @@
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
+    "attachment_id": null,
     "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "QLD"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "25/04:57 EST"
+      },
+      {
+       "inline": false,
+       "name": "History",
+       "value": "Warning · 25 Oct 02:53\nMajor warning · 25 Oct 06:08"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-24T19:08:49.306993+00:00",
+     "title": "🌊 Major Flood Warning for the Mary River",
+     "url": "http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml"
+    },
     "emoji": "🌊",
     "first_seen": "2026-10-24T15:53:35.002528+00:00",
     "history": [
-     "Warning · 25 Oct 02:53"
+     "Warning · 25 Oct 02:53",
+     "Major warning · 25 Oct 06:08"
     ],
     "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml",
     "lat": null,
-    "level": "Warning",
+    "level": "Major warning",
     "link": "http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml",
     "lon": null,
+    "message_id": "1563630363186831451",
     "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Moderate Flood Warning for the Mary River",
+    "notify": true,
+    "rank": 1,
+    "title": "Major Flood Warning for the Mary River",
     "track_end": true
    }
   },

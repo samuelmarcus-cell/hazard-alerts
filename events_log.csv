@@ -187,3 +187,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-24T15:53:35Z,new,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml,Warning,Moderate Flood Warning for the Mary River,,,http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml,no
 2026-10-24T17:08:35Z,new,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21037.shtml,Warning,"Severe Weather Warning for parts of North East, West and South Gippsland and East Gippsland Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21037.shtml,no
 2026-10-24T17:38:35Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-10-24T19:08:34Z,escalated,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml,Major warning,Major Flood Warning for the Mary River,,,http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml,yes
