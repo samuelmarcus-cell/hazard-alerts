@@ -142,7 +142,8 @@
   "https://www.theguardian.com/uk-news/2026/oct/23/storm-austen-weather-updates-thousands-without-power-south-west-england",
   "https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350",
   "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
-  "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378"
+  "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
+  "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900"
  ],
  "sources": {
   "ABC News": {
@@ -162,6 +163,24 @@
     "notify": false,
     "rank": 0,
     "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-24T04:37:31.032053+00:00",
+    "history": [
+     "Hazard news · 24 Oct 15:37"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
     "track_end": false
    }
   },
