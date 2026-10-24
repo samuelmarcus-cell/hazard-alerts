@@ -389,7 +389,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields and Channel Country Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -427,7 +427,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Flinders and parts of Eastern Eyre Peninsula, North West Pastoral, North East Pastoral and Mid North districts.",
+    "title": "Severe Thunderstorm Warning for parts of North East Pastoral district.",
     "track_end": true
    }
   },
