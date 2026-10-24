@@ -409,7 +409,25 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, North Central and Northern Country Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, North Central, West and South Gippsland and Northern Country Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-24T07:52:31.201239+00:00",
+    "history": [
+     "Warning · 24 Oct 18:52"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Northern and Western Local Warning Areas.",
     "track_end": true
    }
   },
