@@ -1005,24 +1005,6 @@
     "title": "‘Unusually large’ multi-state storm causing severe weather for Australia’s east – with more on the way",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-24T23:09:05.691092+00:00",
-    "history": [
-     "Hazard news · 25 Oct 10:09"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Storm Boelo: Travel disrupted and events cancelled as UK hit by wind and rain",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
     "colour": 2001125,
     "emoji": "📰",
