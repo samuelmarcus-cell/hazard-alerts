@@ -156,26 +156,7 @@
   "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-25T18:55:57.380862+00:00",
-    "history": [
-     "Hazard news · 26 Oct 05:55"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Storms set to bring flash flooding, large hail to south-east Queensland",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
