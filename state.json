@@ -339,7 +339,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for Logan and parts of Ipswich, Scenic Rim, Gold Coast, Redland City, Brisbane City and Lockyer Valley Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Logan and parts of Ipswich, Scenic Rim, Gold Coast, Redland City and Brisbane City Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -1095,7 +1095,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "US south-west braces for more flooding after stretch of heavy rain and storms",
+    "title": "US south-west braces for more storms after enduring days of rain and flooding",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
