@@ -942,11 +942,11 @@
     "lat": 14.3,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -103.4,
+    "lon": -103.8,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone",
+    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001342": {
