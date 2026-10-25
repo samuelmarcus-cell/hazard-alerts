@@ -296,7 +296,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southern Tablelands, South West Slopes, Snowy Mountains, Australian Capital Territory and parts of Central Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Riverina and Upper Western Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Illawarra, South Coast, Central Tablelands, Southern Tablelands, Snowy Mountains, Australian Capital Territory and parts of Hunter, North West Slopes and Plains, Central West Slopes and Plains and South West Slopes Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -406,26 +406,7 @@
   },
   "BoM SA": {},
   "BoM TAS": {},
-  "BoM VIC": {
-   "bom:http://reg.bom.gov.au/products/IDV21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-24T23:24:05.820726+00:00",
-    "history": [
-     "Warning · 25 Oct 10:24"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of East Gippsland and North East Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM VIC": {},
   "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
