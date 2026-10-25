@@ -354,7 +354,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central West Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Central West, Channel Country, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -1236,7 +1236,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:826466": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-25T07:54:59.736720+00:00",
+    "history": [
+     "Watch and Act · 25 Oct 18:54"
+    ],
+    "key": "WA DFES:826466",
+    "lat": -18.23758345471353,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6add9fcf39ab912c3bd6466c",
+    "lon": 127.68018140299102,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - HALLS CREEK, MCBEATH AND ORD RIVER",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
