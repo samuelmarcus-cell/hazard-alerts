@@ -151,7 +151,8 @@
   "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
   "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
   "https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east",
-  "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk"
+  "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
+  "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms"
  ],
  "sources": {
   "ABC News": {},
@@ -1039,6 +1040,24 @@
     "notify": false,
     "rank": 0,
     "title": "One dead and 82,000 properties without power as Storm Boelo batters UK",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-25T18:10:56.411578+00:00",
+    "history": [
+     "Hazard news · 26 Oct 05:10"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "US south-west braces for more flooding after stretch of heavy rain and storms",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet": {
