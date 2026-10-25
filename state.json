@@ -297,25 +297,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Metropolitan and parts of Hunter, Illawarra, Central Tablelands, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, South West Slopes, Riverina and Upper Western Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-25T05:54:59.748353+00:00",
-    "history": [
-     "Warning · 25 Oct 16:54"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Gosford/Wyong and Sydney areas.",
+    "title": "Severe Thunderstorm Warning for Southern Tablelands, South West Slopes, Australian Capital Territory and parts of South Coast, Central Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Riverina, Upper Western, Snowy Mountains, Lower Western and Northern Tablelands Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
