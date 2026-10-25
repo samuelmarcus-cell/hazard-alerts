@@ -149,7 +149,8 @@
   "https://www.aljazeera.com/sports/2026/10/24/chicago-bulls-storm-back-from-early-deficit-to-beat-milwaukee-bucks-in-nba?traffic_source=rss",
   "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
   "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
-  "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066"
+  "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
+  "https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east"
  ],
  "sources": {
   "ABC News": {
@@ -297,6 +298,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning for Illawarra, South Coast, Central Tablelands, Southern Tablelands, Snowy Mountains, Australian Capital Territory and parts of Hunter, North West Slopes and Plains, Central West Slopes and Plains and South West Slopes Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-25T05:54:59.748353+00:00",
+    "history": [
+     "Warning · 25 Oct 16:54"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury and Sydney areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -986,22 +1005,22 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-23T23:52:00.351687+00:00",
+    "first_seen": "2026-10-25T05:54:59.748353+00:00",
     "history": [
-     "Hazard news · 24 Oct 10:52"
+     "Hazard news · 25 Oct 16:54"
     ],
-    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.theguardian.com/australia-news/2026/oct/24/thunderstorms-heavy-rain-and-flash-flooding-predicted-for-much-of-australia",
+    "link": "https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Thunderstorms, heavy rain and flash flooding predicted for much of Australia",
+    "title": "‘Unusually large’ multi-state storm causing severe weather for Australia’s east – with more on the way",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain": {
