@@ -315,7 +315,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for Sydney, Greater Wollongong and parts of Blue Mountains/Hawkesbury, Gosford/Wyong and Wollondilly/Wingecarribee areas.",
+    "title": "Detailed Severe Thunderstorm Warning for Sydney and parts of Gosford/Wyong, Wollondilly/Wingecarribee, Greater Wollongong and Blue Mountains/Hawkesbury areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
