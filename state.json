@@ -340,6 +340,24 @@
     "title": "Moderate Flood Warning for the Weir River",
     "track_end": true
    },
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-25T18:25:56.985064+00:00",
+    "history": [
+     "Warning · 26 Oct 05:25"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Moderate Flood Warning for the Bremer River and Warrill Creek",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
     "attachment_id": null,
     "colour": 16088064,
