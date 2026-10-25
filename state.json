@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1563887539868405861",
-  "map_hash": "5e16fb0d6c33",
+  "attachment_id": "1563917728367116348",
+  "map_hash": "9c5967708de8",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -337,7 +337,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Toowoomba and Lockyer Valley Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Toowoomba and Lockyer Valley Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -942,12 +942,12 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 30.1,
+    "lat": 30.7,
     "level": "",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 125.5,
+    "lon": 126.3,
     "rank": 2,
-    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, China",
+    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
     "track_end": true
    },
    "gdacs:TC:1001341": {
