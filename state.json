@@ -297,7 +297,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southern Tablelands, South West Slopes, Australian Capital Territory and parts of South Coast, Central Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Riverina, Upper Western, Snowy Mountains and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Tablelands and parts of Illawarra, Central Tablelands, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, South West Slopes, Riverina and Lower Western Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -336,7 +336,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central West, Channel Country, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
