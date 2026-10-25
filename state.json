@@ -154,26 +154,7 @@
   "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-24T23:39:06.229274+00:00",
-    "history": [
-     "Hazard news · 25 Oct 10:39"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-25/flood-warnings-queensland-braces-for-more-rain-storms/107306066",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Multiple flood warnings as Queensland braces for more wild weather",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
