@@ -306,24 +306,6 @@
   },
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-25T11:40:27.650062+00:00",
-    "history": [
-     "Warning · 25 Oct 22:40"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for Logan and parts of Ipswich, Scenic Rim, Gold Coast, Redland City and Brisbane City Council Areas.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -996,10 +978,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 12.8,
+    "lat": 13.4,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 164.5,
+    "lon": 163.9,
     "news": false,
     "notify": false,
     "rank": 0,
