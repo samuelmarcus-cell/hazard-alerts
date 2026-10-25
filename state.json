@@ -298,7 +298,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Tablelands and parts of Illawarra, Central Tablelands, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, South West Slopes, Riverina and Lower Western Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -338,6 +338,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-25T11:40:27.650062+00:00",
+    "history": [
+     "Warning · 25 Oct 22:40"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs and Toowoomba Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -958,14 +976,14 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 10.5,
+    "lat": 14.3,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -101.9,
+    "lon": -103.4,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — México",
+    "title": "Tropical cyclone",
     "track_end": true
    },
    "gdacs:TC:1001342": {
