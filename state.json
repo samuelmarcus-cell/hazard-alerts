@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1563021713824944280",
-  "map_hash": "f25cf4b2acad",
+  "attachment_id": "1563887539868405861",
+  "map_hash": "5e16fb0d6c33",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -355,7 +355,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs and Toowoomba Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs Council Area.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -960,12 +960,12 @@
     "emoji": "🌀",
     "history": [],
     "key": "gdacs:TC:1001338",
-    "lat": 22.7,
+    "lat": 30.1,
     "level": "",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 123.8,
+    "lon": 125.5,
     "rank": 2,
-    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan",
+    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, China",
     "track_end": true
    },
    "gdacs:TC:1001341": {
@@ -1002,6 +1002,24 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — United States, Canada, Saint Pierre and Miquelon",
+    "track_end": true
+   },
+   "gdacs:TC:1001343": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-10-25T12:10:28.490806+00:00",
+    "history": [
+     "Green · 25 Oct 23:10"
+    ],
+    "key": "gdacs:TC:1001343",
+    "lat": 12.0,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
+    "lon": 165.0,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone — Marshall Islands, Northern Mariana Islands",
     "track_end": true
    }
   },
