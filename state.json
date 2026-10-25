@@ -107,7 +107,7 @@
    "warned": false
   }
  },
- "last_weekly": "2026-10-19T08:00:00+11:00",
+ "last_weekly": "2026-10-26T08:00:00+11:00",
  "news_posted": [
   "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
@@ -942,10 +942,10 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 14.3,
+    "lat": 14.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -103.8,
+    "lon": -104.2,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -996,10 +996,10 @@
      "Green · 26 Oct 02:25"
     ],
     "key": "gdacs:TC:1001344",
-    "lat": 14.6,
+    "lat": 14.8,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001344",
-    "lon": -179.3,
+    "lon": -178.0,
     "news": false,
     "notify": false,
     "rank": 0,
