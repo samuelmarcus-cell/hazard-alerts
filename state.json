@@ -1200,24 +1200,6 @@
     "rank": 0,
     "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T11:27:27.753230+00:00",
-    "history": [
-     "Hazard news · 26 Oct 22:27"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "About 90,000 properties still without power after two storms strike Britain",
-    "track_end": false
    }
   },
   "NSW RFS": {},
