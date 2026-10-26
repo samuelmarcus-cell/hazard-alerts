@@ -322,7 +322,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, North West Slopes and Plains and Northern Tablelands Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -346,22 +346,22 @@
   },
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
     "colour": 16088064,
     "emoji": "⛈️",
-    "first_seen": "2026-10-26T06:11:57.306449+00:00",
+    "first_seen": "2026-10-26T06:56:57.170753+00:00",
     "history": [
-     "Warning · 26 Oct 17:11"
+     "Warning · 26 Oct 17:56"
     ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
     "lat": null,
     "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
     "lon": null,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Brisbane City Council Area.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Channel Country, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
