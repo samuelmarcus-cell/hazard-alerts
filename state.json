@@ -213,24 +213,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792969929": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T02:11:23.955141+00:00",
-    "history": [
-     "Hazard news · 26 Oct 13:11"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792969929",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Two storms slam northern Europe, cut power to 150,000 homes",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1792993623": {
     "colour": 2001125,
     "emoji": "📰",
