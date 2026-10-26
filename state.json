@@ -153,10 +153,30 @@
   "https://www.theguardian.com/australia-news/2026/oct/25/unusual-multi-state-storm-causing-flood-warningd-and-severe-weather-for-australias-east",
   "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
   "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
-  "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462"
+  "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462",
+  "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T00:11:23.526357+00:00",
+    "history": [
+     "Hazard news · 26 Oct 11:11"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Women take bushfire preparation into their own hands",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -350,6 +370,47 @@
     "notify": true,
     "rank": 1,
     "title": "Major Flood Warning for Warrill Creek and Minor flooding warning for the Bremer River",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "QLD"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "26/10:01 EST"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-26T00:11:38.127821+00:00",
+     "title": "🌊 Initial Major Flood Warning for the Laidley Creek and Minor Flood Warning for the Lockyer Creek",
+     "url": "http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml"
+    },
+    "emoji": "🌊",
+    "first_seen": "2026-10-26T00:11:23.526357+00:00",
+    "history": [
+     "Major warning · 26 Oct 11:11"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml",
+    "lat": null,
+    "level": "Major warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml",
+    "lon": null,
+    "message_id": "1564068956623601798",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Initial Major Flood Warning for the Laidley Creek and Minor Flood Warning for the Lockyer Creek",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
