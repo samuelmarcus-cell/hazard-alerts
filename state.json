@@ -905,7 +905,45 @@
    }
   },
   "Concurrent events": {},
-  "Fire danger (NSW)": {},
+  "Fire danger (NSW)": {
+   "fdr:NSW:2026-10-28": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "description": "1 district(s) forecast Extreme or higher.",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Extreme",
+       "value": "Greater Hunter"
+      }
+     ],
+     "footer": {
+      "text": "Fire danger (NSW)"
+     },
+     "timestamp": "2026-10-26T19:13:37.778679+00:00",
+     "title": "🔥 Extreme fire danger forecast — NSW, Wed 28 Oct",
+     "url": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-10-26T19:13:24.401208+00:00",
+    "history": [
+     "Extreme · 27 Oct 06:13"
+    ],
+    "key": "fdr:NSW:2026-10-28",
+    "lat": null,
+    "level": "Extreme",
+    "link": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans",
+    "lon": null,
+    "message_id": "1564356348752433243",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Extreme fire danger forecast — NSW, Wed 28 Oct",
+    "track_end": false
+   }
+  },
   "Fire danger (VIC)": {},
   "GDACS": {
    "gdacs:EQ:1573141": {
