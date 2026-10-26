@@ -426,7 +426,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "Major Flood Warning for Warrill Creek and Minor flooding warning for the Bremer River",
+    "title": "Major Flood Warning for Warrill Creek and Moderate Flood Warning for the Bremer River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml": {
@@ -467,7 +467,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "Initial Major Flood Warning for the Laidley Creek and Minor Flood Warning for the Lockyer Creek",
+    "title": "Major Flood Warning for the Laidley Creek and Minor Flood Warning for the Lockyer Creek",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
@@ -1111,10 +1111,10 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 14.9,
+    "lat": 15.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -104.2,
+    "lon": -104.7,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1165,10 +1165,10 @@
      "Green · 26 Oct 02:25"
     ],
     "key": "gdacs:TC:1001344",
-    "lat": 14.8,
+    "lat": 14.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001344",
-    "lon": -178.0,
+    "lon": -177.3,
     "news": false,
     "notify": false,
     "rank": 0,
