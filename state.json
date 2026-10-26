@@ -163,10 +163,29 @@
   "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
   "https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
   "https://www.aljazeera.com/news/longform/2026/10/26/how-venezuelas-earthquake-amputees-adapt-to-life-without-limbs?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-10-27/south-east-qld-weather-october-rainfall-nearing-records/107310704"
+  "https://www.abc.net.au/news/2026-10-27/south-east-qld-weather-october-rainfall-nearing-records/107310704",
+  "https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T21:58:25.245987+00:00",
+    "history": [
+     "Hazard news · 27 Oct 08:58"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Breaking: Earthquake reported by residents around Adelaide",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-10-27/south-east-qld-weather-october-rainfall-nearing-records/107310704": {
     "colour": 2001125,
     "emoji": "📰",
