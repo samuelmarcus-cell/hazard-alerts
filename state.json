@@ -160,7 +160,8 @@
   "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
   "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
   "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
-  "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk"
+  "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+  "https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides"
  ],
  "sources": {
   "ABC News": {},
@@ -1163,6 +1164,24 @@
     "notify": false,
     "rank": 0,
     "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T18:12:55.886714+00:00",
+    "history": [
+     "Hazard news · 27 Oct 05:12"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Southern California prepares for flooding amid forecast of ‘record-breaking tides’",
     "track_end": false
    }
   },
