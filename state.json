@@ -340,7 +340,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Hunter, Northern Tablelands, Northern Rivers and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, Northern Tablelands and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
