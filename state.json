@@ -160,24 +160,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T00:11:23.526357+00:00",
-    "history": [
-     "Hazard news · 26 Oct 11:11"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Women take bushfire preparation into their own hands",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262": {
     "colour": 2001125,
     "emoji": "📰",
@@ -340,7 +322,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, Northern Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -1249,7 +1231,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Two dead and 160,000 properties without power as Storm Boelo batters UK",
+    "title": "Two dead and tens of thousands of properties without power as Storm Boelo batters UK",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms": {
