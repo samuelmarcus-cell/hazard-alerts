@@ -1186,6 +1186,24 @@
     "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
     "track_end": false
    },
+   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T18:43:25.214498+00:00",
+    "history": [
+     "Hazard news · 27 Oct 05:43"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Major clean-up under way after two storms cause havoc in Britain",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides": {
     "colour": 2001125,
     "emoji": "📰",
