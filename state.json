@@ -346,6 +346,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-26T06:11:57.306449+00:00",
+    "history": [
+     "Warning · 26 Oct 17:11"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Brisbane City Council Area.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
