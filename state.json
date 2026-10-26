@@ -276,14 +276,14 @@
    }
   },
   "BBC Asia": {
-   "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
+   "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-23T00:04:29.710340+00:00",
+    "first_seen": "2026-10-26T22:58:25.184638+00:00",
     "history": [
-     "Hazard news · 23 Oct 11:04"
+     "Hazard news · 27 Oct 09:58"
     ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0",
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
@@ -292,42 +292,6 @@
     "notify": false,
     "rank": 0,
     "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "track_end": false
-   },
-   "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-22T04:17:36.285236+00:00",
-    "history": [
-     "Hazard news · 22 Oct 15:17"
-    ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cqm2dzwdmmywo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
-    "track_end": false
-   },
-   "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T07:56:56.785071+00:00",
-    "history": [
-     "Hazard news · 26 Oct 18:56"
-    ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
     "track_end": false
    }
   },
@@ -1279,24 +1243,6 @@
     "notify": false,
     "rank": 0,
     "title": "Major clean-up under way after two storms cause havoc in Britain",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T18:12:55.886714+00:00",
-    "history": [
-     "Hazard news · 27 Oct 05:12"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Coastal California braces for flooding amid forecast of ‘record-breaking tides’",
     "track_end": false
    }
   },
