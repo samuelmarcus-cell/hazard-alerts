@@ -391,48 +391,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "Major Flood Warning for Warrill Creek and Moderate Flood Warning for the Bremer River",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "26/10:01 EST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-26T00:11:38.127821+00:00",
-     "title": "🌊 Initial Major Flood Warning for the Laidley Creek and Minor Flood Warning for the Lockyer Creek",
-     "url": "http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml"
-    },
-    "emoji": "🌊",
-    "first_seen": "2026-10-26T00:11:23.526357+00:00",
-    "history": [
-     "Major warning · 26 Oct 11:11"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/lockyer-and-laidley-creeks.shtml",
-    "lon": null,
-    "message_id": "1564068956623601798",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Moderate Flood Warning for Laidley Creek and Minor Flood Warning for Lockyer Creek",
+    "title": "Major Flood Warning for the Bremer River and Warrill Creek",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
