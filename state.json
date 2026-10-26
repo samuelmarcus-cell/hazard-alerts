@@ -325,6 +325,24 @@
   },
   "BBC World": {},
   "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-26T02:41:23.746427+00:00",
+    "history": [
+     "Warning · 26 Oct 13:41"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Hunter, Northern Tablelands, Northern Rivers and North West Slopes and Plains Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
