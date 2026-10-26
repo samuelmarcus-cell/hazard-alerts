@@ -1072,14 +1072,14 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 14.0,
+    "lat": 14.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 163.0,
+    "lon": 162.7,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Marshall Islands, Northern Mariana Islands",
+    "title": "Tropical cyclone — Marshall Islands",
     "track_end": true
    },
    "gdacs:TC:1001344": {
