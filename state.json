@@ -156,29 +156,11 @@
   "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462",
   "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
   "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262"
+  "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
+  "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T02:26:23.818425+00:00",
-    "history": [
-     "Hazard news · 26 Oct 13:26"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Rome demonstrators storm Colosseum as Europe's youth protests spread",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -1234,6 +1216,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T07:26:57.244620+00:00",
+    "history": [
+     "Hazard news · 26 Oct 18:26"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Man found dead in Queensland flood waters as state hit by days-long deluge",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk": {
     "colour": 2001125,
     "emoji": "📰",
