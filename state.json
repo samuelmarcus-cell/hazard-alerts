@@ -1223,24 +1223,6 @@
     "title": "Man found dead in Queensland flood waters as state hit by multiple storms and days-long deluge",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-25T10:24:59.898641+00:00",
-    "history": [
-     "Hazard news · 25 Oct 21:24"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Two dead and tens of thousands of properties without power as Storm Boelo batters UK",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms": {
     "colour": 2001125,
     "emoji": "📰",
