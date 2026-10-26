@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564390342390972617",
-  "map_hash": "3656e28f3db6",
+  "attachment_id": "1564420530839359549",
+  "map_hash": "ced57b5f2c25",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -949,99 +949,6 @@
   },
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:EQ:1573141": {
-    "attachment_id": "1562847801828843582",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Orange earthquake (Magnitude 7M, Depth:10km) in China 22/10/2026 14:33 UTC, 130 thousand in 100km.",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Level",
-       "value": "Red"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Earthquake"
-      },
-      {
-       "inline": true,
-       "name": "Country",
-       "value": "China"
-      },
-      {
-       "inline": true,
-       "name": "Severity",
-       "value": "Magnitude 7M, Depth:10km"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=32.3357&mlon=93.7138#map=8/32.3357/93.7138)"
-      }
-     ],
-     "footer": {
-      "text": "GDACS"
-     },
-     "timestamp": "2026-10-22T15:19:11.679864+00:00",
-     "title": "🌍 Earthquake — China",
-     "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141"
-    },
-    "emoji": "🌍",
-    "first_seen": "2026-10-22T15:18:56.395706+00:00",
-    "history": [
-     "Red · 23 Oct 02:18"
-    ],
-    "key": "gdacs:EQ:1573141",
-    "lat": 32.3805,
-    "level": "Red",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
-    "lon": 93.7797,
-    "message_id": "1562847802076438639",
-    "news": false,
-    "notify": true,
-    "rank": 2,
-    "title": "Earthquake — China",
-    "track_end": true
-   },
-   "gdacs:FL:1104220": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-20T08:27:52.636829+00:00",
-    "history": [
-     "Green · 20 Oct 19:27"
-    ],
-    "key": "gdacs:FL:1104220",
-    "lat": 42.7587718,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 10.1989696,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Italy",
-    "track_end": true
-   },
-   "gdacs:FL:1104243": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-21T10:15:37.532395+00:00",
-    "history": [
-     "Green · 21 Oct 21:15"
-    ],
-    "key": "gdacs:FL:1104243",
-    "lat": 43.6989653,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243",
-    "lon": 4.1146915,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — France",
-    "track_end": true
-   },
    "gdacs:TC:1001338": {
     "emoji": "🌀",
     "history": [],
@@ -1070,24 +977,6 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone",
-    "track_end": true
-   },
-   "gdacs:TC:1001342": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-10-21T21:16:38.221861+00:00",
-    "history": [
-     "Green · 22 Oct 08:16"
-    ],
-    "key": "gdacs:TC:1001342",
-    "lat": 40.0,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001342",
-    "lon": -65.8,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone — United States, Canada, Saint Pierre and Miquelon",
     "track_end": true
    },
    "gdacs:TC:1001343": {
