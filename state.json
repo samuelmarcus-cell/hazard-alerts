@@ -155,7 +155,8 @@
   "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
   "https://www.abc.net.au/news/2026-10-26/queensland-weather-thunderstorms-flash-flooding/107302462",
   "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
-  "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262"
  ],
  "sources": {
   "ABC News": {
@@ -175,6 +176,24 @@
     "notify": false,
     "rank": 0,
     "title": "Women take bushfire preparation into their own hands",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T02:26:23.818425+00:00",
+    "history": [
+     "Hazard news · 26 Oct 13:26"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Rome demonstrators storm Colosseum as Europe's youth protests spread",
     "track_end": false
    }
   },
