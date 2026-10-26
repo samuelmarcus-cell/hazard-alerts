@@ -1208,6 +1208,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T21:13:24.950442+00:00",
+    "history": [
+     "Hazard news · 27 Oct 08:13"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Man found dead in Queensland floods named as former councillor and One Nation candidate",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino": {
     "colour": 2001125,
     "emoji": "📰",
