@@ -328,7 +328,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Capricornia, Wide Bay and Burnett, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
