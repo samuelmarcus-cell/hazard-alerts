@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564095384597434378",
-  "map_hash": "aaccb7bf38be",
+  "attachment_id": "1564193803638808596",
+  "map_hash": "6e3b7d0ae27d",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1148,14 +1148,14 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 13.8,
+    "lat": 14.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 163.2,
+    "lon": 163.0,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Marshall Islands",
+    "title": "Tropical cyclone — Marshall Islands, Northern Mariana Islands",
     "track_end": true
    },
    "gdacs:TC:1001344": {
@@ -1178,15 +1178,15 @@
    },
    "gdacs:TC:1001345": {
     "attachment_id": "1564095372324896819",
-    "colour": 16088064,
+    "colour": 13840175,
     "embed": {
-     "color": 16088064,
-     "description": "Orange notification for tropical cyclone TWO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.356 million .",
+     "color": 13840175,
+     "description": "Red notification for tropical cyclone ARNAB-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 3.049 million .",
      "fields": [
       {
        "inline": true,
        "name": "Level",
-       "value": "Orange"
+       "value": "Red"
       },
       {
        "inline": true,
@@ -1201,35 +1201,41 @@
       {
        "inline": true,
        "name": "Severity",
-       "value": "Tropical Storm (maximum wind speed of 120 km/h)"
+       "value": "Hurricane/Typhoon > 74 mph (maximum wind speed of 185 km/h)"
+      },
+      {
+       "inline": false,
+       "name": "History",
+       "value": "Orange · 26 Oct 12:56\nRed · 26 Oct 19:27"
       },
       {
        "inline": false,
        "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=16.0000&mlon=89.1000#map=8/16.0000/89.1000)"
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=15.3000&mlon=88.4000#map=8/15.3000/88.4000)"
       }
      ],
      "footer": {
       "text": "GDACS"
      },
-     "timestamp": "2026-10-26T01:56:35.328494+00:00",
+     "timestamp": "2026-10-26T08:27:40.692355+00:00",
      "title": "🌀 Tropical cyclone — India",
      "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345"
     },
     "emoji": "🌀",
     "first_seen": "2026-10-26T01:56:23.710432+00:00",
     "history": [
-     "Orange · 26 Oct 12:56"
+     "Orange · 26 Oct 12:56",
+     "Red · 26 Oct 19:27"
     ],
     "key": "gdacs:TC:1001345",
-    "lat": 16.0,
-    "level": "Orange",
+    "lat": 15.3,
+    "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
-    "lon": 89.1,
+    "lon": 88.4,
     "message_id": "1564095372568039474",
     "news": false,
     "notify": true,
-    "rank": 1,
+    "rank": 2,
     "title": "Tropical cyclone — India",
     "track_end": true
    }
