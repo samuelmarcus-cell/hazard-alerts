@@ -183,7 +183,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Breaking: Earthquake reported by residents around Adelaide",
+    "title": "Magnitude-4.9 earthquake strikes off South Australia coast",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-10-27/south-east-qld-weather-october-rainfall-nearing-records/107310704": {
@@ -1296,7 +1296,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Southern California prepares for flooding amid forecast of ‘record-breaking tides’",
+    "title": "Coastal California braces for flooding amid forecast of ‘record-breaking tides’",
     "track_end": false
    }
   },
