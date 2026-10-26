@@ -157,7 +157,8 @@
   "https://www.abc.net.au/news/2026-10-26/bushfire-training-women-prepare-for-fire-season-wa/107298236",
   "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
-  "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge"
+  "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
+  "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -229,6 +230,24 @@
     "rank": 0,
     "title": "Two storms slam northern Europe, cut power to 150,000 homes",
     "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1792993623": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T07:56:56.785071+00:00",
+    "history": [
+     "Hazard news · 26 Oct 18:56"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792993623",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Photos: Lula supporters flood streets in celebration of historic win",
+    "track_end": false
    }
   },
   "BBC Asia": {
@@ -268,14 +287,14 @@
     "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
     "track_end": false
    },
-   "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#1": {
+   "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-22T04:17:36.285236+00:00",
+    "first_seen": "2026-10-26T07:56:56.785071+00:00",
     "history": [
-     "Hazard news · 22 Oct 15:17"
+     "Hazard news · 26 Oct 18:56"
     ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#1",
+    "key": "BBC Asia:https://www.bbc.co.uk/news/videos/cmx2302xe931o#2",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss",
@@ -304,7 +323,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, North West Slopes and Plains and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -1231,7 +1250,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Man found dead in Queensland flood waters as state hit by days-long deluge",
+    "title": "Man found dead in Queensland flood waters as state hit by multiple storms and days-long deluge",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk": {
