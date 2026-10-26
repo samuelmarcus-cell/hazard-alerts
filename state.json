@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564004676775575774",
-  "map_hash": "5616a7087db7",
+  "attachment_id": "1564095384597434378",
+  "map_hash": "aaccb7bf38be",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1090,10 +1090,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 13.4,
+    "lat": 13.8,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 163.9,
+    "lon": 163.2,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1116,6 +1116,63 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone",
+    "track_end": true
+   },
+   "gdacs:TC:1001345": {
+    "attachment_id": "1564095372324896819",
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "description": "Orange notification for tropical cyclone TWO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.356 million .",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Level",
+       "value": "Orange"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Tropical cyclone"
+      },
+      {
+       "inline": true,
+       "name": "Country",
+       "value": "India"
+      },
+      {
+       "inline": true,
+       "name": "Severity",
+       "value": "Tropical Storm (maximum wind speed of 120 km/h)"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=16.0000&mlon=89.1000#map=8/16.0000/89.1000)"
+      }
+     ],
+     "footer": {
+      "text": "GDACS"
+     },
+     "timestamp": "2026-10-26T01:56:35.328494+00:00",
+     "title": "🌀 Tropical cyclone — India",
+     "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345"
+    },
+    "emoji": "🌀",
+    "first_seen": "2026-10-26T01:56:23.710432+00:00",
+    "history": [
+     "Orange · 26 Oct 12:56"
+    ],
+    "key": "gdacs:TC:1001345",
+    "lat": 16.0,
+    "level": "Orange",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
+    "lon": 89.1,
+    "message_id": "1564095372568039474",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Tropical cyclone — India",
     "track_end": true
    }
   },
