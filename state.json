@@ -214,26 +214,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1792993623": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T07:56:56.785071+00:00",
-    "history": [
-     "Hazard news · 26 Oct 18:56"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1792993623",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Photos: Lula supporters flood streets in celebration of historic win",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#0": {
     "colour": 2001125,
