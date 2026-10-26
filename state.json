@@ -1098,7 +1098,7 @@
     "lat": 14.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 162.7,
+    "lon": 162.6,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1188,24 +1188,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T07:26:57.244620+00:00",
-    "history": [
-     "Hazard news · 26 Oct 18:26"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Man found dead in Queensland flood waters as state hit by multiple storms and days-long deluge",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino": {
     "colour": 2001125,
     "emoji": "📰",
