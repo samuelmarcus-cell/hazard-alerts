@@ -158,7 +158,9 @@
   "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-26/italy-protests-colosseum-cost-of-living/107308262",
   "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
-  "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss"
+  "https://www.aljazeera.com/gallery/2026/10/26/photos-lula-supporters-flood-streets-in-celebration-of-historic-win?traffic_source=rss",
+  "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
+  "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk"
  ],
  "sources": {
   "ABC News": {},
@@ -1182,22 +1184,40 @@
     "title": "Man found dead in Queensland flood waters as state hit by multiple storms and days-long deluge",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms": {
+   "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-25T18:10:56.411578+00:00",
+    "first_seen": "2026-10-26T11:27:27.753230+00:00",
     "history": [
-     "Hazard news · 26 Oct 05:10"
+     "Hazard news · 26 Oct 22:27"
     ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+    "key": "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+    "link": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "US south-west braces for more storms after enduring days of rain and flooding",
+    "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-26T11:27:27.753230+00:00",
+    "history": [
+     "Hazard news · 26 Oct 22:27"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "About 90,000 properties still without power after two storms strike Britain",
     "track_end": false
    }
   },
