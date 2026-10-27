@@ -169,29 +169,11 @@
   "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/10/27/protesters-storm-serbian-pro-vucic-tv-station-after-his-loss-at-polls?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-27T06:29:22.179456+00:00",
-    "history": [
-     "Hazard news · 27 Oct 17:29"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Giant, spiked hail falls as 'very dangerous' storms hit Queensland",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -259,6 +241,24 @@
     "notify": false,
     "rank": 0,
     "title": "Cyclone Arnab batters India’s east coast",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793113668": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-27T18:15:40.207733+00:00",
+    "history": [
+     "Hazard news · 28 Oct 05:15"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793113668",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/10/27/protesters-storm-serbian-pro-vucic-tv-station-after-his-loss-at-polls?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Protesters storm Serbian pro-Vucic TV station after his loss at polls",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1793120691": {
