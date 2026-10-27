@@ -942,14 +942,14 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 15.5,
+    "lat": 15.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -106.3,
+    "lon": -106.9,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone",
+    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001343": {
