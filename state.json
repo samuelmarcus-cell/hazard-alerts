@@ -260,6 +260,24 @@
   },
   "BBC World": {},
   "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-27T02:58:54.554725+00:00",
+    "history": [
+     "Warning · 27 Oct 13:58"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers and Northern Tablelands Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -932,10 +950,10 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 15.4,
+    "lat": 15.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -106.1,
+    "lon": -106.3,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -968,10 +986,10 @@
      "Green · 26 Oct 02:25"
     ],
     "key": "gdacs:TC:1001344",
-    "lat": 13.6,
+    "lat": 13.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001344",
-    "lon": -176.6,
+    "lon": -175.9,
     "news": false,
     "notify": false,
     "rank": 0,
