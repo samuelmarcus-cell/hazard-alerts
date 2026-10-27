@@ -168,7 +168,8 @@
   "https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704",
   "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -258,6 +259,24 @@
     "notify": false,
     "rank": 0,
     "title": "Cyclone Arnab batters India’s east coast",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793120691": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-27T17:30:40.441632+00:00",
+    "history": [
+     "Hazard news · 28 Oct 04:30"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793120691",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire engulfs Seoul’s last shanty-town, forcing hundreds to evacuate",
     "track_end": false
    }
   },
@@ -1056,6 +1075,24 @@
     "notify": false,
     "rank": 0,
     "title": "Large wildfire — Aspen Acres, CO, USA",
+    "track_end": true
+   },
+   "us:2026-COGMF-000099": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-27T17:30:40.441632+00:00",
+    "history": [
+     "10,000+ ha · 28 Oct 04:30"
+    ],
+    "key": "us:2026-COGMF-000099",
+    "lat": 38.0515730057394,
+    "level": "10,000+ ha",
+    "link": "https://inciweb.wildfire.gov/",
+    "lon": -107.682134525332,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Large wildfire — Gold Mountain, CO, USA",
     "track_end": true
    },
    "us:2026-MTBDF-266319": {
