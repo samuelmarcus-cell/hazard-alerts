@@ -1039,23 +1039,6 @@
     "title": "Large wildfire — Aspen Acres, CO, USA",
     "track_end": true
    },
-   "us:2026-COGMF-000099": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "us:2026-COGMF-000099",
-    "lat": 38.0515730057394,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -107.682134525332,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Gold Mountain, CO, USA",
-    "track_end": true
-   },
    "us:2026-MTBDF-266319": {
     "colour": 16361509,
     "emoji": "🔥",
