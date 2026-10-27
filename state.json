@@ -241,24 +241,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793081552": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-27T08:29:21.611209+00:00",
-    "history": [
-     "Hazard news · 27 Oct 19:29"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793081552",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793090671": {
     "colour": 2001125,
     "emoji": "📰",
