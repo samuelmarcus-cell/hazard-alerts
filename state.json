@@ -294,7 +294,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Moderate Flood Warning for the Weir River and Macintyre Brook, Minor Flood Warning for the Macintyre River",
+    "title": "Moderate Flood Warning for the Weir River and Minor Flood Warning for the Macintyre River",
     "track_end": true
    }
   },
@@ -315,7 +315,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Moderate Flood Warning for the Weir River and Macintyre Brook, Minor Flood Warning for the Macintyre River",
+    "title": "Moderate Flood Warning for the Weir River and Minor Flood Warning for the Macintyre River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
