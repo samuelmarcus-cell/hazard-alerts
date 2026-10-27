@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564420530839359549",
-  "map_hash": "ced57b5f2c25",
+  "attachment_id": "1564481053379399691",
+  "map_hash": "e63bea218ff6",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1032,7 +1032,7 @@
     "lat": 16.0,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
-    "lon": 85.8,
+    "lon": 84.8,
     "message_id": "1564095372568039474",
     "news": false,
     "notify": true,
