@@ -273,3 +273,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-27T12:14:58Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Simpson district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-10-27T15:30:00Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793103831,Hazard news,Cyclone Arnab batters India’s east coast,,,https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss,no
 2026-10-27T16:15:38Z,ended,US fires,us:2026-COGMF-000099,"10,000+ ha","Large wildfire — Gold Mountain, CO, USA",38.0515730057394,-107.682134525332,https://inciweb.wildfire.gov/,no
+2026-10-27T17:00:39Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Arnhem district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-10-27T17:00:39Z,ended,US fires,us:2026-ORBUD-002693,"10,000+ ha","Large wildfire — Second Flat, OR, USA",43.6086726552229,-119.439180587863,https://inciweb.wildfire.gov/,no
+2026-10-27T17:00:39Z,ended,US fires,us:2026-ORBUD-002694,"10,000+ ha","Large wildfire — Jackass Butte, OR, USA",43.0450056563701,-118.955680407526,https://inciweb.wildfire.gov/,no
