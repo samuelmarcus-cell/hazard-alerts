@@ -247,24 +247,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793113668": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-27T18:15:40.207733+00:00",
-    "history": [
-     "Hazard news · 28 Oct 05:15"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793113668",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/27/protesters-storm-serbian-pro-vucic-tv-station-after-his-loss-at-polls?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Protesters storm Serbian pro-Vucic TV station after his loss at polls",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793126391": {
     "colour": 2001125,
     "emoji": "📰",
