@@ -184,7 +184,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Unusually shaped giant hail seen as 'very dangerous' storms hit Queensland",
+    "title": "Giant, spiked hail falls as 'very dangerous' storms hit Queensland",
     "track_end": false
    }
   },
@@ -297,7 +297,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -315,7 +315,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gold Coast, Brisbane City, Moreton Bay, Logan and Scenic Rim Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie and South Burnett Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
