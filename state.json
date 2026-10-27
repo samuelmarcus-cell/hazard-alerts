@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564481053379399691",
-  "map_hash": "e63bea218ff6",
+  "attachment_id": "1564556666064601098",
+  "map_hash": "be5370514802",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -165,7 +165,8 @@
   "https://www.aljazeera.com/news/longform/2026/10/26/how-venezuelas-earthquake-amputees-adapt-to-life-without-limbs?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-27/south-east-qld-weather-october-rainfall-nearing-records/107310704",
   "https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622",
-  "https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704"
+  "https://www.abc.net.au/news/2026-10-27/queensland-hail-stones-thunderstorm/107315704",
+  "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -238,7 +239,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793081552": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-27T08:29:21.611209+00:00",
+    "history": [
+     "Hazard news · 27 Oct 19:29"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793081552",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
+    "track_end": false
+   }
+  },
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1": {
     "colour": 2001125,
@@ -316,7 +336,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -1001,10 +1021,10 @@
      "Red · 26 Oct 19:27"
     ],
     "key": "gdacs:TC:1001345",
-    "lat": 16.0,
+    "lat": 16.2,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
-    "lon": 84.8,
+    "lon": 83.8,
     "message_id": "1564095372568039474",
     "news": false,
     "notify": true,
