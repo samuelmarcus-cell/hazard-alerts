@@ -334,7 +334,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, Sunshine Coast and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie Council Area.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -353,53 +353,6 @@
     "notify": false,
     "rank": 0,
     "title": "Moderate Flood Warning for the Weir River and Minor Flood Warning for the Macintyre River",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "26/09:19 EST"
-      },
-      {
-       "inline": false,
-       "name": "History",
-       "value": "Warning · 26 Oct 05:25\nMajor warning · 26 Oct 10:26"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-25T23:26:39.641160+00:00",
-     "title": "🌊 Major Flood Warning for Warrill Creek and Minor flooding warning for the Bremer River",
-     "url": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml"
-    },
-    "emoji": "🌊",
-    "first_seen": "2026-10-25T18:25:56.985064+00:00",
-    "history": [
-     "Warning · 26 Oct 05:25",
-     "Major warning · 26 Oct 10:26"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lon": null,
-    "message_id": "1564057638197665834",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Moderate Flood Warning for the Warrill Creek and Minor Flood Warning for the Bremer River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/mary-river.shtml": {
