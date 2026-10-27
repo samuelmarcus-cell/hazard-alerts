@@ -192,7 +192,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Eastern Victoria rattled by 18th earthquake in a month",
+    "title": "Victoria rattled by 18th earthquake in a month",
     "track_end": false
    }
   },
@@ -263,24 +263,6 @@
     "notify": false,
     "rank": 0,
     "title": "Protesters storm Serbian pro-Vucic TV station after his loss at polls",
-    "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1793120691": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-27T17:30:40.441632+00:00",
-    "history": [
-     "Hazard news · 28 Oct 04:30"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793120691",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Fire engulfs Seoul’s last shanty-town, forcing hundreds to evacuate",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1793126391": {
