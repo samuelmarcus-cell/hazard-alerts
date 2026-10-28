@@ -365,6 +365,24 @@
     "title": "Minor Flood Warning for the Macintyre River and Moderate Flood Warning for the Weir River",
     "track_end": true
    },
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T05:01:47.477488+00:00",
+    "history": [
+     "Warning · 28 Oct 16:01"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Lower Condamine River",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml": {
     "attachment_id": null,
     "colour": 16088064,
