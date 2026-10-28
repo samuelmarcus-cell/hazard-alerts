@@ -180,7 +180,8 @@
   "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
   "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
-  "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms"
+  "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
+  "https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328"
  ],
  "sources": {
   "ABC News": {
@@ -200,6 +201,24 @@
     "notify": false,
     "rank": 0,
     "title": "Utility's cyclone-damaged gas platform fuels financial problems",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-28T15:47:54.691299+00:00",
+    "history": [
+     "Hazard news · 29 Oct 02:47"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "At least three killed as powerful Cyclone Arnab hits India's east coast",
     "track_end": false
    }
   },
