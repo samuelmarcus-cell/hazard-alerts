@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564953869115596800",
-  "map_hash": "bdea7091f38c",
+  "attachment_id": "1565142979025440941",
+  "map_hash": "992c9e9caaba",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -780,24 +780,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1103888": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:32:25.701147+00:00",
-    "history": [
-     "Green · 28 Oct 23:32"
-    ],
-    "key": "gdacs:FL:1103888",
-    "lat": 33.0508966,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
-    "lon": -109.296182,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — United States",
-    "track_end": true
-   },
    "gdacs:FL:1104099": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -852,24 +834,6 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
-   "gdacs:FL:1104217": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:47:55.314221+00:00",
-    "history": [
-     "Green · 28 Oct 23:47"
-    ],
-    "key": "gdacs:FL:1104217",
-    "lat": -36.8270698,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217",
-    "lon": -73.0502064,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Chile",
-    "track_end": true
-   },
    "gdacs:FL:1104239": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -886,42 +850,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Malaysia",
-    "track_end": true
-   },
-   "gdacs:FL:1104243": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:32:25.701147+00:00",
-    "history": [
-     "Green · 28 Oct 23:32"
-    ],
-    "key": "gdacs:FL:1104243",
-    "lat": 50.4752054,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243",
-    "lon": 1.7263245,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — France",
-    "track_end": true
-   },
-   "gdacs:FL:1104246": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:32:25.701147+00:00",
-    "history": [
-     "Green · 28 Oct 23:32"
-    ],
-    "key": "gdacs:FL:1104246",
-    "lat": -27.1102549,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104246",
-    "lon": 152.948924,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Australia",
     "track_end": true
    },
    "gdacs:FL:1104247": {
@@ -1199,21 +1127,6 @@
     "notify": false,
     "rank": 0,
     "title": "Large wildfire — Hagen, OR, USA",
-    "track_end": true
-   },
-   "us:2026-WAOWF-260406": {
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:25:52.402037+00:00",
-    "history": [
-     "50,000+ ha · 19 Oct 15:25"
-    ],
-    "key": "us:2026-WAOWF-260406",
-    "lat": 48.0162228019826,
-    "level": "50,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -120.846631747952,
-    "rank": 1,
-    "title": "Large wildfire — LITTLE GIANT, WA, USA",
     "track_end": true
    }
   },

@@ -314,3 +314,8 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-28T19:48:36Z,ended,Canada fires,ca:2026_BC_2026-K51490,"10,000+ ha","Large wildfire — British Columbia, Canada",49.62617,-119.88352,https://cwfis.cfs.nrcan.gc.ca/en/interactive-map,no
 2026-10-28T21:18:45Z,ended,US fires,us:2026-ORWSA-000100,"10,000+ ha","Large wildfire — Bench, OR, USA",44.6317835436221,-121.350236093876,https://inciweb.wildfire.gov/,no
 2026-10-28T21:48:36Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793221310,Hazard news,Indonesian students demand action on wildfires and rising costs,,,https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss,no
+2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1103888,Green,Flood — United States,33.0508966,-109.296182,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
+2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1104217,Green,Flood — Chile,-36.8270698,-73.0502064,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217,no
+2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1104243,Green,Flood — France,50.4752054,1.7263245,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243,no
+2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1104246,Green,Flood — Australia,-27.1102549,152.948924,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104246,no
+2026-10-28T23:19:10Z,ended,US fires,us:2026-WAOWF-260406,"50,000+ ha","Large wildfire — LITTLE GIANT, WA, USA",48.0162228019826,-120.846631747952,https://inciweb.wildfire.gov/,yes
