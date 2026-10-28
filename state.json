@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564749678006902824",
-  "map_hash": "bcde18cc12c4",
+  "attachment_id": "1564847974519939142",
+  "map_hash": "20af60ab54ff",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -174,7 +174,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/27/deadly-tornado-strikes-construction-site-in-turkiye?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/27/indonesia-wildfires-rain-toxic-haze-southeast-asia?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-28/earthquake-arawata-leongatha-tremors-geoscience-australia/107317128",
-  "https://www.abc.net.au/news/2026-10-28/emergency-fund-delays/107313760"
+  "https://www.abc.net.au/news/2026-10-28/emergency-fund-delays/107313760",
+  "https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622"
  ],
  "sources": {
   "ABC News": {
@@ -194,6 +195,24 @@
     "notify": false,
     "rank": 0,
     "title": "Councils struggle to access millions in flood recovery funding",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-28T03:46:47.838326+00:00",
+    "history": [
+     "Hazard news · 28 Oct 14:46"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Cows found on tropical island national park months after major flood",
     "track_end": false
    }
   },
@@ -926,7 +945,7 @@
      "Red · 26 Oct 19:27"
     ],
     "key": "gdacs:TC:1001345",
-    "lat": 16.4,
+    "lat": 16.2,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
     "lon": 81.6,
