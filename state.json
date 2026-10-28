@@ -272,44 +272,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793165391": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T12:02:27.069861+00:00",
-    "history": [
-     "Hazard news · 28 Oct 23:02"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793165391",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
-    "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1793168811": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T12:02:27.069861+00:00",
-    "history": [
-     "Hazard news · 28 Oct 23:02"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793168811",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
