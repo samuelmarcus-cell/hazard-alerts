@@ -176,7 +176,8 @@
   "https://www.abc.net.au/news/2026-10-28/earthquake-arawata-leongatha-tremors-geoscience-australia/107317128",
   "https://www.abc.net.au/news/2026-10-28/emergency-fund-delays/107313760",
   "https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
-  "https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520"
+  "https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520",
+  "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -249,7 +250,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793167515": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-28T08:32:25.460142+00:00",
+    "history": [
+     "Hazard news · 28 Oct 19:32"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793167515",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
+    "track_end": false
+   }
+  },
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1": {
     "colour": 2001125,
