@@ -179,7 +179,8 @@
   "https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520",
   "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
-  "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss"
+  "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
+  "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms"
  ],
  "sources": {
   "ABC News": {
@@ -1159,6 +1160,24 @@
     "notify": false,
     "rank": 0,
     "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-28T13:32:54.931538+00:00",
+    "history": [
+     "Hazard news · 29 Oct 00:32"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Budget 2026: John Healey offers £100 payment to households to help navigate ‘global economic storms’",
     "track_end": false
    }
   },
