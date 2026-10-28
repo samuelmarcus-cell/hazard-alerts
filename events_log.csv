@@ -303,3 +303,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-28T12:32:25Z,new,GDACS,gdacs:FL:1104246,Green,Flood — Australia,-27.1102549,152.948924,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104246,no
 2026-10-28T12:32:25Z,new,GDACS,gdacs:FL:1104243,Green,Flood — France,50.4752054,1.7263245,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243,no
 2026-10-28T12:32:25Z,new,GDACS,gdacs:FL:1103888,Green,Flood — United States,33.0508966,-109.296182,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
+2026-10-28T12:47:55Z,new,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,5.992427,100.4776159,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-10-28T12:47:55Z,new,GDACS,gdacs:FL:1104217,Green,Flood — Chile,-36.8270698,-73.0502064,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217,no
+2026-10-28T12:47:55Z,new,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-23.3718195,-48.184685,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
+2026-10-28T12:47:55Z,new,GDACS,gdacs:FL:1104099,Green,Flood — Mexico,31.7389744,-106.4832065,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099,no

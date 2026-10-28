@@ -868,6 +868,24 @@
     "title": "Flood — United States",
     "track_end": true
    },
+   "gdacs:FL:1104099": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:47:55.314221+00:00",
+    "history": [
+     "Green · 28 Oct 23:47"
+    ],
+    "key": "gdacs:FL:1104099",
+    "lat": 31.7389744,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099",
+    "lon": -106.4832065,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Mexico",
+    "track_end": true
+   },
    "gdacs:FL:1104167": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -884,6 +902,60 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Ecuador",
+    "track_end": true
+   },
+   "gdacs:FL:1104216": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:47:55.314221+00:00",
+    "history": [
+     "Green · 28 Oct 23:47"
+    ],
+    "key": "gdacs:FL:1104216",
+    "lat": -23.3718195,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
+    "lon": -48.184685,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Brazil",
+    "track_end": true
+   },
+   "gdacs:FL:1104217": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:47:55.314221+00:00",
+    "history": [
+     "Green · 28 Oct 23:47"
+    ],
+    "key": "gdacs:FL:1104217",
+    "lat": -36.8270698,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217",
+    "lon": -73.0502064,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Chile",
+    "track_end": true
+   },
+   "gdacs:FL:1104239": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:47:55.314221+00:00",
+    "history": [
+     "Green · 28 Oct 23:47"
+    ],
+    "key": "gdacs:FL:1104239",
+    "lat": 5.992427,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
+    "lon": 100.4776159,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Malaysia",
     "track_end": true
    },
    "gdacs:FL:1104243": {
