@@ -270,26 +270,7 @@
     "track_end": false
    }
   },
-  "BBC Asia": {
-   "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T22:58:25.184638+00:00",
-    "history": [
-     "Hazard news · 27 Oct 09:58"
-    ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-    "track_end": false
-   }
-  },
+  "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -886,6 +867,24 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1104167": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T11:02:25.744141+00:00",
+    "history": [
+     "Green · 28 Oct 22:02"
+    ],
+    "key": "gdacs:FL:1104167",
+    "lat": -2.9640695,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
+    "lon": -79.5630363,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ecuador",
+    "track_end": true
+   },
    "gdacs:TC:1001338": {
     "emoji": "🌀",
     "history": [],
