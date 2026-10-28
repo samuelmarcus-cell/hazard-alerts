@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1564847974519939142",
-  "map_hash": "20af60ab54ff",
+  "attachment_id": "1564953869115596800",
+  "map_hash": "bdea7091f38c",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1004,10 +1004,10 @@
      "Red · 26 Oct 19:27"
     ],
     "key": "gdacs:TC:1001345",
-    "lat": 16.2,
+    "lat": 16.4,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345",
-    "lon": 81.6,
+    "lon": 81.8,
     "message_id": "1564095372568039474",
     "news": false,
     "notify": true,
