@@ -1143,24 +1143,6 @@
     "rank": 0,
     "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T17:02:54.630996+00:00",
-    "history": [
-     "Hazard news · 29 Oct 04:02"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Healey gives households £100 to help navigate ‘global economic storms’",
-    "track_end": false
    }
   },
   "NSW RFS": {},
