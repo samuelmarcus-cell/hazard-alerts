@@ -850,6 +850,24 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1103888": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:32:25.701147+00:00",
+    "history": [
+     "Green · 28 Oct 23:32"
+    ],
+    "key": "gdacs:FL:1103888",
+    "lat": 33.0508966,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
+    "lon": -109.296182,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — United States",
+    "track_end": true
+   },
    "gdacs:FL:1104167": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -866,6 +884,60 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Ecuador",
+    "track_end": true
+   },
+   "gdacs:FL:1104243": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:32:25.701147+00:00",
+    "history": [
+     "Green · 28 Oct 23:32"
+    ],
+    "key": "gdacs:FL:1104243",
+    "lat": 50.4752054,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243",
+    "lon": 1.7263245,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — France",
+    "track_end": true
+   },
+   "gdacs:FL:1104246": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:32:25.701147+00:00",
+    "history": [
+     "Green · 28 Oct 23:32"
+    ],
+    "key": "gdacs:FL:1104246",
+    "lat": -27.1102549,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104246",
+    "lon": 152.948924,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Australia",
+    "track_end": true
+   },
+   "gdacs:FL:1104247": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-28T12:32:25.701147+00:00",
+    "history": [
+     "Green · 28 Oct 23:32"
+    ],
+    "key": "gdacs:FL:1104247",
+    "lat": 38.1098908,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104247",
+    "lon": 44.6970868,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Islamic Republic of Iran",
     "track_end": true
    },
    "gdacs:TC:1001338": {
