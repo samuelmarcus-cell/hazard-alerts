@@ -185,24 +185,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T06:16:48.023330+00:00",
-    "history": [
-     "Hazard news · 28 Oct 17:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Utility's cyclone-damaged gas platform fuels financial problems",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328": {
     "colour": 2001125,
     "emoji": "📰",
