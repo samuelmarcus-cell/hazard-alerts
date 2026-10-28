@@ -1140,7 +1140,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:827175": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-10-28T07:47:25.458867+00:00",
+    "history": [
+     "Watch and Act · 28 Oct 18:47"
+    ],
+    "key": "WA DFES:827175",
+    "lat": -33.42598320725713,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6ae1a67db26f448c305642f6",
+    "lon": 116.36898126588054,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act BE AWARE OF EMBER ATTACK - BOWELLING AND MUJA",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
