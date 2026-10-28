@@ -395,23 +395,6 @@
     "title": "Large wildfire — British Columbia, Canada",
     "track_end": true
    },
-   "ca:2026_BC_2026-K51490": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "ca:2026_BC_2026-K51490",
-    "lat": 49.62617,
-    "level": "10,000+ ha",
-    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
-    "lon": -119.88352,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — British Columbia, Canada",
-    "track_end": true
-   },
    "ca:2026_BC_2026-V10755": {
     "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
