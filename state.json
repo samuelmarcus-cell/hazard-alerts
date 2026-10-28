@@ -177,7 +177,9 @@
   "https://www.abc.net.au/news/2026-10-28/emergency-fund-delays/107313760",
   "https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
   "https://www.abc.net.au/news/2026-10-28/cyclone-damaged-offshore-gas-well/107313520",
-  "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
+  "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -251,22 +253,40 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793167515": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793165391": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-28T08:32:25.460142+00:00",
+    "first_seen": "2026-10-28T12:02:27.069861+00:00",
     "history": [
-     "Hazard news · 28 Oct 19:32"
+     "Hazard news · 28 Oct 23:02"
     ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793167515",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793165391",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "At least 3 dead after Cylone Arnab hits southern India",
+    "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793168811": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-28T12:02:27.069861+00:00",
+    "history": [
+     "Hazard news · 28 Oct 23:02"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793168811",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
     "track_end": false
    }
   },
@@ -430,26 +450,7 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-28T09:47:25.775726+00:00",
-    "history": [
-     "Warning · 28 Oct 20:47"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Goldfields, Gascoyne and South Interior districts.",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
