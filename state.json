@@ -197,24 +197,6 @@
     "rank": 0,
     "title": "Utility's cyclone-damaged gas platform fuels financial problems",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T03:46:47.838326+00:00",
-    "history": [
-     "Hazard news · 28 Oct 14:46"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-28/two-cows-found-tropical-snapper-island-national-park-fnq/107316622",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Castaway cows found on tropical island months after flood",
-    "track_end": false
    }
   },
   "ACT ESA": {},
