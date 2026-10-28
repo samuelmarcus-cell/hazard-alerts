@@ -184,26 +184,7 @@
   "https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T15:47:54.691299+00:00",
-    "history": [
-     "Hazard news · 29 Oct 02:47"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-29/cyclone-arnab-hits-india-east-coast/107321328",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "At least three killed as powerful Cyclone Arnab hits India's east coast",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
