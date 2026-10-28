@@ -327,7 +327,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Capricornia and parts of Central Highlands and Coalfields, Central West and Wide Bay and Burnett Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Coast and Whitsundays, Central Highlands and Coalfields, Capricornia and Wide Bay and Burnett Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
@@ -885,10 +885,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 14.9,
+    "lat": 15.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 159.9,
+    "lon": 158.9,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1140,26 +1140,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:827175": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-28T07:47:25.458867+00:00",
-    "history": [
-     "Watch and Act · 28 Oct 18:47"
-    ],
-    "key": "WA DFES:827175",
-    "lat": -33.42598320725713,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6ae1a67db26f448c305642f6",
-    "lon": 116.36898126588054,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act BE AWARE OF EMBER ATTACK - BOWELLING AND MUJA",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
