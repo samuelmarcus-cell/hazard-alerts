@@ -1181,23 +1181,6 @@
     "title": "Large wildfire — Hagen, OR, USA",
     "track_end": true
    },
-   "us:2026-ORWSA-000100": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "us:2026-ORWSA-000100",
-    "lat": 44.6317835436221,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -121.350236093876,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Bench, OR, USA",
-    "track_end": true
-   },
    "us:2026-WAOWF-260406": {
     "emoji": "🔥",
     "first_seen": "2026-10-19T04:25:52.402037+00:00",
