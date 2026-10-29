@@ -297,26 +297,7 @@
     "track_end": true
    }
   },
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-29T00:49:09.764538+00:00",
-    "history": [
-     "Warning · 29 Oct 11:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
@@ -443,26 +424,7 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-29T01:49:09.985018+00:00",
-    "history": [
-     "Warning · 29 Oct 12:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
