@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1565324494313099334",
-  "map_hash": "992c9e9caaba",
+  "attachment_id": "1565505960510885958",
+  "map_hash": "68ca21e289a9",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -854,24 +854,6 @@
     "title": "Flood — United States",
     "track_end": true
    },
-   "gdacs:FL:1104099": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:47:55.314221+00:00",
-    "history": [
-     "Green · 28 Oct 23:47"
-    ],
-    "key": "gdacs:FL:1104099",
-    "lat": 31.7389744,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099",
-    "lon": -106.4832065,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Mexico",
-    "track_end": true
-   },
    "gdacs:FL:1104167": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -960,24 +942,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Thailand",
-    "track_end": true
-   },
-   "gdacs:FL:1104247": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:32:25.701147+00:00",
-    "history": [
-     "Green · 28 Oct 23:32"
-    ],
-    "key": "gdacs:FL:1104247",
-    "lat": 38.1098908,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104247",
-    "lon": 44.6970868,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Islamic Republic of Iran",
     "track_end": true
    },
    "gdacs:FL:1104250": {
@@ -1070,24 +1034,6 @@
     "title": "Flood — Germany",
     "track_end": true
    },
-   "gdacs:FL:1104258": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T10:05:20.552322+00:00",
-    "history": [
-     "Green · 29 Oct 21:05"
-    ],
-    "key": "gdacs:FL:1104258",
-    "lat": 54.9207542,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104258",
-    "lon": -7.9523852,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Ireland",
-    "track_end": true
-   },
    "gdacs:FL:1104259": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1140,18 +1086,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Israel",
-    "track_end": true
-   },
-   "gdacs:TC:1001338": {
-    "emoji": "🌀",
-    "history": [],
-    "key": "gdacs:TC:1001338",
-    "lat": 31.2,
-    "level": "",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
-    "lon": 127.4,
-    "rank": 2,
-    "title": "Tropical cyclone — Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
     "track_end": true
    },
    "gdacs:TC:1001341": {
