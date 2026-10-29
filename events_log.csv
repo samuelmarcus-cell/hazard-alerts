@@ -338,3 +338,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T05:04:46Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lasseter and Tanami districts.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-10-29T05:04:46Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ65253.shtml,Major warning,Tropical Cyclone Forecast Track Map – Norfolk Island,,,http://reg.bom.gov.au/products/IDQ65253.shtml,yes
 2026-10-29T05:04:46Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior and North Interior districts.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
+2026-10-29T06:04:46Z,new,BoM NT,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,Major warning,QLD Tropical Cyclone Advice for System Affecting NT,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,yes
+2026-10-29T06:04:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

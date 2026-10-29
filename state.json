@@ -315,6 +315,47 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Lasseter and Tanami districts.",
     "track_end": true
+   },
+   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "NT"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "29/15:25 CST"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-29T06:05:02.670227+00:00",
+     "title": "🌀 QLD Tropical Cyclone Advice for System Affecting NT",
+     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html"
+    },
+    "emoji": "🌀",
+    "first_seen": "2026-10-29T06:04:46.601207+00:00",
+    "history": [
+     "Major warning · 29 Oct 17:04"
+    ],
+    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html",
+    "lat": null,
+    "level": "Major warning",
+    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html",
+    "lon": null,
+    "message_id": "1565245058377056259",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "QLD Tropical Cyclone Advice for System Affecting NT",
+    "track_end": true
    }
   },
   "BoM QLD": {
@@ -462,7 +503,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of South Interior and North Interior districts.",
+    "title": "Severe Thunderstorm Warning for parts of Eucla, North Interior and South Interior districts.",
     "track_end": true
    }
   },
@@ -862,7 +903,26 @@
     "track_end": true
    }
   },
-  "Concurrent events": {},
+  "Concurrent events": {
+   "concurrent:global": {
+    "colour": 9315498,
+    "emoji": "🌏",
+    "first_seen": "2026-10-29T06:04:46.601207+00:00",
+    "history": [
+     "Australia + overseas · 29 Oct 17:04"
+    ],
+    "key": "concurrent:global",
+    "lat": null,
+    "level": "Australia + overseas",
+    "link": "",
+    "lon": null,
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Major Australian events overlapping a top-level disaster overseas",
+    "track_end": true
+   }
+  },
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
