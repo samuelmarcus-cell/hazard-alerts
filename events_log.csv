@@ -319,3 +319,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1104243,Green,Flood — France,50.4752054,1.7263245,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243,no
 2026-10-28T23:19:10Z,ended,GDACS,gdacs:FL:1104246,Green,Flood — Australia,-27.1102549,152.948924,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104246,no
 2026-10-28T23:19:10Z,ended,US fires,us:2026-WAOWF-260406,"50,000+ ha","Large wildfire — LITTLE GIANT, WA, USA",48.0162228019826,-120.846631747952,https://inciweb.wildfire.gov/,yes
+2026-10-29T00:04:09Z,new,BoM QLD,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20023.html,Major warning,Tropical Cyclone Advice for Queensland,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20023.html,yes
