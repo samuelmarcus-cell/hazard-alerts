@@ -278,47 +278,6 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDQ65253.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "NSW/ACT"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "29/15:45 EDT"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-29T04:50:13.419679+00:00",
-     "title": "🌀 Tropical Cyclone Forecast Track Map – Norfolk Island",
-     "url": "http://reg.bom.gov.au/products/IDQ65253.shtml"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-10-29T04:49:46.855844+00:00",
-    "history": [
-     "Major warning · 29 Oct 15:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ65253.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/products/IDQ65253.shtml",
-    "lon": null,
-    "message_id": "1565226229366395041",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Tropical Cyclone Forecast Track Map – Norfolk Island",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -338,49 +297,27 @@
     "track_end": true
    }
   },
-  "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ65253.shtml": {
-    "attachment_id": null,
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
     "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "29/14:45 EST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-29T04:50:14.920658+00:00",
-     "title": "🌀 Tropical Cyclone Forecast Track Map – Norfolk Island",
-     "url": "http://reg.bom.gov.au/products/IDQ65253.shtml"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-10-29T04:49:46.855844+00:00",
+    "emoji": "⛈️",
+    "first_seen": "2026-10-29T05:04:46.480804+00:00",
     "history": [
-     "Major warning · 29 Oct 15:49"
+     "Warning · 29 Oct 16:04"
     ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ65253.shtml",
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
     "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/products/IDQ65253.shtml",
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
     "lon": null,
-    "message_id": "1565226235624169494",
     "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Tropical Cyclone Forecast Track Map – Norfolk Island",
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Lasseter and Tanami districts.",
     "track_end": true
-   },
+   }
+  },
+  "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -509,7 +446,26 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-29T05:04:46.480804+00:00",
+    "history": [
+     "Warning · 29 Oct 16:04"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of South Interior and North Interior districts.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -906,26 +862,7 @@
     "track_end": true
    }
   },
-  "Concurrent events": {
-   "concurrent:global": {
-    "colour": 9315498,
-    "emoji": "🌏",
-    "first_seen": "2026-10-29T04:49:46.855844+00:00",
-    "history": [
-     "Australia + overseas · 29 Oct 15:49"
-    ],
-    "key": "concurrent:global",
-    "lat": null,
-    "level": "Australia + overseas",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Major Australian events overlapping a top-level disaster overseas",
-    "track_end": true
-   }
-  },
+  "Concurrent events": {},
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
