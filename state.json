@@ -299,47 +299,6 @@
   },
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ65004.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "29/14:02 EST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-29T04:04:23.517855+00:00",
-     "title": "🌀 Tropical Cyclone Forecast Track Map – Qld",
-     "url": "http://reg.bom.gov.au/products/IDQ65004.shtml"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-10-29T04:04:09.959122+00:00",
-    "history": [
-     "Major warning · 29 Oct 15:04"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ65004.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/products/IDQ65004.shtml",
-    "lon": null,
-    "message_id": "1565214695277985906",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Tropical Cyclone Forecast Track Map – Qld",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/border-rivers.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
