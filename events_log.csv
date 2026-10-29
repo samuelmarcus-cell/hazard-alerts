@@ -376,3 +376,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104256,Green,Flood — Central African Republic,4.3635118,18.5835913,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104256,no
 2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104258,Green,Flood — Ireland,54.9207542,-7.9523852,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104258,no
 2026-10-29T10:05:20Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T10:20:20Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
