@@ -318,21 +318,50 @@
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
+    "attachment_id": null,
     "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "QLD"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "29/11:43 EST"
+      },
+      {
+       "inline": false,
+       "name": "History",
+       "value": "Warning · 28 Oct 16:01\nMajor warning · 29 Oct 12:49"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-29T01:49:23.426946+00:00",
+     "title": "🌊 Major Flood Warning for the Lower Condamine River",
+     "url": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml"
+    },
     "emoji": "🌊",
     "first_seen": "2026-10-28T05:01:47.477488+00:00",
     "history": [
-     "Warning · 28 Oct 16:01"
+     "Warning · 28 Oct 16:01",
+     "Major warning · 29 Oct 12:49"
     ],
     "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
     "lat": null,
-    "level": "Warning",
+    "level": "Major warning",
     "link": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
     "lon": null,
+    "message_id": "1565180721050427484",
     "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Moderate Flood Warning for the Lower Condamine River",
+    "notify": true,
+    "rank": 1,
+    "title": "Major Flood Warning for the Lower Condamine River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml": {
@@ -395,7 +424,26 @@
     "track_end": true
    }
   },
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-29T01:49:09.985018+00:00",
+    "history": [
+     "Warning · 29 Oct 12:49"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
