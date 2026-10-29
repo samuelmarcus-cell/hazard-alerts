@@ -255,7 +255,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "Transboundary haze — Alert Level 3, Southern ASEAN",
+    "title": "Transboundary haze — Alert Level 2, Southern ASEAN",
     "track_end": true
    }
   },
@@ -850,9 +850,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T10:35:21.373153+00:00",
+    "first_seen": "2026-10-29T10:50:21.903560+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 21:35"
+     "Australia + overseas · 29 Oct 21:50"
     ],
     "key": "concurrent:global",
     "lat": null,
