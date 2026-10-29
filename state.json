@@ -185,7 +185,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-29/man-missing-floodwaters-santa-teresa-nt-police-search/107324500",
-  "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss"
+  "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -275,6 +276,24 @@
     "notify": false,
     "rank": 0,
     "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793265171": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-29T09:35:21.235814+00:00",
+    "history": [
+     "Hazard news · 29 Oct 20:35"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793265171",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Argentina farmers evacuate cattle by boat as El Nino escalates",
     "track_end": false
    }
   },
@@ -869,9 +888,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T09:34:46.874426+00:00",
+    "first_seen": "2026-10-29T09:35:21.235814+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 20:34"
+     "Australia + overseas · 29 Oct 20:35"
     ],
     "key": "concurrent:global",
     "lat": null,
