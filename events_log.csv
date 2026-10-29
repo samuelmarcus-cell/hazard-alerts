@@ -382,3 +382,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T10:35:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-10-29T10:50:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-10-29T11:05:22Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T11:20:21Z,ended,WA DFES,WA DFES:827454,Emergency Warning,"Watch and Act: Bushfire Watch and Act NOT SAFE TO RETURN - FORRESTFIELD, KALAMUNDA AND LESMURDIE",-31.98159877764657,116.03159850237066,https://emergency.wa.gov.au/warnings/6ae2ef972a17e9ec49663a1b,yes

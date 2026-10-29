@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1565267720046649374",
-  "map_hash": "7cd6dada49fa",
+  "attachment_id": "1565324494313099334",
+  "map_hash": "992c9e9caaba",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -846,26 +846,7 @@
     "track_end": true
    }
   },
-  "Concurrent events": {
-   "concurrent:global": {
-    "colour": 9315498,
-    "emoji": "🌏",
-    "first_seen": "2026-10-29T11:05:22.024761+00:00",
-    "history": [
-     "Australia + overseas · 29 Oct 22:05"
-    ],
-    "key": "concurrent:global",
-    "lat": null,
-    "level": "Australia + overseas",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Major Australian events overlapping a top-level disaster overseas",
-    "track_end": true
-   }
-  },
+  "Concurrent events": {},
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
@@ -1436,55 +1417,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:827454": {
-    "attachment_id": "1565248844311171163",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "A Bushfire Emergency Warning is in place for people in the area between Panoramic Terrace and Ozone Terrace in KALAMUNDA in the CITY OF KALAMUNDA.",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Area",
-       "value": "A Bushfire Emergency Warning is in place for people in the area between\nPanoramic Terrace and Ozone Terrace in KALAMUNDA in the CITY OF KALAMUNDA."
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-31.9787&mlon=116.0363#map=8/-31.9787/116.0363)"
-      }
-     ],
-     "footer": {
-      "text": "WA DFES"
-     },
-     "timestamp": "2026-10-29T06:20:04.881775+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency Warning LEAVE NOW - KALAMUNDA",
-     "url": "https://emergency.wa.gov.au/warnings/6ae2e331637797f4c48890e6"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-10-29T06:19:46.439610+00:00",
-    "history": [
-     "Emergency Warning · 29 Oct 17:19"
-    ],
-    "key": "WA DFES:827454",
-    "lat": -31.98159877764657,
-    "level": "Emergency Warning",
-    "link": "https://emergency.wa.gov.au/warnings/6ae2ef972a17e9ec49663a1b",
-    "lon": 116.03159850237066,
-    "message_id": "1565248844587999312",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Watch and Act: Bushfire Watch and Act NOT SAFE TO RETURN - FORRESTFIELD, KALAMUNDA AND LESMURDIE",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
