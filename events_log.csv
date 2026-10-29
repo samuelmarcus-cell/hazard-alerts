@@ -323,3 +323,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T00:19:09Z,ended,BoM QLD,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20023.html,Major warning,Tropical Cyclone Advice for Queensland,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20023.html,yes
 2026-10-29T00:49:09Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lasseter district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-10-29T01:04:10Z,new,BoM QLD,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html,Major warning,Tropical Cyclone Advice for Queensland,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html,yes
+2026-10-29T01:19:09Z,ended,BoM QLD,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html,Major warning,Tropical Cyclone Advice for Queensland,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html,yes
