@@ -260,24 +260,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793259521": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T09:19:46.626558+00:00",
-    "history": [
-     "Hazard news · 29 Oct 20:19"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793259521",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Photos: Aftermath of deadly Cyclone Arnab in southern India",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793265171": {
     "colour": 2001125,
     "emoji": "📰",
