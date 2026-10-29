@@ -381,3 +381,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T10:35:21Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of West Coast and North West Pastoral districts.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-10-29T10:35:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-10-29T10:50:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T11:05:22Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
