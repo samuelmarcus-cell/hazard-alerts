@@ -888,9 +888,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 20:50"
+     "Australia + overseas · 29 Oct 21:05"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -951,10 +951,10 @@
      "Green · 28 Oct 22:02"
     ],
     "key": "gdacs:FL:1104167",
-    "lat": -2.9640695,
+    "lat": -2.1900572,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -79.5630363,
+    "lon": -79.8868669,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -987,10 +987,10 @@
      "Green · 28 Oct 23:47"
     ],
     "key": "gdacs:FL:1104216",
-    "lat": -26.0790979,
+    "lat": -15.2604018,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
-    "lon": -53.0533527,
+    "lon": -39.4112175,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1059,10 +1059,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104250",
-    "lat": -38.7408647,
+    "lat": -28.3550102,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104250",
-    "lon": -62.264295,
+    "lon": -59.2593412,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1103,6 +1103,114 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Türkiye",
+    "track_end": true
+   },
+   "gdacs:FL:1104256": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104256",
+    "lat": 4.3635118,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104256",
+    "lon": 18.5835913,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Central African Republic",
+    "track_end": true
+   },
+   "gdacs:FL:1104257": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104257",
+    "lat": 53.5501721,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104257",
+    "lon": 10.0013165,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Germany",
+    "track_end": true
+   },
+   "gdacs:FL:1104258": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104258",
+    "lat": 54.9207542,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104258",
+    "lon": -7.9523852,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ireland",
+    "track_end": true
+   },
+   "gdacs:FL:1104259": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104259",
+    "lat": -12.5412471,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
+    "lon": -73.66981,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Peru",
+    "track_end": true
+   },
+   "gdacs:FL:1104260": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104260",
+    "lat": 44.2678592,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104260",
+    "lon": 28.2921974,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Romania",
+    "track_end": true
+   },
+   "gdacs:FL:1104261": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T10:05:20.552322+00:00",
+    "history": [
+     "Green · 29 Oct 21:05"
+    ],
+    "key": "gdacs:FL:1104261",
+    "lat": 31.2457442,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104261",
+    "lon": 34.7925181,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Israel",
     "track_end": true
    },
    "gdacs:TC:1001338": {

@@ -369,3 +369,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,11.2320944,-74.1950916,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
 2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1103888,Green,Flood — United States,31.6926121,-106.207479,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
 2026-10-29T09:50:20Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104260,Green,Flood — Romania,44.2678592,28.2921974,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104260,no
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104261,Green,Flood — Israel,31.2457442,34.7925181,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104261,no
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104257,Green,Flood — Germany,53.5501721,10.0013165,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104257,no
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-12.5412471,-73.66981,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104256,Green,Flood — Central African Republic,4.3635118,18.5835913,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104256,no
+2026-10-29T10:05:20Z,new,GDACS,gdacs:FL:1104258,Green,Flood — Ireland,54.9207542,-7.9523852,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104258,no
+2026-10-29T10:05:20Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
