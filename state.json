@@ -1365,24 +1365,6 @@
     "title": "Large wildfire — Gold Mountain, CO, USA",
     "track_end": true
    },
-   "us:2026-MTBDF-266319": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T16:41:33.961717+00:00",
-    "history": [
-     "10,000+ ha · 20 Oct 03:41"
-    ],
-    "key": "us:2026-MTBDF-266319",
-    "lat": 45.5546733944274,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -113.325679806544,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Sand Creek, MT, USA",
-    "track_end": true
-   },
    "us:2026-ORMHF-000688": {
     "colour": 16361509,
     "emoji": "🔥",
