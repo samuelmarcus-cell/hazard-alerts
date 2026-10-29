@@ -293,7 +293,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Minor Flood Warning for the Macintyre River and Moderate Flood Warning for the Weir River",
+    "title": "Moderate Flood Warning for the Macintyre and Weir Rivers",
     "track_end": true
    }
   },
@@ -333,7 +333,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Minor Flood Warning for the Macintyre River and Moderate Flood Warning for the Weir River",
+    "title": "Moderate Flood Warning for the Macintyre and Weir Rivers",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
