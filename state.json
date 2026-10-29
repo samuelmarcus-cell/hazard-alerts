@@ -849,9 +849,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T08:49:47.057445+00:00",
+    "first_seen": "2026-10-29T09:04:47.209598+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 19:49"
+     "Australia + overseas · 29 Oct 20:04"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -978,10 +978,10 @@
      "Green · 22 Oct 02:01"
     ],
     "key": "gdacs:TC:1001341",
-    "lat": 21.1,
+    "lat": 21.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -108.1,
+    "lon": -108.4,
     "news": false,
     "notify": false,
     "rank": 0,
