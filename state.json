@@ -244,24 +244,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793280502": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T13:50:21.645351+00:00",
-    "history": [
-     "Hazard news · 30 Oct 00:50"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793280502",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/indonesians-share-impact-of-haze-on-their-livelihoods?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesians share impact of haze on their livelihoods",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793288352": {
     "colour": 2001125,
     "emoji": "📰",
