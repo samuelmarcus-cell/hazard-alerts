@@ -362,3 +362,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T09:34:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-10-29T09:35:21Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793265171,Hazard news,Argentina farmers evacuate cattle by boat as El Nino escalates,,,https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss,no
 2026-10-29T09:35:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104254,Green,Flood — Türkiye,40.872231,29.2705129,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104254,no
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104253,Green,Flood — Indonesia,2.1923519,99.3812201,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253,no
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104250,Green,Flood — Argentina,-38.7408647,-62.264295,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104250,no
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104241,Green,Flood — Thailand,18.1322598,100.148798,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241,no
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,11.2320944,-74.1950916,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
+2026-10-29T09:50:20Z,new,GDACS,gdacs:FL:1103888,Green,Flood — United States,31.6926121,-106.207479,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
+2026-10-29T09:50:20Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

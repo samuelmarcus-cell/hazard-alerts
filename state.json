@@ -888,9 +888,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T09:35:21.235814+00:00",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 20:35"
+     "Australia + overseas · 29 Oct 20:50"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -907,6 +907,24 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1103888": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1103888",
+    "lat": 31.6926121,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
+    "lon": -106.207479,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — United States",
+    "track_end": true
+   },
    "gdacs:FL:1104099": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -943,6 +961,24 @@
     "title": "Flood — Ecuador",
     "track_end": true
    },
+   "gdacs:FL:1104200": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1104200",
+    "lat": 11.2320944,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
+    "lon": -74.1950916,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Colombia",
+    "track_end": true
+   },
    "gdacs:FL:1104216": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -951,10 +987,10 @@
      "Green · 28 Oct 23:47"
     ],
     "key": "gdacs:FL:1104216",
-    "lat": -23.3718195,
+    "lat": -26.0790979,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
-    "lon": -48.184685,
+    "lon": -53.0533527,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -979,6 +1015,24 @@
     "title": "Flood — Malaysia",
     "track_end": true
    },
+   "gdacs:FL:1104241": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1104241",
+    "lat": 18.1322598,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241",
+    "lon": 100.148798,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Thailand",
+    "track_end": true
+   },
    "gdacs:FL:1104247": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -995,6 +1049,60 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Islamic Republic of Iran",
+    "track_end": true
+   },
+   "gdacs:FL:1104250": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1104250",
+    "lat": -38.7408647,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104250",
+    "lon": -62.264295,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Argentina",
+    "track_end": true
+   },
+   "gdacs:FL:1104253": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1104253",
+    "lat": 2.1923519,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
+    "lon": 99.3812201,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Indonesia",
+    "track_end": true
+   },
+   "gdacs:FL:1104254": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-29T09:50:20.811484+00:00",
+    "history": [
+     "Green · 29 Oct 20:50"
+    ],
+    "key": "gdacs:FL:1104254",
+    "lat": 40.872231,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104254",
+    "lon": 29.2705129,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Türkiye",
     "track_end": true
    },
    "gdacs:TC:1001338": {
