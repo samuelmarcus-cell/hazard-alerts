@@ -345,3 +345,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T06:19:46Z,new,WA DFES,WA DFES:827454,Emergency Warning,EMERGENCY WARNING: Bushfire Emergency Warning LEAVE NOW - KALAMUNDA,-31.97866277057399,116.03632519700878,https://emergency.wa.gov.au/warnings/6ae2e331637797f4c48890e6,yes
 2026-10-29T06:19:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-10-29T06:34:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T06:49:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

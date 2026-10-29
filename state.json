@@ -313,7 +313,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Lasseter and Tanami districts.",
+    "title": "Severe Thunderstorm Warning for Lasseter and parts of Tanami districts.",
     "track_end": true
    }
   },
@@ -885,9 +885,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T06:34:46.996527+00:00",
+    "first_seen": "2026-10-29T06:49:47.256531+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 17:34"
+     "Australia + overseas · 29 Oct 17:49"
     ],
     "key": "concurrent:global",
     "lat": null,
