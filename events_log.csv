@@ -331,3 +331,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T03:49:10Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-10-29T04:04:09Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ65004.shtml,Major warning,Tropical Cyclone Forecast Track Map – Qld,,,http://reg.bom.gov.au/products/IDQ65004.shtml,yes
 2026-10-29T04:19:10Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ65004.shtml,Major warning,Tropical Cyclone Forecast Track Map – Qld,,,http://reg.bom.gov.au/products/IDQ65004.shtml,yes
+2026-10-29T04:49:46Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDQ65253.shtml,Major warning,Tropical Cyclone Forecast Track Map – Norfolk Island,,,http://reg.bom.gov.au/products/IDQ65253.shtml,yes
+2026-10-29T04:49:46Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ65253.shtml,Major warning,Tropical Cyclone Forecast Track Map – Norfolk Island,,,http://reg.bom.gov.au/products/IDQ65253.shtml,yes
+2026-10-29T04:49:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
