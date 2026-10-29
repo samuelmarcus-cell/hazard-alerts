@@ -244,24 +244,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793279150": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T13:35:21.759844+00:00",
-    "history": [
-     "Hazard news · 30 Oct 00:35"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793279150",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/men-pulled-from-vehicle-stranded-by-floods-in-syria?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Men pulled from vehicle stranded by floods in Syria",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793280502": {
     "colour": 2001125,
     "emoji": "📰",
