@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1565142979025440941",
-  "map_hash": "992c9e9caaba",
+  "attachment_id": "1565248862174584832",
+  "map_hash": "c7a3bc866368",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -315,47 +315,6 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Lasseter and Tanami districts.",
     "track_end": true
-   },
-   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "NT"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "29/15:25 CST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-29T06:05:02.670227+00:00",
-     "title": "🌀 QLD Tropical Cyclone Advice for System Affecting NT",
-     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-10-29T06:04:46.601207+00:00",
-    "history": [
-     "Major warning · 29 Oct 17:04"
-    ],
-    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html",
-    "lat": null,
-    "level": "Major warning",
-    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html",
-    "lon": null,
-    "message_id": "1565245058377056259",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "QLD Tropical Cyclone Advice for System Affecting NT",
-    "track_end": true
    }
   },
   "BoM QLD": {
@@ -484,7 +443,26 @@
     "track_end": true
    }
   },
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-29T06:19:46.439610+00:00",
+    "history": [
+     "Warning · 29 Oct 17:19"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of West Coast and North West Pastoral districts.",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {
@@ -907,9 +885,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T06:04:46.601207+00:00",
+    "first_seen": "2026-10-29T06:19:46.439610+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 17:04"
+     "Australia + overseas · 29 Oct 17:19"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1277,7 +1255,55 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:827454": {
+    "attachment_id": "1565248844311171163",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "A Bushfire Emergency Warning is in place for people in the area between Panoramic Terrace and Ozone Terrace in KALAMUNDA in the CITY OF KALAMUNDA.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Area",
+       "value": "A Bushfire Emergency Warning is in place for people in the area between\nPanoramic Terrace and Ozone Terrace in KALAMUNDA in the CITY OF KALAMUNDA."
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-31.9787&mlon=116.0363#map=8/-31.9787/116.0363)"
+      }
+     ],
+     "footer": {
+      "text": "WA DFES"
+     },
+     "timestamp": "2026-10-29T06:20:04.881775+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency Warning LEAVE NOW - KALAMUNDA",
+     "url": "https://emergency.wa.gov.au/warnings/6ae2e331637797f4c48890e6"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-10-29T06:19:46.439610+00:00",
+    "history": [
+     "Emergency Warning · 29 Oct 17:19"
+    ],
+    "key": "WA DFES:827454",
+    "lat": -31.97866277057399,
+    "level": "Emergency Warning",
+    "link": "https://emergency.wa.gov.au/warnings/6ae2e331637797f4c48890e6",
+    "lon": 116.03632519700878,
+    "message_id": "1565248844587999312",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency Warning LEAVE NOW - KALAMUNDA",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }

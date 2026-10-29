@@ -340,3 +340,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-29T05:04:46Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior and North Interior districts.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-10-29T06:04:46Z,new,BoM NT,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,Major warning,QLD Tropical Cyclone Advice for System Affecting NT,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,yes
 2026-10-29T06:04:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-10-29T06:19:46Z,ended,BoM NT,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,Major warning,QLD Tropical Cyclone Advice for System Affecting NT,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDDP0007.html,yes
+2026-10-29T06:19:46Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of West Coast and North West Pastoral districts.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
+2026-10-29T06:19:46Z,new,WA DFES,WA DFES:827454,Emergency Warning,EMERGENCY WARNING: Bushfire Emergency Warning LEAVE NOW - KALAMUNDA,-31.97866277057399,116.03632519700878,https://emergency.wa.gov.au/warnings/6ae2e331637797f4c48890e6,yes
+2026-10-29T06:19:46Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
