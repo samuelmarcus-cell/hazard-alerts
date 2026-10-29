@@ -393,6 +393,47 @@
     "rank": 0,
     "title": "Moderate Flood Warning for the Warrego River (QLD)",
     "track_end": true
+   },
+   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "QLD"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "29/11:02 EST"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-10-29T01:04:25.863392+00:00",
+     "title": "🌀 Tropical Cyclone Advice for Queensland",
+     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html"
+    },
+    "emoji": "🌀",
+    "first_seen": "2026-10-29T01:04:10.251704+00:00",
+    "history": [
+     "Major warning · 29 Oct 12:04"
+    ],
+    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html",
+    "lat": null,
+    "level": "Major warning",
+    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDQ20029.html",
+    "lon": null,
+    "message_id": "1565169406944878593",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Tropical Cyclone Advice for Queensland",
+    "track_end": true
    }
   },
   "BoM SA": {},
