@@ -192,26 +192,7 @@
   "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-29/man-missing-floodwaters-santa-teresa-nt-police-search/107324500": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T08:04:46.451877+00:00",
-    "history": [
-     "Hazard news · 29 Oct 19:04"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-29/man-missing-floodwaters-santa-teresa-nt-police-search/107324500",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-29/man-missing-floodwaters-santa-teresa-nt-police-search/107324500",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Police search launched for man swept away in Central Australia flooding",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
