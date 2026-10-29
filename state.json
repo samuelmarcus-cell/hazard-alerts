@@ -238,24 +238,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793221310": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-28T21:48:36.738234+00:00",
-    "history": [
-     "Hazard news · 29 Oct 08:48"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793221310",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesian students demand action on wildfires and rising costs",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793235795": {
     "colour": 2001125,
     "emoji": "📰",
@@ -885,9 +867,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T06:49:47.256531+00:00",
+    "first_seen": "2026-10-29T07:04:47.305987+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 17:49"
+     "Australia + overseas · 29 Oct 18:04"
     ],
     "key": "concurrent:global",
     "lat": null,
