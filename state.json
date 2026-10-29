@@ -186,7 +186,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-29/man-missing-floodwaters-santa-teresa-nt-police-search/107324500",
   "https://www.aljazeera.com/gallery/2026/10/29/photos-aftermath-of-deadly-cyclone-arnab-in-southern-india?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/29/men-pulled-from-vehicle-stranded-by-floods-in-syria?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -276,6 +277,24 @@
     "notify": false,
     "rank": 0,
     "title": "Argentina farmers evacuate cattle by boat as El Nino escalates",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793279150": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-29T13:35:21.759844+00:00",
+    "history": [
+     "Hazard news · 30 Oct 00:35"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793279150",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/men-pulled-from-vehicle-stranded-by-floods-in-syria?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Men pulled from vehicle stranded by floods in Syria",
     "track_end": false
    }
   },
