@@ -257,26 +257,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793235795": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T02:19:09.509386+00:00",
-    "history": [
-     "Hazard news · 29 Oct 13:19"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793235795",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Serbians storm TV studio as pro-Vucic media faces reckoning",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
@@ -868,9 +849,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-10-29T08:19:46.633275+00:00",
+    "first_seen": "2026-10-29T08:34:47.243980+00:00",
     "history": [
-     "Australia + overseas · 29 Oct 19:19"
+     "Australia + overseas · 29 Oct 19:34"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1015,10 +996,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 15.9,
+    "lat": 16.3,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 154.6,
+    "lon": 152.9,
     "news": false,
     "notify": false,
     "rank": 0,
