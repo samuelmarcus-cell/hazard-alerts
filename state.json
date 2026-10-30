@@ -1225,26 +1225,7 @@
     "track_end": true
    }
   },
-  "Guardian World": {
-   "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-26T11:27:27.753230+00:00",
-    "history": [
-     "Hazard news · 26 Oct 22:27"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
-    "track_end": false
-   }
-  },
+  "Guardian World": {},
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
