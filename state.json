@@ -192,7 +192,8 @@
   "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826",
   "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
-  "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -281,6 +282,24 @@
     "notify": false,
     "rank": 0,
     "title": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793354016": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T10:07:29.029642+00:00",
+    "history": [
+     "Hazard news · 30 Oct 21:07"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793354016",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Bhutan glacial lake outburst triggers flash floods",
     "track_end": false
    }
   },
@@ -451,26 +470,7 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-10-30T08:52:28.870955+00:00",
-    "history": [
-     "Warning · 30 Oct 19:52"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral and North East Pastoral districts.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
