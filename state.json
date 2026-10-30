@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": null,
+   "failing_since": "2026-10-30T04:51:59.626594+00:00",
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -194,26 +194,7 @@
   "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T22:51:28.872408+00:00",
-    "history": [
-     "Hazard news · 30 Oct 09:51"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Australian thunderstorm Hector wakes from hibernation",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
