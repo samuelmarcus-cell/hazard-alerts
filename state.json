@@ -1230,14 +1230,14 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 18.7,
+    "lat": 19.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 146.2,
+    "lon": 144.5,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Japan",
+    "title": "Tropical cyclone — Japan, Marshall Islands",
     "track_end": true
    },
    "gdacs:TC:1001344": {
