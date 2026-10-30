@@ -197,7 +197,8 @@
   "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
   "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652",
-  "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
+  "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky"
  ],
  "sources": {
   "ABC News": {
@@ -307,7 +308,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
+    "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
     "track_end": false
    }
   },
@@ -1322,6 +1323,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T17:23:22.508797+00:00",
+    "history": [
+     "Hazard news · 31 Oct 04:23"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
     "track_end": false
    }
   },
