@@ -304,7 +304,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central West, Maranoa and Warrego and Channel Country Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Goldfields and Upper Flinders, Central Highlands and Coalfields, Central West and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -1133,14 +1133,14 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 17.8,
+    "lat": 18.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 147.8,
+    "lon": 146.2,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Marshall Islands",
+    "title": "Tropical cyclone — Japan",
     "track_end": true
    },
    "gdacs:TC:1001344": {
