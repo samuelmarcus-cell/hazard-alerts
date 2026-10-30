@@ -194,7 +194,8 @@
   "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
-  "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey"
+  "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+  "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -287,7 +288,26 @@
    }
   },
   "BBC Asia": {},
-  "BBC World": {},
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T10:52:28.902650+00:00",
+    "history": [
+     "Hazard news · 30 Oct 21:52"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {
    "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
     "colour": 16088064,
