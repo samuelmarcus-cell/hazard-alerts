@@ -198,7 +198,8 @@
   "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652",
   "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
-  "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky"
+  "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+  "https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910"
  ],
  "sources": {
   "ABC News": {
@@ -218,6 +219,24 @@
     "notify": false,
     "rank": 0,
     "title": "Evacuation begins from ravaged Russian-controlled Ukrainian city",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T20:38:22.508440+00:00",
+    "history": [
+     "Hazard news · 31 Oct 07:38"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Victoria's chief health officer warns of thunderstorm asthma risk",
     "track_end": false
    }
   },
@@ -1214,10 +1233,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 19.7,
+    "lat": 20.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 144.5,
+    "lon": 143.4,
     "news": false,
     "notify": false,
     "rank": 0,
