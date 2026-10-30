@@ -203,24 +203,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-30T12:07:56.830493+00:00",
-    "history": [
-     "Hazard news · 30 Oct 23:07"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Evacuation begins from ravaged Russian-controlled Ukrainian city",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910": {
     "colour": 2001125,
     "emoji": "📰",
@@ -290,26 +272,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793364607": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-30T14:37:57.104140+00:00",
-    "history": [
-     "Hazard news · 31 Oct 01:37"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793364607",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Bhutan hot springs hit by flood from glacial lake burst",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#0": {
