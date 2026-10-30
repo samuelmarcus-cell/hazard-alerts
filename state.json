@@ -196,7 +196,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
   "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
   "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-  "https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652"
+  "https://www.abc.net.au/news/2026-10-30/oleshky-evacuation-russian-controlled-city-ukrainian-war/107330652",
+  "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -270,22 +271,22 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793354016": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793364607": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-30T10:07:29.029642+00:00",
+    "first_seen": "2026-10-30T14:37:57.104140+00:00",
     "history": [
-     "Hazard news · 30 Oct 21:07"
+     "Hazard news · 31 Oct 01:37"
     ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793354016",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793364607",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
+    "link": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Bhutan glacial lake outburst triggers flash floods",
+    "title": "Bhutan hot springs hit by flood from glacial lake burst",
     "track_end": false
    }
   },
