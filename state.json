@@ -193,7 +193,8 @@
   "https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826",
   "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss",
+  "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey"
  ],
  "sources": {
   "ABC News": {},
@@ -1045,10 +1046,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104254",
-    "lat": 40.872231,
+    "lat": 36.3366277,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104254",
-    "lon": 29.2705129,
+    "lon": 29.3039247,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1161,6 +1162,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Syria",
+    "track_end": true
+   },
+   "gdacs:FL:1104264": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-30T10:37:28.918852+00:00",
+    "history": [
+     "Green · 30 Oct 21:37"
+    ],
+    "key": "gdacs:FL:1104264",
+    "lat": 29.2076755,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104264",
+    "lon": 33.8119441,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Egypt",
     "track_end": true
    },
    "gdacs:TC:1001341": {
@@ -1281,7 +1300,26 @@
     "track_end": true
    }
   },
-  "Guardian World": {},
+  "Guardian World": {
+   "Guardian World:https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T10:37:28.918852+00:00",
+    "history": [
+     "Hazard news · 30 Oct 21:37"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+    "track_end": false
+   }
+  },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
