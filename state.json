@@ -202,26 +202,7 @@
   "https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-30T20:38:22.508440+00:00",
-    "history": [
-     "Hazard news · 31 Oct 07:38"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Victoria's chief health officer warns of thunderstorm asthma risk",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
