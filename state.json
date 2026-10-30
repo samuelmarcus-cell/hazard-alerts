@@ -191,7 +191,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/29/indonesians-share-impact-of-haze-on-their-livelihoods?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-30/nt-hector-thunderstorm-at-tiwi-islands-top-end-wet-season/107319826",
-  "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -262,6 +263,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flash floods kill five in Syria",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1793342382": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-30T08:37:29.195600+00:00",
+    "history": [
+     "Hazard news · 30 Oct 19:37"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793342382",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
     "track_end": false
    }
   },
