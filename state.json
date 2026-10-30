@@ -248,24 +248,6 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793316827": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-30T03:36:59.679502+00:00",
-    "history": [
-     "Hazard news · 30 Oct 14:36"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793316827",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Flash floods kill five in Syria",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1793342382": {
     "colour": 2001125,
     "emoji": "📰",
