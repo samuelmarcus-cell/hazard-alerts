@@ -263,26 +263,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793288352": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-29T18:35:52.218477+00:00",
-    "history": [
-     "Hazard news · 30 Oct 05:35"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793288352",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Albanian opposition storms parliament, sets off flares and smoke bombs",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
