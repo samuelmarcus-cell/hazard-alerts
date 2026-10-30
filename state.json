@@ -1001,6 +1001,24 @@
     "title": "Flood — Thailand",
     "track_end": true
    },
+   "gdacs:FL:1104248": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-30T09:37:28.413910+00:00",
+    "history": [
+     "Green · 30 Oct 20:37"
+    ],
+    "key": "gdacs:FL:1104248",
+    "lat": 17.1670601,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104248",
+    "lon": 81.7099026,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — India",
+    "track_end": true
+   },
    "gdacs:FL:1104250": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1027,10 +1045,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
+    "lat": 4.3685491,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
+    "lon": 97.0253024,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1143,6 +1161,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Israel",
+    "track_end": true
+   },
+   "gdacs:FL:1104263": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-30T09:37:28.413910+00:00",
+    "history": [
+     "Green · 30 Oct 20:37"
+    ],
+    "key": "gdacs:FL:1104263",
+    "lat": 35.9627618,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104263",
+    "lon": 39.0145648,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Syria",
     "track_end": true
    },
    "gdacs:TC:1001341": {
