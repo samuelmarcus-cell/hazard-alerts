@@ -864,24 +864,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1103888": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T09:50:20.811484+00:00",
-    "history": [
-     "Green · 29 Oct 20:50"
-    ],
-    "key": "gdacs:FL:1103888",
-    "lat": 31.6926121,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
-    "lon": -106.207479,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — United States",
-    "track_end": true
-   },
    "gdacs:FL:1104167": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -900,24 +882,6 @@
     "title": "Flood — Ecuador",
     "track_end": true
    },
-   "gdacs:FL:1104200": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T09:50:20.811484+00:00",
-    "history": [
-     "Green · 29 Oct 20:50"
-    ],
-    "key": "gdacs:FL:1104200",
-    "lat": 11.2320944,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
-    "lon": -74.1950916,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Colombia",
-    "track_end": true
-   },
    "gdacs:FL:1104216": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -934,24 +898,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Brazil",
-    "track_end": true
-   },
-   "gdacs:FL:1104239": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:47:55.314221+00:00",
-    "history": [
-     "Green · 28 Oct 23:47"
-    ],
-    "key": "gdacs:FL:1104239",
-    "lat": 5.992427,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
-    "lon": 100.4776159,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Malaysia",
     "track_end": true
    },
    "gdacs:FL:1104241": {
