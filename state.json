@@ -209,7 +209,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "The thunderstorm that arrives like clockwork at 3pm every day",
+    "title": "Australian thunderstorm Hector wakes from hibernation",
     "track_end": false
    }
   },
@@ -1096,10 +1096,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 17.1,
+    "lat": 17.8,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 149.7,
+    "lon": 147.8,
     "news": false,
     "notify": false,
     "rank": 0,
