@@ -208,24 +208,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-10-31/indonesia-fire-pollution-killed-over-3000-people-report-finds/107331730": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-31T03:54:21.627394+00:00",
-    "history": [
-     "Hazard news · 31 Oct 14:54"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-10-31/indonesia-fire-pollution-killed-over-3000-people-report-finds/107331730",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-10-31/indonesia-fire-pollution-killed-over-3000-people-report-finds/107331730",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "More than 3,000 deaths in Indonesia linked to fire pollution, report says",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238": {
     "colour": 2001125,
     "emoji": "📰",
