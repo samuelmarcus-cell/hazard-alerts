@@ -417,3 +417,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-30T23:23:52Z,ended,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,11.2320944,-74.1950916,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
 2026-10-30T23:23:52Z,ended,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,5.992427,100.4776159,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
 2026-10-31T01:38:51Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml,Major warning,Moderate Flood Warning for the Upper Condamine River,,,http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml,yes
+2026-10-31T02:53:51Z,new,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml,Warning,Moderate Flood Warning for the Barcoo River,,,http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml,no
