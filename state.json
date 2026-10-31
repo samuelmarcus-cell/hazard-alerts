@@ -225,26 +225,7 @@
     "track_end": false
    }
   },
-  "ACT ESA": {
-   "ACT ESA:574d0a81-2c20-45ab-bb33-ad174bf3f217": {
-    "colour": 16361509,
-    "emoji": "⚠️",
-    "first_seen": "2026-10-31T05:24:22.031611+00:00",
-    "history": [
-     "Watch and Act · 31 Oct 16:24"
-    ],
-    "key": "ACT ESA:574d0a81-2c20-45ab-bb33-ad174bf3f217",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "https://www.ses.nsw.gov.au",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Goulburn, Yass, Crookwell and surrounds",
-    "track_end": true
-   }
-  },
+  "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
     "attachment_id": "1562333404782137464",
