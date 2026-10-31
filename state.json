@@ -207,26 +207,7 @@
   "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-31T18:10:26.980651+00:00",
-    "history": [
-     "Hazard news · 1 Nov 05:10"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Cyclone forecast tips quieter season for Australia",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
