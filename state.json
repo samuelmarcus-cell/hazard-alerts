@@ -202,7 +202,8 @@
   "https://www.abc.net.au/news/2026-10-31/victoria-on-thunderstorm-asthma-alert/107329910",
   "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-31/indonesia-fire-pollution-killed-over-3000-people-report-finds/107331730",
-  "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane"
+  "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
+  "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {
@@ -278,22 +279,22 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#1": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cqx2818elrnzo#0": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-31T08:54:21.896158+00:00",
+    "first_seen": "2026-10-31T11:39:52.894648+00:00",
     "history": [
-     "Hazard news · 31 Oct 19:54"
+     "Hazard news · 31 Oct 22:39"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#1",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cqx2818elrnzo#0",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+    "title": "Evacuated Ukrainians from Russian-occupied Oleshky arrive in Belarus",
     "track_end": false
    }
   },
