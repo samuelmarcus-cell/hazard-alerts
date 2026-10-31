@@ -297,14 +297,14 @@
   },
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-10-30T10:52:28.902650+00:00",
+    "first_seen": "2026-10-31T08:54:21.896158+00:00",
     "history": [
-     "Hazard news · 30 Oct 21:52"
+     "Hazard news · 31 Oct 19:54"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
