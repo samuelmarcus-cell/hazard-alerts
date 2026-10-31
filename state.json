@@ -1095,6 +1095,24 @@
     "title": "Flood — Egypt",
     "track_end": true
    },
+   "gdacs:FL:1104265": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-10-31T10:39:53.426531+00:00",
+    "history": [
+     "Green · 31 Oct 21:39"
+    ],
+    "key": "gdacs:FL:1104265",
+    "lat": 27.6363463,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104265",
+    "lon": 89.8363689,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Bhutan",
+    "track_end": true
+   },
    "gdacs:TC:1001341": {
     "colour": 4431943,
     "emoji": "🌀",
