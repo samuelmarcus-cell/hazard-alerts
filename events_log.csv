@@ -425,3 +425,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-31T05:24:22Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-10-31T05:24:22Z,new,ACT ESA,ACT ESA:574d0a81-2c20-45ab-bb33-ad174bf3f217,Watch and Act,"Watch and Act: Goulburn, Yass, Crookwell and surrounds",,,https://www.ses.nsw.gov.au,no
 2026-10-31T05:39:22Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21036.shtml,Warning,Severe Thunderstorm Warning - Canberra for Canberra and Queanbeyan.,,,http://reg.bom.gov.au/products/IDN21036.shtml,no
+2026-10-31T05:54:21Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21037.shtml,Warning,"Severe Weather Warning for parts of East Gippsland, North East and West and South Gippsland Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21037.shtml,no
