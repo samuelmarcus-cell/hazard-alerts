@@ -275,26 +275,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793413848": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-31T03:23:51.713927+00:00",
-    "history": [
-     "Hazard news · 31 Oct 14:23"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793413848",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/articles/c60me298k1yeo#1": {
