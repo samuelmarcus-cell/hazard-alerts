@@ -362,47 +362,6 @@
     "title": "Major Flood Warning for the Lower Condamine River",
     "track_end": true
    },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "26/09:15 EST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-25T23:26:40.890730+00:00",
-     "title": "🌊 Major Flood Warning for the Upper Condamine River",
-     "url": "http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml"
-    },
-    "emoji": "🌊",
-    "first_seen": "2026-10-25T23:26:23.490214+00:00",
-    "history": [
-     "Major warning · 26 Oct 10:26"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/upper-condamine.shtml",
-    "lon": null,
-    "message_id": "1564057643662839911",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Moderate Flood Warning for the Upper Condamine River",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/warrego-river-basin.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
