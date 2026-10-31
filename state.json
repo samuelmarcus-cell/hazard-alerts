@@ -352,24 +352,6 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for Southern Tablelands, Central West Slopes and Plains, South West Slopes, Australian Capital Territory and parts of Illawarra, South Coast, Central Tablelands, Upper Western, Snowy Mountains, North West Slopes and Plains and Riverina Forecast Districts.",
     "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-10-29T23:36:28.777878+00:00",
-    "history": [
-     "Warning · 30 Oct 10:36"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of Snowy Mountains Forecast District.",
-    "track_end": true
    }
   },
   "BoM NT": {},
