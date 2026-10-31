@@ -224,7 +224,26 @@
     "track_end": false
    }
   },
-  "ACT ESA": {},
+  "ACT ESA": {
+   "ACT ESA:574d0a81-2c20-45ab-bb33-ad174bf3f217": {
+    "colour": 16361509,
+    "emoji": "⚠️",
+    "first_seen": "2026-10-31T05:24:22.031611+00:00",
+    "history": [
+     "Watch and Act · 31 Oct 16:24"
+    ],
+    "key": "ACT ESA:574d0a81-2c20-45ab-bb33-ad174bf3f217",
+    "lat": null,
+    "level": "Watch and Act",
+    "link": "https://www.ses.nsw.gov.au",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Goulburn, Yass, Crookwell and surrounds",
+    "track_end": true
+   }
+  },
   "ASMC haze": {
    "asmc:Southern": {
     "attachment_id": "1562333404782137464",
@@ -331,7 +350,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southern Tablelands, Central West Slopes and Plains, South West Slopes, Australian Capital Territory and parts of South Coast, Central Tablelands, Upper Western, Snowy Mountains, North West Slopes and Plains, Riverina and Lower Western Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Southern Tablelands, Central West Slopes and Plains, South West Slopes, Australian Capital Territory and parts of Illawarra, South Coast, Central Tablelands, Upper Western, Snowy Mountains, North West Slopes and Plains and Riverina Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21036.shtml": {
@@ -373,6 +392,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-10-31T05:24:22.031611+00:00",
+    "history": [
+     "Warning · 31 Oct 16:24"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
