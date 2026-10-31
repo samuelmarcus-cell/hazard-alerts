@@ -203,7 +203,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
   "https://www.abc.net.au/news/2026-10-31/indonesia-fire-pollution-killed-over-3000-people-report-finds/107331730",
   "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
-  "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238"
  ],
  "sources": {
   "ABC News": {
@@ -223,6 +224,24 @@
     "notify": false,
     "rank": 0,
     "title": "More than 3,000 deaths in Indonesia linked to fire pollution, report says",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-10-31T18:10:26.980651+00:00",
+    "history": [
+     "Hazard news · 1 Nov 05:10"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Cyclone forecast tips quieter season for Australia",
     "track_end": false
    }
   },
