@@ -313,7 +313,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Tablelands, North West Slopes and Plains, Central West Slopes and Plains and Upper Western Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains, Central West Slopes and Plains and Central Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -334,7 +334,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
