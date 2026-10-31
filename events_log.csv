@@ -440,3 +440,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-10-31T23:10:56Z,ended,GDACS,gdacs:FL:1104256,Green,Flood — Central African Republic,4.3635118,18.5835913,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104256,no
 2026-10-31T23:10:56Z,ended,GDACS,gdacs:FL:1104257,Green,Flood — Germany,53.5501721,10.0013165,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104257,no
 2026-10-31T23:10:56Z,ended,GDACS,gdacs:TC:1001344,Green,Tropical cyclone,13.0,-175.9,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001344,no
+2026-10-31T23:40:57Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-01/violent-storm-tears-roof-from-buildings-toppled-tree-near-yass/107333182,Hazard news,Tornado-like storm hits NSW Southern Tablelands,,,https://www.abc.net.au/news/2026-11-01/violent-storm-tears-roof-from-buildings-toppled-tree-near-yass/107333182,no
