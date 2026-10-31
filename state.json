@@ -314,7 +314,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains, Central West Slopes and Plains and Central Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Hunter, Central Tablelands, North West Slopes and Plains and Central West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -1267,24 +1267,6 @@
     "notify": false,
     "rank": 0,
     "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-10-30T17:23:22.508797+00:00",
-    "history": [
-     "Hazard news · 31 Oct 04:23"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
     "track_end": false
    }
   },
