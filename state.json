@@ -206,10 +206,31 @@
   "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-01/bom-australia-cyclone-season-predicted-quiet/107329238",
   "https://www.abc.net.au/news/2026-11-01/violent-storm-tears-roof-from-buildings-toppled-tree-near-yass/107333182",
-  "https://www.aljazeera.com/news/2026/11/1/police-storm-portugal-housing-protest-camps?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/1/police-storm-portugal-housing-protest-camps?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-01T20:27:50.490887+00:00",
+    "history": [
+     "Hazard news · 2 Nov 07:27"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "More storms looming for SEQ as 'extreme' heatwave hits Gulf country",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -260,7 +281,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793561515": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-01T20:27:50.490887+00:00",
+    "history": [
+     "Hazard news · 2 Nov 07:27"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793561515",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Video captures house collapsing due to Ecuador floods",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
@@ -1032,10 +1072,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 22.1,
+    "lat": 22.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 143.6,
+    "lon": 143.0,
     "news": false,
     "notify": false,
     "rank": 0,
