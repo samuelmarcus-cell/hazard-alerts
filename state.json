@@ -282,26 +282,7 @@
   },
   "BBC Asia": {},
   "BBC World": {},
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-01T07:26:51.021556+00:00",
-    "history": [
-     "Warning · 1 Nov 18:26"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Tablelands and Northern Rivers Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -1106,10 +1087,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 22.8,
+    "lat": 22.3,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 144.3,
+    "lon": 144.1,
     "news": false,
     "notify": false,
     "rank": 0,
