@@ -453,3 +453,9 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-01T20:27:50Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928,Hazard news,More storms looming for SEQ as 'extreme' heatwave hits Gulf country,,,https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928,no
 2026-11-01T20:27:50Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793561515,Hazard news,Video captures house collapsing due to Ecuador floods,,,https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss,no
 2026-11-01T21:58:17Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220,Hazard news,"October keeps WA guessing with warm temperatures, showers and even hail",,,https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.1900572,-79.8868669,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:FL:1104241,Green,Flood — Thailand,18.1322598,100.148798,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:FL:1104250,Green,Flood — Argentina,-28.3550102,-59.2593412,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104250,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-12.5412471,-73.66981,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:FL:1104264,Green,Flood — Egypt,29.2076755,33.8119441,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104264,no
+2026-11-01T23:13:17Z,ended,GDACS,gdacs:TC:1001345,Red,Tropical cyclone — India,16.4,81.8,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001345,yes
