@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1565505960510885958",
-  "map_hash": "68ca21e289a9",
+  "attachment_id": "1566352894150582382",
+  "map_hash": "02ca1c517f7b",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -262,7 +262,26 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-01T07:26:51.021556+00:00",
+    "history": [
+     "Warning · 1 Nov 18:26"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Northern Tablelands and Northern Rivers Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -1141,20 +1160,65 @@
     "track_end": true
    },
    "gdacs:TC:1001346": {
-    "colour": 4431943,
+    "attachment_id": "1566352880188006400",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Red notification for tropical cyclone FOUR-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.156 million .",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Level",
+       "value": "Red"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Tropical cyclone"
+      },
+      {
+       "inline": true,
+       "name": "Country",
+       "value": "India"
+      },
+      {
+       "inline": true,
+       "name": "Severity",
+       "value": "Tropical Storm (maximum wind speed of 120 km/h)"
+      },
+      {
+       "inline": false,
+       "name": "History",
+       "value": "Green · 1 Nov 13:26\nRed · 1 Nov 18:26"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=12.2000&mlon=84.8000#map=8/12.2000/84.8000)"
+      }
+     ],
+     "footer": {
+      "text": "GDACS"
+     },
+     "timestamp": "2026-11-01T07:27:07.209429+00:00",
+     "title": "🌀 Tropical cyclone — India",
+     "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346"
+    },
     "emoji": "🌀",
     "first_seen": "2026-11-01T02:26:23.779325+00:00",
     "history": [
-     "Green · 1 Nov 13:26"
+     "Green · 1 Nov 13:26",
+     "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 11.6,
-    "level": "Green",
+    "lat": 12.2,
+    "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 86.6,
+    "lon": 84.8,
+    "message_id": "1566352880401645619",
     "news": false,
-    "notify": false,
-    "rank": 0,
+    "notify": true,
+    "rank": 2,
     "title": "Tropical cyclone — India",
     "track_end": true
    }
