@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566352894150582382",
-  "map_hash": "02ca1c517f7b",
+  "attachment_id": "1566458687588008170",
+  "map_hash": "3e19178d33f7",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1032,10 +1032,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 22.3,
+    "lat": 22.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 144.1,
+    "lon": 143.6,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1157,10 +1157,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 12.2,
+    "lat": 12.8,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 84.8,
+    "lon": 83.8,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
