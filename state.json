@@ -218,24 +218,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T11:14:46.007373+00:00",
-    "history": [
-     "Hazard news · 2 Nov 22:14"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Wild storms dump hail on Queensland",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1042,10 +1024,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 23.0,
+    "lat": 23.2,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 140.2,
+    "lon": 139.9,
     "news": false,
     "notify": false,
     "rank": 0,
