@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566591055942389800",
-  "map_hash": "0cc4ddec9f4c",
+  "attachment_id": "1566643902268702880",
+  "map_hash": "527c7df7fdbd",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -983,14 +983,14 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 22.0,
+    "lat": 22.3,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 143.0,
+    "lon": 141.7,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Japan, Marshall Islands",
+    "title": "Tropical cyclone — Marshall Islands",
     "track_end": true
    },
    "gdacs:TC:1001346": {
@@ -1045,10 +1045,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 13.6,
+    "lat": 13.5,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 82.6,
+    "lon": 81.8,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
