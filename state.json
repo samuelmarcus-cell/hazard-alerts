@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566814299907825685",
-  "map_hash": "07ffe94a4b17",
+  "attachment_id": "1566905024381063269",
+  "map_hash": "943be02f0033",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -233,7 +233,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Wild storms dump hail on south-east Queensland",
+    "title": "Wild storms dump hail on Queensland",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748": {
@@ -1104,10 +1104,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 14.7,
+    "lat": 15.1,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 80.7,
+    "lon": 80.5,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
