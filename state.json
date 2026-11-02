@@ -212,26 +212,7 @@
   "https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-01T21:58:17.297986+00:00",
-    "history": [
-     "Hazard news · 2 Nov 08:58"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Western Australia experienced a roller-coaster of weather in October",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -307,6 +288,24 @@
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-02T03:28:50.342916+00:00",
+    "history": [
+     "Warning · 2 Nov 14:28"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -388,6 +387,24 @@
     "notify": false,
     "rank": 0,
     "title": "Moderate Flood Warning for the Barcoo River",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-02T03:28:50.342916+00:00",
+    "history": [
+     "Warning · 2 Nov 14:28"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Moderate Flood Warning for the Upper Balonne River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/warrego-river-basin.shtml": {
