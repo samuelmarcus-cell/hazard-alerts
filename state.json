@@ -303,7 +303,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -321,7 +321,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie and Noosa Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie Council Area.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -462,7 +462,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mallee, Northern Country and Wimmera Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Country and Mallee Forecast Districts.",
     "track_end": true
    }
   },
