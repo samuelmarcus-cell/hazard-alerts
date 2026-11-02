@@ -215,7 +215,8 @@
   "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico",
   "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
-  "https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170"
+  "https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170",
+  "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454"
  ],
  "sources": {
   "ABC News": {
@@ -235,6 +236,24 @@
     "notify": false,
     "rank": 0,
     "title": "Community radio station faces closure as Sydney Water issues eviction notice",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T22:00:54.877777+00:00",
+    "history": [
+     "Hazard news · 3 Nov 09:00"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Supercells forecast for Queensland and NSW after overnight hail dump",
     "track_end": false
    }
   },
