@@ -282,7 +282,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, Riverina and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -321,7 +321,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, South Burnett and Sunshine Coast Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie Council Area.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
