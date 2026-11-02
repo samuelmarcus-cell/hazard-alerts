@@ -216,7 +216,9 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
   "https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170",
-  "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454"
+  "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
+  "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -308,27 +310,65 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793635910": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793658498": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-02T17:00:28.048138+00:00",
+    "first_seen": "2026-11-02T23:15:55.145080+00:00",
     "history": [
-     "Hazard news · 3 Nov 04:00"
+     "Hazard news · 3 Nov 10:15"
     ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793635910",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793658498",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "At least seven migrants die on boat bound for Canary Islands amid storm",
+    "title": "Powerful storm tears through beach resort on Italy’s southern coast",
     "track_end": false
    }
   },
-  "BBC Asia": {},
-  "BBC World": {},
+  "BBC Asia": {
+   "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T23:15:55.145080+00:00",
+    "history": [
+     "Hazard news · 3 Nov 10:15"
+    ],
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Indonesia's toxic haze is giving its neighbours a political headache",
+    "track_end": false
+   }
+  },
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#3": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T23:15:55.145080+00:00",
+    "history": [
+     "Hazard news · 3 Nov 10:15"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#3",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Indonesia's toxic haze is giving its neighbours a political headache",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -856,24 +896,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1104216": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T12:47:55.314221+00:00",
-    "history": [
-     "Green · 28 Oct 23:47"
-    ],
-    "key": "gdacs:FL:1104216",
-    "lat": -15.2604018,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
-    "lon": -39.4112175,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Brazil",
-    "track_end": true
-   },
    "gdacs:FL:1104248": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -926,60 +948,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Türkiye",
-    "track_end": true
-   },
-   "gdacs:FL:1104260": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T10:05:20.552322+00:00",
-    "history": [
-     "Green · 29 Oct 21:05"
-    ],
-    "key": "gdacs:FL:1104260",
-    "lat": 44.2678592,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104260",
-    "lon": 28.2921974,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Romania",
-    "track_end": true
-   },
-   "gdacs:FL:1104261": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T10:05:20.552322+00:00",
-    "history": [
-     "Green · 29 Oct 21:05"
-    ],
-    "key": "gdacs:FL:1104261",
-    "lat": 31.2457442,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104261",
-    "lon": 34.7925181,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Israel",
-    "track_end": true
-   },
-   "gdacs:FL:1104263": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-30T09:37:28.413910+00:00",
-    "history": [
-     "Green · 30 Oct 20:37"
-    ],
-    "key": "gdacs:FL:1104263",
-    "lat": 35.9627618,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104263",
-    "lon": 39.0145648,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Syria",
     "track_end": true
    },
    "gdacs:FL:1104265": {
