@@ -210,10 +210,30 @@
   "https://www.abc.net.au/news/2026-11-02/queensland-weather-storms-heatwave/107333928",
   "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220",
-  "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T11:14:46.007373+00:00",
+    "history": [
+     "Hazard news · 2 Nov 22:14"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Wild storms dump hail on south-east Queensland",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
