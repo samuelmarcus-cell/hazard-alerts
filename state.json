@@ -211,7 +211,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220",
   "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402"
+  "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
+  "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico"
  ],
  "sources": {
   "ABC News": {
@@ -324,7 +325,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -1112,6 +1113,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T12:59:46.464281+00:00",
+    "history": [
+     "Hazard news · 2 Nov 23:59"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Colorado town braces for historic flood as heavy rains batter south-west",
     "track_end": false
    }
   },
