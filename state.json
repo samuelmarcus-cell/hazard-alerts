@@ -282,7 +282,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Riverina and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers Forecast District.",
     "track_end": true
    }
   },
@@ -303,7 +303,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Darling Downs and Granite Belt, Southeast Coast and Central Highlands and Coalfields Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -1018,10 +1018,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 22.3,
+    "lat": 22.6,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 141.7,
+    "lon": 140.9,
     "news": false,
     "notify": false,
     "rank": 0,
