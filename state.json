@@ -304,25 +304,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-02T04:43:49.574485+00:00",
-    "history": [
-     "Warning · 2 Nov 15:43"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gold Coast and Scenic Rim Council Areas.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
