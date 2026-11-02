@@ -212,7 +212,8 @@
   "https://www.abc.net.au/news/2026-11-02/wa-october-weather-brings-hot-temperatures-storms-hail/107298220",
   "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
-  "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico"
+  "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -285,7 +286,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793635910": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T17:00:28.048138+00:00",
+    "history": [
+     "Hazard news · 3 Nov 04:00"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793635910",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "At least seven migrants die on boat bound for Canary Islands amid storm",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
