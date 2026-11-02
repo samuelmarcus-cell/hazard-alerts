@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566643902268702880",
-  "map_hash": "527c7df7fdbd",
+  "attachment_id": "1566723316549550080",
+  "map_hash": "891d683b7b20",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -303,7 +303,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -1099,10 +1099,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 13.5,
+    "lat": 14.3,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 81.8,
+    "lon": 80.9,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
