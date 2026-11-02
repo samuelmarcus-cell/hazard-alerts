@@ -213,7 +213,8 @@
   "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-02/queensland-storm-hail-warning/107338402",
   "https://www.theguardian.com/us-news/2026/nov/02/colorado-flash-flooding-arizona-new-mexico",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748"
  ],
  "sources": {
   "ABC News": {
@@ -233,6 +234,24 @@
     "notify": false,
     "rank": 0,
     "title": "Wild storms dump hail on south-east Queensland",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-02T18:15:27.805614+00:00",
+    "history": [
+     "Hazard news · 3 Nov 05:15"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Indonesia's smoke haze reignites regional frustrations",
     "track_end": false
    }
   },
