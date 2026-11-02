@@ -236,24 +236,6 @@
     "rank": 0,
     "title": "Community radio station faces closure as Sydney Water issues eviction notice",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T18:15:27.805614+00:00",
-    "history": [
-     "Hazard news · 3 Nov 05:15"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-03/indonesia-haze-crisis-reignites-regional-frustration/107329748",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesia's smoke haze reignites regional frustrations",
-    "track_end": false
    }
   },
   "ACT ESA": {},
