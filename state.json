@@ -386,7 +386,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury, Sydney and Wollondilly/Wingecarribee areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Gosford/Wyong, Sydney and Blue Mountains/Hawkesbury areas.",
     "track_end": true
    }
   },
@@ -425,7 +425,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for Ipswich, Lockyer Valley and parts of Somerset, Scenic Rim, Western Downs, South Burnett, Toowoomba and Brisbane City Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Ipswich, Lockyer Valley and parts of Logan, Somerset, Scenic Rim, Western Downs, South Burnett, Toowoomba, Brisbane City and Southern Downs Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
