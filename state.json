@@ -349,25 +349,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Hunter, Central Tablelands, Southern Tablelands, South West Slopes, Australian Capital Territory, Metropolitan and Central West Slopes and Plains Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-03T02:31:25.124316+00:00",
-    "history": [
-     "Warning · 3 Nov 13:31"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for Sydney area.",
+    "title": "Severe Thunderstorm Warning for parts of Hunter, Central Tablelands, Southern Tablelands, South West Slopes and Central West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -406,7 +388,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Western Downs and South Burnett Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Scenic Rim, Southern Downs, Western Downs and South Burnett Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
