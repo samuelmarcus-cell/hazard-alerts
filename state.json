@@ -348,7 +348,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Illawarra, Northern Tablelands and parts of Northern Rivers, Mid North Coast, Hunter, Central Tablelands, Southern Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Hunter, Illawarra, Central Tablelands, Northern Tablelands and parts of Northern Rivers, Mid North Coast, Metropolitan, Southern Tablelands, North West Slopes and Plains and South West Slopes Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -488,7 +488,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Initial Moderate Flood Warning for the Upper Balonne River",
+    "title": "Moderate Flood Warning for the Upper Balonne River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/warrego-river-basin.shtml": {
