@@ -506,3 +506,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T12:32:29Z,new,QLD Fire,QLD Fire:WARN-13102,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Kynuna - fire as at 10:24pm Tuesday, 3 November 2026",,,,no
 2026-11-03T13:17:30Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Central Coast and Whitsundays, Central Highlands and Coalfields and Capricornia Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-03T14:32:29Z,ended,QLD Fire,QLD Fire:WARN-13102,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Kynuna - fire as at 10:24pm Tuesday, 3 November 2026",,,,no
+2026-11-03T19:33:03Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793732925,Hazard news,Severe weather disrupts election day across several US states,,,https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss,no

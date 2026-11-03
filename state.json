@@ -220,7 +220,8 @@
   "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548",
-  "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -274,7 +275,26 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793732925": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-03T19:33:03.146785+00:00",
+    "history": [
+     "Hazard news · 4 Nov 06:33"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793732925",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe weather disrupts election day across several US states",
+    "track_end": false
+   }
+  },
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#0": {
     "colour": 2001125,
