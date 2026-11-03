@@ -1215,26 +1215,7 @@
   },
   "Guardian World": {},
   "NSW RFS": {},
-  "QLD Fire": {
-   "QLD Fire:WARN-13102": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-03T12:32:29.460756+00:00",
-    "history": [
-     "Watch and Act · 3 Nov 23:32"
-    ],
-    "key": "QLD Fire:WARN-13102",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Kynuna - fire as at 10:24pm Tuesday, 3 November 2026",
-    "track_end": true
-   }
-  },
+  "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
