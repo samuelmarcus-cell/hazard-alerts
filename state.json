@@ -223,26 +223,7 @@
   "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-03T06:01:55.803534+00:00",
-    "history": [
-     "Hazard news · 3 Nov 17:01"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Star trainer Maher claims second Melbourne Cup as Point of Law storms to win",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
@@ -1032,10 +1013,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": -6.8891904,
+    "lat": 2.1923519,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 107.6404716,
+    "lon": 99.3812201,
     "news": false,
     "notify": false,
     "rank": 0,
