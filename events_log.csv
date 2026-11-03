@@ -494,3 +494,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T07:46:56Z,new,GDACS,gdacs:FL:1104099,Green,Flood — Mexico,23.0598364,-109.7025148,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099,no
 2026-11-03T07:46:56Z,new,GDACS,gdacs:FL:1103888,Green,Flood — United States,34.8635882,-111.7849124,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
 2026-11-03T08:31:55Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21035.shtml,Warning,Detailed Severe Thunderstorm Warning for Sydney area.,,,http://reg.bom.gov.au/products/IDN21035.shtml,no
+2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-21.731945,-43.037777,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
+2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,6.0000085,-77.0000086,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
+2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-0.0606899,-90.673898,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
