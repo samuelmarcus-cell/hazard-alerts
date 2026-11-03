@@ -348,7 +348,25 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, North West Slopes and Plains, Northern Tablelands and Central Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, Illawarra, Central Tablelands, Southern Tablelands, North West Slopes and Plains and Northern Tablelands Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-03T02:31:25.124316+00:00",
+    "history": [
+     "Warning · 3 Nov 13:31"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Detailed Severe Thunderstorm Warning for parts of Wollondilly/Wingecarribee area.",
     "track_end": true
    }
   },
