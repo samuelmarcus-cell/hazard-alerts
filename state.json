@@ -1009,24 +1009,6 @@
     "title": "Flood — Malaysia",
     "track_end": true
    },
-   "gdacs:FL:1104248": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-30T09:37:28.413910+00:00",
-    "history": [
-     "Green · 30 Oct 20:37"
-    ],
-    "key": "gdacs:FL:1104248",
-    "lat": 17.1670601,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104248",
-    "lon": 81.7099026,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — India",
-    "track_end": true
-   },
    "gdacs:FL:1104253": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1151,24 +1133,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Spain",
-    "track_end": true
-   },
-   "gdacs:TC:1001341": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-10-21T15:01:11.262323+00:00",
-    "history": [
-     "Green · 22 Oct 02:01"
-    ],
-    "key": "gdacs:TC:1001341",
-    "lat": 20.7,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
-    "lon": -107.7,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone — México",
     "track_end": true
    },
    "gdacs:TC:1001343": {

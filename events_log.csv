@@ -510,3 +510,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T20:03:03Z,ended,US fires,us:2026-CALPF-002271,"10,000+ ha","Large wildfire — Timber, CA, USA",36.2158988589877,-121.717520940307,https://inciweb.wildfire.gov/,no
 2026-11-03T20:48:02Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660,Hazard news,Storm activity to ease in south-east Queensland as heat sets in,,,https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660,no
 2026-11-03T21:18:36Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220,Hazard news,South Australians urged to prepare for next big earthquake,,,https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220,no
+2026-11-03T23:18:32Z,ended,GDACS,gdacs:FL:1104248,Green,Flood — India,17.1670601,81.7099026,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104248,no
+2026-11-03T23:18:32Z,ended,GDACS,gdacs:TC:1001341,Green,Tropical cyclone — México,20.7,-107.7,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341,no
