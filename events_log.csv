@@ -491,3 +491,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T06:01:55Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548,Hazard news,Star trainer Mahar claims second Melbourne Cup as Point of Law storms to win,,,https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548,no
 2026-11-03T07:01:55Z,new,GDACS,gdacs:FL:1104266,Green,Flood — Philippines,6.5647277,124.4840255,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266,no
 2026-11-03T07:01:55Z,new,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,5.0763734,115.5494493,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-11-03T07:46:56Z,new,GDACS,gdacs:FL:1104099,Green,Flood — Mexico,23.0598364,-109.7025148,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099,no
+2026-11-03T07:46:56Z,new,GDACS,gdacs:FL:1103888,Green,Flood — United States,34.8635882,-111.7849124,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no

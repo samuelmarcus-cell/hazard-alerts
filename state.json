@@ -292,26 +292,7 @@
     "track_end": true
    }
   },
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793658498": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T23:15:55.145080+00:00",
-    "history": [
-     "Hazard news · 3 Nov 10:15"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793658498",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Powerful storm tears through beach resort on Italy’s southern coast",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#0": {
     "colour": 2001125,
@@ -425,7 +406,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Western Downs and South Burnett Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim, Southern Downs, Western Downs and South Burnett Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -952,6 +933,42 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1103888": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T07:46:56.284125+00:00",
+    "history": [
+     "Green · 3 Nov 18:46"
+    ],
+    "key": "gdacs:FL:1103888",
+    "lat": 34.8635882,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
+    "lon": -111.7849124,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — United States",
+    "track_end": true
+   },
+   "gdacs:FL:1104099": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T07:46:56.284125+00:00",
+    "history": [
+     "Green · 3 Nov 18:46"
+    ],
+    "key": "gdacs:FL:1104099",
+    "lat": 23.0598364,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099",
+    "lon": -109.7025148,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Mexico",
+    "track_end": true
+   },
    "gdacs:FL:1104239": {
     "colour": 4431943,
     "emoji": "🌊",
