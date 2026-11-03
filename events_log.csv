@@ -497,3 +497,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-21.731945,-43.037777,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
 2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,6.0000085,-77.0000086,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
 2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-0.0606899,-90.673898,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
+2026-11-03T09:16:56Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-10.5,-75.25,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no

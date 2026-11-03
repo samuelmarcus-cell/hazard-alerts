@@ -1077,6 +1077,24 @@
     "title": "Flood — Türkiye",
     "track_end": true
    },
+   "gdacs:FL:1104259": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T09:16:56.364288+00:00",
+    "history": [
+     "Green · 3 Nov 20:16"
+    ],
+    "key": "gdacs:FL:1104259",
+    "lat": -10.5,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
+    "lon": -75.25,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Peru",
+    "track_end": true
+   },
    "gdacs:FL:1104265": {
     "colour": 4431943,
     "emoji": "🌊",
