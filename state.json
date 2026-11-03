@@ -386,7 +386,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Gosford/Wyong, Sydney and Blue Mountains/Hawkesbury areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury, Sydney and Gosford/Wyong areas.",
     "track_end": true
    }
   },
@@ -952,6 +952,24 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1104239": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T07:01:55.887286+00:00",
+    "history": [
+     "Green · 3 Nov 18:01"
+    ],
+    "key": "gdacs:FL:1104239",
+    "lat": 5.0763734,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
+    "lon": 115.5494493,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Malaysia",
+    "track_end": true
+   },
    "gdacs:FL:1104248": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -978,10 +996,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
+    "lat": -6.8891904,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
+    "lon": 107.6404716,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1022,6 +1040,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Bhutan",
+    "track_end": true
+   },
+   "gdacs:FL:1104266": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T07:01:55.887286+00:00",
+    "history": [
+     "Green · 3 Nov 18:01"
+    ],
+    "key": "gdacs:FL:1104266",
+    "lat": 6.5647277,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266",
+    "lon": 124.4840255,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Philippines",
     "track_end": true
    },
    "gdacs:TC:1001341": {
