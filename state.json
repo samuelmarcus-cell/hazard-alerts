@@ -348,7 +348,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Mid North Coast, Hunter, Illawarra, Northern Tablelands and parts of Northern Rivers, Metropolitan, Central Tablelands, Southern Tablelands, North West Slopes and Plains, South West Slopes and South Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Mid North Coast, Hunter, Metropolitan, Illawarra, Northern Tablelands and parts of Northern Rivers, Central Tablelands, Southern Tablelands, North West Slopes and Plains and South Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -366,7 +366,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Wollondilly/Wingecarribee area.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury, Maitland/Cessnock, Gosford/Wyong, Wollondilly/Wingecarribee, Greater Newcastle and Sydney areas.",
     "track_end": true
    }
   },
