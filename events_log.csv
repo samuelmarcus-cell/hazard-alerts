@@ -499,3 +499,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T08:46:56Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-0.0606899,-90.673898,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-03T09:16:56Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-10.5,-75.25,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
 2026-11-03T09:31:56Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21035.shtml,Warning,"Severe Thunderstorm Warning - Southeast Queensland for Scenic Rim, Southern Downs, Western Downs and South Burnett Council Areas.",,,http://reg.bom.gov.au/products/IDQ21035.shtml,no
+2026-11-03T09:46:55Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Hunter, Central Tablelands, Southern Tablelands, South West Slopes and Central West Slopes and Plains Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
