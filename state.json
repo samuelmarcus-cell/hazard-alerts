@@ -221,26 +221,7 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T22:00:54.877777+00:00",
-    "history": [
-     "Hazard news · 3 Nov 09:00"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Supercells forecast for Queensland and NSW after overnight hail dump",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
