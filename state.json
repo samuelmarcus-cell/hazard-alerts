@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566905024381063269",
-  "map_hash": "943be02f0033",
+  "attachment_id": "1566991976845410404",
+  "map_hash": "543a1732bfce",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -222,24 +222,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T20:45:54.626324+00:00",
-    "history": [
-     "Hazard news · 3 Nov 07:45"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-03/hawkesbury-radio-faces-closure-sydney-water-eviction/107335170",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Community radio station faces closure as Sydney Water issues eviction notice",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-03/qld-storm-supercells-after-overnight-hail-dump/107339454": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1056,10 +1038,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 15.1,
+    "lat": 15.5,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 80.5,
+    "lon": 80.3,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
