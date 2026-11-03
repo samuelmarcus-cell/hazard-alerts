@@ -238,7 +238,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Star trainer Mahar claims second Melbourne Cup as Point of Law storms to win",
+    "title": "Star trainer Maher claims second Melbourne Cup as Point of Law storms to win",
     "track_end": false
    }
   },
@@ -368,7 +368,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Hunter, Metropolitan, Illawarra, Northern Tablelands and parts of Central Tablelands, Southern Tablelands and South Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Hunter, Metropolitan, Illawarra and parts of Central Tablelands, Southern Tablelands, Northern Tablelands and South Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -386,7 +386,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury, Maitland/Cessnock, Sydney, Wollondilly/Wingecarribee and Greater Wollongong areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury, Sydney and Wollondilly/Wingecarribee areas.",
     "track_end": true
    }
   },
