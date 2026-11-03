@@ -222,10 +222,29 @@
   "https://www.abc.net.au/news/2026-11-03/melbourne-cup-point-of-law-wins-for-ciaron-maher/107341548",
   "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660"
+  "https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660",
+  "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-03T21:18:36.045552+00:00",
+    "history": [
+     "Hazard news · 4 Nov 08:18"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "South Australians urged to prepare for next big earthquake",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660": {
     "colour": 2001125,
     "emoji": "📰",
