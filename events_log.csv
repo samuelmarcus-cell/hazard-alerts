@@ -503,3 +503,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T10:01:56Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793694330,Hazard news,Cyclone Murasu makes landfall on India’s eastern coast,,,https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss,no
 2026-11-03T10:31:56Z,new,GDACS,gdacs:FL:1104267,Green,Flood — Bulgaria,43.4049361,28.1681094,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267,no
 2026-11-03T10:31:56Z,new,GDACS,gdacs:FL:1104268,Green,Flood — Spain,28.2935785,-16.6214471,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268,no
+2026-11-03T12:32:29Z,new,QLD Fire,QLD Fire:WARN-13102,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Kynuna - fire as at 10:24pm Tuesday, 3 November 2026",,,,no
