@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-03T10:16:55.505878+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -1112,6 +1112,42 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Philippines",
+    "track_end": true
+   },
+   "gdacs:FL:1104267": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T10:31:56.017151+00:00",
+    "history": [
+     "Green · 3 Nov 21:31"
+    ],
+    "key": "gdacs:FL:1104267",
+    "lat": 43.4049361,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267",
+    "lon": 28.1681094,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Bulgaria",
+    "track_end": true
+   },
+   "gdacs:FL:1104268": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-03T10:31:56.017151+00:00",
+    "history": [
+     "Green · 3 Nov 21:31"
+    ],
+    "key": "gdacs:FL:1104268",
+    "lat": 28.2935785,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268",
+    "lon": -16.6214471,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Spain",
     "track_end": true
    },
    "gdacs:TC:1001341": {
