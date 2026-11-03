@@ -1220,23 +1220,6 @@
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
-   "us:2026-CALPF-002271": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "us:2026-CALPF-002271",
-    "lat": 36.2158988589877,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -121.717520940307,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Timber, CA, USA",
-    "track_end": true
-   },
    "us:2026-COCUX-001160": {
     "colour": 16361509,
     "emoji": "🔥",
