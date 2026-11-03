@@ -368,7 +368,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Hunter, Metropolitan, Illawarra and parts of Central Tablelands, Southern Tablelands, Northern Tablelands and South Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Hunter, Metropolitan, Illawarra and parts of Central Tablelands, Southern Tablelands, South West Slopes, Northern Tablelands, South Coast, Central West Slopes and Plains and Australian Capital Territory Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -407,7 +407,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett, Darling Downs and Granite Belt, Southeast Coast and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -425,7 +425,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs and Toowoomba Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Ipswich, Lockyer Valley and parts of Somerset, Scenic Rim, Western Downs, South Burnett, Toowoomba and Brisbane City Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
