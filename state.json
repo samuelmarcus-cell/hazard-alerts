@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1566991976845410404",
-  "map_hash": "543a1732bfce",
+  "attachment_id": "1567086500506767430",
+  "map_hash": "5c45fb4d8223",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -349,7 +349,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Hunter, Metropolitan, Illawarra and parts of Central Tablelands, Southern Tablelands, South West Slopes, Northern Tablelands, South Coast, Central West Slopes and Plains and Australian Capital Territory Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Hunter, Central Tablelands, Southern Tablelands, South West Slopes, Australian Capital Territory, Metropolitan and Central West Slopes and Plains Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -367,7 +367,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Sydney area.",
+    "title": "Detailed Severe Thunderstorm Warning for Sydney area.",
     "track_end": true
    }
   },
@@ -1165,10 +1165,10 @@
      "Red · 1 Nov 18:26"
     ],
     "key": "gdacs:TC:1001346",
-    "lat": 15.5,
+    "lat": 15.8,
     "level": "Red",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 80.3,
+    "lon": 80.2,
     "message_id": "1566352880401645619",
     "news": false,
     "notify": true,
