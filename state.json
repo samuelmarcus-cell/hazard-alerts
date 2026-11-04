@@ -224,7 +224,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-04/qld-weather-southern-storms-ease-as-temperatures-rise/107341660",
   "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
-  "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
  ],
  "sources": {
   "ABC News": {},
@@ -1169,7 +1170,26 @@
     "track_end": true
    }
   },
-  "Guardian World": {},
+  "Guardian World": {
+   "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-04T16:49:58.667037+00:00",
+    "history": [
+     "Hazard news · 5 Nov 03:49"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "British healthcare worker with Ebola to be evacuated from DRC to UK, document shows",
+    "track_end": false
+   }
+  },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
