@@ -299,7 +299,26 @@
    }
   },
   "BBC World": {},
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-04T07:03:56.561169+00:00",
+    "history": [
+     "Warning · 4 Nov 18:03"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of South West Slopes and Riverina Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -393,7 +412,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North Central, North East, West and South Gippsland, Central and Northern Country Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of North East, West and South Gippsland, Northern Country and North Central Forecast Districts.",
     "track_end": true
    }
   },
