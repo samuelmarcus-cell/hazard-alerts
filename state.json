@@ -298,26 +298,7 @@
     "track_end": false
    }
   },
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#3": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-02T23:15:55.145080+00:00",
-    "history": [
-     "Hazard news · 3 Nov 10:15"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#3",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesia's toxic haze is giving its neighbours a political headache",
-    "track_end": false
-   }
-  },
+  "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -396,7 +377,26 @@
   },
   "BoM SA": {},
   "BoM TAS": {},
-  "BoM VIC": {},
+  "BoM VIC": {
+   "bom:http://reg.bom.gov.au/products/IDV21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-04T06:48:56.613928+00:00",
+    "history": [
+     "Warning · 4 Nov 17:48"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North Central, North East, West and South Gippsland, Central and Northern Country Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
