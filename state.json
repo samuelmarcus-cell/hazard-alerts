@@ -337,46 +337,9 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-04T07:03:56.561169+00:00",
-    "history": [
-     "Warning · 4 Nov 18:03"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Tablelands, Southern Tablelands, South West Slopes, Riverina and Central West Slopes and Plains Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-04T08:49:27.004319+00:00",
-    "history": [
-     "Warning · 4 Nov 19:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North Tropical Coast and Tablelands, Herbert and Lower Burdekin and Northern Goldfields and Upper Flinders Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -988,10 +951,10 @@
      "Green · 29 Oct 20:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
+    "lat": -7.3032412,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
+    "lon": 110.0044145,
     "news": false,
     "notify": false,
     "rank": 0,
