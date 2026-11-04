@@ -297,6 +297,24 @@
     "rank": 0,
     "title": "Indonesia's toxic haze is giving its neighbours a political headache",
     "track_end": false
+   },
+   "BBC Asia:https://www.bbc.co.uk/news/articles/c699z8792n7ro#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-04T07:33:56.383687+00:00",
+    "history": [
+     "Hazard news · 4 Nov 18:33"
+    ],
+    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/c699z8792n7ro#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+    "track_end": false
    }
   },
   "BBC World": {
