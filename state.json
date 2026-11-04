@@ -377,53 +377,6 @@
     "title": "Moderate Flood Warning for the Bulloo River",
     "track_end": true
    },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "QLD"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "29/11:43 EST"
-      },
-      {
-       "inline": false,
-       "name": "History",
-       "value": "Warning · 28 Oct 16:01\nMajor warning · 29 Oct 12:49"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-10-29T01:49:23.426946+00:00",
-     "title": "🌊 Major Flood Warning for the Lower Condamine River",
-     "url": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml"
-    },
-    "emoji": "🌊",
-    "first_seen": "2026-10-28T05:01:47.477488+00:00",
-    "history": [
-     "Warning · 28 Oct 16:01",
-     "Major warning · 29 Oct 12:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
-    "lon": null,
-    "message_id": "1565180721050427484",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Moderate Flood Warning for the Lower Condamine River",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -482,49 +435,7 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDWP0006.shtml": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "WA"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "04/09:45 WST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-11-04T01:48:46.077511+00:00",
-     "title": "🌀 NT Tropical Cyclone Forecast Track Map for System Affecting WA",
-     "url": "http://reg.bom.gov.au/products/IDWP0006.shtml"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-11-04T01:48:31.847835+00:00",
-    "history": [
-     "Major warning · 4 Nov 12:48"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDWP0006.shtml",
-    "lat": null,
-    "level": "Major warning",
-    "link": "http://reg.bom.gov.au/products/IDWP0006.shtml",
-    "lon": null,
-    "message_id": "1567354891666722938",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "NT Tropical Cyclone Forecast Track Map for System Affecting WA",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -921,26 +832,7 @@
     "track_end": true
    }
   },
-  "Concurrent events": {
-   "concurrent:global": {
-    "colour": 9315498,
-    "emoji": "🌏",
-    "first_seen": "2026-11-04T01:48:31.847835+00:00",
-    "history": [
-     "Australia + overseas · 4 Nov 12:48"
-    ],
-    "key": "concurrent:global",
-    "lat": null,
-    "level": "Australia + overseas",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Major Australian events overlapping a top-level disaster overseas",
-    "track_end": true
-   }
-  },
+  "Concurrent events": {},
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
@@ -1186,10 +1078,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 23.8,
+    "lat": 24.4,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 138.7,
+    "lon": 138.4,
     "news": false,
     "notify": false,
     "rank": 0,

@@ -514,3 +514,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-03T23:18:32Z,ended,GDACS,gdacs:TC:1001341,Green,Tropical cyclone — México,20.7,-107.7,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341,no
 2026-11-04T01:48:31Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDWP0006.shtml,Major warning,NT Tropical Cyclone Forecast Track Map for System Affecting WA,,,http://reg.bom.gov.au/products/IDWP0006.shtml,yes
 2026-11-04T01:48:31Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-04T02:03:31Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml,Major warning,Moderate Flood Warning for the Lower Condamine River,,,http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml,yes
+2026-11-04T02:03:31Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDWP0006.shtml,Major warning,NT Tropical Cyclone Forecast Track Map for System Affecting WA,,,http://reg.bom.gov.au/products/IDWP0006.shtml,yes
