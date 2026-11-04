@@ -437,7 +437,49 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "WA"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "05/07:46 WST"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-11-04T23:51:21.487144+00:00",
+     "title": "🌀 Tropical Cyclone Advice for Cocos Island and Christmas Island",
+     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html"
+    },
+    "emoji": "🌀",
+    "first_seen": "2026-11-04T23:51:06.980230+00:00",
+    "history": [
+     "Major warning · 5 Nov 10:51"
+    ],
+    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html",
+    "lat": null,
+    "level": "Major warning",
+    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html",
+    "lon": null,
+    "message_id": "1567687732355145901",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Tropical Cyclone Advice for Cocos Island and Christmas Island",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
