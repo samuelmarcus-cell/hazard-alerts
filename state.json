@@ -226,26 +226,7 @@
   "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-03T21:18:36.045552+00:00",
-    "history": [
-     "Hazard news · 4 Nov 08:18"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "South Australians urged to prepare for next big earthquake",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {
    "asmc:Southern": {
