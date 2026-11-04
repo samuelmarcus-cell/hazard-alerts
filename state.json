@@ -353,7 +353,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of South West Slopes and Riverina Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Tablelands, Southern Tablelands, South West Slopes, Riverina and Central West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -863,10 +863,10 @@
      "Green · 3 Nov 18:46"
     ],
     "key": "gdacs:FL:1103888",
-    "lat": 34.8635882,
+    "lat": 36.0301388,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888",
-    "lon": -111.7849124,
+    "lon": -114.9815488,
     "news": false,
     "notify": false,
     "rank": 0,
