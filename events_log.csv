@@ -534,3 +534,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-04T21:05:31Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793825130,Hazard news,Democrat leaders hail midterm election success,,,https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss,no
 2026-11-04T23:05:30Z,ended,GDACS,gdacs:FL:1104265,Green,Flood — Bhutan,27.6363463,89.8363689,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104265,no
 2026-11-04T23:51:06Z,new,BoM WA,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html,Major warning,Tropical Cyclone Advice for Cocos Island and Christmas Island,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html,yes
+2026-11-05T00:06:06Z,ended,BoM WA,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html,Major warning,Tropical Cyclone Advice for Cocos Island and Christmas Island,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24400.html,yes
