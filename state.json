@@ -1080,10 +1080,10 @@
      "Green · 25 Oct 23:10"
     ],
     "key": "gdacs:TC:1001343",
-    "lat": 27.1,
+    "lat": 28.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 138.5,
+    "lon": 140.0,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1250,14 +1250,14 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43579": {
+   "VicEmergency:43580": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-05T02:36:06.913442+00:00",
+    "first_seen": "2026-11-05T02:51:07.271420+00:00",
     "history": [
-     "Watch and Act · 5 Nov 13:36"
+     "Watch and Act · 5 Nov 13:51"
     ],
-    "key": "VicEmergency:43579",
+    "key": "VicEmergency:43580",
     "lat": -36.20043834639915,
     "level": "Watch and Act",
     "link": "",
