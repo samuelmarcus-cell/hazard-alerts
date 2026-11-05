@@ -1147,24 +1147,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/05/heavy-rains-flash-flooding-georgia-tennessee": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-05T19:52:39.767437+00:00",
-    "history": [
-     "Hazard news · 6 Nov 06:52"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/05/heavy-rains-flash-flooding-georgia-tennessee",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/05/heavy-rains-flash-flooding-georgia-tennessee",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heavy rains bring flash flooding to Georgia-Tennessee border area",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
     "colour": 2001125,
     "emoji": "📰",
