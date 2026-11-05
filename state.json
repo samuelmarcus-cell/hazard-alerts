@@ -1231,26 +1231,7 @@
     "track_end": true
    }
   },
-  "VicEmergency": {
-   "VicEmergency:43582": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-05T03:36:06.790825+00:00",
-    "history": [
-     "Watch and Act · 5 Nov 14:36"
-    ],
-    "key": "VicEmergency:43582",
-    "lat": -36.20043834639915,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 145.08651225034748,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Advice",
-    "track_end": true
-   }
-  },
+  "VicEmergency": {},
   "WA DFES": {}
  },
  "version": 2
