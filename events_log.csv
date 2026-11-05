@@ -548,3 +548,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-05T03:21:06Z,new,BoM NSW/ACT,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html,Major warning,QLD Tropical Cyclone Advice for System Affecting NSW,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html,yes
 2026-11-05T03:21:06Z,new,VicEmergency,VicEmergency:43581,Watch and Act,Watch and Act: Watch & Act,-36.20043834639915,145.08651225034748,,no
 2026-11-05T03:21:06Z,ended,VicEmergency,VicEmergency:43580,Watch and Act,Watch and Act: Watch & Act,-36.20043834639915,145.08651225034748,,no
+2026-11-05T03:36:06Z,ended,BoM NSW/ACT,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html,Major warning,QLD Tropical Cyclone Advice for System Affecting NSW,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html,yes
+2026-11-05T03:36:06Z,new,VicEmergency,VicEmergency:43582,Watch and Act,Watch and Act: Advice,-36.20043834639915,145.08651225034748,,no
+2026-11-05T03:36:06Z,ended,VicEmergency,VicEmergency:43581,Watch and Act,Watch and Act: Watch & Act,-36.20043834639915,145.08651225034748,,no

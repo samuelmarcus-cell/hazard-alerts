@@ -358,49 +358,7 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "NSW/ACT"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "05/14:11 EDT"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-11-05T03:21:21.807605+00:00",
-     "title": "🌀 QLD Tropical Cyclone Advice for System Affecting NSW",
-     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-11-05T03:21:06.823444+00:00",
-    "history": [
-     "Major warning · 5 Nov 14:21"
-    ],
-    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html",
-    "lat": null,
-    "level": "Major warning",
-    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDNP0004.html",
-    "lon": null,
-    "message_id": "1567740583357714553",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "QLD Tropical Cyclone Advice for System Affecting NSW",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -1292,14 +1250,14 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43581": {
+   "VicEmergency:43582": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-05T03:21:06.823444+00:00",
+    "first_seen": "2026-11-05T03:36:06.790825+00:00",
     "history": [
-     "Watch and Act · 5 Nov 14:21"
+     "Watch and Act · 5 Nov 14:36"
     ],
-    "key": "VicEmergency:43581",
+    "key": "VicEmergency:43582",
     "lat": -36.20043834639915,
     "level": "Watch and Act",
     "link": "",
@@ -1307,7 +1265,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Watch & Act",
+    "title": "Watch and Act: Advice",
     "track_end": true
    }
   },
