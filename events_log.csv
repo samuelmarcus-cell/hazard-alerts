@@ -540,3 +540,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-05T01:06:07Z,ended,BoM WA,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html,Major warning,Tropical Cyclone Advice for Western Australia,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html,yes
 2026-11-05T01:51:07Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW60281.shtml,Major warning,Tropical Cyclone Forecast Track Map – WA,,,http://reg.bom.gov.au/products/IDW60281.shtml,yes
 2026-11-05T02:06:07Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW60281.shtml,Major warning,Tropical Cyclone Forecast Track Map – WA,,,http://reg.bom.gov.au/products/IDW60281.shtml,yes
+2026-11-05T02:21:07Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW60288.shtml,Major warning,Tropical Cyclone Forecast Track Map – WA,,,http://reg.bom.gov.au/products/IDW60288.shtml,yes

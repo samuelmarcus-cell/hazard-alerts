@@ -419,7 +419,49 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW60288.shtml": {
+    "attachment_id": null,
+    "colour": 16088064,
+    "embed": {
+     "color": 16088064,
+     "fields": [
+      {
+       "inline": true,
+       "name": "Region",
+       "value": "WA"
+      },
+      {
+       "inline": true,
+       "name": "Issued",
+       "value": "05/10:17 WST"
+      }
+     ],
+     "footer": {
+      "text": "Bureau of Meteorology"
+     },
+     "timestamp": "2026-11-05T02:21:21.346455+00:00",
+     "title": "🌀 Tropical Cyclone Forecast Track Map – WA",
+     "url": "http://reg.bom.gov.au/products/IDW60288.shtml"
+    },
+    "emoji": "🌀",
+    "first_seen": "2026-11-05T02:21:07.314989+00:00",
+    "history": [
+     "Major warning · 5 Nov 13:21"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW60288.shtml",
+    "lat": null,
+    "level": "Major warning",
+    "link": "http://reg.bom.gov.au/products/IDW60288.shtml",
+    "lon": null,
+    "message_id": "1567725484454838394",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Tropical Cyclone Forecast Track Map – WA",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
