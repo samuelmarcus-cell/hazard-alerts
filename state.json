@@ -226,7 +226,8 @@
   "https://www.abc.net.au/news/2026-11-04/after-earthquake-spate-preparedness-urged/107340220",
   "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -281,22 +282,22 @@
    }
   },
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793825130": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793846871": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-04T21:05:31.224623+00:00",
+    "first_seen": "2026-11-05T04:36:33.198341+00:00",
     "history": [
-     "Hazard news · 5 Nov 08:05"
+     "Hazard news · 5 Nov 15:36"
     ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793825130",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793846871",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Democrat leaders hail midterm election success",
+    "title": "Brazilian airport torn apart by violent storm",
     "track_end": false
    }
   },
