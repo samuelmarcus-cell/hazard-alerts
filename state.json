@@ -229,7 +229,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/05/heavy-rains-flash-flooding-georgia-tennessee",
-  "https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870"
+  "https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870",
+  "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital"
  ],
  "sources": {
   "ABC News": {
@@ -1163,6 +1164,24 @@
     "notify": false,
     "rank": 0,
     "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-05T20:53:14.470393+00:00",
+    "history": [
+     "Hazard news · 6 Nov 07:53"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "British Ebola patient evacuated from DRC arrives at London hospital",
     "track_end": false
    }
   },
