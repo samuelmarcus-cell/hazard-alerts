@@ -419,49 +419,7 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "fields": [
-      {
-       "inline": true,
-       "name": "Region",
-       "value": "WA"
-      },
-      {
-       "inline": true,
-       "name": "Issued",
-       "value": "05/08:48 WST"
-      }
-     ],
-     "footer": {
-      "text": "Bureau of Meteorology"
-     },
-     "timestamp": "2026-11-05T00:51:22.637979+00:00",
-     "title": "🌀 Tropical Cyclone Advice for Western Australia",
-     "url": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-11-05T00:51:06.888423+00:00",
-    "history": [
-     "Major warning · 5 Nov 11:51"
-    ],
-    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html",
-    "lat": null,
-    "level": "Major warning",
-    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDW24100.html",
-    "lon": null,
-    "message_id": "1567702836832370861",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Tropical Cyclone Advice for Western Australia",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
