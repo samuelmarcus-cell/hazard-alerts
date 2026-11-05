@@ -553,3 +553,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-05T03:36:06Z,ended,VicEmergency,VicEmergency:43581,Watch and Act,Watch and Act: Watch & Act,-36.20043834639915,145.08651225034748,,no
 2026-11-05T04:36:33Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793846871,Hazard news,Brazilian airport torn apart by violent storm,,,https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss,no
 2026-11-05T05:36:33Z,ended,VicEmergency,VicEmergency:43582,Watch and Act,Watch and Act: Advice,-36.20043834639915,145.08651225034748,,no
+2026-11-05T06:21:33Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Pilbara, Gascoyne and South Interior districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
