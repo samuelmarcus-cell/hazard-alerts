@@ -338,26 +338,7 @@
     "track_end": false
    }
   },
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c699z8792n7ro#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-04T16:04:59.060159+00:00",
-    "history": [
-     "Hazard news · 5 Nov 03:04"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c699z8792n7ro#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-    "track_end": false
-   }
-  },
+  "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
