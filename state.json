@@ -230,7 +230,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/05/heavy-rains-flash-flooding-georgia-tennessee",
   "https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870",
-  "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital"
+  "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -255,7 +256,26 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1793908919": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-05T21:53:14.745926+00:00",
+    "history": [
+     "Hazard news · 6 Nov 08:53"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793908919",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
+    "track_end": false
+   }
+  },
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#2": {
     "colour": 2001125,
