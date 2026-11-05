@@ -1006,6 +1006,24 @@
     "title": "Flood — Spain",
     "track_end": true
    },
+   "gdacs:FL:1104269": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-05T10:37:06.331172+00:00",
+    "history": [
+     "Green · 5 Nov 21:37"
+    ],
+    "key": "gdacs:FL:1104269",
+    "lat": -2.9493766,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
+    "lon": 25.9184499,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Democratic Republic of Congo",
+    "track_end": true
+   },
    "gdacs:TC:1001343": {
     "colour": 4431943,
     "emoji": "🌀",
