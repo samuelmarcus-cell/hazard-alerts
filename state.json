@@ -234,26 +234,7 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-05T19:37:40.283967+00:00",
-    "history": [
-     "Hazard news · 6 Nov 06:37"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Golf ball-sized hail thwarts farmers anticipating bumper harvest",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
