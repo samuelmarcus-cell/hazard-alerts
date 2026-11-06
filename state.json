@@ -257,24 +257,6 @@
     "rank": 0,
     "title": "Why one Republican won a redrawn Texas district despite blue tsunami",
     "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1793908919": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-05T21:53:14.745926+00:00",
-    "history": [
-     "Hazard news · 6 Nov 08:53"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793908919",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
-    "track_end": false
    }
   },
   "BBC Asia": {
