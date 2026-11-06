@@ -321,24 +321,6 @@
   },
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-06T06:38:44.608354+00:00",
-    "history": [
-     "Warning · 6 Nov 17:38"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Goldfields and Upper Flinders, North West and Central West Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -1285,26 +1267,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:829192": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-06T06:08:45.329324+00:00",
-    "history": [
-     "Watch and Act · 6 Nov 17:08"
-    ],
-    "key": "WA DFES:829192",
-    "lat": -31.846820670988823,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6aed69e3fc655a31480813ff",
-    "lon": 117.61128209452576,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - DAADENNING CREEK, MOUNT CAROLINE, MOUNT STIRLING, PANTAPIN AND SOUTH TAMMIN",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
