@@ -584,3 +584,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-06T13:09:47Z,new,Fire danger (NSW),fdr:NSW:2026-11-08,Extreme,"Extreme fire danger forecast — NSW, Sun 8 Nov",,,https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans,yes
 2026-11-06T13:24:47Z,new,Fire danger (NSW),fdr:NSW:2026-11-07,Extreme,"Extreme fire danger forecast — NSW, Sat 7 Nov",,,https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans,yes
 2026-11-06T19:40:20Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640,Hazard news,Endangered crayfish return home months after Victorian bushfires,,,https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640,no
+2026-11-06T21:40:20Z,new,GDACS,gdacs:TC:1001348,Green,Tropical cyclone,11.3,-150.1,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348,no
