@@ -233,7 +233,8 @@
   "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
   "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
-  "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker"
  ],
  "sources": {
   "ABC News": {},
@@ -1153,6 +1154,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-06T10:09:17.778514+00:00",
+    "history": [
+     "Hazard news · 6 Nov 21:09"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
     "colour": 2001125,
     "emoji": "📰",
