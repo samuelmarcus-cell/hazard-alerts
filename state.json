@@ -240,26 +240,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793886044": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-06T05:23:45.454201+00:00",
-    "history": [
-     "Hazard news · 6 Nov 16:23"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793886044",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Why one Republican won a redrawn Texas district despite blue tsunami",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#2": {
     "colour": 2001125,
