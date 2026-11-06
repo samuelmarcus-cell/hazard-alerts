@@ -395,7 +395,26 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-06T06:08:45.329324+00:00",
+    "history": [
+     "Warning · 6 Nov 17:08"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Gascoyne, Goldfields, South Interior and Pilbara districts.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -1171,7 +1190,26 @@
    }
   },
   "NSW RFS": {},
-  "QLD Fire": {},
+  "QLD Fire": {
+   "QLD Fire:WARN-13216": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-06T06:08:45.329324+00:00",
+    "history": [
+     "Watch and Act · 6 Nov 17:08"
+    ],
+    "key": "QLD Fire:WARN-13216",
+    "lat": null,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: PREPARE TO LEAVE - Mareeba - fire as at 3:57pm Friday, 6 November 2026",
+    "track_end": true
+   }
+  },
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
@@ -1246,7 +1284,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:829192": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-06T06:08:45.329324+00:00",
+    "history": [
+     "Watch and Act · 6 Nov 17:08"
+    ],
+    "key": "WA DFES:829192",
+    "lat": -31.846820670988823,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6aed69e3fc655a31480813ff",
+    "lon": 117.61128209452576,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - DAADENNING CREEK, MOUNT CAROLINE, MOUNT STIRLING, PANTAPIN AND SOUTH TAMMIN",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
