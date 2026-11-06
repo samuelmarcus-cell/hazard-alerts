@@ -1169,6 +1169,24 @@
     "rank": 2,
     "title": "Tropical cyclone — India",
     "track_end": true
+   },
+   "gdacs:TC:1001347": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-11-06T08:09:18.230934+00:00",
+    "history": [
+     "Green · 6 Nov 19:09"
+    ],
+    "key": "gdacs:TC:1001347",
+    "lat": 18.0,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
+    "lon": 149.0,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone — Japan",
+    "track_end": true
    }
   },
   "Guardian World": {
