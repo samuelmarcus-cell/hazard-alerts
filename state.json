@@ -760,41 +760,41 @@
   },
   "Concurrent events": {},
   "Fire danger (NSW)": {
-   "fdr:NSW:2026-11-07": {
+   "fdr:NSW:2026-11-08": {
     "attachment_id": null,
     "colour": 16088064,
     "embed": {
      "color": 16088064,
-     "description": "1 district(s) forecast Extreme or higher.",
+     "description": "2 district(s) forecast Extreme or higher.",
      "fields": [
       {
        "inline": true,
        "name": "Extreme",
-       "value": "Greater Hunter"
+       "value": "Greater Hunter, Upper Central West Plains"
       }
      ],
      "footer": {
       "text": "Fire danger (NSW)"
      },
-     "timestamp": "2026-11-05T13:22:22.581278+00:00",
-     "title": "🔥 Extreme fire danger forecast — NSW, Sat 7 Nov",
+     "timestamp": "2026-11-06T13:10:02.548029+00:00",
+     "title": "🔥 Extreme fire danger forecast — NSW, Sun 8 Nov",
      "url": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-05T13:22:06.053422+00:00",
+    "first_seen": "2026-11-06T13:09:47.054598+00:00",
     "history": [
-     "Extreme · 6 Nov 00:22"
+     "Extreme · 7 Nov 00:09"
     ],
-    "key": "fdr:NSW:2026-11-07",
+    "key": "fdr:NSW:2026-11-08",
     "lat": null,
     "level": "Extreme",
     "link": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans",
     "lon": null,
-    "message_id": "1567891831818293279",
+    "message_id": "1568251115542151203",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "Extreme fire danger forecast — NSW, Sat 7 Nov",
+    "title": "Extreme fire danger forecast — NSW, Sun 8 Nov",
     "track_end": false
    }
   },
