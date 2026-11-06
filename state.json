@@ -1207,24 +1207,6 @@
     "rank": 0,
     "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-05T20:53:14.470393+00:00",
-    "history": [
-     "Hazard news · 6 Nov 07:53"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
-    "track_end": false
    }
   },
   "NSW RFS": {},
