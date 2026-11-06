@@ -232,7 +232,8 @@
   "https://www.abc.net.au/news/2026-11-06/hail-storm-in-mallee-devastates-crops-just-before-harvest/107349870",
   "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
   "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
-  "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
+  "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -314,7 +315,26 @@
     "track_end": false
    }
   },
-  "BBC World": {},
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o#3": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-06T06:23:45.065664+00:00",
+    "history": [
+     "Hazard news · 6 Nov 17:23"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o#3",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {
    "bom:http://reg.bom.gov.au/nsw/warnings/fire.shtml": {
     "colour": 16088064,
