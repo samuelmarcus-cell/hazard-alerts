@@ -881,10 +881,10 @@
      "Green · 4 Nov 18:18"
     ],
     "key": "gdacs:FL:1104220",
-    "lat": 41.6897761,
+    "lat": 40.0615028,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 15.3776211,
+    "lon": 9.0975894,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1051,6 +1051,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Democratic Republic of Congo",
+    "track_end": true
+   },
+   "gdacs:FL:1104270": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-06T11:54:17.455036+00:00",
+    "history": [
+     "Green · 6 Nov 22:54"
+    ],
+    "key": "gdacs:FL:1104270",
+    "lat": 43.8126,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
+    "lon": 4.0647,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — France",
     "track_end": true
    },
    "gdacs:TC:1001343": {
