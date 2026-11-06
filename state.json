@@ -909,6 +909,24 @@
     "title": "Flood — Ecuador",
     "track_end": true
    },
+   "gdacs:FL:1104216": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-06T07:09:17.455393+00:00",
+    "history": [
+     "Green · 6 Nov 18:09"
+    ],
+    "key": "gdacs:FL:1104216",
+    "lat": -27.2162607,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
+    "lon": -49.643654,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Brazil",
+    "track_end": true
+   },
    "gdacs:FL:1104220": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1210,26 +1228,7 @@
    }
   },
   "NSW RFS": {},
-  "QLD Fire": {
-   "QLD Fire:WARN-13216": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-06T06:08:45.329324+00:00",
-    "history": [
-     "Watch and Act · 6 Nov 17:08"
-    ],
-    "key": "QLD Fire:WARN-13216",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Mareeba - fire as at 3:57pm Friday, 6 November 2026",
-    "track_end": true
-   }
-  },
+  "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
