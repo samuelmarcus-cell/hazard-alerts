@@ -566,3 +566,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-05T23:08:15Z,ended,GDACS,gdacs:FL:1104099,Green,Flood — Mexico,23.0598364,-109.7025148,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099,no
 2026-11-05T23:08:15Z,ended,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,6.0000085,-77.0000086,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
 2026-11-05T23:08:15Z,ended,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-21.731945,-43.037777,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
+2026-11-06T05:23:45Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/nsw/warnings/fire.shtml,Warning,Fire Weather Warning for Greater Hunter and Upper Central West Plains fire weather districts,,,http://reg.bom.gov.au/nsw/warnings/fire.shtml,no
+2026-11-06T05:23:45Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1793886044,Hazard news,Why one Republican won a redrawn Texas district despite blue tsunami,,,https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss,no
