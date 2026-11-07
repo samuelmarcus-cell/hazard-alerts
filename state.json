@@ -249,24 +249,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794050753": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-07T13:26:41.987673+00:00",
-    "history": [
-     "Hazard news · 8 Nov 00:26"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794050753",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794071300": {
     "colour": 2001125,
     "emoji": "📰",
