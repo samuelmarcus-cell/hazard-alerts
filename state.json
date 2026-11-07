@@ -239,7 +239,9 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-07/aflw-finals-melbourne-geelong-carlton-north-melbourne/107359468",
   "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
-  "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss"
+  "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
+  "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -280,6 +282,42 @@
     "notify": false,
     "rank": 0,
     "title": "Rains flood 70,000 displaced families’ tents in Gaza",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794050753": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-07T13:26:41.987673+00:00",
+    "history": [
+     "Hazard news · 8 Nov 00:26"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794050753",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794056041": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-07T13:26:41.987673+00:00",
+    "history": [
+     "Hazard news · 8 Nov 00:26"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794056041",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Heavy rains flood displacement camps across Gaza",
     "track_end": false
    }
   },
@@ -365,7 +403,26 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-07T13:26:41.987673+00:00",
+    "history": [
+     "Warning · 8 Nov 00:26"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Kimberley district.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -1143,10 +1200,10 @@
      "Green · 7 Nov 18:26"
     ],
     "key": "gdacs:TC:1001349",
-    "lat": -13.45,
+    "lat": -13.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349",
-    "lon": 54.06,
+    "lon": 53.42,
     "news": false,
     "notify": false,
     "rank": 0,
