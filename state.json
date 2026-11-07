@@ -267,24 +267,6 @@
     "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
     "track_end": false
    },
-   "Al Jazeera:https://www.aljazeera.com/?t=1794056041": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-07T13:26:41.987673+00:00",
-    "history": [
-     "Hazard news · 8 Nov 00:26"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794056041",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heavy rains flood displacement camps across Gaza",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794071300": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1164,14 +1146,14 @@
      "Green · 7 Nov 18:26"
     ],
     "key": "gdacs:TC:1001349",
-    "lat": -13.9,
+    "lat": -13.53,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349",
-    "lon": 53.42,
+    "lon": 52.61,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Madagascar",
+    "title": "Tropical cyclone",
     "track_end": true
    }
   },
