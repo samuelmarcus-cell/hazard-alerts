@@ -241,7 +241,8 @@
   "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
   "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
   "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -264,24 +265,6 @@
     "notify": false,
     "rank": 0,
     "title": "Nepal’s fight to rebuild after flood disaster",
-    "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1794046407": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-07T11:26:41.475639+00:00",
-    "history": [
-     "Hazard news · 7 Nov 22:26"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794046407",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Rains flood 70,000 displaced families’ tents in Gaza",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1794050753": {
@@ -318,6 +301,24 @@
     "notify": false,
     "rank": 0,
     "title": "Heavy rains flood displacement camps across Gaza",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794071300": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-07T17:27:12.613467+00:00",
+    "history": [
+     "Hazard news · 8 Nov 04:27"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794071300",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Jerusalem Daily: Heavy rains flood Gaza",
     "track_end": false
    }
   },
