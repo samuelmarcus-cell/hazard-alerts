@@ -306,6 +306,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-07T09:41:42.065118+00:00",
+    "history": [
+     "Warning · 7 Nov 20:41"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields and Capricornia Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -1305,26 +1323,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:829436": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-07T08:41:12.790751+00:00",
-    "history": [
-     "Watch and Act · 7 Nov 19:41"
-    ],
-    "key": "WA DFES:829436",
-    "lat": -15.814432278007153,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6aeedf40920722a504396640",
-    "lon": 128.7902705697441,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act BE AWARE OF EMBER ATTACK - KUNUNURRA",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
