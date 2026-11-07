@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1567827545020305478",
-  "map_hash": "78cb0e252f49",
+  "attachment_id": "1568765247731540118",
+  "map_hash": "3bb55c9d9dd0",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -268,26 +268,7 @@
     "track_end": false
    }
   },
-  "BBC Asia": {
-   "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#2": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-04T04:03:57.096582+00:00",
-    "history": [
-     "Hazard news · 4 Nov 15:03"
-    ],
-    "key": "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#2",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesia's toxic haze is giving its neighbours a political headache",
-    "track_end": false
-   }
-  },
+  "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
@@ -769,24 +750,6 @@
     "title": "Flood — United States",
     "track_end": true
    },
-   "gdacs:FL:1104167": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-03T08:46:56.157551+00:00",
-    "history": [
-     "Green · 3 Nov 19:46"
-    ],
-    "key": "gdacs:FL:1104167",
-    "lat": -1.6011107,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -80.7205345,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Ecuador",
-    "track_end": true
-   },
    "gdacs:FL:1104216": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -913,24 +876,6 @@
     "title": "Flood — Peru",
     "track_end": true
    },
-   "gdacs:FL:1104266": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-03T07:01:55.887286+00:00",
-    "history": [
-     "Green · 3 Nov 18:01"
-    ],
-    "key": "gdacs:FL:1104266",
-    "lat": 6.5647277,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266",
-    "lon": 124.4840255,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Philippines",
-    "track_end": true
-   },
    "gdacs:FL:1104267": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -947,42 +892,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Bulgaria",
-    "track_end": true
-   },
-   "gdacs:FL:1104268": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-03T10:31:56.017151+00:00",
-    "history": [
-     "Green · 3 Nov 21:31"
-    ],
-    "key": "gdacs:FL:1104268",
-    "lat": 28.2935785,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268",
-    "lon": -16.6214471,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Spain",
-    "track_end": true
-   },
-   "gdacs:FL:1104269": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-05T10:37:06.331172+00:00",
-    "history": [
-     "Green · 5 Nov 21:37"
-    ],
-    "key": "gdacs:FL:1104269",
-    "lat": -2.9493766,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
-    "lon": 25.9184499,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Democratic Republic of Congo",
     "track_end": true
    },
    "gdacs:FL:1104270": {
@@ -1019,69 +928,6 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — Japan, Marshall Islands",
-    "track_end": true
-   },
-   "gdacs:TC:1001346": {
-    "attachment_id": "1566352880188006400",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Red notification for tropical cyclone FOUR-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.156 million .",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Level",
-       "value": "Red"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Tropical cyclone"
-      },
-      {
-       "inline": true,
-       "name": "Country",
-       "value": "India"
-      },
-      {
-       "inline": true,
-       "name": "Severity",
-       "value": "Tropical Storm (maximum wind speed of 120 km/h)"
-      },
-      {
-       "inline": false,
-       "name": "History",
-       "value": "Green · 1 Nov 13:26\nRed · 1 Nov 18:26"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=12.2000&mlon=84.8000#map=8/12.2000/84.8000)"
-      }
-     ],
-     "footer": {
-      "text": "GDACS"
-     },
-     "timestamp": "2026-11-01T07:27:07.209429+00:00",
-     "title": "🌀 Tropical cyclone — India",
-     "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-11-01T02:26:23.779325+00:00",
-    "history": [
-     "Green · 1 Nov 13:26",
-     "Red · 1 Nov 18:26"
-    ],
-    "key": "gdacs:TC:1001346",
-    "lat": 15.8,
-    "level": "Red",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346",
-    "lon": 80.2,
-    "message_id": "1566352880401645619",
-    "news": false,
-    "notify": true,
-    "rank": 2,
-    "title": "Tropical cyclone — India",
     "track_end": true
    },
    "gdacs:TC:1001347": {

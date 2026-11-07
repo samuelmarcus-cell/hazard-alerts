@@ -622,3 +622,8 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-07T13:26:41Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1794056041,Hazard news,Heavy rains flood displacement camps across Gaza,,,https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss,no
 2026-11-07T16:27:12Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of Kimberley district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-07T17:27:12Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1794071300,Hazard news,Jerusalem Daily: Heavy rains flood Gaza,,,https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss,no
+2026-11-07T23:12:40Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-1.6011107,-80.7205345,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
+2026-11-07T23:12:40Z,ended,GDACS,gdacs:FL:1104266,Green,Flood — Philippines,6.5647277,124.4840255,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104266,no
+2026-11-07T23:12:40Z,ended,GDACS,gdacs:FL:1104268,Green,Flood — Spain,28.2935785,-16.6214471,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104268,no
+2026-11-07T23:12:40Z,ended,GDACS,gdacs:FL:1104269,Green,Flood — Democratic Republic of Congo,-2.9493766,25.9184499,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269,no
+2026-11-07T23:12:40Z,ended,GDACS,gdacs:TC:1001346,Red,Tropical cyclone — India,15.8,80.2,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001346,yes
