@@ -243,26 +243,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794024065": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-07T04:26:11.493931+00:00",
-    "history": [
-     "Hazard news · 7 Nov 15:26"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794024065",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {
    "BBC Asia:https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o#2": {
     "colour": 2001125,
