@@ -304,26 +304,7 @@
    }
   },
   "BBC World": {},
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/nsw/warnings/fire.shtml": {
-    "colour": 16088064,
-    "emoji": "🔥",
-    "first_seen": "2026-11-06T05:23:45.454201+00:00",
-    "history": [
-     "Warning · 6 Nov 16:23"
-    ],
-    "key": "bom:http://reg.bom.gov.au/nsw/warnings/fire.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/nsw/warnings/fire.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Fire Weather Warning for Greater Hunter and Upper Central West Plains fire weather districts",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
