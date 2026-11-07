@@ -358,7 +358,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Western Downs and South Burnett Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie and South Burnett Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -1351,10 +1351,10 @@
      "Watch and Act · 7 Nov 16:11"
     ],
     "key": "WA DFES:829356",
-    "lat": -15.664922767341373,
+    "lat": -15.640272805815485,
     "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6aeeaf5d2579a581ab1f0f33",
-    "lon": 128.78011710948493,
+    "link": "https://emergency.wa.gov.au/warnings/6aeebdc62579a581ab1f112f",
+    "lon": 128.80429063641077,
     "news": false,
     "notify": false,
     "rank": 0,
