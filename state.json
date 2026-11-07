@@ -279,7 +279,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Rains flood thousands of displaced families’ tents in Gaza",
+    "title": "Rains flood 70,000 displaced families’ tents in Gaza",
     "track_end": false
    }
   },
@@ -763,45 +763,7 @@
    }
   },
   "Concurrent events": {},
-  "Fire danger (NSW)": {
-   "fdr:NSW:2026-11-07": {
-    "attachment_id": null,
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "description": "2 district(s) forecast Extreme or higher.",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Extreme",
-       "value": "Greater Hunter, Upper Central West Plains"
-      }
-     ],
-     "footer": {
-      "text": "Fire danger (NSW)"
-     },
-     "timestamp": "2026-11-06T13:25:00.900535+00:00",
-     "title": "🔥 Extreme fire danger forecast — NSW, Sat 7 Nov",
-     "url": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-06T13:24:47.228341+00:00",
-    "history": [
-     "Extreme · 7 Nov 00:24"
-    ],
-    "key": "fdr:NSW:2026-11-07",
-    "lat": null,
-    "level": "Extreme",
-    "link": "https://www.rfs.nsw.gov.au/fire-information/fdr-and-tobans",
-    "lon": null,
-    "message_id": "1568254883801341993",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Extreme fire danger forecast — NSW, Sat 7 Nov",
-    "track_end": false
-   }
-  },
+  "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
    "gdacs:FL:1103888": {
