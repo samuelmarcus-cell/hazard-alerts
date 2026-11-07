@@ -249,24 +249,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1793929341": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-07T11:41:41.744325+00:00",
-    "history": [
-     "Hazard news · 7 Nov 22:41"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1793929341",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Nepal’s fight to rebuild after flood disaster",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794050753": {
     "colour": 2001125,
     "emoji": "📰",
