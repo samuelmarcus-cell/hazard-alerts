@@ -1304,7 +1304,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:829356": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-07T05:11:12.006643+00:00",
+    "history": [
+     "Watch and Act · 7 Nov 16:11"
+    ],
+    "key": "WA DFES:829356",
+    "lat": -15.664922767341373,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6aeeaf5d2579a581ab1f0f33",
+    "lon": 128.78011710948493,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act BE AWARE OF EMBER ATTACK - KUNUNURRA",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
