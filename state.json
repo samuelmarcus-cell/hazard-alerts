@@ -238,26 +238,7 @@
   "https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-06T19:40:20.021923+00:00",
-    "history": [
-     "Hazard news · 7 Nov 06:40"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-07/crayfish-rescued-from-bushfires-victoria/107349640",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Endangered crayfish return home months after Victorian bushfires",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
