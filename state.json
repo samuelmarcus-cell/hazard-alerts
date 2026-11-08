@@ -850,42 +850,6 @@
     "title": "Flood — Malaysia",
     "track_end": true
    },
-   "gdacs:FL:1104248": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-04T10:04:26.805524+00:00",
-    "history": [
-     "Green · 4 Nov 21:04"
-    ],
-    "key": "gdacs:FL:1104248",
-    "lat": 15.4459511,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104248",
-    "lon": 80.1661405,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — India",
-    "track_end": true
-   },
-   "gdacs:FL:1104253": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-10-29T09:50:20.811484+00:00",
-    "history": [
-     "Green · 29 Oct 20:50"
-    ],
-    "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Indonesia",
-    "track_end": true
-   },
    "gdacs:FL:1104254": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -920,24 +884,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Peru",
-    "track_end": true
-   },
-   "gdacs:FL:1104267": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-03T10:31:56.017151+00:00",
-    "history": [
-     "Green · 3 Nov 21:31"
-    ],
-    "key": "gdacs:FL:1104267",
-    "lat": 43.4049361,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267",
-    "lon": 28.1681094,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Bulgaria",
     "track_end": true
    },
    "gdacs:FL:1104270": {
