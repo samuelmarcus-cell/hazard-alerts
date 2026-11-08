@@ -244,7 +244,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
-  "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+  "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -267,6 +268,24 @@
     "notify": false,
     "rank": 0,
     "title": "Earthquake hits central Japan, injuring more than 20 people",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794117761": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-08T07:13:30.739127+00:00",
+    "history": [
+     "Hazard news · 8 Nov 18:13"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794117761",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
     "track_end": false
    }
   },
