@@ -348,7 +348,26 @@
     "track_end": true
    }
   },
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-08T06:28:30.465609+00:00",
+    "history": [
+     "Warning · 8 Nov 17:28"
+    ],
+    "key": "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/sa/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for West Coast fire weather district",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {},
