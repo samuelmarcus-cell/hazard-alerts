@@ -242,10 +242,30 @@
   "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
   "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-08T01:28:06.063016+00:00",
+    "history": [
+     "Hazard news · 8 Nov 12:28"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "On an NT island threatened by regular cyclones, radio coverage gaps pose risk",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -974,10 +994,10 @@
      "Green · 7 Nov 18:26"
     ],
     "key": "gdacs:TC:1001349",
-    "lat": -13.53,
+    "lat": -13.35,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349",
-    "lon": 52.61,
+    "lon": 52.06,
     "news": false,
     "notify": false,
     "rank": 0,
