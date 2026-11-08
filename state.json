@@ -1015,10 +1015,10 @@
      "Green · 7 Nov 08:40"
     ],
     "key": "gdacs:TC:1001348",
-    "lat": 11.4,
+    "lat": 11.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -154.5,
+    "lon": -155.0,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1061,24 +1061,6 @@
     "notify": false,
     "rank": 0,
     "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-06T10:09:17.778514+00:00",
-    "history": [
-     "Hazard news · 6 Nov 21:09"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
