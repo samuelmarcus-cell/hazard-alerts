@@ -853,10 +853,10 @@
      "Green · 3 Nov 18:01"
     ],
     "key": "gdacs:FL:1104239",
-    "lat": 3.2083304,
+    "lat": 4.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
-    "lon": 101.304146,
+    "lon": 101.0,
     "news": false,
     "notify": false,
     "rank": 0,
