@@ -245,7 +245,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
   "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
-  "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss"
+  "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
+  "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis"
  ],
  "sources": {
   "ABC News": {},
@@ -309,7 +310,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields and Capricornia Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia and Central Coast and Whitsundays Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -1032,10 +1033,10 @@
      "Green · 7 Nov 18:26"
     ],
     "key": "gdacs:TC:1001349",
-    "lat": -13.35,
+    "lat": -12.77,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349",
-    "lon": 52.06,
+    "lon": 51.26,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1044,6 +1045,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-08T07:28:31.172244+00:00",
+    "history": [
+     "Hazard news · 8 Nov 18:28"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/06/new-york-boston-us-weather-tracker": {
     "colour": 2001125,
     "emoji": "📰",
