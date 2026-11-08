@@ -246,7 +246,8 @@
   "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
   "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
   "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
-  "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis"
+  "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+  "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -288,6 +289,24 @@
     "rank": 0,
     "title": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
     "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794119453": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-08T09:58:31.190757+00:00",
+    "history": [
+     "Hazard news · 8 Nov 20:58"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794119453",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Floods in Gaza leave tens of thousands without shelter",
+    "track_end": false
    }
   },
   "BBC Asia": {},
@@ -295,24 +314,6 @@
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-08T05:58:06.011458+00:00",
-    "history": [
-     "Warning · 8 Nov 16:58"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Coast and Whitsundays, Central Highlands and Coalfields and Capricornia Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
