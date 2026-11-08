@@ -275,24 +275,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794117761": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-08T07:13:30.739127+00:00",
-    "history": [
-     "Hazard news · 8 Nov 18:13"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794117761",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794119453": {
     "colour": 2001125,
     "emoji": "📰",
