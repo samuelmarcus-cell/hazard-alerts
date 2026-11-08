@@ -249,7 +249,8 @@
   "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
   "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-08/japan-earthquake-aichi-prefecture-at-least-22-injured/107361392",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098"
  ],
  "sources": {
   "ABC News": {
@@ -269,6 +270,24 @@
     "notify": false,
     "rank": 0,
     "title": "Strong earthquake rocks central Japan, injuring at least 22",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-08T19:44:27.307993+00:00",
+    "history": [
+     "Hazard news · 9 Nov 06:44"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Couple wants the BOM to replace them with a weather station",
     "track_end": false
    }
   },
