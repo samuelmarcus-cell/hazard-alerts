@@ -1176,26 +1176,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:829630": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-08T05:28:05.362429+00:00",
-    "history": [
-     "Watch and Act · 8 Nov 16:28"
-    ],
-    "key": "WA DFES:829630",
-    "lat": -32.24669512873867,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6af0065bd60be19bf986a7b4",
-    "lon": 115.85587983534137,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - CASUARINA",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
