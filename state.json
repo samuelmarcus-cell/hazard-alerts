@@ -247,26 +247,7 @@
   "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-08T01:28:06.063016+00:00",
-    "history": [
-     "Hazard news · 8 Nov 12:28"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-08/groote-eylandt-broadcaster-percy-bishop-remote-nt-weather-radio/107347462",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "On an NT island threatened by regular cyclones, radio coverage gaps pose risk",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
