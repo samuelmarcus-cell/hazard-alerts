@@ -272,24 +272,6 @@
     "rank": 0,
     "title": "Storm snaps powerpoles in CQ while 'insufferable' heatwave lingers in Far North",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-08T19:44:27.307993+00:00",
-    "history": [
-     "Hazard news · 9 Nov 06:44"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Couple wants the BOM to replace them with a weather station",
-    "track_end": false
    }
   },
   "ACT ESA": {},
