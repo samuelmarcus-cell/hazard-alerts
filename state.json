@@ -1108,24 +1108,6 @@
     "rank": 0,
     "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/09/german-police-attacked-crowd-storms-dortmund-kebab-shop-for-one-euro-doner": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-09T15:46:35.038783+00:00",
-    "history": [
-     "Hazard news · 10 Nov 02:46"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/09/german-police-attacked-crowd-storms-dortmund-kebab-shop-for-one-euro-doner",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/09/german-police-attacked-crowd-storms-dortmund-kebab-shop-for-one-euro-doner",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Dortmund police attacked as crowd storms kebab shop for €1 doner",
-    "track_end": false
    }
   },
   "NSW RFS": {},
