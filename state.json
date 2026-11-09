@@ -264,26 +264,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794226491": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-09T12:31:08.688611+00:00",
-    "history": [
-     "Hazard news · 9 Nov 23:31"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794226491",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/partial-collapse-of-pakistans-tarbela-dam-causes-flood-water-surge?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Partial collapse of Pakistan’s Tarbela dam causes flood water surge",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
