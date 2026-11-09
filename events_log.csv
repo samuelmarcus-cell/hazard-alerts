@@ -647,3 +647,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-08T23:15:00Z,ended,GDACS,gdacs:FL:1104253,Green,Flood — Indonesia,2.1923519,99.3812201,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253,no
 2026-11-08T23:15:00Z,ended,GDACS,gdacs:FL:1104267,Green,Flood — Bulgaria,43.4049361,28.1681094,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104267,no
 2026-11-09T00:15:00Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml,Warning,Moderate Flood Warning for the Bulloo River,,,http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml,no
+2026-11-09T03:00:00Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml,Warning,Moderate Flood Warning for the Upper Balonne River,,,http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml,no

@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": null,
+   "failing_since": "2026-11-09T03:00:00.714192+00:00",
    "warned": false
   },
   "Guardian World": {
@@ -298,24 +298,6 @@
     "notify": false,
     "rank": 0,
     "title": "Moderate Flood Warning for the Lower Barcoo River and Minor Flood Warning for the Upper Thomson River",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml": {
-    "colour": 16088064,
-    "emoji": "🌊",
-    "first_seen": "2026-11-02T03:28:50.342916+00:00",
-    "history": [
-     "Warning · 2 Nov 14:28"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/upper-balonne-and-maranoa-rivers.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Moderate Flood Warning for the Upper Balonne River",
     "track_end": true
    }
   },
