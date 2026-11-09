@@ -971,10 +971,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 24.3,
+    "lat": 24.6,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 135.3,
+    "lon": 136.6,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1130,24 +1130,6 @@
     "notify": false,
     "rank": 0,
     "title": "Large wildfire — Aspen Acres, CO, USA",
-    "track_end": true
-   },
-   "us:2026-COGMF-000099": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-27T17:30:40.441632+00:00",
-    "history": [
-     "10,000+ ha · 28 Oct 04:30"
-    ],
-    "key": "us:2026-COGMF-000099",
-    "lat": 38.0515730057394,
-    "level": "10,000+ ha",
-    "link": "https://inciweb.wildfire.gov/",
-    "lon": -107.682134525332,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Gold Mountain, CO, USA",
     "track_end": true
    },
    "us:2026-ORMHF-000688": {
