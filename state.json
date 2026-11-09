@@ -945,24 +945,6 @@
     "title": "Flood — Portugal",
     "track_end": true
    },
-   "gdacs:TC:1001343": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-10-25T12:10:28.490806+00:00",
-    "history": [
-     "Green · 25 Oct 23:10"
-    ],
-    "key": "gdacs:TC:1001343",
-    "lat": 29.4,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343",
-    "lon": 141.5,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone — Japan, Marshall Islands",
-    "track_end": true
-   },
    "gdacs:TC:1001347": {
     "colour": 4431943,
     "emoji": "🌀",
