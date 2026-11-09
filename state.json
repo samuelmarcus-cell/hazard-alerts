@@ -305,26 +305,7 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-09T08:46:08.749337+00:00",
-    "history": [
-     "Warning · 9 Nov 19:46"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North East Pastoral district.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {
@@ -1043,10 +1024,10 @@
      "Green · 7 Nov 08:40"
     ],
     "key": "gdacs:TC:1001348",
-    "lat": 11.3,
+    "lat": 11.4,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -158.4,
+    "lon": -159.5,
     "news": false,
     "notify": false,
     "rank": 0,
