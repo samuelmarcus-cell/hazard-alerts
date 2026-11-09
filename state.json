@@ -251,13 +251,52 @@
   "https://www.abc.net.au/news/2026-11-08/japan-earthquake-aichi-prefecture-at-least-22-injured/107361392",
   "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
-  "https://www.abc.net.au/news/2026-11-09/heatwave-far-north-queensland-storms-ease-south-east/107360646"
+  "https://www.abc.net.au/news/2026-11-09/heatwave-far-north-queensland-storms-ease-south-east/107360646",
+  "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality?traffic_source=rss",
+  "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1794143061": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-09T05:30:37.814919+00:00",
+    "history": [
+     "Hazard news · 9 Nov 16:30"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794143061",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794194806": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-09T05:30:37.814919+00:00",
+    "history": [
+     "Hazard news · 9 Nov 16:30"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794194806",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
