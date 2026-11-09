@@ -257,7 +257,8 @@
   "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
   "https://www.aljazeera.com/video/newsfeed/2026/11/9/partial-collapse-of-pakistans-tarbela-dam-causes-flood-water-surge?traffic_source=rss",
   "https://www.theguardian.com/world/2026/nov/09/german-police-attacked-crowd-storms-dortmund-kebab-shop-for-one-euro-doner",
-  "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas"
+  "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+  "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide"
  ],
  "sources": {
   "ABC News": {},
@@ -1126,6 +1127,24 @@
     "notify": false,
     "rank": 0,
     "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-09T18:31:34.691820+00:00",
+    "history": [
+     "Hazard news · 10 Nov 05:31"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
     "track_end": false
    }
   },
