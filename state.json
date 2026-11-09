@@ -292,26 +292,7 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-09T14:46:34.631432+00:00",
-    "history": [
-     "Warning · 10 Nov 01:46"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Kimberley district.",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -1054,24 +1035,6 @@
     "notify": false,
     "rank": 0,
     "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-09T18:16:35.210765+00:00",
-    "history": [
-     "Hazard news · 10 Nov 05:16"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Air pollution soars as fog traps emissions in England’s urban areas",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow": {
