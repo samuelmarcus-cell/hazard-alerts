@@ -1037,6 +1037,24 @@
     "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
     "track_end": false
    },
+   "Guardian World:https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-09T19:02:15.134373+00:00",
+    "history": [
+     "Hazard news · 10 Nov 06:02"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Air pollution soars as fog traps emissions in England’s urban areas",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow": {
     "colour": 2001125,
     "emoji": "📰",
