@@ -780,6 +780,24 @@
     "title": "Flood — United States",
     "track_end": true
    },
+   "gdacs:FL:1104200": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T09:46:08.547091+00:00",
+    "history": [
+     "Green · 9 Nov 20:46"
+    ],
+    "key": "gdacs:FL:1104200",
+    "lat": 4.5459921,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
+    "lon": -75.6714863,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Colombia",
+    "track_end": true
+   },
    "gdacs:FL:1104216": {
     "colour": 4431943,
     "emoji": "🌊",
