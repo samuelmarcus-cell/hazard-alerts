@@ -322,6 +322,24 @@
    }
   },
   "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-09T08:46:08.749337+00:00",
+    "history": [
+     "Warning · 9 Nov 19:46"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North East Pastoral and North West Pastoral districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
     "colour": 16088064,
     "emoji": "🔥",

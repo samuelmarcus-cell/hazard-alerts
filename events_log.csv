@@ -656,3 +656,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104273,Green,Flood — Israel,32.3286181,34.8566246,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273,no
 2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104274,Green,Flood — Syria,34.4505521,40.9170636,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274,no
 2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104271,Green,Flood — Vietnam,22.5023175,104.3067914,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271,no
+2026-11-09T08:46:08Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North East Pastoral and North West Pastoral districts.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
