@@ -658,3 +658,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104271,Green,Flood — Vietnam,22.5023175,104.3067914,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271,no
 2026-11-09T08:46:08Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North East Pastoral and North West Pastoral districts.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-09T09:46:08Z,new,GDACS,gdacs:FL:1104200,Green,Flood — Colombia,4.5459921,-75.6714863,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200,no
+2026-11-09T10:16:09Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Simpson district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-09T10:16:09Z,new,GDACS,gdacs:FL:1104275,Green,Flood — Venezuela,10.1755763,-67.9194222,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275,no

@@ -300,7 +300,26 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-09T10:16:09.217655+00:00",
+    "history": [
+     "Warning · 9 Nov 21:16"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Simpson district.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml": {
     "colour": 16088064,
@@ -976,6 +995,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Syria",
+    "track_end": true
+   },
+   "gdacs:FL:1104275": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T10:16:09.217655+00:00",
+    "history": [
+     "Green · 9 Nov 21:16"
+    ],
+    "key": "gdacs:FL:1104275",
+    "lat": 10.1755763,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275",
+    "lon": -67.9194222,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Venezuela",
     "track_end": true
    },
    "gdacs:TC:1001343": {
