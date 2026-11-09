@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-09T08:15:37.977551+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -968,10 +968,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 23.8,
+    "lat": 24.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 135.0,
+    "lon": 134.9,
     "news": false,
     "notify": false,
     "rank": 0,
