@@ -254,7 +254,8 @@
   "https://www.abc.net.au/news/2026-11-09/heatwave-far-north-queensland-storms-ease-south-east/107360646",
   "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality?traffic_source=rss",
   "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss",
-  "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow"
+  "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/9/partial-collapse-of-pakistans-tarbela-dam-causes-flood-water-surge?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -295,6 +296,24 @@
     "notify": false,
     "rank": 0,
     "title": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794226491": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-09T12:31:08.688611+00:00",
+    "history": [
+     "Hazard news · 9 Nov 23:31"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794226491",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/partial-collapse-of-pakistans-tarbela-dam-causes-flood-water-surge?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Partial collapse of Pakistan’s Tarbela dam causes flood water surge",
     "track_end": false
    }
   },
