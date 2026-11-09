@@ -652,3 +652,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T05:30:37Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1794143061,Hazard news,‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza,,,https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss,no
 2026-11-09T06:45:37Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Central Coast and Whitsundays Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-09T07:45:37Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Central Coast and Whitsundays Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104272,Green,Flood — Iraq,36.1911744,44.0094145,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104272,no
+2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104273,Green,Flood — Israel,32.3286181,34.8566246,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273,no
+2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104274,Green,Flood — Syria,34.4505521,40.9170636,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274,no
+2026-11-09T08:00:37Z,new,GDACS,gdacs:FL:1104271,Green,Flood — Vietnam,22.5023175,104.3067914,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271,no

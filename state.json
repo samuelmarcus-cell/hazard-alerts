@@ -870,6 +870,78 @@
     "title": "Flood — France",
     "track_end": true
    },
+   "gdacs:FL:1104271": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T08:00:37.524356+00:00",
+    "history": [
+     "Green · 9 Nov 19:00"
+    ],
+    "key": "gdacs:FL:1104271",
+    "lat": 22.5023175,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271",
+    "lon": 104.3067914,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Vietnam",
+    "track_end": true
+   },
+   "gdacs:FL:1104272": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T08:00:37.524356+00:00",
+    "history": [
+     "Green · 9 Nov 19:00"
+    ],
+    "key": "gdacs:FL:1104272",
+    "lat": 36.1911744,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104272",
+    "lon": 44.0094145,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Iraq",
+    "track_end": true
+   },
+   "gdacs:FL:1104273": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T08:00:37.524356+00:00",
+    "history": [
+     "Green · 9 Nov 19:00"
+    ],
+    "key": "gdacs:FL:1104273",
+    "lat": 32.3286181,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273",
+    "lon": 34.8566246,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Israel",
+    "track_end": true
+   },
+   "gdacs:FL:1104274": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T08:00:37.524356+00:00",
+    "history": [
+     "Green · 9 Nov 19:00"
+    ],
+    "key": "gdacs:FL:1104274",
+    "lat": 34.4505521,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274",
+    "lon": 40.9170636,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Syria",
+    "track_end": true
+   },
    "gdacs:TC:1001343": {
     "colour": 4431943,
     "emoji": "🌀",
