@@ -1016,6 +1016,24 @@
     "title": "Flood — Venezuela",
     "track_end": true
    },
+   "gdacs:FL:1104276": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-09T11:31:08.779399+00:00",
+    "history": [
+     "Green · 9 Nov 22:31"
+    ],
+    "key": "gdacs:FL:1104276",
+    "lat": 32.6472599,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104276",
+    "lon": -16.889995,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Portugal",
+    "track_end": true
+   },
    "gdacs:TC:1001343": {
     "colour": 4431943,
     "emoji": "🌀",

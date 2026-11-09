@@ -661,3 +661,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T10:16:09Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Simpson district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-11-09T10:16:09Z,new,GDACS,gdacs:FL:1104275,Green,Flood — Venezuela,10.1755763,-67.9194222,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275,no
 2026-11-09T11:16:09Z,new,Guardian World,Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow,Hazard news,Deadly floods hit Iraq as thunderstorms sweep across region,,,https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow,no
+2026-11-09T11:31:08Z,new,GDACS,gdacs:FL:1104276,Green,Flood — Portugal,32.6472599,-16.889995,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104276,no
