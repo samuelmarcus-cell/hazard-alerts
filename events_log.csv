@@ -674,3 +674,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T19:02:15Z,new,Guardian World,Guardian World:https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas,Hazard news,Air pollution soars as fog traps emissions in England’s urban areas,,,https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas,no
 2026-11-09T20:32:14Z,ended,US fires,us:2026-COGMF-000099,"10,000+ ha","Large wildfire — Gold Mountain, CO, USA",38.0515730057394,-107.682134525332,https://inciweb.wildfire.gov/,no
 2026-11-09T23:17:14Z,ended,GDACS,gdacs:TC:1001343,Green,"Tropical cyclone — Japan, Marshall Islands",29.4,141.5,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343,no
+2026-11-10T01:17:43Z,new,VicEmergency,VicEmergency:43590,Watch and Act,Watch and Act: Watch & Act,-35.13508534346438,142.0230982502668,,no
