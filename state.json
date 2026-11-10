@@ -1027,10 +1027,10 @@
      "Green · 7 Nov 08:40"
     ],
     "key": "gdacs:TC:1001348",
-    "lat": 11.7,
+    "lat": 11.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -163.9,
+    "lon": -164.7,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1091,24 +1091,6 @@
     "notify": false,
     "rank": 0,
     "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-10T13:03:49.978254+00:00",
-    "history": [
-     "Hazard news · 11 Nov 00:03"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "US evacuates aircraft from RAF Mildenhall over reported Iran threat",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
