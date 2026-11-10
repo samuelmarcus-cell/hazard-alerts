@@ -1074,24 +1074,6 @@
     "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-04T16:49:58.667037+00:00",
-    "history": [
-     "Hazard news · 5 Nov 03:49"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide": {
     "colour": 2001125,
     "emoji": "📰",
