@@ -694,3 +694,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-10T09:03:18Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Pilbara, Gascoyne, North Interior and South Interior districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-10T11:18:49Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lasseter district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-11-10T11:18:49Z,new,WA DFES,WA DFES:830051,Watch and Act,Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - ERSKINE AND FALCON,-32.56690325242538,115.68613557760912,https://emergency.wa.gov.au/warnings/6af2fbde5ecc4fad3224113a,no
+2026-11-10T11:33:49Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,0.9668153,-79.6523847,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no

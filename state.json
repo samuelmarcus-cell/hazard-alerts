@@ -328,7 +328,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Pilbara, Gascoyne, North Interior and South Interior districts.",
+    "title": "Severe Thunderstorm Warning for parts of Pilbara, Gascoyne, North Interior, South Interior and Goldfields districts.",
     "track_end": true
    }
   },
@@ -748,6 +748,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — United States",
+    "track_end": true
+   },
+   "gdacs:FL:1104167": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-10T11:33:49.931008+00:00",
+    "history": [
+     "Green · 10 Nov 22:33"
+    ],
+    "key": "gdacs:FL:1104167",
+    "lat": 0.9668153,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
+    "lon": -79.6523847,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ecuador",
     "track_end": true
    },
    "gdacs:FL:1104200": {
