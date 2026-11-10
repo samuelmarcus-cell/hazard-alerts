@@ -269,14 +269,14 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-10T18:49:23.360372+00:00",
+    "first_seen": "2026-11-10T20:19:22.715063+00:00",
     "history": [
-     "Hazard news · 11 Nov 05:49"
+     "Hazard news · 11 Nov 07:19"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
@@ -1010,10 +1010,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 26.1,
+    "lat": 26.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 142.1,
+    "lon": 144.6,
     "news": false,
     "notify": false,
     "rank": 0,
