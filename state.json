@@ -259,7 +259,8 @@
   "https://www.theguardian.com/world/2026/nov/09/german-police-attacked-crowd-storms-dortmund-kebab-shop-for-one-euro-doner",
   "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
   "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
-  "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat"
+  "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
+  "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -267,7 +268,26 @@
   "ASMC haze": {},
   "Al Jazeera": {},
   "BBC Asia": {},
-  "BBC World": {},
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-10T17:34:23.390518+00:00",
+    "history": [
+     "Hazard news · 11 Nov 04:34"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
