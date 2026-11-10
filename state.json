@@ -1150,18 +1150,54 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43595": {
+   "VicEmergency:43596": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-10T04:17:43.488115+00:00",
+    "first_seen": "2026-11-10T04:32:44.415940+00:00",
     "history": [
-     "Watch and Act · 10 Nov 15:17"
+     "Watch and Act · 10 Nov 15:32"
     ],
-    "key": "VicEmergency:43595",
+    "key": "VicEmergency:43596",
+    "lat": -35.32594190775173,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 142.7668386667521,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43598": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-10T04:32:44.415940+00:00",
+    "history": [
+     "Watch and Act · 10 Nov 15:32"
+    ],
+    "key": "VicEmergency:43598",
     "lat": -35.29812227938409,
     "level": "Watch and Act",
     "link": "",
     "lon": 142.69876289280137,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43599": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-10T04:32:44.415940+00:00",
+    "history": [
+     "Watch and Act · 10 Nov 15:32"
+    ],
+    "key": "VicEmergency:43599",
+    "lat": -35.32594190775173,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 142.7668386667521,
     "news": false,
     "notify": false,
     "rank": 0,

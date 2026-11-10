@@ -679,3 +679,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-10T02:17:43Z,ended,VicEmergency,VicEmergency:43590,Watch and Act,Watch and Act: Watch & Act,-35.13508534346438,142.0230982502668,,no
 2026-11-10T04:17:43Z,new,VicEmergency,VicEmergency:43595,Watch and Act,Watch and Act: Watch & Act,-35.29812227938409,142.69876289280137,,no
 2026-11-10T04:17:43Z,ended,VicEmergency,VicEmergency:43591,Watch and Act,Watch and Act: Advice,-35.13508534346438,142.0230982502668,,no
+2026-11-10T04:32:44Z,new,VicEmergency,VicEmergency:43598,Watch and Act,Watch and Act: Watch & Act,-35.29812227938409,142.69876289280137,,no
+2026-11-10T04:32:44Z,new,VicEmergency,VicEmergency:43599,Watch and Act,Watch and Act: Watch & Act,-35.32594190775173,142.7668386667521,,no
+2026-11-10T04:32:44Z,new,VicEmergency,VicEmergency:43596,Watch and Act,Watch and Act: Watch & Act,-35.32594190775173,142.7668386667521,,no
+2026-11-10T04:32:44Z,ended,VicEmergency,VicEmergency:43595,Watch and Act,Watch and Act: Watch & Act,-35.29812227938409,142.69876289280137,,no
