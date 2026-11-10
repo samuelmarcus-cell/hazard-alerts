@@ -1150,24 +1150,6 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43598": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-10T04:32:44.415940+00:00",
-    "history": [
-     "Watch and Act · 10 Nov 15:32"
-    ],
-    "key": "VicEmergency:43598",
-    "lat": -35.29812227938409,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 142.69876289280137,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Watch & Act",
-    "track_end": true
-   },
    "VicEmergency:43599": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1184,6 +1166,24 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43600": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-10T05:32:43.963022+00:00",
+    "history": [
+     "Watch and Act · 10 Nov 16:32"
+    ],
+    "key": "VicEmergency:43600",
+    "lat": -35.29812227938409,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 142.69876289280137,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Advice",
     "track_end": true
    }
   },
