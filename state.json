@@ -1094,24 +1094,6 @@
     "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-10T07:03:18.439442+00:00",
-    "history": [
-     "Hazard news · 10 Nov 18:03"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "US reportedly evacuates aircraft from RAF Mildenhall over Iran threat",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows": {
     "colour": 2001125,
     "emoji": "📰",
