@@ -309,7 +309,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Pilbara, Gascoyne, North Interior, South Interior and Goldfields districts.",
+    "title": "Severe Thunderstorm Warning for parts of North Interior, South Interior, Pilbara and Gascoyne districts.",
     "track_end": true
    }
   },
@@ -739,10 +739,10 @@
      "Green · 10 Nov 22:33"
     ],
     "key": "gdacs:FL:1104167",
-    "lat": 0.9668153,
+    "lat": -1.4941273,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -79.6523847,
+    "lon": -79.5542485,
     "news": false,
     "notify": false,
     "rank": 0,
