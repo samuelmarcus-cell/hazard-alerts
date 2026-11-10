@@ -269,7 +269,26 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-10T11:18:49.430692+00:00",
+    "history": [
+     "Warning · 10 Nov 22:18"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml": {
     "colour": 16088064,
@@ -1170,7 +1189,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:830051": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-10T11:18:49.430692+00:00",
+    "history": [
+     "Watch and Act · 10 Nov 22:18"
+    ],
+    "key": "WA DFES:830051",
+    "lat": -32.56690325242538,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6af2fbde5ecc4fad3224113a",
+    "lon": 115.68613557760912,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - ERSKINE AND FALCON",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
