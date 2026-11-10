@@ -676,3 +676,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-09T23:17:14Z,ended,GDACS,gdacs:TC:1001343,Green,"Tropical cyclone — Japan, Marshall Islands",29.4,141.5,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001343,no
 2026-11-10T01:17:43Z,new,VicEmergency,VicEmergency:43590,Watch and Act,Watch and Act: Watch & Act,-35.13508534346438,142.0230982502668,,no
 2026-11-10T02:02:43Z,new,VicEmergency,VicEmergency:43591,Watch and Act,Watch and Act: Advice,-35.13508534346438,142.0230982502668,,no
+2026-11-10T02:17:43Z,ended,VicEmergency,VicEmergency:43590,Watch and Act,Watch and Act: Watch & Act,-35.13508534346438,142.0230982502668,,no
