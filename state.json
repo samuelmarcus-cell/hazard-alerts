@@ -293,7 +293,26 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-10T09:03:18.560094+00:00",
+    "history": [
+     "Warning · 10 Nov 20:03"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Pilbara, Gascoyne, North Interior and South Interior districts.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -954,10 +973,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 25.0,
+    "lat": 25.4,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 138.0,
+    "lon": 139.9,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -975,7 +994,7 @@
     "lat": 11.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -162.7,
+    "lon": -163.9,
     "news": false,
     "notify": false,
     "rank": 0,
