@@ -705,3 +705,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-10T20:19:22Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1,Hazard news,Board of Peace says Israel's aid response after Gaza floods 'insufficent',,,https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss,no
 2026-11-10T20:34:22Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#0,Hazard news,Board of Peace says Israel's aid response after Gaza floods 'insufficent',,,https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss,no
 2026-11-10T21:19:23Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1,Hazard news,Board of Peace says Israel's aid response after Gaza floods 'insufficent',,,https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss,no
+2026-11-10T23:19:52Z,ended,GDACS,gdacs:FL:1103888,Green,Flood — United States,34.9861914,-84.3713117,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1103888,no
+2026-11-10T23:19:52Z,ended,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-27.2162607,-49.643654,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
+2026-11-10T23:19:52Z,ended,GDACS,gdacs:FL:1104254,Green,Flood — Türkiye,36.3451332,36.0748022,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104254,no
+2026-11-10T23:19:52Z,ended,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-4.1551963,-81.0061242,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
