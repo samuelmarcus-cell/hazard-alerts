@@ -263,7 +263,8 @@
   "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood",
-  "https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458"
+  "https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458",
+  "https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012"
  ],
  "sources": {
   "ABC News": {
@@ -283,6 +284,24 @@
     "notify": false,
     "rank": 0,
     "title": "Outback travellers stunned by 'white Christmas' hailstorm",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T06:50:27.235252+00:00",
+    "history": [
+     "Hazard news · 11 Nov 17:50"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "More than 58,000 homes without power as storms hit parts of Qld",
     "track_end": false
    }
   },
@@ -383,14 +402,33 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Logan, Gold Coast, Redland City and Brisbane City Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Redland City, Brisbane City, Noosa and Moreton Bay Council Areas.",
     "track_end": true
    }
   },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-11T06:50:27.235252+00:00",
+    "history": [
+     "Warning · 11 Nov 17:50"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Gascoyne, Goldfields and South Interior districts.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
