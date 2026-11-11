@@ -260,7 +260,8 @@
   "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
   "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
   "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
-  "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -269,6 +270,24 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T00:34:52.101821+00:00",
+    "history": [
+     "Hazard news · 11 Nov 11:34"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1": {
     "colour": 2001125,
     "emoji": "📰",
