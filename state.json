@@ -327,24 +327,6 @@
     "rank": 0,
     "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
     "track_end": false
-   },
-   "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-10T21:19:23.256155+00:00",
-    "history": [
-     "Hazard news · 11 Nov 08:19"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-    "track_end": false
    }
   },
   "BoM NSW/ACT": {},
