@@ -275,24 +275,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794386108": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T14:36:26.244431+00:00",
-    "history": [
-     "Hazard news · 12 Nov 01:36"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794386108",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794413469": {
     "colour": 2001125,
     "emoji": "📰",
