@@ -308,7 +308,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "As Gaza floods subside, Palestinians assess human and material damage",
+    "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
     "track_end": false
    },
    "Al Jazeera:https://www.aljazeera.com/?t=1794386715": {
@@ -344,7 +344,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "At least 300 schools evacuated in Italy after email bomb alerts",
+    "title": "Schools across Italy evacuated after receiving email bomb alerts",
     "track_end": false
    }
   },
@@ -1073,10 +1073,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 29.1,
+    "lat": 30.2,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 150.2,
+    "lon": 154.1,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1091,10 +1091,10 @@
      "Green · 7 Nov 08:40"
     ],
     "key": "gdacs:TC:1001348",
-    "lat": 10.1,
+    "lat": 9.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -166.7,
+    "lon": -167.7,
     "news": false,
     "notify": false,
     "rank": 0,
