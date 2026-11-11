@@ -265,7 +265,8 @@
   "https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood",
   "https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458",
   "https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
-  "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -307,6 +308,24 @@
     "notify": false,
     "rank": 0,
     "title": "Gaza’s infrastructure collapse leaves residents defenceless against floods",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794395226": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T13:36:26.187066+00:00",
+    "history": [
+     "Hazard news · 12 Nov 00:36"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794395226",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "At least 300 schools evacuated in Italy after email bomb alerts",
     "track_end": false
    }
   },
