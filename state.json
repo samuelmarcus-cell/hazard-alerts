@@ -268,10 +268,30 @@
   "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
   "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
-  "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T21:06:57.547483+00:00",
+    "history": [
+     "Hazard news · 12 Nov 08:06"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Thousands remain without power in Qld with more storms on the way",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -316,26 +336,7 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-11T16:51:25.871571+00:00",
-    "history": [
-     "Warning · 12 Nov 03:51"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Daly, Arnhem, Carpentaria and Gregory districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
@@ -1040,7 +1041,7 @@
     "lat": 9.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -167.7,
+    "lon": -169.4,
     "news": false,
     "notify": false,
     "rank": 0,
