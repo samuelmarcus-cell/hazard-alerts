@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": null,
+   "failing_since": "2026-11-11T08:20:56.106899+00:00",
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -425,7 +425,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Gascoyne, Goldfields and South Interior districts.",
+    "title": "Severe Thunderstorm Warning for parts of Gascoyne, Goldfields, Central Wheat Belt, South Interior and Central West districts.",
     "track_end": true
    }
   },
