@@ -267,29 +267,11 @@
   "https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
   "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
-  "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss"
+  "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T06:50:27.235252+00:00",
-    "history": [
-     "Hazard news · 11 Nov 17:50"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "More than 80,000 homes without power as storms hit parts of Qld",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -327,6 +309,24 @@
     "notify": false,
     "rank": 0,
     "title": "Schools across Italy evacuated after receiving email bomb alerts",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1794413469": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T18:06:26.175098+00:00",
+    "history": [
+     "Hazard news · 12 Nov 05:06"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794413469",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Portugal cancels more than 300 flights, shuts schools due to Storm Charles",
     "track_end": false
    }
   },
