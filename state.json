@@ -309,26 +309,7 @@
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml": {
-    "colour": 16088064,
-    "emoji": "🌊",
-    "first_seen": "2026-10-31T02:53:51.963818+00:00",
-    "history": [
-     "Warning · 31 Oct 13:53"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/thomson-barcoo-cooper.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Moderate Flood Warning for the Lower Barcoo River and Minor Flood Warning for the Thomson River",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -957,10 +938,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 26.9,
+    "lat": 27.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 144.6,
+    "lon": 146.7,
     "news": false,
     "notify": false,
     "rank": 0,
