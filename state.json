@@ -1102,24 +1102,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-08T07:28:31.172244+00:00",
-    "history": [
-     "Hazard news · 8 Nov 18:28"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow": {
     "colour": 2001125,
     "emoji": "📰",
