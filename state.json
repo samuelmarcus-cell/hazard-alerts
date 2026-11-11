@@ -344,7 +344,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southeast Coast and parts of Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Southeast Coast and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -362,7 +362,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Gympie, Somerset, Scenic Rim, Gold Coast, Sunshine Coast, Noosa, Brisbane City and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, Scenic Rim, Gold Coast, Brisbane City, Moreton Bay, Ipswich, Toowoomba and Sunshine Coast Council Areas.",
     "track_end": true
    }
   },
