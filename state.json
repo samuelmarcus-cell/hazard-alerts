@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": "2026-11-11T08:20:56.106899+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -365,7 +365,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Cherbourg, Gympie, Somerset and South Burnett Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, South Burnett and Cherbourg Council Areas.",
     "track_end": true
    }
   },
@@ -1034,10 +1034,10 @@
      "Green · 6 Nov 19:09"
     ],
     "key": "gdacs:TC:1001347",
-    "lat": 27.7,
+    "lat": 29.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 146.7,
+    "lon": 150.2,
     "news": false,
     "notify": false,
     "rank": 0,
