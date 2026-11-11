@@ -293,24 +293,6 @@
     "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
     "track_end": false
    },
-   "Al Jazeera:https://www.aljazeera.com/?t=1794395226": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T13:36:26.187066+00:00",
-    "history": [
-     "Hazard news · 12 Nov 00:36"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794395226",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Schools across Italy evacuated after receiving email bomb alerts",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794413469": {
     "colour": 2001125,
     "emoji": "📰",
