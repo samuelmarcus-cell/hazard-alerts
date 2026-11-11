@@ -1067,24 +1067,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-09T11:16:09.452023+00:00",
-    "history": [
-     "Hazard news · 9 Nov 22:16"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood": {
     "colour": 2001125,
     "emoji": "📰",
