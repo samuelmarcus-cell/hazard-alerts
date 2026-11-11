@@ -269,24 +269,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T06:35:27.231785+00:00",
-    "history": [
-     "Hazard news · 11 Nov 17:35"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-11/mount-magnet-hail-dust-storm-transforms-wa-midwest-landscape/107372458",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Outback travellers stunned by 'white Christmas' hailstorm",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-11/queensland-storms-power-outages/107374012": {
     "colour": 2001125,
     "emoji": "📰",
