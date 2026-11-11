@@ -347,7 +347,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett, Darling Downs and Granite Belt, Maranoa and Warrego and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -365,7 +365,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, South Burnett and Cherbourg Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie and South Burnett Council Areas.",
     "track_end": true
    }
   },
@@ -1137,7 +1137,26 @@
     "track_end": false
    }
   },
-  "NSW RFS": {},
+  "NSW RFS": {
+   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-11T09:35:55.583330+00:00",
+    "history": [
+     "Watch and Act · 11 Nov 20:35"
+    ],
+    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150",
+    "lat": -31.84743817499998,
+    "level": "Watch and Act",
+    "link": "https://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
+    "lon": 152.69548402500004,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: SAND TRACK",
+    "track_end": true
+   }
+  },
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
