@@ -323,7 +323,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -344,7 +344,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Southeast Coast Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Southeast Coast and Wide Bay and Burnett Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -362,7 +362,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Scenic Rim and Gold Coast Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Scenic Rim and Gold Coast Council Areas.",
     "track_end": true
    }
   },
