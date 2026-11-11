@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-11T16:36:25.544628+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -352,7 +352,26 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-11T16:51:25.871571+00:00",
+    "history": [
+     "Warning · 12 Nov 03:51"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Daly, Carpentaria, Gregory and Arnhem districts.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
