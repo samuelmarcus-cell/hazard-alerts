@@ -301,7 +301,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "More than 58,000 homes without power as storms hit parts of Qld",
+    "title": "More than 76,000 homes without power as storms hit parts of Qld",
     "track_end": false
    }
   },
@@ -363,7 +363,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers and Hunter Forecast Districts.",
     "track_end": true
    }
   },
@@ -901,6 +901,24 @@
     "title": "Flood — Malaysia",
     "track_end": true
    },
+   "gdacs:FL:1104253": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-11T07:50:27.368426+00:00",
+    "history": [
+     "Green · 11 Nov 18:50"
+    ],
+    "key": "gdacs:FL:1104253",
+    "lat": 2.1923519,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
+    "lon": 99.3812201,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Indonesia",
+    "track_end": true
+   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -927,10 +945,10 @@
      "Green · 9 Nov 19:00"
     ],
     "key": "gdacs:FL:1104271",
-    "lat": 22.5023175,
+    "lat": 19.9781573,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271",
-    "lon": 104.3067914,
+    "lon": 105.4816107,
     "news": false,
     "notify": false,
     "rank": 0,
