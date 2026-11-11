@@ -261,7 +261,8 @@
   "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
   "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat",
   "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
-  "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood"
  ],
  "sources": {
   "ABC News": {},
@@ -344,7 +345,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Southeast Coast and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -362,7 +363,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, Scenic Rim, Gold Coast, Brisbane City, Moreton Bay, Ipswich, Toowoomba and Sunshine Coast Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Logan, Somerset, Scenic Rim, Toowoomba, Gold Coast, Sunshine Coast, Brisbane City and Moreton Bay Council Areas.",
     "track_end": true
    }
   },
@@ -1078,22 +1079,22 @@
     "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide": {
+   "Guardian World:https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-09T18:31:34.691820+00:00",
+    "first_seen": "2026-11-11T05:20:26.740154+00:00",
     "history": [
-     "Hazard news · 10 Nov 05:31"
+     "Hazard news · 11 Nov 16:20"
     ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+    "key": "Guardian World:https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+    "link": "https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
+    "title": "Thousands without shelter face lethal conditions in storm-hit Gaza as they wait for 150,000 tents",
     "track_end": false
    }
   },
