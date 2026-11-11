@@ -271,7 +271,8 @@
   "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
   "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
-  "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988"
+  "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
+  "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122"
  ],
  "sources": {
   "ABC News": {
@@ -291,6 +292,24 @@
     "notify": false,
     "rank": 0,
     "title": "CFA 'sickened' as thieves target stations ahead of bushfire season",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T23:52:27.074321+00:00",
+    "history": [
+     "Hazard news · 12 Nov 10:52"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Wild spring storm blankets NSW town in hail that looks like snow",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548": {
