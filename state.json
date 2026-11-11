@@ -302,7 +302,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "More than 76,000 homes without power as storms hit parts of Qld",
+    "title": "More than 80,000 homes without power as storms hit parts of Qld",
     "track_end": false
    }
   },
@@ -351,26 +351,7 @@
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-11T03:20:26.619992+00:00",
-    "history": [
-     "Warning · 11 Nov 14:20"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
