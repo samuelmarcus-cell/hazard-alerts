@@ -311,24 +311,6 @@
     "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
     "track_end": false
    },
-   "Al Jazeera:https://www.aljazeera.com/?t=1794386715": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T10:50:57.126316+00:00",
-    "history": [
-     "Hazard news · 11 Nov 21:50"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794386715",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Gaza’s infrastructure collapse leaves residents defenceless against floods",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1794395226": {
     "colour": 2001125,
     "emoji": "📰",
