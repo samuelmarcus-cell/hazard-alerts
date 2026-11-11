@@ -310,14 +310,14 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#3": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-11T00:34:52.101821+00:00",
+    "first_seen": "2026-11-11T08:35:55.795537+00:00",
     "history": [
-     "Hazard news · 11 Nov 11:34"
+     "Hazard news · 11 Nov 19:35"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#3",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
@@ -347,26 +347,7 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-11T03:20:26.619992+00:00",
-    "history": [
-     "Warning · 11 Nov 14:20"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers and Hunter Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -384,7 +365,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett, Darling Downs and Granite Belt, Maranoa and Warrego and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -402,7 +383,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, South Burnett, Toowoomba, Sunshine Coast and Noosa Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Cherbourg, Gympie, Somerset and South Burnett Council Areas.",
     "track_end": true
    }
   },
