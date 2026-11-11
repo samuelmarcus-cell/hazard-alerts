@@ -1120,26 +1120,7 @@
     "track_end": false
    }
   },
-  "NSW RFS": {
-   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-11T09:35:55.583330+00:00",
-    "history": [
-     "Watch and Act · 11 Nov 20:35"
-    ],
-    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150",
-    "lat": -31.84743817499998,
-    "level": "Watch and Act",
-    "link": "https://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-    "lon": 152.69548402500004,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: SAND TRACK",
-    "track_end": true
-   }
-  },
+  "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
