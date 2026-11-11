@@ -847,6 +847,24 @@
     "title": "Flood — Indonesia",
     "track_end": true
    },
+   "gdacs:FL:1104269": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-11T13:05:57.248944+00:00",
+    "history": [
+     "Green · 12 Nov 00:05"
+    ],
+    "key": "gdacs:FL:1104269",
+    "lat": 3.0276731,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
+    "lon": 19.3657958,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Democratic Republic of Congo",
+    "track_end": true
+   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -963,10 +981,10 @@
      "Green · 9 Nov 22:31"
     ],
     "key": "gdacs:FL:1104276",
-    "lat": 32.6472599,
+    "lat": 30.1462542,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104276",
-    "lon": -16.889995,
+    "lon": -15.8668607,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -989,6 +1007,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Argentina",
+    "track_end": true
+   },
+   "gdacs:FL:1104278": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-11T13:05:57.248944+00:00",
+    "history": [
+     "Green · 12 Nov 00:05"
+    ],
+    "key": "gdacs:FL:1104278",
+    "lat": -8.8272699,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104278",
+    "lon": 13.2439512,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Angola",
     "track_end": true
    },
    "gdacs:TC:1001347": {
