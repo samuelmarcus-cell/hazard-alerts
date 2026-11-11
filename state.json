@@ -270,10 +270,29 @@
   "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
-  "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548"
+  "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
+  "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-11T22:21:57.731715+00:00",
+    "history": [
+     "Hazard news · 12 Nov 09:21"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "CFA 'sickened' as thieves target stations ahead of bushfire season",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548": {
     "colour": 2001125,
     "emoji": "📰",
