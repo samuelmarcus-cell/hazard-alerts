@@ -318,7 +318,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -336,7 +336,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Western Downs and South Burnett Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for Western Downs and South Burnett Council Areas.",
     "track_end": true
    }
   },
