@@ -293,24 +293,6 @@
     "rank": 0,
     "title": "Wild spring storm blankets NSW town in hail that looks like snow",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T21:21:57.465289+00:00",
-    "history": [
-     "Hazard news · 12 Nov 08:21"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "'Inland ocean' of Lake Eyre Basin to be harvested under flood plain proposal",
-    "track_end": false
    }
   },
   "ACT ESA": {},
