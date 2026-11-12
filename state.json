@@ -272,7 +272,8 @@
   "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
   "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
   "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
-  "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122"
+  "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
+  "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -298,30 +299,29 @@
     "rank": 0,
     "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
     "track_end": false
+   },
+   "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-12T15:39:03.157007+00:00",
+    "history": [
+     "Hazard news · 13 Nov 02:39"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+    "track_end": false
    }
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-12T02:52:27.270474+00:00",
-    "history": [
-     "Warning · 12 Nov 13:52"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
