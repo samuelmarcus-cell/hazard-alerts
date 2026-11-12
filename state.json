@@ -1024,10 +1024,10 @@
      "Green · 7 Nov 08:40"
     ],
     "key": "gdacs:TC:1001348",
-    "lat": 9.9,
+    "lat": 9.8,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
-    "lon": -169.4,
+    "lon": -170.6,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1073,26 +1073,7 @@
     "track_end": false
    }
   },
-  "NSW RFS": {
-   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-12T00:37:26.614579+00:00",
-    "history": [
-     "Watch and Act · 12 Nov 11:37"
-    ],
-    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150",
-    "lat": -31.85055349299995,
-    "level": "Watch and Act",
-    "link": "https://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-    "lon": 152.69269320500007,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: SAND TRACK",
-    "track_end": true
-   }
-  },
+  "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
