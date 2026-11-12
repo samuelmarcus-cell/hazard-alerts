@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": null,
+   "failing_since": "2026-11-12T01:07:27.388003+00:00",
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -276,24 +276,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T22:21:57.731715+00:00",
-    "history": [
-     "Hazard news · 12 Nov 09:21"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "CFA 'sickened' as thieves target stations ahead of bushfire season",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1098,10 +1080,10 @@
      "Watch and Act · 12 Nov 11:37"
     ],
     "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685150",
-    "lat": -31.84743817499998,
+    "lat": -31.85055349299995,
     "level": "Watch and Act",
     "link": "https://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-    "lon": 152.69548402500004,
+    "lon": 152.69269320500007,
     "news": false,
     "notify": false,
     "rank": 0,
