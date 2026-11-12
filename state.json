@@ -340,7 +340,26 @@
    }
   },
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-12T02:52:27.270474+00:00",
+    "history": [
+     "Warning · 12 Nov 13:52"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Wide Bay and Burnett, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
