@@ -300,26 +300,7 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-12T02:22:27.293826+00:00",
-    "history": [
-     "Warning · 12 Nov 13:22"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers and parts of Northern Tablelands and Mid North Coast Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -355,7 +336,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Somerset, Lockyer Valley, Sunshine Coast, Brisbane City and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Sunshine Coast, Brisbane City, Moreton Bay, Ipswich and Lockyer Valley Council Areas.",
     "track_end": true
    }
   },
