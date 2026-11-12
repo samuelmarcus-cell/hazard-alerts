@@ -273,10 +273,30 @@
   "https://www.abc.net.au/news/2026-11-12/outback-inland-ocean-to-be-harvested-under-flood-plain-proposal/107364548",
   "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
   "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
-  "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-12T23:09:29.728333+00:00",
+    "history": [
+     "Hazard news · 13 Nov 10:09"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Why do supercell thunderstorms form and what makes them so dangerous?",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
@@ -726,24 +746,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1104200": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T09:46:08.547091+00:00",
-    "history": [
-     "Green · 9 Nov 20:46"
-    ],
-    "key": "gdacs:FL:1104200",
-    "lat": 4.5459921,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
-    "lon": -75.6714863,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Colombia",
-    "track_end": true
-   },
    "gdacs:FL:1104220": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -960,24 +962,6 @@
     "title": "Flood — Argentina",
     "track_end": true
    },
-   "gdacs:FL:1104278": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-11T13:05:57.248944+00:00",
-    "history": [
-     "Green · 12 Nov 00:05"
-    ],
-    "key": "gdacs:FL:1104278",
-    "lat": -8.8272699,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104278",
-    "lon": 13.2439512,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Angola",
-    "track_end": true
-   },
    "gdacs:FL:1104280": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1044,24 +1028,6 @@
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348",
     "lon": -173.4,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone",
-    "track_end": true
-   },
-   "gdacs:TC:1001349": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-11-07T07:26:13.194555+00:00",
-    "history": [
-     "Green · 7 Nov 18:26"
-    ],
-    "key": "gdacs:TC:1001349",
-    "lat": -11.8,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001349",
-    "lon": 50.54,
     "news": false,
     "notify": false,
     "rank": 0,
