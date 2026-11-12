@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": "2026-11-12T01:07:27.388003+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -310,24 +310,6 @@
     "notify": false,
     "rank": 0,
     "title": "'Inland ocean' of Lake Eyre Basin to be harvested under flood plain proposal",
-    "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-11T21:06:57.547483+00:00",
-    "history": [
-     "Hazard news · 12 Nov 08:06"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Thousands remain without power in Qld with more storms on the way",
     "track_end": false
    }
   },
