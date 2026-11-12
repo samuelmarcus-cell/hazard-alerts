@@ -362,26 +362,7 @@
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-12T07:23:00.148635+00:00",
-    "history": [
-     "Warning · 12 Nov 18:23"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Kimberley, North Interior and South Interior districts.",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
