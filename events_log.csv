@@ -754,3 +754,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-12T07:37:59Z,new,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,3.2083304,101.304146,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
 2026-11-12T10:08:00Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Kimberley, North Interior and South Interior districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-12T11:38:29Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Tanami district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-12T14:38:28Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21035.shtml,Warning,Severe Thunderstorm Warning - Southeast Queensland for Western Downs and South Burnett Council Areas.,,,http://reg.bom.gov.au/products/IDQ21035.shtml,no
