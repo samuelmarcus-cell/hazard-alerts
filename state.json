@@ -818,6 +818,24 @@
     "title": "Flood — Italy",
     "track_end": true
    },
+   "gdacs:FL:1104239": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-12T07:37:59.994901+00:00",
+    "history": [
+     "Green · 12 Nov 18:37"
+    ],
+    "key": "gdacs:FL:1104239",
+    "lat": 3.2083304,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
+    "lon": 101.304146,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Malaysia",
+    "track_end": true
+   },
    "gdacs:FL:1104253": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -826,10 +844,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
+    "lat": 4.3685491,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
+    "lon": 97.0253024,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1014,6 +1032,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Angola",
+    "track_end": true
+   },
+   "gdacs:FL:1104280": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-12T07:37:59.994901+00:00",
+    "history": [
+     "Green · 12 Nov 18:37"
+    ],
+    "key": "gdacs:FL:1104280",
+    "lat": 21.5122404,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104280",
+    "lon": 98.0098362,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Myanmar",
     "track_end": true
    },
    "gdacs:TC:1001347": {
