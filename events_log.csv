@@ -741,3 +741,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-11T23:21:57Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-1.4941273,-79.5542485,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-11T23:21:57Z,ended,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,4.0,101.0,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
 2026-11-11T23:52:27Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122,Hazard news,Wild spring storm blankets NSW town in hail that looks like snow,,,https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122,no
+2026-11-12T00:07:26Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Daly district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no

@@ -23,7 +23,7 @@
    "warned": false
   },
   "BBC Asia": {
-   "failing_since": null,
+   "failing_since": "2026-11-12T00:07:26.717493+00:00",
    "warned": false
   },
   "BBC World": {
@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": null,
+   "failing_since": "2026-11-12T00:07:26.717493+00:00",
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -393,26 +393,7 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-11T22:36:58.282414+00:00",
-    "history": [
-     "Warning · 12 Nov 09:36"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Daly district.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
