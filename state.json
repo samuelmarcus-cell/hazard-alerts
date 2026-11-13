@@ -279,24 +279,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-12T23:09:29.728333+00:00",
-    "history": [
-     "Hazard news · 13 Nov 10:09"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Why do supercell thunderstorms form and what makes them so dangerous?",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866": {
     "colour": 2001125,
     "emoji": "📰",
