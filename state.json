@@ -274,7 +274,8 @@
   "https://www.abc.net.au/news/2026-11-12/cfa-sickened-as-stations-targeted-across-victoria-by-thieves/107363988",
   "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
   "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-  "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700"
+  "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
+  "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866"
  ],
  "sources": {
   "ABC News": {
@@ -294,6 +295,24 @@
     "notify": false,
     "rank": 0,
     "title": "Why do supercell thunderstorms form and what makes them so dangerous?",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-13T02:09:57.834659+00:00",
+    "history": [
+     "Hazard news · 13 Nov 13:09"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Gazans desperate to create shelter from rubble in 'miserable' conditions",
     "track_end": false
    }
   },
@@ -320,14 +339,14 @@
     "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
     "track_end": false
    },
-   "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-12T15:39:03.157007+00:00",
+    "first_seen": "2026-11-13T02:09:57.834659+00:00",
     "history": [
-     "Hazard news · 13 Nov 02:39"
+     "Hazard news · 13 Nov 13:09"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
