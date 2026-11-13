@@ -277,7 +277,8 @@
   "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
   "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
   "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
-  "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
+  "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+  "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -302,27 +303,28 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
-  "BBC Asia": {},
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#3": {
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1794549291": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-11T08:35:55.795537+00:00",
+    "first_seen": "2026-11-13T10:10:29.254622+00:00",
     "history": [
-     "Hazard news · 11 Nov 19:35"
+     "Hazard news · 13 Nov 21:10"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/c8wy9y37z30vo#3",
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794549291",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+    "title": "With every rainfall, Gaza risks losing access to power and healthcare",
     "track_end": false
-   },
+   }
+  },
+  "BBC Asia": {},
+  "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1": {
     "colour": 2001125,
     "emoji": "📰",
@@ -379,7 +381,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -397,7 +399,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Toowoomba and Southern Downs Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Toowoomba and Lockyer Valley Council Areas.",
     "track_end": true
    }
   },
