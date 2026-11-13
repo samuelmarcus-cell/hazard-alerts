@@ -785,3 +785,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-13T10:55:29Z,new,WA DFES,WA DFES:830565,Watch and Act,Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - AVELEY AND ELLENBROOK,-31.77087440184132,115.98372154543839,https://emergency.wa.gov.au/warnings/6af6e976260435f966591efa,no
 2026-11-13T11:10:28Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Northern Tablelands Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
 2026-11-13T11:10:28Z,new,GDACS,gdacs:FL:1104283,Green,Flood — Thailand,15.3912084,99.4560531,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104283,no
+2026-11-13T13:41:00Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21035.shtml,Warning,Severe Thunderstorm Warning - Southeast Queensland for Somerset and Moreton Bay Council Areas.,,,http://reg.bom.gov.au/products/IDQ21035.shtml,no
