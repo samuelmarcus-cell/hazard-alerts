@@ -886,10 +886,10 @@
      "Green · 9 Nov 19:00"
     ],
     "key": "gdacs:FL:1104271",
-    "lat": 19.9781573,
+    "lat": 12.9048696,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271",
-    "lon": 105.4816107,
+    "lon": 108.2921149,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1182,14 +1182,14 @@
      "Watch and Act · 13 Nov 21:55"
     ],
     "key": "WA DFES:830565",
-    "lat": -31.77087440184132,
+    "lat": -31.768559496887647,
     "level": "Watch and Act",
     "link": "https://emergency.wa.gov.au/warnings/6af6e976260435f966591efa",
-    "lon": 115.98372154543839,
+    "lon": 115.98263825056384,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - AVELEY AND ELLENBROOK",
+    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - AVELEY, ELLENBROOK AND THE VINES",
     "track_end": true
    }
   }
