@@ -398,6 +398,24 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-13T08:25:28.849220+00:00",
+    "history": [
+     "Warning · 13 Nov 19:25"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs and Toowoomba Council Areas.",
+    "track_end": true
    }
   },
   "BoM SA": {},
