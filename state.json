@@ -396,7 +396,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt, Maranoa and Warrego and Southeast Coast Forecast Districts.",
     "track_end": true
    }
   },
@@ -1096,14 +1096,14 @@
   "Guardian World": {},
   "NSW RFS": {},
   "QLD Fire": {
-   "QLD Fire:WARN-13516": {
+   "QLD Fire:WARN-13566": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-13T03:09:58.398340+00:00",
+    "first_seen": "2026-11-13T04:24:57.889267+00:00",
     "history": [
-     "Watch and Act · 13 Nov 14:09"
+     "Watch and Act · 13 Nov 15:24"
     ],
-    "key": "QLD Fire:WARN-13516",
+    "key": "QLD Fire:WARN-13566",
     "lat": null,
     "level": "Watch and Act",
     "link": "",
@@ -1111,7 +1111,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Koah - fire as at 12:51pm Friday, 13 November 2026",
+    "title": "Watch and Act: PREPARE TO LEAVE - Koah - fire as at 2:18pm Friday, 13 November 2026",
     "track_end": true
    }
   },
