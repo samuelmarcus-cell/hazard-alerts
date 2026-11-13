@@ -358,6 +358,24 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Illawarra, Northern Tablelands, Northern Rivers, Southern Tablelands and North West Slopes and Plains Forecast Districts.",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-13T05:24:57.454467+00:00",
+    "history": [
+     "Warning · 13 Nov 16:24"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Detailed Severe Thunderstorm Warning for parts of Wollondilly/Wingecarribee area.",
+    "track_end": true
    }
   },
   "BoM NT": {
