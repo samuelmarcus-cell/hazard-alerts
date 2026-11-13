@@ -772,3 +772,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-13T04:24:57Z,ended,QLD Fire,QLD Fire:WARN-13516,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Koah - fire as at 12:51pm Friday, 13 November 2026",,,,no
 2026-11-13T04:54:58Z,new,WA DFES,WA DFES:830486,Watch and Act,Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - GREY RESERVE,-30.66230680426186,115.13812454875924,https://emergency.wa.gov.au/warnings/6af6932af42be25095df88e0,no
 2026-11-13T05:24:57Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21035.shtml,Warning,Detailed Severe Thunderstorm Warning for parts of Wollondilly/Wingecarribee area.,,,http://reg.bom.gov.au/products/IDN21035.shtml,no
+2026-11-13T06:54:58Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Simpson and Tanami districts.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
