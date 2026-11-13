@@ -344,26 +344,7 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-13T09:25:28.834365+00:00",
-    "history": [
-     "Warning · 13 Nov 20:25"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Tablelands Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -399,7 +380,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Lockyer Valley, Ipswich and Toowoomba Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Lockyer Valley and Toowoomba Council Areas.",
     "track_end": true
    }
   },
@@ -1057,6 +1038,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Dominican Republic",
+    "track_end": true
+   },
+   "gdacs:FL:1104283": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-13T11:10:28.943827+00:00",
+    "history": [
+     "Green · 13 Nov 22:10"
+    ],
+    "key": "gdacs:FL:1104283",
+    "lat": 15.3912084,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104283",
+    "lon": 99.4560531,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Thailand",
     "track_end": true
    },
    "gdacs:TC:1001347": {
