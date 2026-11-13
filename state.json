@@ -324,26 +324,7 @@
    }
   },
   "BBC Asia": {},
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-13T02:09:57.834659+00:00",
-    "history": [
-     "Hazard news · 13 Nov 13:09"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-    "track_end": false
-   }
-  },
+  "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
