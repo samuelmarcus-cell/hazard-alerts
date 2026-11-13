@@ -375,7 +375,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock, Greater Newcastle, Gosford/Wyong, Sydney and Blue Mountains/Hawkesbury areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock and Greater Newcastle areas.",
     "track_end": true
    }
   },
@@ -396,7 +396,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt, Central Highlands and Coalfields and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
     "track_end": true
    }
   },
