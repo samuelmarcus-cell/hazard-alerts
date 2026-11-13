@@ -790,3 +790,9 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-13T16:40:59Z,ended,WA DFES,WA DFES:830565,Watch and Act,Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - AVELEY AND ELLENBROOK,-31.768559496887647,115.98263825056384,https://emergency.wa.gov.au/warnings/6af6e976260435f966591efa,no
 2026-11-13T20:11:28Z,new,WA DFES,WA DFES:830624,Emergency Warning,EMERGENCY WARNING: Hazmat General Warning HAZMAT FIRE IN PIPPINGARRA AND SOUTH HEDLAND IN THE TOWN OF PORT HEDLAND,-20.41411922502231,118.61931997060952,https://emergency.wa.gov.au/warnings/6af7680a42beb90e922cef35,yes
 2026-11-13T21:11:28Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870,Hazard news,More records set in Queensland as heatwave enters its fourth straight week,,,https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104270,Green,Flood — France,49.5589537,-1.8392427,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104272,Green,Flood — Iraq,36.1911744,44.0094145,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104272,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104273,Green,Flood — Israel,32.3286181,34.8566246,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104274,Green,Flood — Syria,34.4505521,40.9170636,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104275,Green,Flood — Venezuela,10.1755763,-67.9194222,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275,no
+2026-11-13T23:26:53Z,ended,GDACS,gdacs:FL:1104281,Green,Flood — Dominican Republic,19.336389,-70.9521277,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281,no

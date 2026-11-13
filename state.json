@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1570893956315873311",
-  "map_hash": "49a1b62d7da9",
+  "attachment_id": "1570943128590885025",
+  "map_hash": "2b89c679e249",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -786,24 +786,6 @@
     "title": "Flood — Democratic Republic of Congo",
     "track_end": true
    },
-   "gdacs:FL:1104270": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-06T11:54:17.455036+00:00",
-    "history": [
-     "Green · 6 Nov 22:54"
-    ],
-    "key": "gdacs:FL:1104270",
-    "lat": 49.5589537,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": -1.8392427,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — France",
-    "track_end": true
-   },
    "gdacs:FL:1104271": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -820,78 +802,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Vietnam",
-    "track_end": true
-   },
-   "gdacs:FL:1104272": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T08:00:37.524356+00:00",
-    "history": [
-     "Green · 9 Nov 19:00"
-    ],
-    "key": "gdacs:FL:1104272",
-    "lat": 36.1911744,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104272",
-    "lon": 44.0094145,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Iraq",
-    "track_end": true
-   },
-   "gdacs:FL:1104273": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T08:00:37.524356+00:00",
-    "history": [
-     "Green · 9 Nov 19:00"
-    ],
-    "key": "gdacs:FL:1104273",
-    "lat": 32.3286181,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104273",
-    "lon": 34.8566246,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Israel",
-    "track_end": true
-   },
-   "gdacs:FL:1104274": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T08:00:37.524356+00:00",
-    "history": [
-     "Green · 9 Nov 19:00"
-    ],
-    "key": "gdacs:FL:1104274",
-    "lat": 34.4505521,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104274",
-    "lon": 40.9170636,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Syria",
-    "track_end": true
-   },
-   "gdacs:FL:1104275": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T10:16:09.217655+00:00",
-    "history": [
-     "Green · 9 Nov 21:16"
-    ],
-    "key": "gdacs:FL:1104275",
-    "lat": 10.1755763,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104275",
-    "lon": -67.9194222,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Venezuela",
     "track_end": true
    },
    "gdacs:FL:1104276": {
@@ -946,24 +856,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Myanmar",
-    "track_end": true
-   },
-   "gdacs:FL:1104281": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-12T22:09:28.713430+00:00",
-    "history": [
-     "Green · 13 Nov 09:09"
-    ],
-    "key": "gdacs:FL:1104281",
-    "lat": 19.336389,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281",
-    "lon": -70.9521277,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Dominican Republic",
     "track_end": true
    },
    "gdacs:FL:1104283": {
@@ -1136,10 +1028,10 @@
      "Emergency Warning · 14 Nov 07:11"
     ],
     "key": "WA DFES:830624",
-    "lat": -20.41411922502231,
+    "lat": -20.409529755100372,
     "level": "Emergency Warning",
     "link": "https://emergency.wa.gov.au/warnings/6af7680a42beb90e922cef35",
-    "lon": 118.61931997060952,
+    "lon": 118.64659023069032,
     "message_id": "1570893944223564006",
     "news": false,
     "notify": true,
