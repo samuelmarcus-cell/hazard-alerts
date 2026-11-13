@@ -303,26 +303,7 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794549291": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-13T10:10:29.254622+00:00",
-    "history": [
-     "Hazard news · 13 Nov 21:10"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794549291",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "With every rainfall, Gaza risks losing access to power and healthcare",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
