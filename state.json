@@ -278,26 +278,7 @@
   "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-13T02:09:57.834659+00:00",
-    "history": [
-     "Hazard news · 13 Nov 13:09"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Gazans desperate to create shelter from rubble in 'miserable' conditions",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
