@@ -357,7 +357,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, Metropolitan, Central Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mid North Coast and Hunter Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -375,7 +375,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock and Greater Newcastle areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock, Greater Newcastle and Gosford/Wyong areas.",
     "track_end": true
    }
   },
