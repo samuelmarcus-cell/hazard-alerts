@@ -276,7 +276,8 @@
   "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
   "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
-  "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010"
+  "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
+  "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather"
  ],
  "sources": {
   "ABC News": {
@@ -1074,7 +1075,26 @@
     "track_end": true
    }
   },
-  "Guardian World": {},
+  "Guardian World": {
+   "Guardian World:https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-13T09:10:29.260976+00:00",
+    "history": [
+     "Hazard news · 13 Nov 20:10"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+    "track_end": false
+   }
+  },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
