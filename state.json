@@ -275,10 +275,30 @@
   "https://www.abc.net.au/news/2026-11-12/mid-north-coast-storm-damage-hail/107376122",
   "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-13/queensland-supercell-thunderstorm-explainer/107378700",
-  "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866"
+  "https://www.abc.net.au/news/2026-11-13/scramble-for-materials-shelter-gaza-flood-storms/107377866",
+  "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-13T07:09:58.119410+00:00",
+    "history": [
+     "Hazard news · 13 Nov 18:09"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Man who burned shoebox of tax records fined for resulting bushfire",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
@@ -337,7 +357,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, Hunter, Metropolitan, Northern Tablelands, Central Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, Metropolitan, Central Tablelands and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -355,7 +375,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury and Sydney areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock, Greater Newcastle, Gosford/Wyong, Sydney and Blue Mountains/Hawkesbury areas.",
     "track_end": true
    }
   },
@@ -1075,26 +1095,7 @@
   },
   "Guardian World": {},
   "NSW RFS": {},
-  "QLD Fire": {
-   "QLD Fire:WARN-13566": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-13T04:24:57.889267+00:00",
-    "history": [
-     "Watch and Act · 13 Nov 15:24"
-    ],
-    "key": "QLD Fire:WARN-13566",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Koah - fire as at 2:18pm Friday, 13 November 2026",
-    "track_end": true
-   }
-  },
+  "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
@@ -1151,26 +1152,7 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {
-   "WA DFES:830486": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-13T04:54:58.099802+00:00",
-    "history": [
-     "Watch and Act · 13 Nov 15:54"
-    ],
-    "key": "WA DFES:830486",
-    "lat": -30.66230680426186,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6af6932af42be25095df88e0",
-    "lon": 115.13812454875924,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - GREY RESERVE",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
