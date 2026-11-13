@@ -337,7 +337,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Illawarra, Northern Tablelands, Northern Rivers, Southern Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast, Hunter, Metropolitan, Northern Tablelands, Central Tablelands and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -355,7 +355,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Wollondilly/Wingecarribee and Greater Wollongong areas.",
+    "title": "Detailed Severe Thunderstorm Warning for parts of Blue Mountains/Hawkesbury and Sydney areas.",
     "track_end": true
    }
   },
@@ -395,7 +395,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt, Maranoa and Warrego and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt, Central Highlands and Coalfields and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
