@@ -281,26 +281,7 @@
   "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-13T07:09:58.119410+00:00",
-    "history": [
-     "Hazard news · 13 Nov 18:09"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-13/michael-john-davis-fined-2025-stieglitz-bushfire/107383010",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Man who burned shoebox of tax records fined for resulting bushfire",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
