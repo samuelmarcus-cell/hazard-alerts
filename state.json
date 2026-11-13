@@ -356,7 +356,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Tablelands and parts of Mid North Coast, Northern Rivers and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mid North Coast, Illawarra, Northern Tablelands, Northern Rivers, Southern Tablelands and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -1171,7 +1171,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:830486": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-13T04:54:58.099802+00:00",
+    "history": [
+     "Watch and Act · 13 Nov 15:54"
+    ],
+    "key": "WA DFES:830486",
+    "lat": -30.66230680426186,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6af6932af42be25095df88e0",
+    "lon": 115.13812454875924,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - GREY RESERVE",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
