@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1568765247731540118",
-  "map_hash": "3bb55c9d9dd0",
+  "attachment_id": "1570893956315873311",
+  "map_hash": "49a1b62d7da9",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1098,7 +1098,55 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:830624": {
+    "attachment_id": "1570893943908859954",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "There is a HAZMAT Fire at South Hedland near Outer Ring Road in SOUTH HEDLAND in the TOWN OF PORT HEDLAND.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Area",
+       "value": "There is a HAZMAT Fire at South Hedland near Outer Ring Road in SOUTH HEDLAND in\nthe TOWN OF PORT HEDLAND."
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Chemical"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-20.4141&mlon=118.6193#map=8/-20.4141/118.6193)"
+      }
+     ],
+     "footer": {
+      "text": "WA DFES"
+     },
+     "timestamp": "2026-11-13T20:11:41.181539+00:00",
+     "title": "⚠️ EMERGENCY WARNING: Hazmat General Warning HAZMAT FIRE IN PIPPINGARRA AND SOUTH HEDLAND IN THE TOWN OF PORT HEDLAND",
+     "url": "https://emergency.wa.gov.au/warnings/6af7680a42beb90e922cef35"
+    },
+    "emoji": "⚠️",
+    "first_seen": "2026-11-13T20:11:28.704632+00:00",
+    "history": [
+     "Emergency Warning · 14 Nov 07:11"
+    ],
+    "key": "WA DFES:830624",
+    "lat": -20.41411922502231,
+    "level": "Emergency Warning",
+    "link": "https://emergency.wa.gov.au/warnings/6af7680a42beb90e922cef35",
+    "lon": 118.61931997060952,
+    "message_id": "1570893944223564006",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Hazmat General Warning HAZMAT FIRE IN PIPPINGARRA AND SOUTH HEDLAND IN THE TOWN OF PORT HEDLAND",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
