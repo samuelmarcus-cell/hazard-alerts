@@ -766,3 +766,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-13T02:09:57Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/articles/cr894w453e90o#1,Hazard news,Suspected bomb hoax threats force fresh evacuations of Italian schools,,,https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss,no
 2026-11-13T02:39:57Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Northern Tablelands Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
 2026-11-13T02:39:57Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-11-13T03:09:58Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Tanami district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-13T03:09:58Z,new,QLD Fire,QLD Fire:WARN-13516,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Koah - fire as at 12:51pm Friday, 13 November 2026",,,,no

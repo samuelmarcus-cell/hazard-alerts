@@ -374,11 +374,30 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Northern Tablelands Forecast District.",
+    "title": "Severe Thunderstorm Warning for Northern Tablelands and parts of Mid North Coast, Northern Rivers and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-13T03:09:58.398340+00:00",
+    "history": [
+     "Warning · 13 Nov 14:09"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Tanami district.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
     "colour": 16088064,
@@ -1094,7 +1113,26 @@
   },
   "Guardian World": {},
   "NSW RFS": {},
-  "QLD Fire": {},
+  "QLD Fire": {
+   "QLD Fire:WARN-13516": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-13T03:09:58.398340+00:00",
+    "history": [
+     "Watch and Act · 13 Nov 14:09"
+    ],
+    "key": "QLD Fire:WARN-13516",
+    "lat": null,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: PREPARE TO LEAVE - Koah - fire as at 12:51pm Friday, 13 November 2026",
+    "track_end": true
+   }
+  },
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
