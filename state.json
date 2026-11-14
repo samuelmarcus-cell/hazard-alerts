@@ -287,26 +287,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794626941": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-14T04:42:26.667410+00:00",
-    "history": [
-     "Hazard news · 14 Nov 15:42"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794626941",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
