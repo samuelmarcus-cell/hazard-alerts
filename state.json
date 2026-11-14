@@ -282,26 +282,7 @@
   "https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-13T21:11:28.849503+00:00",
-    "history": [
-     "Hazard news · 14 Nov 08:11"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "More records set in Queensland as heatwave set to enter fourth week",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
