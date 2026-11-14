@@ -280,7 +280,8 @@
   "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
   "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
+  "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood"
  ],
  "sources": {
   "ABC News": {},
@@ -988,6 +989,24 @@
     "notify": false,
     "rank": 0,
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-14T07:27:27.229625+00:00",
+    "history": [
+     "Hazard news · 14 Nov 18:27"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
     "track_end": false
    }
   },
