@@ -970,6 +970,24 @@
     "rank": 0,
     "title": "Watch and Act: H POTS FIRE, CESSNOCK",
     "track_end": true
+   },
+   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685503": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-14T04:11:53.579746+00:00",
+    "history": [
+     "Watch and Act · 14 Nov 15:11"
+    ],
+    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685503",
+    "lat": -32.43456599999996,
+    "level": "Watch and Act",
+    "link": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+    "lon": 148.576319,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: OBLEY RD, TOONGI",
+    "track_end": true
    }
   },
   "QLD Fire": {},
