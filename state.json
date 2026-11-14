@@ -281,7 +281,8 @@
   "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870",
   "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
-  "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood"
+  "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+  "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026"
  ],
  "sources": {
   "ABC News": {},
@@ -969,6 +970,24 @@
     "notify": false,
     "rank": 0,
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-14T13:27:51.254406+00:00",
+    "history": [
+     "Hazard news · 15 Nov 00:27"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
     "track_end": false
    }
   },
