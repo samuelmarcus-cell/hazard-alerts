@@ -368,7 +368,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Wheat Belt district.",
+    "title": "Severe Thunderstorm Warning for parts of Central Wheat Belt and Goldfields districts.",
     "track_end": true
    }
   },
@@ -991,26 +991,7 @@
     "track_end": false
    }
   },
-  "NSW RFS": {
-   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685500": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-14T03:56:53.981921+00:00",
-    "history": [
-     "Watch and Act · 14 Nov 14:56"
-    ],
-    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685500",
-    "lat": -32.85638462299994,
-    "level": "Watch and Act",
-    "link": "https://www.rfs.nsw.gov.au/fire-information/major-fire-updates",
-    "lon": 151.36877060000006,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: H POTS FIRE, CESSNOCK",
-    "track_end": true
-   }
-  },
+  "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
