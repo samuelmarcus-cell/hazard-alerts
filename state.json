@@ -294,26 +294,7 @@
   "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-14T13:12:50.953115+00:00",
-    "history": [
-     "Warning · 15 Nov 00:12"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West and Capricornia Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -770,6 +751,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Indonesia",
+    "track_end": true
+   },
+   "gdacs:FL:1104259": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-14T15:58:19.458858+00:00",
+    "history": [
+     "Green · 15 Nov 02:58"
+    ],
+    "key": "gdacs:FL:1104259",
+    "lat": -3.9269154,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
+    "lon": -80.6388062,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Peru",
     "track_end": true
    },
    "gdacs:FL:1104269": {
