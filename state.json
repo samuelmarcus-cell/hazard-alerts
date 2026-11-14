@@ -306,7 +306,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Illawarra, Southern Tablelands and Central Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Illawarra and Southern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -807,6 +807,24 @@
     "title": "Flood — Democratic Republic of Congo",
     "track_end": true
    },
+   "gdacs:FL:1104270": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-14T10:27:50.488684+00:00",
+    "history": [
+     "Green · 14 Nov 21:27"
+    ],
+    "key": "gdacs:FL:1104270",
+    "lat": 43.5439153,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
+    "lon": 6.9359135,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — France",
+    "track_end": true
+   },
    "gdacs:FL:1104271": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -951,24 +969,6 @@
     "notify": false,
     "rank": 0,
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-14T07:27:27.229625+00:00",
-    "history": [
-     "Hazard news · 14 Nov 18:27"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
     "track_end": false
    }
   },
