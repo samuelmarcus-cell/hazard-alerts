@@ -815,3 +815,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-14T14:27:50Z,new,Guardian World,Guardian World:https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb,Hazard news,"Bomb found at Illinois ethanol plant, prompting evacuations",,,https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb,no
 2026-11-14T15:58:19Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West and Capricornia Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-14T15:58:19Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-3.9269154,-80.6388062,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-11-14T23:29:07Z,ended,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,3.2083304,101.304146,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-11-14T23:29:07Z,ended,GDACS,gdacs:FL:1104277,Green,Flood — Argentina,-31.7114309,-60.5657773,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277,no
