@@ -295,7 +295,26 @@
   "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-15T17:46:01.805164+00:00",
+    "history": [
+     "Warning · 16 Nov 04:46"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Moderate Flood Warning for the Warrill Creek",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
