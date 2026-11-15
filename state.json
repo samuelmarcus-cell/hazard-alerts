@@ -309,7 +309,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Northern Tablelands and parts of Hunter and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Rivers, Northern Tablelands and parts of Mid North Coast and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -330,7 +330,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West, Central West, Maranoa and Warrego, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of North West, Central Highlands and Coalfields, Central West, Maranoa and Warrego, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
