@@ -817,3 +817,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-14T15:58:19Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-3.9269154,-80.6388062,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
 2026-11-14T23:29:07Z,ended,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,3.2083304,101.304146,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
 2026-11-14T23:29:07Z,ended,GDACS,gdacs:FL:1104277,Green,Flood — Argentina,-31.7114309,-60.5657773,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277,no
+2026-11-15T01:44:38Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, North West Slopes and Plains and Northern Tablelands Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-15T01:44:38Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21035.shtml,Warning,Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock and Greater Newcastle areas.,,,http://reg.bom.gov.au/products/IDN21035.shtml,no
