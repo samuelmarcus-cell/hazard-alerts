@@ -309,7 +309,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Hunter, Northern Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Hunter, North West Slopes and Plains, Northern Tablelands and Northern Rivers Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
@@ -1010,7 +1010,26 @@
     "track_end": false
    }
   },
-  "NSW RFS": {},
+  "NSW RFS": {
+   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685624": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-15T04:14:38.030820+00:00",
+    "history": [
+     "Watch and Act · 15 Nov 15:14"
+    ],
+    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/685624",
+    "lat": -35.30505371099997,
+    "level": "Watch and Act",
+    "link": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+    "lon": 143.6408538820001,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: SWAN HILL RD, MURRAY DOWNS",
+    "track_end": true
+   }
+  },
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
