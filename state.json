@@ -314,44 +314,7 @@
     "track_end": true
    }
   },
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-15T05:59:37.916058+00:00",
-    "history": [
-     "Warning · 15 Nov 16:59"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-15T07:15:00.970042+00:00",
-    "history": [
-     "Warning · 15 Nov 18:15"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Toowoomba and Western Downs Council Areas.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
