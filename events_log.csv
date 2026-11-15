@@ -832,3 +832,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-15T11:00:00Z,new,QLD Fire,QLD Fire:WARN-13798,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 8:41pm Sunday, 15 November 2026",,,,no
 2026-11-15T11:00:00Z,ended,QLD Fire,QLD Fire:WARN-13679,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 3:53pm Sunday, 15 November 2026",,,,no
 2026-11-15T11:15:00Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Arnhem and Carpentaria districts.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-15T12:15:29Z,ended,QLD Fire,QLD Fire:WARN-13798,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 8:41pm Sunday, 15 November 2026",,,,no

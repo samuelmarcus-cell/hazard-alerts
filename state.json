@@ -1067,26 +1067,7 @@
    }
   },
   "NSW RFS": {},
-  "QLD Fire": {
-   "QLD Fire:WARN-13798": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-15T11:00:00.840512+00:00",
-    "history": [
-     "Watch and Act · 15 Nov 22:00"
-    ],
-    "key": "QLD Fire:WARN-13798",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 8:41pm Sunday, 15 November 2026",
-    "track_end": true
-   }
-  },
+  "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
