@@ -283,7 +283,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
   "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
   "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-  "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb"
+  "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+  "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike"
  ],
  "sources": {
   "ABC News": {},
@@ -936,6 +937,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-15T02:14:37.546462+00:00",
+    "history": [
+     "Hazard news · 15 Nov 13:14"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Thunderstorms, giant hail and powerful winds forecast for NSW as wild weather hits east coast",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather": {
     "colour": 2001125,
     "emoji": "📰",
