@@ -826,3 +826,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-15T05:59:37Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-15T05:59:37Z,new,QLD Fire,QLD Fire:WARN-13679,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 3:53pm Sunday, 15 November 2026",,,,no
 2026-11-15T07:00:00Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
+2026-11-15T07:15:00Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21035.shtml,Warning,Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs Council Area.,,,http://reg.bom.gov.au/products/IDQ21035.shtml,no
