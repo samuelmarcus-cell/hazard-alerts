@@ -326,24 +326,6 @@
     "rank": 0,
     "title": "Giant hail, heavy rain and damaging winds possible for south-east Qld",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-15T20:16:02.171625+00:00",
-    "history": [
-     "Hazard news · 16 Nov 07:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Thredbo landslide survivor shares split-second decision that saved his life",
-    "track_end": false
    }
   },
   "ACT ESA": {},
