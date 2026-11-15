@@ -309,12 +309,31 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Northern Rivers, Hunter, North West Slopes and Plains and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Northern Tablelands and parts of Hunter and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-15T05:59:37.916058+00:00",
+    "history": [
+     "Warning · 15 Nov 16:59"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -993,7 +1012,26 @@
    }
   },
   "NSW RFS": {},
-  "QLD Fire": {},
+  "QLD Fire": {
+   "QLD Fire:WARN-13679": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-15T05:59:37.916058+00:00",
+    "history": [
+     "Watch and Act · 15 Nov 16:59"
+    ],
+    "key": "QLD Fire:WARN-13679",
+    "lat": null,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: PREPARE TO LEAVE - Shanty Creek Road (near Mareeba) - fire as at 3:53pm Sunday, 15 November 2026",
+    "track_end": true
+   }
+  },
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
