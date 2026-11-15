@@ -291,24 +291,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-15T20:16:02.171625+00:00",
-    "history": [
-     "Hazard news · 16 Nov 07:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Oil, smoke, AI and Myanmar among key topics at ASEAN summit",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434": {
     "colour": 2001125,
     "emoji": "📰",
@@ -795,42 +777,6 @@
     "title": "Flood — Indonesia",
     "track_end": true
    },
-   "gdacs:FL:1104259": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-14T15:58:19.458858+00:00",
-    "history": [
-     "Green · 15 Nov 02:58"
-    ],
-    "key": "gdacs:FL:1104259",
-    "lat": -3.9269154,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
-    "lon": -80.6388062,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Peru",
-    "track_end": true
-   },
-   "gdacs:FL:1104269": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-11T13:05:57.248944+00:00",
-    "history": [
-     "Green · 12 Nov 00:05"
-    ],
-    "key": "gdacs:FL:1104269",
-    "lat": 3.0276731,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
-    "lon": 19.3657958,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Democratic Republic of Congo",
-    "track_end": true
-   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -919,24 +865,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Thailand",
-    "track_end": true
-   },
-   "gdacs:TC:1001347": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-11-06T08:09:18.230934+00:00",
-    "history": [
-     "Green · 6 Nov 19:09"
-    ],
-    "key": "gdacs:TC:1001347",
-    "lat": 30.2,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347",
-    "lon": 154.1,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone — Japan",
     "track_end": true
    },
    "gdacs:TC:1001348": {
