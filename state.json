@@ -284,10 +284,30 @@
   "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
   "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
   "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-  "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike"
+  "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
+  "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-15T20:01:01.633073+00:00",
+    "history": [
+     "Hazard news · 16 Nov 07:01"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Giant hail, heavy rain and damaging winds possible for south-east Qld",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
@@ -925,10 +945,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -8.4,
+    "lat": -8.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -158.9,
+    "lon": -160.1,
     "news": false,
     "notify": false,
     "rank": 0,
