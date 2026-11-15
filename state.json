@@ -285,10 +285,30 @@
   "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
   "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
   "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
-  "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434"
+  "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
+  "https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
+  "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-15T20:16:02.171625+00:00",
+    "history": [
+     "Hazard news · 16 Nov 07:16"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Oil, smoke and Myanmar: The key issues facing South-East Asia",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434": {
     "colour": 2001125,
     "emoji": "📰",
@@ -305,6 +325,24 @@
     "notify": false,
     "rank": 0,
     "title": "Giant hail, heavy rain and damaging winds possible for south-east Qld",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-15T20:16:02.171625+00:00",
+    "history": [
+     "Hazard news · 16 Nov 07:16"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Thredbo landslide survivor shares split-second decision that saved his life",
     "track_end": false
    }
   },
