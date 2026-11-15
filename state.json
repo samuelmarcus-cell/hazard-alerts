@@ -309,25 +309,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Hunter, North West Slopes and Plains, Northern Tablelands and Northern Rivers Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-15T01:44:38.287815+00:00",
-    "history": [
-     "Warning · 15 Nov 12:44"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Detailed Severe Thunderstorm Warning for parts of Maitland/Cessnock and Greater Newcastle areas.",
+    "title": "Severe Thunderstorm Warning for Mid North Coast and parts of Northern Rivers, Hunter, North West Slopes and Plains and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
