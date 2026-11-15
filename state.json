@@ -294,26 +294,7 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-15T11:15:00.728331+00:00",
-    "history": [
-     "Warning · 15 Nov 22:15"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Daly and Arnhem districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
@@ -971,24 +952,6 @@
     "notify": false,
     "rank": 0,
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-14T14:27:50.881607+00:00",
-    "history": [
-     "Hazard news · 15 Nov 01:27"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026": {
