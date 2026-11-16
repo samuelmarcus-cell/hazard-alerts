@@ -294,24 +294,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T04:16:59.924365+00:00",
-    "history": [
-     "Hazard news · 16 Nov 15:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hailstorm blankets Mudgee as giant hail warning issued for north-east NSW",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998": {
     "colour": 2001125,
     "emoji": "📰",
@@ -392,7 +374,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southeast Coast and parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Capricornia, Southeast Coast and parts of Central Highlands and Coalfields and Wide Bay and Burnett Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -410,7 +392,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Somerset, Scenic Rim, Southern Downs, Toowoomba, Lockyer Valley, Gold Coast, Sunshine Coast, Brisbane City and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Lockyer Valley, Brisbane City, Moreton Bay and Ipswich Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
@@ -471,6 +453,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Goldfields and South Interior districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-16T07:01:59.816499+00:00",
+    "history": [
+     "Warning · 16 Nov 18:01"
+    ],
+    "key": "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for Burrup fire weather district",
     "track_end": true
    }
   },
