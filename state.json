@@ -291,7 +291,8 @@
   "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
   "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
-  "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction"
+  "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
+  "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {
@@ -337,7 +338,26 @@
    }
   },
   "BBC Asia": {},
-  "BBC World": {},
+  "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o#3": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T08:31:59.506979+00:00",
+    "history": [
+     "Hazard news · 16 Nov 19:31"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o#3",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Libyan town rebuilt after devastating floods becomes showcase for strongman's rule",
+    "track_end": false
+   }
+  },
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -356,7 +376,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Capricornia, Southeast Coast and parts of Central Highlands and Coalfields and Wide Bay and Burnett Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Capricornia and parts of Central Highlands and Coalfields, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -374,7 +394,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Gold Coast, Redland City, Sunshine Coast and Moreton Bay Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Gympie, Gold Coast, Redland City, Sunshine Coast, Noosa and Moreton Bay Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
@@ -396,26 +416,7 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-16T06:02:00.029666+00:00",
-    "history": [
-     "Warning · 16 Nov 17:02"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {
@@ -434,7 +435,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Goldfields and South Interior districts.",
+    "title": "Severe Thunderstorm Warning for parts of South Interior and Goldfields districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
@@ -1080,10 +1081,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -8.1,
+    "lat": -8.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -160.1,
+    "lon": -161.0,
     "news": false,
     "notify": false,
     "rank": 0,
