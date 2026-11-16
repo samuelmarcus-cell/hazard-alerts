@@ -352,7 +352,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Northern Tablelands and parts of Hunter, Central Tablelands and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Northern Tablelands and parts of Hunter and North West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -391,7 +391,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Southern Downs, Toowoomba, Lockyer Valley, Sunshine Coast, Noosa, Brisbane City, Moreton Bay, Ipswich and Scenic Rim Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Ipswich, Somerset, Scenic Rim, Southern Downs, Toowoomba, Lockyer Valley, Sunshine Coast, Noosa, Brisbane City, Moreton Bay, Gympie and Gold Coast Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
