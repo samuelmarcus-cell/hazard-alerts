@@ -852,3 +852,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-16T06:02:00Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-16T06:02:00Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-16T06:02:00Z,new,QLD Fire,QLD Fire:WARN-13871,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Gilmore Road (Mareeba) - fire as at 3:57pm Monday, 16 November 2026",,,,no
+2026-11-16T06:32:00Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998,Hazard news,Hail as heavy as snow seen as severe thunderstorms his southern Queensland,,,https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998,no

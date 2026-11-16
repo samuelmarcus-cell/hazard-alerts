@@ -289,7 +289,8 @@
   "https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
   "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
   "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
-  "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998"
  ],
  "sources": {
   "ABC News": {
@@ -309,6 +310,24 @@
     "notify": false,
     "rank": 0,
     "title": "Hailstorm blankets Mudgee as giant hail warning issued for north-east NSW",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T06:32:00.023060+00:00",
+    "history": [
+     "Hazard news · 16 Nov 17:32"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Hail as heavy as snow seen as severe thunderstorms his southern Queensland",
     "track_end": false
    }
   },
