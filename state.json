@@ -954,10 +954,10 @@
      "Green · 14 Nov 21:27"
     ],
     "key": "gdacs:FL:1104270",
-    "lat": 43.5439153,
+    "lat": 43.5586003,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": 6.9359135,
+    "lon": 3.9502006,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1052,6 +1052,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Thailand",
+    "track_end": true
+   },
+   "gdacs:FL:1104285": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-16T07:16:59.408757+00:00",
+    "history": [
+     "Green · 16 Nov 18:16"
+    ],
+    "key": "gdacs:FL:1104285",
+    "lat": 45.4444467,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285",
+    "lon": 14.3743376,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Croatia",
     "track_end": true
    },
    "gdacs:TC:1001348": {

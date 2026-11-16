@@ -857,3 +857,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-16T06:47:00Z,new,GDACS,gdacs:FL:1104216,Green,Flood — Brazil,-23.5234284,-46.1926671,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216,no
 2026-11-16T06:47:00Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.2118899,-79.9111399,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-16T07:01:59Z,new,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,Fire Weather Warning for Burrup fire weather district,,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
+2026-11-16T07:16:59Z,new,GDACS,gdacs:FL:1104285,Green,Flood — Croatia,45.4444467,14.3743376,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285,no
