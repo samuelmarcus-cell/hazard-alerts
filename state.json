@@ -377,7 +377,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Capricornia and parts of Central Coast and Whitsundays, Central Highlands and Coalfields, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Coast and Whitsundays, Capricornia, Wide Bay and Burnett and Southeast Coast Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
@@ -920,10 +920,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 4.3685491,
+    "lat": -7.3032412,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 97.0253024,
+    "lon": 110.0044145,
     "news": false,
     "notify": false,
     "rank": 0,
