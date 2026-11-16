@@ -333,7 +333,25 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt, Southeast Coast and Wide Bay and Burnett Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Wide Bay and Burnett, Darling Downs and Granite Belt and Southeast Coast Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-16T03:16:29.292283+00:00",
+    "history": [
+     "Warning · 16 Nov 14:16"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Toowoomba, Sunshine Coast, Noosa and Gympie Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
