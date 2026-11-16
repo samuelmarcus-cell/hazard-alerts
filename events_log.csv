@@ -858,3 +858,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-16T06:47:00Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.2118899,-79.9111399,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-16T07:01:59Z,new,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,Fire Weather Warning for Burrup fire weather district,,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
 2026-11-16T07:16:59Z,new,GDACS,gdacs:FL:1104285,Green,Flood — Croatia,45.4444467,14.3743376,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285,no
+2026-11-16T07:32:00Z,ended,QLD Fire,QLD Fire:WARN-13871,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Gilmore Road (Mareeba) - fire as at 3:57pm Monday, 16 November 2026",,,,no
+2026-11-16T07:32:00Z,new,Guardian World,Guardian World:https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction,Hazard news,‘It’s like the 16th-century version of doomscrolling’: the Book of Miracles may fetch £1m at auction,,,https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction,no

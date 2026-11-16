@@ -290,7 +290,8 @@
   "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
   "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
   "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998"
+  "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
+  "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction"
  ],
  "sources": {
   "ABC News": {
@@ -392,7 +393,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Lockyer Valley, Brisbane City, Moreton Bay and Ipswich Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Somerset, Brisbane City and Moreton Bay Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
@@ -1110,6 +1111,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T07:32:00.307796+00:00",
+    "history": [
+     "Hazard news · 16 Nov 18:32"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "‘It’s like the 16th-century version of doomscrolling’: the Book of Miracles may fetch £1m at auction",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1148,26 +1167,7 @@
    }
   },
   "NSW RFS": {},
-  "QLD Fire": {
-   "QLD Fire:WARN-13871": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-16T06:02:00.029666+00:00",
-    "history": [
-     "Watch and Act · 16 Nov 17:02"
-    ],
-    "key": "QLD Fire:WARN-13871",
-    "lat": null,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Gilmore Road (Mareeba) - fire as at 3:57pm Monday, 16 November 2026",
-    "track_end": true
-   }
-  },
+  "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
   "US fires": {
