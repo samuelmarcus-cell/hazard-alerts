@@ -295,10 +295,30 @@
   "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
   "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T22:18:30.106964+00:00",
+    "history": [
+     "Hazard news · 17 Nov 09:18"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Breaking: Magnitude-6.6 earthquake tremors felt in Darwin",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
