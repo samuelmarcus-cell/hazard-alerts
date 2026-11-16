@@ -288,7 +288,8 @@
   "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
   "https://www.abc.net.au/news/2026-11-16/key-issues-on-agenda-at-asean-summit-2026/107384284",
   "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102",
-  "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400"
+  "https://www.abc.net.au/news/2026-11-16/hailstorm-blankets-mudgee-storm-warning-issued/107390400",
+  "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -313,7 +314,26 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1794792636": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T04:31:59.453423+00:00",
+    "history": [
+     "Hazard news · 16 Nov 15:31"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794792636",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {
@@ -353,7 +373,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Southeast Coast and parts of Central Highlands and Coalfields, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Southeast Coast and parts of Central Highlands and Coalfields, Capricornia, Wide Bay and Burnett and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
