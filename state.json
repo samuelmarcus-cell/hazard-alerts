@@ -298,26 +298,7 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T06:32:00.023060+00:00",
-    "history": [
-     "Hazard news · 16 Nov 17:32"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hail as heavy as snow seen as severe thunderstorms hit southern Queensland",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
