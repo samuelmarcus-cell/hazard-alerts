@@ -290,26 +290,7 @@
   "https://www.abc.net.au/news/2026-11-16/stuart-diver-thredbo-landslide-survivor-reflects-thing-saved-him/107349102"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-15T20:01:01.633073+00:00",
-    "history": [
-     "Hazard news · 16 Nov 07:01"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-16/severe-storms-south-east-qld-heatwave-north/107387434",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Giant hail, heavy rain and damaging winds possible for south-east Qld",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
