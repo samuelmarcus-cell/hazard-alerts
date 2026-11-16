@@ -327,7 +327,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Hail as heavy as snow seen as severe thunderstorms his southern Queensland",
+    "title": "Hail as heavy as snow seen as severe thunderstorms hit southern Queensland",
     "track_end": false
    }
   },
@@ -371,7 +371,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Rivers, Mid North Coast, Northern Tablelands and parts of Hunter and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers Forecast District.",
     "track_end": true
    }
   },
@@ -470,7 +470,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of South Interior district.",
+    "title": "Severe Thunderstorm Warning for parts of Goldfields and South Interior districts.",
     "track_end": true
    }
   },
@@ -874,6 +874,42 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1104167": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-16T06:47:00.195384+00:00",
+    "history": [
+     "Green · 16 Nov 17:47"
+    ],
+    "key": "gdacs:FL:1104167",
+    "lat": -2.2118899,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
+    "lon": -79.9111399,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ecuador",
+    "track_end": true
+   },
+   "gdacs:FL:1104216": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-16T06:47:00.195384+00:00",
+    "history": [
+     "Green · 16 Nov 17:47"
+    ],
+    "key": "gdacs:FL:1104216",
+    "lat": -23.5234284,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
+    "lon": -46.1926671,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Brazil",
+    "track_end": true
+   },
    "gdacs:FL:1104220": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -962,6 +998,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Portugal",
+    "track_end": true
+   },
+   "gdacs:FL:1104277": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-16T06:47:00.195384+00:00",
+    "history": [
+     "Green · 16 Nov 17:47"
+    ],
+    "key": "gdacs:FL:1104277",
+    "lat": -27.7758659,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277",
+    "lon": -67.171292,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Argentina",
     "track_end": true
    },
    "gdacs:FL:1104280": {
