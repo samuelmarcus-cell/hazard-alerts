@@ -318,26 +318,7 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794792636": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T04:31:59.453423+00:00",
-    "history": [
-     "Hazard news · 16 Nov 15:31"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794792636",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o#3": {
@@ -355,7 +336,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Libyan town rebuilt after devastating floods becomes showcase for strongman's rule",
+    "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
     "track_end": false
    }
   },
