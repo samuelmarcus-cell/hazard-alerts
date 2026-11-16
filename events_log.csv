@@ -844,3 +844,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-15T23:16:29Z,ended,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-3.9269154,-80.6388062,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
 2026-11-15T23:16:29Z,ended,GDACS,gdacs:FL:1104269,Green,Flood — Democratic Republic of Congo,3.0276731,19.3657958,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269,no
 2026-11-15T23:16:29Z,ended,GDACS,gdacs:TC:1001347,Green,Tropical cyclone — Japan,30.2,154.1,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001347,no
+2026-11-16T01:16:29Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Mid North Coast, Hunter, Central Tablelands, North West Slopes and Plains and Northern Tablelands Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
