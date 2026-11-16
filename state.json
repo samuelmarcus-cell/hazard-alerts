@@ -293,7 +293,8 @@
   "https://www.abc.net.au/news/2026-11-16/south-east-queensland-severe-thunderstorms/107379998",
   "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
   "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-  "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado"
+  "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
+  "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown"
  ],
  "sources": {
   "ABC News": {
@@ -1091,6 +1092,24 @@
     "notify": false,
     "rank": 0,
     "title": "Delaware hit by rare November tornado",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-16T12:32:25.000769+00:00",
+    "history": [
+     "Hazard news · 16 Nov 23:32"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "‘When the sun came out it felt like it opened a scar’ – This is climate breakdown",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026": {
