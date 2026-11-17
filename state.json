@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1572262571195498506",
-  "map_hash": "3896075f57c7",
+  "attachment_id": "1572341965729828995",
+  "map_hash": "9ef02c5299e6",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1052,7 +1052,7 @@
      "Orange · 17 Nov 07:18"
     ],
     "key": "gdacs:TC:1001351",
-    "lat": 12.2,
+    "lat": 13.1,
     "level": "Orange",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
     "lon": 87.3,
