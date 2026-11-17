@@ -352,6 +352,24 @@
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-17T03:33:53.660713+00:00",
+    "history": [
+     "Warning · 17 Nov 14:33"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Goldfields and South Interior districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
     "colour": 16088064,
     "emoji": "🔥",

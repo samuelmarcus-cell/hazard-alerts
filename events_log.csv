@@ -878,3 +878,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-16T23:18:30Z,ended,GDACS,gdacs:TC:1001348,Green,Tropical cyclone,9.8,-173.4,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001348,no
 2026-11-17T01:18:54Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml,Warning,Moderate Flood Warning for the Warrill Creek,,,http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml,no
 2026-11-17T03:03:53Z,new,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml,Warning,Moderate Flood Warning for the Lower Condamine River,,,http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml,no
+2026-11-17T03:33:53Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of Goldfields and South Interior districts.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
