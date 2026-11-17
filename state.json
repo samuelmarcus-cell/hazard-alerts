@@ -324,7 +324,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
+    "title": "Severe Thunderstorm Warning for Lasseter and parts of Tanami districts.",
     "track_end": true
    }
   },
@@ -386,25 +386,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Goldfields, Eucla, North Interior and South Interior districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
-    "colour": 16088064,
-    "emoji": "🔥",
-    "first_seen": "2026-11-16T07:01:59.816499+00:00",
-    "history": [
-     "Warning · 16 Nov 18:01"
-    ],
-    "key": "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/wa/warnings/fire.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Fire Weather Warning for Burrup fire weather district",
+    "title": "Severe Thunderstorm Warning for parts of Goldfields, North Interior, South Interior and Eucla districts.",
     "track_end": true
    }
   },
