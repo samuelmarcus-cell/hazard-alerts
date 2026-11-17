@@ -890,3 +890,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-17T10:04:25Z,ended,QLD Fire,QLD Fire:WARN-13973,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 4:53pm Tuesday, 17 November 2026",,,,no
 2026-11-17T10:49:25Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lasseter district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-11-17T13:34:53Z,ended,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,Fire Weather Warning for Burrup fire weather district,,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
+2026-11-17T16:35:22Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for Lasseter and parts of Tanami districts.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-17T16:35:22Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
+2026-11-17T16:35:22Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Goldfields, North Interior, South Interior and Eucla districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no

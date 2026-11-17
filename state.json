@@ -308,26 +308,7 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-17T10:49:25.147461+00:00",
-    "history": [
-     "Warning · 17 Nov 21:49"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for Lasseter and parts of Tanami districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
     "colour": 16088064,
@@ -348,48 +329,10 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-17T09:04:25.052891+00:00",
-    "history": [
-     "Warning · 17 Nov 20:04"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-17T03:33:53.660713+00:00",
-    "history": [
-     "Warning · 17 Nov 14:33"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Goldfields, North Interior, South Interior and Eucla districts.",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
