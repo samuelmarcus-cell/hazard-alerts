@@ -298,13 +298,34 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396",
   "https://www.abc.net.au/news/2026-11-17/possible-tornado-south-west-rocks/107393272",
-  "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory"
+  "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory",
+  "https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1794936808": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-17T19:35:23.078712+00:00",
+    "history": [
+     "Hazard news · 18 Nov 06:35"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794936808",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Monster waves threaten California coast as storms intensify",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
@@ -1078,6 +1099,24 @@
     "notify": false,
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-17T19:35:23.078712+00:00",
+    "history": [
+     "Hazard news · 18 Nov 06:35"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "‘Peace through strength’: Albanese and Trump hail progress on Quad alliance",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026": {
