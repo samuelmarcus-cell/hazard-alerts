@@ -882,3 +882,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-17T04:48:53Z,new,QLD Fire,QLD Fire:WARN-13942,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboorah) - fire as at 2:38pm Tuesday, 17 November 2026",,,,no
 2026-11-17T05:48:53Z,new,GDACS,gdacs:FL:1104281,Green,Flood — Dominican Republic,19.336389,-70.9521277,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281,no
 2026-11-17T05:48:53Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-3.6306414,-80.5715847,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-11-17T07:04:24Z,new,QLD Fire,QLD Fire:WARN-13973,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 4:53pm Tuesday, 17 November 2026",,,,no
+2026-11-17T07:04:24Z,ended,QLD Fire,QLD Fire:WARN-13942,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 2:38pm Tuesday, 17 November 2026",,,,no

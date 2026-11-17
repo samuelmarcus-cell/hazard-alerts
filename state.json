@@ -1138,14 +1138,14 @@
   },
   "NSW RFS": {},
   "QLD Fire": {
-   "QLD Fire:WARN-13942": {
+   "QLD Fire:WARN-13973": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-17T04:48:53.527992+00:00",
+    "first_seen": "2026-11-17T07:04:24.898919+00:00",
     "history": [
-     "Watch and Act · 17 Nov 15:48"
+     "Watch and Act · 17 Nov 18:04"
     ],
-    "key": "QLD Fire:WARN-13942",
+    "key": "QLD Fire:WARN-13973",
     "lat": null,
     "level": "Watch and Act",
     "link": "",
@@ -1153,7 +1153,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 2:38pm Tuesday, 17 November 2026",
+    "title": "Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 4:53pm Tuesday, 17 November 2026",
     "track_end": true
    }
   },
