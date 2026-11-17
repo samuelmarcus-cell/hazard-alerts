@@ -301,44 +301,7 @@
   "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T22:18:30.106964+00:00",
-    "history": [
-     "Hazard news · 17 Nov 09:18"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Magnitude-6.6 earthquake prompts scientist's 'drop, cover, hold' reminder",
-    "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-17/possible-tornado-south-west-rocks/107393272": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T22:33:29.583133+00:00",
-    "history": [
-     "Hazard news · 17 Nov 09:33"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-17/possible-tornado-south-west-rocks/107393272",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-17/possible-tornado-south-west-rocks/107393272",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "BOM confirms possible tornado after severe storm batters NSW coast",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
