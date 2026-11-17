@@ -306,26 +306,7 @@
   "ASMC haze": {},
   "Al Jazeera": {},
   "BBC Asia": {},
-  "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o#3": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T08:31:59.506979+00:00",
-    "history": [
-     "Hazard news · 16 Nov 19:31"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o#3",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
-    "track_end": false
-   }
-  },
+  "BBC World": {},
   "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
@@ -861,6 +842,24 @@
     "title": "Flood — Indonesia",
     "track_end": true
    },
+   "gdacs:FL:1104259": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-17T05:48:53.834968+00:00",
+    "history": [
+     "Green · 17 Nov 16:48"
+    ],
+    "key": "gdacs:FL:1104259",
+    "lat": -3.6306414,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
+    "lon": -80.5715847,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Peru",
+    "track_end": true
+   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -913,6 +912,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Argentina",
+    "track_end": true
+   },
+   "gdacs:FL:1104281": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-17T05:48:53.834968+00:00",
+    "history": [
+     "Green · 17 Nov 16:48"
+    ],
+    "key": "gdacs:FL:1104281",
+    "lat": 19.336389,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281",
+    "lon": -70.9521277,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Dominican Republic",
     "track_end": true
    },
    "gdacs:FL:1104283": {
