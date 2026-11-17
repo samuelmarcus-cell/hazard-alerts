@@ -862,24 +862,6 @@
     "title": "Flood — France",
     "track_end": true
    },
-   "gdacs:FL:1104271": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-09T08:00:37.524356+00:00",
-    "history": [
-     "Green · 9 Nov 19:00"
-    ],
-    "key": "gdacs:FL:1104271",
-    "lat": 21.0110407,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104271",
-    "lon": 105.8528684,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Vietnam",
-    "track_end": true
-   },
    "gdacs:FL:1104277": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -914,24 +896,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Dominican Republic",
-    "track_end": true
-   },
-   "gdacs:FL:1104283": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-13T11:10:28.943827+00:00",
-    "history": [
-     "Green · 13 Nov 22:10"
-    ],
-    "key": "gdacs:FL:1104283",
-    "lat": 10.3782724,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104283",
-    "lon": 99.0077685,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Thailand",
     "track_end": true
    },
    "gdacs:FL:1104285": {
