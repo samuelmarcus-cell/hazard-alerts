@@ -365,7 +365,26 @@
   },
   "BoM NSW/ACT": {},
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-17T03:03:53.982825+00:00",
+    "history": [
+     "Warning · 17 Nov 14:03"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Lower Condamine River",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
