@@ -986,6 +986,24 @@
     "title": "Flood — South Africa",
     "track_end": true
    },
+   "gdacs:FL:1104287": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-17T07:49:25.201570+00:00",
+    "history": [
+     "Green · 17 Nov 18:49"
+    ],
+    "key": "gdacs:FL:1104287",
+    "lat": 42.3438932,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104287",
+    "lon": -7.8571773,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Spain",
+    "track_end": true
+   },
    "gdacs:TC:1001350": {
     "colour": 4431943,
     "emoji": "🌀",
