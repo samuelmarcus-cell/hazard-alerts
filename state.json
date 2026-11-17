@@ -1081,24 +1081,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T07:32:00.307796+00:00",
-    "history": [
-     "Hazard news · 16 Nov 18:32"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/books/2026/nov/16/book-of-miracles-apocalyptic-weather-visions-auction",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "‘It’s like the 16th-century version of doomscrolling’: the Book of Miracles may fetch £1m at auction",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather": {
     "colour": 2001125,
     "emoji": "📰",
