@@ -888,3 +888,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-17T07:49:25Z,new,GDACS,gdacs:FL:1104287,Green,Flood — Spain,42.3438932,-7.8571773,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104287,no
 2026-11-17T09:04:25Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-17T10:04:25Z,ended,QLD Fire,QLD Fire:WARN-13973,Watch and Act,"Watch and Act: PREPARE TO LEAVE - Bilwon (near Biboohra) - fire as at 4:53pm Tuesday, 17 November 2026",,,,no
+2026-11-17T10:49:25Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lasseter district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no

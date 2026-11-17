@@ -308,7 +308,26 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-17T10:49:25.147461+00:00",
+    "history": [
+     "Warning · 17 Nov 21:49"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
     "colour": 16088064,
@@ -367,7 +386,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Gascoyne, Goldfields, Eucla, South Interior, Central West, North Interior and Central Wheat Belt districts.",
+    "title": "Severe Thunderstorm Warning for parts of Goldfields, Eucla, North Interior and South Interior districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
