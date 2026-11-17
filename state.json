@@ -814,10 +814,10 @@
      "Green · 4 Nov 18:18"
     ],
     "key": "gdacs:FL:1104220",
-    "lat": 43.4984067,
+    "lat": 40.1002478,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 12.1155164,
+    "lon": 15.5831154,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -966,6 +966,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Croatia",
+    "track_end": true
+   },
+   "gdacs:FL:1104286": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-17T07:34:25.258258+00:00",
+    "history": [
+     "Green · 17 Nov 18:34"
+    ],
+    "key": "gdacs:FL:1104286",
+    "lat": -26.904354,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104286",
+    "lon": 27.456125,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — South Africa",
     "track_end": true
    },
    "gdacs:TC:1001350": {
