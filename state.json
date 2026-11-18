@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1572341965729828995",
-  "map_hash": "9ef02c5299e6",
+  "attachment_id": "1572432693260582972",
+  "map_hash": "7d607085df4a",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -300,7 +300,8 @@
   "https://www.abc.net.au/news/2026-11-17/possible-tornado-south-west-rocks/107393272",
   "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory",
   "https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
+  "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts"
  ],
  "sources": {
   "ABC News": {},
@@ -331,10 +332,48 @@
     "track_end": true
    }
   },
-  "BoM SA": {},
+  "BoM SA": {
+   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-18T02:05:54.940830+00:00",
+    "history": [
+     "Warning · 18 Nov 13:05"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
+    "track_end": true
+   }
+  },
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-18T02:05:54.940830+00:00",
+    "history": [
+     "Warning · 18 Nov 13:05"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Eucla, South Interior and Goldfields districts.",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -997,10 +1036,10 @@
      "Orange · 17 Nov 07:18"
     ],
     "key": "gdacs:TC:1001351",
-    "lat": 13.1,
+    "lat": 13.0,
     "level": "Orange",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-    "lon": 87.3,
+    "lon": 86.9,
     "message_id": "1571982883969704147",
     "news": false,
     "notify": true,
@@ -1026,6 +1065,24 @@
     "notify": false,
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-18T02:05:54.940830+00:00",
+    "history": [
+     "Hazard news · 18 Nov 13:05"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Tag team: dual waterspouts appear in San Francisco Bay amid stormy weather",
     "track_end": false
    }
   },
