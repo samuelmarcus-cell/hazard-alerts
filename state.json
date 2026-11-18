@@ -352,24 +352,6 @@
    }
   },
   "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-18T02:05:54.940830+00:00",
-    "history": [
-     "Warning · 18 Nov 13:05"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
     "colour": 16088064,
     "emoji": "🔥",
@@ -846,6 +828,24 @@
     "title": "Flood — Italy",
     "track_end": true
    },
+   "gdacs:FL:1104239": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-18T11:06:48.420601+00:00",
+    "history": [
+     "Green · 18 Nov 22:06"
+    ],
+    "key": "gdacs:FL:1104239",
+    "lat": 3.3314558,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
+    "lon": 101.2513058,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Malaysia",
+    "track_end": true
+   },
    "gdacs:FL:1104253": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -854,10 +854,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": -4.0035183,
+    "lat": -8.7892855,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 101.8393474,
+    "lon": 117.146169,
     "news": false,
     "notify": false,
     "rank": 0,
