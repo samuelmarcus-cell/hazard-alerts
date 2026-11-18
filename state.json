@@ -1086,7 +1086,26 @@
     "track_end": false
    }
   },
-  "NSW RFS": {},
+  "NSW RFS": {
+   "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/686946": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-18T20:37:57.902444+00:00",
+    "history": [
+     "Watch and Act · 19 Nov 07:37"
+    ],
+    "key": "NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/686946",
+    "lat": -33.12249801299998,
+    "level": "Watch and Act",
+    "link": "https://www.rfs.nsw.gov.au/fire-information/fires-near-me",
+    "lon": 147.53900934500007,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: HENRY PARKES WAY, YARRABANDAI",
+    "track_end": true
+   }
+  },
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {},
