@@ -332,6 +332,24 @@
    }
   },
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-18T11:21:48.584137+00:00",
+    "history": [
+     "Warning · 18 Nov 22:21"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North West Forecast District.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -1083,24 +1101,6 @@
     "notify": false,
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-18T02:05:54.940830+00:00",
-    "history": [
-     "Hazard news · 18 Nov 13:05"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Tag team: dual waterspouts appear in San Francisco Bay amid stormy weather",
     "track_end": false
    }
   },

@@ -905,3 +905,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-18T09:06:48Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Eucla, North Interior and South Interior districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-18T11:06:48Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-18T11:06:48Z,new,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,3.3314558,101.2513058,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-11-18T11:21:48Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
