@@ -369,6 +369,24 @@
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of West Coast and North West Pastoral districts.",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-18T05:51:23.655833+00:00",
+    "history": [
+     "Warning · 18 Nov 16:51"
+    ],
+    "key": "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/sa/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for Yorke Peninsula fire weather district",
+    "track_end": true
    }
   },
   "BoM TAS": {},
