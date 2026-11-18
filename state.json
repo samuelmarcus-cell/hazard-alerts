@@ -301,7 +301,8 @@
   "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory",
   "https://www.theguardian.com/us-news/2026/nov/17/peace-through-strength-albanese-and-trump-hail-progress-on-quad-alliance",
   "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
-  "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts"
+  "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
+  "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding"
  ],
  "sources": {
   "ABC News": {},
@@ -1064,6 +1065,24 @@
     "notify": false,
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-18T19:37:58.205248+00:00",
+    "history": [
+     "Hazard news · 19 Nov 06:37"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Heavy rain and snow predicted in California as ‘atmospheric river’ moves across state",
     "track_end": false
    }
   },
