@@ -306,26 +306,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1794936808": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-17T19:35:23.078712+00:00",
-    "history": [
-     "Hazard news · 18 Nov 06:35"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1794936808",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Monster waves threaten California coast as storms intensify",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
