@@ -311,7 +311,26 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-18T03:21:23.635817+00:00",
+    "history": [
+     "Warning · 18 Nov 14:21"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
     "colour": 16088064,
@@ -370,7 +389,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Eucla, South Interior and Goldfields districts.",
+    "title": "Severe Thunderstorm Warning for parts of Goldfields, Eucla and South Interior districts.",
     "track_end": true
    }
   },
