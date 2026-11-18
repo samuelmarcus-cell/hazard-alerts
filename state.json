@@ -327,7 +327,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Lasseter and parts of Tanami districts.",
+    "title": "Severe Thunderstorm Warning for Lasseter and parts of Tanami and Simpson districts.",
     "track_end": true
    }
   },
@@ -367,7 +367,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Pastoral and West Coast districts.",
+    "title": "Severe Thunderstorm Warning for parts of North West Pastoral district.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
@@ -391,26 +391,7 @@
   },
   "BoM TAS": {},
   "BoM VIC": {},
-  "BoM WA": {
-   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-18T02:05:54.940830+00:00",
-    "history": [
-     "Warning · 18 Nov 13:05"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Eucla, North Interior and South Interior districts.",
-    "track_end": true
-   }
-  },
+  "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
