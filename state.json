@@ -333,7 +333,26 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-19T16:25:31.119080+00:00",
+    "history": [
+     "Warning · 20 Nov 03:25"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Upper Western Forecast District.",
+    "track_end": true
+   }
+  },
   "BoM NT": {
    "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
     "colour": 16088064,
@@ -1105,24 +1124,6 @@
     "notify": false,
     "rank": 0,
     "title": "San Francisco breaks rain record as atmospheric river buffets California",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-19T14:24:40.916903+00:00",
-    "history": [
-     "Hazard news · 20 Nov 01:24"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "‘A new day in the Senate’: 56-44 majority gives Democrats fuel to take on Trump",
     "track_end": false
    }
   },
