@@ -1040,14 +1040,14 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -10.6,
+    "lat": -10.7,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -163.2,
+    "lon": -162.8,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Cook Islands, American Samoa",
+    "title": "Tropical cyclone — Cook Islands, American Samoa, Samoa",
     "track_end": true
    },
    "gdacs:TC:1001351": {
