@@ -63,7 +63,7 @@
    "warned": false
   },
   "Fire danger (NSW)": {
-   "failing_since": "2026-11-19T10:24:41.836657+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Fire danger (VIC)": {
@@ -79,7 +79,7 @@
    "warned": false
   },
   "NSW RFS": {
-   "failing_since": "2026-11-19T10:24:41.836657+00:00",
+   "failing_since": null,
    "warned": false
   },
   "QLD Fire": {
