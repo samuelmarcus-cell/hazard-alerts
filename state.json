@@ -937,6 +937,24 @@
     "title": "Flood — Dominican Republic",
     "track_end": true
    },
+   "gdacs:FL:1104285": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-19T08:24:07.000072+00:00",
+    "history": [
+     "Green · 19 Nov 19:24"
+    ],
+    "key": "gdacs:FL:1104285",
+    "lat": 43.9307763,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285",
+    "lon": 16.0957115,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Croatia",
+    "track_end": true
+   },
    "gdacs:FL:1104286": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -973,6 +991,24 @@
     "title": "Flood — Spain",
     "track_end": true
    },
+   "gdacs:FL:1104288": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-19T08:24:07.000072+00:00",
+    "history": [
+     "Green · 19 Nov 19:24"
+    ],
+    "key": "gdacs:FL:1104288",
+    "lat": -1.5365119,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104288",
+    "lon": 39.5508374,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Kenya",
+    "track_end": true
+   },
    "gdacs:TC:1001350": {
     "colour": 4431943,
     "emoji": "🌀",
@@ -981,10 +1017,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -10.3,
+    "lat": -10.6,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -163.8,
+    "lon": -163.2,
     "news": false,
     "notify": false,
     "rank": 0,
