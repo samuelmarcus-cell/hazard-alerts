@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1572973442595295283",
-  "map_hash": "3417142c1f13",
+  "attachment_id": "1573064252300988496",
+  "map_hash": "b1a391f4e46c",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -390,7 +390,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Channel Country Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
@@ -1096,10 +1096,10 @@
      "Orange · 17 Nov 07:18"
     ],
     "key": "gdacs:TC:1001351",
-    "lat": 16.0,
+    "lat": 17.2,
     "level": "Orange",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-    "lon": 85.3,
+    "lon": 84.7,
     "message_id": "1571982883969704147",
     "news": false,
     "notify": true,
