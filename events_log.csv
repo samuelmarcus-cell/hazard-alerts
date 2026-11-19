@@ -935,3 +935,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-19T16:10:30Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Arnhem district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
 2026-11-19T16:25:31Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Upper Western Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
 2026-11-19T17:55:31Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Arnhem district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-19T18:10:30Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Channel Country Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
