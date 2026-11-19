@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-19T16:55:31.079708+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -349,7 +349,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Upper Western Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Lower Western and Upper Western Forecast Districts.",
     "track_end": true
    }
   },
