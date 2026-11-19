@@ -913,3 +913,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-18T21:52:57Z,ended,NSW RFS,NSW RFS:https://incidents.rfs.nsw.gov.au/api/v1/incidents/686946,Watch and Act,"Watch and Act: HENRY PARKES WAY, YARRABANDAI",-33.12249801299998,147.53900934500007,https://www.rfs.nsw.gov.au/fire-information/fires-near-me,no
 2026-11-18T23:22:58Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.2118899,-79.9111399,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-18T23:22:58Z,ended,GDACS,gdacs:FL:1104285,Green,Flood — Croatia,45.4444467,14.3743376,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285,no
+2026-11-19T01:23:27Z,new,Guardian World,Guardian World:https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding,Hazard news,Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives,,,https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding,no

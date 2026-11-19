@@ -1030,6 +1030,24 @@
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
     "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-19T01:23:27.319192+00:00",
+    "history": [
+     "Hazard news · 19 Nov 12:23"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
+    "track_end": false
    }
   },
   "NSW RFS": {},
