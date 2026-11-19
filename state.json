@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1572803275890360361",
-  "map_hash": "85505a7ea81e",
+  "attachment_id": "1572894037155909772",
+  "map_hash": "d6d15bc50737",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -349,7 +349,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of West Coast, Eastern Eyre Peninsula, North West Pastoral, Lower Eyre Peninsula, Flinders and North East Pastoral districts.",
+    "title": "Severe Thunderstorm Warning for parts of Eastern Eyre Peninsula, Flinders and North West Pastoral districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
@@ -1073,10 +1073,10 @@
      "Orange · 17 Nov 07:18"
     ],
     "key": "gdacs:TC:1001351",
-    "lat": 14.6,
+    "lat": 15.1,
     "level": "Orange",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-    "lon": 86.2,
+    "lon": 85.4,
     "message_id": "1571982883969704147",
     "news": false,
     "notify": true,
@@ -1126,26 +1126,7 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {
-   "TasALERT:Bushfire|Killiecrankie, Killikrankie Nature Recreation Area, Palana Road and surrounds": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-19T03:08:28.137913+00:00",
-    "history": [
-     "Watch and Act · 19 Nov 14:08"
-    ],
-    "key": "TasALERT:Bushfire|Killiecrankie, Killikrankie Nature Recreation Area, Palana Road and surrounds",
-    "lat": -39.80524,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=e23af064-5c48-41c8-bb84-07ef85e94f07",
-    "lon": 147.89091,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Busfire Watch and Act - Palana Road, Killikrankie - Prepare to leave",
-    "track_end": true
-   }
-  },
+  "TasALERT": {},
   "US fires": {
    "us:2026-COCUX-001160": {
     "colour": 16361509,
