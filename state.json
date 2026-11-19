@@ -303,7 +303,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/17/san-francisco-bay-area-waterspouts",
   "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
-  "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump"
  ],
  "sources": {
   "ABC News": {},
@@ -1085,6 +1086,24 @@
     "notify": false,
     "rank": 0,
     "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-19T14:24:40.916903+00:00",
+    "history": [
+     "Hazard news · 20 Nov 01:24"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "‘A new day in the Senate’: 56-seat majority gives Democrats fuel to take on Trump",
     "track_end": false
    }
   },
