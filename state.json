@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1572701227958018158",
-  "map_hash": "e98c42065ffb",
+  "attachment_id": "1572803275890360361",
+  "map_hash": "85505a7ea81e",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1018,10 +1018,10 @@
      "Orange · 17 Nov 07:18"
     ],
     "key": "gdacs:TC:1001351",
-    "lat": 13.8,
+    "lat": 14.6,
     "level": "Orange",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-    "lon": 86.4,
+    "lon": 86.2,
     "message_id": "1571982883969704147",
     "news": false,
     "notify": true,
@@ -1071,7 +1071,26 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {},
+  "TasALERT": {
+   "TasALERT:Bushfire|Killiecrankie Area and surrounds": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-19T02:38:28.066965+00:00",
+    "history": [
+     "Watch and Act · 19 Nov 13:38"
+    ],
+    "key": "TasALERT:Bushfire|Killiecrankie Area and surrounds",
+    "lat": -39.80524,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=e23af064-5c48-41c8-bb84-07ef85e94f07",
+    "lon": 147.89091,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Busfire Watch and Act - Palana Road, Palana - Prepare to leave",
+    "track_end": true
+   }
+  },
   "US fires": {
    "us:2026-COCUX-001160": {
     "colour": 16361509,
