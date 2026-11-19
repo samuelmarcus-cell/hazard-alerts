@@ -928,3 +928,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-19T09:39:06Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/articles/c920xgxp5785o#1,Hazard news,Survivors of Uganda's deadly landslide seek justice at the UN,,,https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss,no
 2026-11-19T10:24:07Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-19T11:24:40Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Upper Western Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-19T14:09:41Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Upper Western Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
