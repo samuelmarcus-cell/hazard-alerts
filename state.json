@@ -372,7 +372,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Riverina, Lower Western and Upper Western Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Riverina, Lower Western, Upper Western and Central West Slopes and Plains Forecast Districts.",
     "track_end": true
    }
   },
@@ -393,7 +393,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Central West and parts of Northern Goldfields and Upper Flinders, North West, Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
@@ -434,7 +434,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, Mallee, South West, Northern Country, North Central and Wimmera Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, Mallee, Northern Country, North Central, South West, West and South Gippsland and Wimmera Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
@@ -452,7 +452,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for Mornington Peninsula and parts of Port Phillip waters and Western Port Local Warning Areas.",
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Port Phillip waters, Western Port, Mornington Peninsula and South East Local Warning Areas.",
     "track_end": true
    }
   },
@@ -1141,10 +1141,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -11.1,
+    "lat": -11.0,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -162.6,
+    "lon": -162.8,
     "news": false,
     "notify": false,
     "rank": 0,
