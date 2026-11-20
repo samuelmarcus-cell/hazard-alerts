@@ -395,7 +395,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, South West, North Central, Wimmera and Northern Country Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, South West, North Central, Wimmera, Mallee and Northern Country Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
@@ -1170,7 +1170,26 @@
    }
   },
   "VicEmergency": {},
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:831644": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-20T04:26:24.002816+00:00",
+    "history": [
+     "Watch and Act · 20 Nov 15:26"
+    ],
+    "key": "WA DFES:831644",
+    "lat": -31.666384171477002,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6affc9c5683a597840d081f5",
+    "lon": 115.94601732150053,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act PREPARE TO LEAVE - BULLSBROOK",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
