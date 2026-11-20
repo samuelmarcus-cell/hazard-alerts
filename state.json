@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": null,
+   "failing_since": "2026-11-20T05:11:24.153545+00:00",
    "warned": false
   },
   "Guardian World": {
@@ -373,7 +373,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Channel Country, Maranoa and Warrego and Central West Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of North West, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
