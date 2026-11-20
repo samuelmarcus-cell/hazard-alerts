@@ -497,6 +497,24 @@
     "rank": 1,
     "title": "Tropical Cyclone Forecast Track Map – WA",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-20T07:41:53.791375+00:00",
+    "history": [
+     "Warning · 20 Nov 18:41"
+    ],
+    "key": "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for Burrup fire weather district",
+    "track_end": true
    }
   },
   "Canada fires": {
