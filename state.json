@@ -306,10 +306,30 @@
   "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
   "https://www.theguardian.com/us-news/2026/nov/19/california-atmospheric-river-san-francisco-rain-record",
-  "https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428"
+  "https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428",
+  "https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-20T00:25:56.746163+00:00",
+    "history": [
+     "Hazard news · 20 Nov 11:25"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Eight months after Cyclone Narelle, north WA locals fear this storm season",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
