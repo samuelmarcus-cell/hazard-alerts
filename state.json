@@ -313,26 +313,7 @@
   "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-20T05:26:24.301895+00:00",
-    "history": [
-     "Hazard news · 20 Nov 16:26"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "'Completely flattened': Farmers count their losses after wild storm",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
