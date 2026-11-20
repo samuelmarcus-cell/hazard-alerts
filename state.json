@@ -434,7 +434,25 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, South West, Northern Country, North East, Wimmera and Mallee Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, Mallee, South West, Northern Country, North Central, North East and Wimmera Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-20T06:11:23.786449+00:00",
+    "history": [
+     "Warning · 20 Nov 17:11"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Geelong and Bellarine Peninsula and Port Phillip waters Local Warning Areas.",
     "track_end": true
    }
   },
