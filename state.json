@@ -1042,10 +1042,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -10.7,
+    "lat": -11.1,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -162.8,
+    "lon": -162.6,
     "news": false,
     "notify": false,
     "rank": 0,
