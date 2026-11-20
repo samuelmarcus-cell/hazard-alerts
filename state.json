@@ -329,24 +329,6 @@
     "rank": 0,
     "title": "Exmouth cyclone recovery effort hampered as another season starts",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-20T00:40:56.701144+00:00",
-    "history": [
-     "Hazard news · 20 Nov 11:40"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Elderly man dies in Launceston grass fire",
-    "track_end": false
    }
   },
   "ACT ESA": {},
