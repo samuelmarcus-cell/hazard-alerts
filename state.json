@@ -311,7 +311,8 @@
   "https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956",
   "https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426",
   "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-  "https://www.abc.net.au/news/2026-11-21/calls-to-fund-indigenous-disaster-response/107404992"
+  "https://www.abc.net.au/news/2026-11-21/calls-to-fund-indigenous-disaster-response/107404992",
+  "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict"
  ],
  "sources": {
   "ABC News": {
@@ -843,24 +844,6 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
-   "gdacs:FL:1104220": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-04T07:18:56.620250+00:00",
-    "history": [
-     "Green · 4 Nov 18:18"
-    ],
-    "key": "gdacs:FL:1104220",
-    "lat": 40.1002478,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 15.5831154,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Italy",
-    "track_end": true
-   },
    "gdacs:FL:1104239": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -913,42 +896,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Peru",
-    "track_end": true
-   },
-   "gdacs:FL:1104270": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-14T10:27:50.488684+00:00",
-    "history": [
-     "Green · 14 Nov 21:27"
-    ],
-    "key": "gdacs:FL:1104270",
-    "lat": 43.5586003,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": 3.9502006,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — France",
-    "track_end": true
-   },
-   "gdacs:FL:1104277": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-16T06:47:00.195384+00:00",
-    "history": [
-     "Green · 16 Nov 17:47"
-    ],
-    "key": "gdacs:FL:1104277",
-    "lat": -27.7758659,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277",
-    "lon": -67.171292,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Argentina",
     "track_end": true
    },
    "gdacs:FL:1104281": {
@@ -1170,6 +1117,24 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-20T23:28:18.365939+00:00",
+    "history": [
+     "Hazard news · 21 Nov 10:28"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Man accused of sparking deadly Los Angeles wildfire found guilty",
     "track_end": false
    }
   },
