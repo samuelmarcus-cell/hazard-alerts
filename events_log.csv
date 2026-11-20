@@ -954,3 +954,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-20T06:41:23Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW60281.shtml,Major warning,Tropical Cyclone Forecast Track Map – WA,,,http://reg.bom.gov.au/products/IDW60281.shtml,yes
 2026-11-20T07:26:23Z,new,GDACS,gdacs:FL:1104288,Green,Flood — Kenya,-3.5592753,38.8035102,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104288,no
 2026-11-20T07:41:53Z,new,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,Fire Weather Warning for Burrup fire weather district,,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
+2026-11-20T09:26:54Z,new,GDACS,gdacs:FL:1104290,Green,Flood — United States,26.0112014,-80.1494901,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290,no
+2026-11-20T09:26:54Z,new,GDACS,gdacs:FL:1104289,Green,Flood — Mexico,19.8660682,-96.7757737,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104289,no
+2026-11-20T09:26:54Z,new,Guardian World,Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state,Hazard news,California’s coastal communities on alert as biggest waves in years hit state,,,https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state,no
