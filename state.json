@@ -1210,24 +1210,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-16T12:32:25.000769+00:00",
-    "history": [
-     "Hazard news · 16 Nov 23:32"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
