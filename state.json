@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-20T05:11:24.153545+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -308,26 +308,27 @@
   "https://www.theguardian.com/us-news/2026/nov/19/california-atmospheric-river-san-francisco-rain-record",
   "https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428",
   "https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834",
-  "https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956"
+  "https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956",
+  "https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426"
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834": {
+   "abc:https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-20T00:25:56.746163+00:00",
+    "first_seen": "2026-11-20T05:26:24.301895+00:00",
     "history": [
-     "Hazard news · 20 Nov 11:25"
+     "Hazard news · 20 Nov 16:26"
     ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834",
+    "key": "abc:https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-20/residents-in-north-wa-fear-more-cyclones/107387834",
+    "link": "https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Exmouth cyclone recovery effort hampered as another season starts",
+    "title": "'Completely flattened': Farmers count their losses after wild storm",
     "track_end": false
    }
   },
@@ -395,25 +396,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, South West, North Central, Wimmera, Mallee and Northern Country Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-20T02:26:23.973122+00:00",
-    "history": [
-     "Warning · 20 Nov 13:26"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21035.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21035.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Melbourne Area for Geelong and Bellarine Peninsula Local Warning Area.",
+    "title": "Severe Thunderstorm Warning for parts of Central, South West, Wimmera and Mallee Forecast Districts.",
     "track_end": true
    }
   },
