@@ -327,7 +327,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Eight months after Cyclone Narelle, north WA locals fear this storm season",
+    "title": "Exmouth cyclone recovery effort hampered as another season starts",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-20/tas-fire-death-west-launceston/107407956": {
@@ -373,26 +373,7 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-19T16:25:31.119080+00:00",
-    "history": [
-     "Warning · 20 Nov 03:25"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Upper Western Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {},
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
@@ -410,7 +391,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Channel Country, Maranoa and Warrego and Central West Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/lower-condamine.shtml": {
@@ -434,7 +415,44 @@
   },
   "BoM SA": {},
   "BoM TAS": {},
-  "BoM VIC": {},
+  "BoM VIC": {
+   "bom:http://reg.bom.gov.au/products/IDV21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-20T02:26:23.973122+00:00",
+    "history": [
+     "Warning · 20 Nov 13:26"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Central, South West, North Central, Northern Country and Wimmera Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDV21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-20T02:26:23.973122+00:00",
+    "history": [
+     "Warning · 20 Nov 13:26"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Melbourne Area for parts of Geelong and Bellarine Peninsula Local Warning Area.",
+    "track_end": true
+   }
+  },
   "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
