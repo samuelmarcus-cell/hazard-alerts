@@ -347,24 +347,6 @@
   "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {
-   "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml": {
-    "colour": 16088064,
-    "emoji": "🔥",
-    "first_seen": "2026-11-20T05:41:23.773128+00:00",
-    "history": [
-     "Warning · 20 Nov 16:41"
-    ],
-    "key": "bom:http://reg.bom.gov.au/sa/warnings/fire.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/sa/warnings/fire.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Fire Weather Warning for West Coast fire weather district",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/sa/warnings/fire2.shtml": {
     "colour": 16088064,
     "emoji": "🔥",
@@ -1125,10 +1107,10 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -11.6,
+    "lat": -11.8,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -164.7,
+    "lon": -165.2,
     "news": false,
     "notify": false,
     "rank": 0,
