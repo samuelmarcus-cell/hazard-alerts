@@ -366,6 +366,24 @@
   "BoM TAS": {},
   "BoM VIC": {},
   "BoM WA": {
+   "bom:http://reg.bom.gov.au/products/IDW21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-21T08:28:47.812535+00:00",
+    "history": [
+     "Warning · 21 Nov 19:28"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDW21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of South Coastal, South East Coastal and Great Southern districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/products/IDW60281.shtml": {
     "attachment_id": null,
     "colour": 16088064,
@@ -896,6 +914,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Peru",
+    "track_end": true
+   },
+   "gdacs:FL:1104270": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-21T08:28:47.812535+00:00",
+    "history": [
+     "Green · 21 Nov 19:28"
+    ],
+    "key": "gdacs:FL:1104270",
+    "lat": 42.3045668,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
+    "lon": 9.1458231,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — France",
     "track_end": true
    },
    "gdacs:FL:1104281": {
