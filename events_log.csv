@@ -974,3 +974,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-21T08:28:47Z,new,GDACS,gdacs:FL:1104270,Green,Flood — France,42.3045668,9.1458231,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270,no
 2026-11-21T08:43:48Z,new,GDACS,gdacs:FL:1104220,Green,Flood — Italy,42.4046646,13.0650536,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220,no
 2026-11-21T09:43:47Z,new,GDACS,gdacs:FL:1104291,Green,Flood — Islamic Republic of Iran,36.3159159,51.8968597,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104291,no
+2026-11-21T11:14:18Z,ended,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,"Severe Thunderstorm Warning for parts of South Coastal, South East Coastal and Great Southern districts.",,,http://reg.bom.gov.au/products/IDW21033.shtml,no
