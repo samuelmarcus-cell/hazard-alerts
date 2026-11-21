@@ -342,26 +342,7 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795261082": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T16:59:51.825446+00:00",
-    "history": [
-     "Hazard news · 22 Nov 03:59"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795261082",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
