@@ -1230,24 +1230,6 @@
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-20T23:28:18.365939+00:00",
-    "history": [
-     "Hazard news · 21 Nov 10:28"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Man accused of sparking deadly Los Angeles wildfire found guilty",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories": {
     "colour": 2001125,
     "emoji": "📰",
