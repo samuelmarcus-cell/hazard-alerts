@@ -966,3 +966,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-20T23:28:18Z,ended,GDACS,gdacs:FL:1104270,Green,Flood — France,43.5586003,3.9502006,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270,no
 2026-11-20T23:28:18Z,ended,GDACS,gdacs:FL:1104277,Green,Flood — Argentina,-27.7758659,-67.171292,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277,no
 2026-11-20T23:28:18Z,new,Guardian World,Guardian World:https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict,Hazard news,Man accused of sparking deadly Los Angeles wildfire found guilty,,,https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict,no
+2026-11-21T05:43:47Z,new,BoM SA,bom:http://reg.bom.gov.au/sa/warnings/fire2.shtml,Warning,Fire Weather Warning for North East Pastoral fire weather district,,,http://reg.bom.gov.au/sa/warnings/fire2.shtml,no
