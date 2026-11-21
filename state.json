@@ -313,13 +313,33 @@
   "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
   "https://www.abc.net.au/news/2026-11-21/calls-to-fund-indigenous-disaster-response/107404992",
   "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
-  "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories"
+  "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1795263426": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-21T12:44:18.746912+00:00",
+    "history": [
+     "Hazard news · 21 Nov 23:44"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795263426",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
@@ -1076,6 +1096,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Islamic Republic of Iran",
+    "track_end": true
+   },
+   "gdacs:FL:1104292": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-21T12:44:18.746912+00:00",
+    "history": [
+     "Green · 21 Nov 23:44"
+    ],
+    "key": "gdacs:FL:1104292",
+    "lat": 36.9666307,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292",
+    "lon": 37.4074178,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Türkiye",
     "track_end": true
    },
    "gdacs:TC:1001350": {
