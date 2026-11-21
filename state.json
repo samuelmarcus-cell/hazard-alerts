@@ -862,6 +862,24 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
+   "gdacs:FL:1104220": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-21T08:43:48.092232+00:00",
+    "history": [
+     "Green · 21 Nov 19:43"
+    ],
+    "key": "gdacs:FL:1104220",
+    "lat": 42.4046646,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
+    "lon": 13.0650536,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Italy",
+    "track_end": true
+   },
    "gdacs:FL:1104239": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -924,10 +942,10 @@
      "Green · 21 Nov 19:28"
     ],
     "key": "gdacs:FL:1104270",
-    "lat": 42.3045668,
+    "lat": 50.5100492,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": 9.1458231,
+    "lon": 1.7291708,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1050,10 +1068,10 @@
      "Green · 20 Nov 20:26"
     ],
     "key": "gdacs:FL:1104290",
-    "lat": 26.0112014,
+    "lat": 33.9926803,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290",
-    "lon": -80.1494901,
+    "lon": -117.760056,
     "news": false,
     "notify": false,
     "rank": 0,
