@@ -987,3 +987,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-21T23:15:35Z,ended,GDACS,gdacs:FL:1104281,Green,Flood — Dominican Republic,19.336389,-70.9521277,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104281,no
 2026-11-21T23:15:35Z,ended,GDACS,gdacs:FL:1104286,Green,Flood — South Africa,-26.904354,27.456125,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104286,no
 2026-11-21T23:15:35Z,ended,GDACS,gdacs:FL:1104287,Green,Flood — Spain,42.3438932,-7.8571773,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104287,no
+2026-11-21T23:30:35Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21037.shtml,Warning,Severe Weather Warning 1 (NSW),,,http://reg.bom.gov.au/products/IDN21037.shtml,no
+2026-11-21T23:30:35Z,new,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21037.shtml,Warning,"Severe Weather Warning for parts of East Gippsland, North East and West and South Gippsland Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21037.shtml,no
