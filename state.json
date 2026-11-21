@@ -358,25 +358,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Russian crew evacuating ship hit by drones off coast of Finland",
-    "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1795263426": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T20:15:35.565091+00:00",
-    "history": [
-     "Hazard news · 22 Nov 07:15"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795263426",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+    "title": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
     "track_end": false
    }
   },
