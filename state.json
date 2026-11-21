@@ -71,7 +71,7 @@
    "warned": false
   },
   "GDACS": {
-   "failing_since": "2026-11-21T19:59:52.083700+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Guardian World": {
@@ -358,25 +358,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Russian crew evacuating ship hit by drones off coast of Finland",
-    "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1795263426": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T12:44:18.746912+00:00",
-    "history": [
-     "Hazard news · 21 Nov 23:44"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795263426",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+    "title": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
     "track_end": false
    }
   },
@@ -1128,14 +1110,14 @@
      "Green · 15 Nov 20:00"
     ],
     "key": "gdacs:TC:1001350",
-    "lat": -11.8,
+    "lat": -11.9,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -165.2,
+    "lon": -165.6,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Tropical cyclone — Cook Islands",
+    "title": "Tropical cyclone — Cook Islands, American Samoa",
     "track_end": true
    },
    "gdacs:TC:1001351": {
