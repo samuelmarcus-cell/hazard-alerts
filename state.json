@@ -322,26 +322,7 @@
   "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-22T09:16:31.772264+00:00",
-    "history": [
-     "Hazard news · 22 Nov 20:16"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Major grassfire now under control in Victoria's north-west",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
