@@ -320,26 +320,7 @@
   "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T18:59:51.692668+00:00",
-    "history": [
-     "Hazard news · 22 Nov 05:59"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Tsunami response window shorter after staff pulled from remote island",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
