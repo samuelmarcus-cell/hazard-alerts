@@ -994,3 +994,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T04:16:02Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Upper Western Forecast District.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
 2026-11-22T05:01:02Z,new,VicEmergency,VicEmergency:43645,Watch and Act,Watch and Act: Watch & Act,-35.24242098060482,142.69740559661324,,no
 2026-11-22T05:16:01Z,new,VicEmergency,VicEmergency:43647,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.353470095013584,142.83559300506275,,yes
+2026-11-22T05:46:01Z,new,VicEmergency,VicEmergency:43648,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
+2026-11-22T05:46:01Z,ended,VicEmergency,VicEmergency:43647,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.353470095013584,142.83559300506275,,yes
