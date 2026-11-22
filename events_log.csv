@@ -1016,3 +1016,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T18:02:21Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21037.shtml,Warning,"Severe Weather Warning for parts of East Gippsland, North East and West and South Gippsland Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21037.shtml,no
 2026-11-22T20:47:21Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108,Hazard news,Storms to hit south-western Qld as heatwave lingers in far north,,,https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108,no
 2026-11-22T21:47:21Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21037.shtml,Warning,Severe Weather Warning for parts of Snowy Mountains Forecast District.,,,http://reg.bom.gov.au/products/IDN21037.shtml,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104239,Green,Flood — Malaysia,3.3314558,101.2513058,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-9.2912627,-77.674347,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104285,Green,Flood — Croatia,43.9307763,16.0957115,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104288,Green,Flood — Kenya,-3.5592753,38.8035102,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104288,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104289,Green,Flood — Mexico,19.8660682,-96.7757737,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104289,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104291,Green,Flood — Islamic Republic of Iran,36.3159159,51.8968597,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104291,no
+2026-11-22T23:17:50Z,ended,GDACS,gdacs:FL:1104292,Green,Flood — Türkiye,36.9666307,37.4074178,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292,no

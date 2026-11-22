@@ -828,24 +828,6 @@
     "title": "Flood — Italy",
     "track_end": true
    },
-   "gdacs:FL:1104239": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-18T11:06:48.420601+00:00",
-    "history": [
-     "Green · 18 Nov 22:06"
-    ],
-    "key": "gdacs:FL:1104239",
-    "lat": 3.3314558,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104239",
-    "lon": 101.2513058,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Malaysia",
-    "track_end": true
-   },
    "gdacs:FL:1104253": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -862,24 +844,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Indonesia",
-    "track_end": true
-   },
-   "gdacs:FL:1104259": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-17T05:48:53.834968+00:00",
-    "history": [
-     "Green · 17 Nov 16:48"
-    ],
-    "key": "gdacs:FL:1104259",
-    "lat": -9.2912627,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
-    "lon": -77.674347,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Peru",
     "track_end": true
    },
    "gdacs:FL:1104270": {
@@ -900,60 +864,6 @@
     "title": "Flood — France",
     "track_end": true
    },
-   "gdacs:FL:1104285": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-19T08:24:07.000072+00:00",
-    "history": [
-     "Green · 19 Nov 19:24"
-    ],
-    "key": "gdacs:FL:1104285",
-    "lat": 43.9307763,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104285",
-    "lon": 16.0957115,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Croatia",
-    "track_end": true
-   },
-   "gdacs:FL:1104288": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-20T07:26:23.570113+00:00",
-    "history": [
-     "Green · 20 Nov 18:26"
-    ],
-    "key": "gdacs:FL:1104288",
-    "lat": -3.5592753,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104288",
-    "lon": 38.8035102,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Kenya",
-    "track_end": true
-   },
-   "gdacs:FL:1104289": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-20T09:26:54.586833+00:00",
-    "history": [
-     "Green · 20 Nov 20:26"
-    ],
-    "key": "gdacs:FL:1104289",
-    "lat": 19.8660682,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104289",
-    "lon": -96.7757737,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Mexico",
-    "track_end": true
-   },
    "gdacs:FL:1104290": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -970,42 +880,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — United States",
-    "track_end": true
-   },
-   "gdacs:FL:1104291": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-21T09:43:47.542170+00:00",
-    "history": [
-     "Green · 21 Nov 20:43"
-    ],
-    "key": "gdacs:FL:1104291",
-    "lat": 36.3159159,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104291",
-    "lon": 51.8968597,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Islamic Republic of Iran",
-    "track_end": true
-   },
-   "gdacs:FL:1104292": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-21T12:44:18.746912+00:00",
-    "history": [
-     "Green · 21 Nov 23:44"
-    ],
-    "key": "gdacs:FL:1104292",
-    "lat": 36.9666307,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292",
-    "lon": 37.4074178,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Türkiye",
     "track_end": true
    },
    "gdacs:FL:1104293": {
