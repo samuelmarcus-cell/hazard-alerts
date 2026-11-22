@@ -1159,24 +1159,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T12:59:18.537087+00:00",
-    "history": [
-     "Hazard news · 21 Nov 23:59"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Cold gives way to rain in parts of UK as weather warning issued for south-west England",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
