@@ -384,7 +384,26 @@
     "track_end": true
    }
   },
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/nt/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-22T06:01:01.724702+00:00",
+    "history": [
+     "Warning · 22 Nov 17:01"
+    ],
+    "key": "bom:http://reg.bom.gov.au/nt/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/nt/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for Simpson East fire weather district",
+    "track_end": true
+   }
+  },
   "BoM QLD": {},
   "BoM SA": {
    "bom:http://reg.bom.gov.au/sa/warnings/fire2.shtml": {
@@ -1270,8 +1289,8 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43648": {
-    "attachment_id": "1573937639436849182",
+   "VicEmergency:43649": {
+    "attachment_id": "1573941400473571391",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
@@ -1286,20 +1305,20 @@
      "footer": {
       "text": "VicEmergency"
      },
-     "timestamp": "2026-11-22T05:46:15.186286+00:00",
+     "timestamp": "2026-11-22T06:01:11.894853+00:00",
      "title": "🔥 EMERGENCY WARNING: Emergency Warning"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-22T05:46:01.810474+00:00",
+    "first_seen": "2026-11-22T06:01:01.724702+00:00",
     "history": [
-     "Emergency Warning · 22 Nov 16:46"
+     "Emergency Warning · 22 Nov 17:01"
     ],
-    "key": "VicEmergency:43648",
+    "key": "VicEmergency:43649",
     "lat": -35.32362797063162,
     "level": "Emergency Warning",
     "link": "",
     "lon": 142.7725503643763,
-    "message_id": "1573937639634239518",
+    "message_id": "1573941400687607818",
     "news": false,
     "notify": true,
     "rank": 1,

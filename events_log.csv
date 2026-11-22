@@ -996,3 +996,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T05:16:01Z,new,VicEmergency,VicEmergency:43647,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.353470095013584,142.83559300506275,,yes
 2026-11-22T05:46:01Z,new,VicEmergency,VicEmergency:43648,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
 2026-11-22T05:46:01Z,ended,VicEmergency,VicEmergency:43647,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.353470095013584,142.83559300506275,,yes
+2026-11-22T06:01:01Z,new,BoM NT,bom:http://reg.bom.gov.au/nt/warnings/fire.shtml,Warning,Fire Weather Warning for Simpson East fire weather district,,,http://reg.bom.gov.au/nt/warnings/fire.shtml,no
+2026-11-22T06:01:01Z,new,VicEmergency,VicEmergency:43649,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
+2026-11-22T06:01:01Z,ended,VicEmergency,VicEmergency:43648,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
