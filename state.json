@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1573064252300988496",
-  "map_hash": "b1a391f4e46c",
+  "attachment_id": "1573930108539109418",
+  "map_hash": "1c15102c838f",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -362,7 +362,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Upper Western Forecast District.",
+    "title": "Severe Thunderstorm Warning for Lower Western and parts of Riverina, Upper Western, Snowy Mountains, Central West Slopes and Plains and South West Slopes Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
@@ -1268,6 +1268,42 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43647": {
+    "attachment_id": "1573930097939980288",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "VicEmergency: Emergency Warning current.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-35.3535&mlon=142.8356#map=8/-35.3535/142.8356)"
+      }
+     ],
+     "footer": {
+      "text": "VicEmergency"
+     },
+     "timestamp": "2026-11-22T05:16:17.158468+00:00",
+     "title": "🔥 EMERGENCY WARNING: Emergency Warning"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-22T05:16:01.748249+00:00",
+    "history": [
+     "Emergency Warning · 22 Nov 16:16"
+    ],
+    "key": "VicEmergency:43647",
+    "lat": -35.353470095013584,
+    "level": "Emergency Warning",
+    "link": "",
+    "lon": 142.83559300506275,
+    "message_id": "1573930097810088100",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Emergency Warning",
     "track_end": true
    }
   },
