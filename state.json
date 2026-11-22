@@ -423,7 +423,26 @@
     "track_end": true
    }
   },
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-22T11:16:32.254622+00:00",
+    "history": [
+     "Warning · 22 Nov 22:16"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Channel Country Forecast District.",
+    "track_end": true
+   }
+  },
   "BoM SA": {
    "bom:http://reg.bom.gov.au/sa/warnings/fire2.shtml": {
     "colour": 16088064,

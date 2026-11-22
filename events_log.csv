@@ -1007,3 +1007,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T08:46:31Z,ended,VicEmergency,VicEmergency:43650,Emergency Warning,EMERGENCY WARNING: Advice,-35.32362797063162,142.7725503643763,,yes
 2026-11-22T08:46:31Z,ended,VicEmergency,VicEmergency:43651,Watch and Act,Watch and Act: Advice,-35.30106152704502,142.71980740631045,,no
 2026-11-22T09:16:31Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556,Hazard news,Major grassfire now under control in Victoria's north-west,,,https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556,no
+2026-11-22T11:16:32Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Channel Country Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
