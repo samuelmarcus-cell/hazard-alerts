@@ -319,10 +319,30 @@
   "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714",
   "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
-  "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556"
+  "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
+  "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-22T20:47:21.397731+00:00",
+    "history": [
+     "Hazard news · 23 Nov 07:47"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Storms to hit south-western Qld as heatwave lingers in far north",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
