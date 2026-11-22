@@ -340,24 +340,6 @@
     "rank": 0,
     "title": "Major grassfire now under control in Victoria's north-west",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-22T03:46:01.439981+00:00",
-    "history": [
-     "Hazard news · 22 Nov 14:46"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Bellamy to end Storm coaching stint after 2027 NRL season",
-    "track_end": false
    }
   },
   "ACT ESA": {},
