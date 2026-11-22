@@ -1012,3 +1012,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T11:31:31Z,new,GDACS,gdacs:FL:1104293,Green,Flood — Chile,-33.1045621,-71.6675632,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104293,no
 2026-11-22T11:31:31Z,new,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-2.1433138,-80.7765374,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
 2026-11-22T12:46:57Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Central West Slopes and Plains, Upper Western and Lower Western Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-22T13:01:57Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Channel Country Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
