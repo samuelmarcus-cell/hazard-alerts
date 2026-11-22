@@ -408,26 +408,7 @@
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
-  "BoM VIC": {
-   "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-11-21T23:30:35.888550+00:00",
-    "history": [
-     "Warning · 22 Nov 10:30"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of East Gippsland, North East and West and South Gippsland Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM VIC": {},
   "BoM WA": {},
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
