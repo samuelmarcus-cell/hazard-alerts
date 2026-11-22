@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1573937657325682739",
-  "map_hash": "01a5337513f5",
+  "attachment_id": "1573983073995857930",
+  "map_hash": "b1a391f4e46c",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1252,62 +1252,7 @@
     "track_end": true
    }
   },
-  "VicEmergency": {
-   "VicEmergency:43650": {
-    "attachment_id": "1573952732992376882",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "VicEmergency: Emergency Warning current.",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-35.3236&mlon=142.7726#map=8/-35.3236/142.7726)"
-      }
-     ],
-     "footer": {
-      "text": "VicEmergency"
-     },
-     "timestamp": "2026-11-22T06:46:13.782251+00:00",
-     "title": "🔥 EMERGENCY WARNING: Advice"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-22T06:46:01.947125+00:00",
-    "history": [
-     "Emergency Warning · 22 Nov 17:46"
-    ],
-    "key": "VicEmergency:43650",
-    "lat": -35.32362797063162,
-    "level": "Emergency Warning",
-    "link": "",
-    "lon": 142.7725503643763,
-    "message_id": "1573952733050970124",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Advice",
-    "track_end": true
-   },
-   "VicEmergency:43651": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-22T07:16:31.726696+00:00",
-    "history": [
-     "Watch and Act · 22 Nov 18:16"
-    ],
-    "key": "VicEmergency:43651",
-    "lat": -35.30106152704502,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 142.71980740631045,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Advice",
-    "track_end": true
-   }
-  },
+  "VicEmergency": {},
   "WA DFES": {}
  },
  "version": 2

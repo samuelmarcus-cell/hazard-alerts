@@ -1004,3 +1004,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T06:46:01Z,ended,VicEmergency,VicEmergency:43649,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
 2026-11-22T07:16:31Z,new,VicEmergency,VicEmergency:43651,Watch and Act,Watch and Act: Advice,-35.30106152704502,142.71980740631045,,no
 2026-11-22T07:16:31Z,ended,VicEmergency,VicEmergency:43645,Watch and Act,Watch and Act: Watch & Act,-35.24242098060482,142.69740559661324,,no
+2026-11-22T08:46:31Z,ended,VicEmergency,VicEmergency:43650,Emergency Warning,EMERGENCY WARNING: Advice,-35.32362797063162,142.7725503643763,,yes
+2026-11-22T08:46:31Z,ended,VicEmergency,VicEmergency:43651,Watch and Act,Watch and Act: Advice,-35.30106152704502,142.71980740631045,,no
