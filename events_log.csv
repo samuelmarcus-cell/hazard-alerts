@@ -1000,3 +1000,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-22T06:01:01Z,new,VicEmergency,VicEmergency:43649,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
 2026-11-22T06:01:01Z,ended,VicEmergency,VicEmergency:43648,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes
 2026-11-22T06:16:01Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,"Severe Thunderstorm Warning for parts of East Gippsland, North East and West and South Gippsland Forecast Districts.",,,http://reg.bom.gov.au/products/IDV21033.shtml,no
+2026-11-22T06:46:01Z,new,VicEmergency,VicEmergency:43650,Emergency Warning,EMERGENCY WARNING: Advice,-35.32362797063162,142.7725503643763,,yes
+2026-11-22T06:46:01Z,ended,VicEmergency,VicEmergency:43649,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-35.32362797063162,142.7725503643763,,yes

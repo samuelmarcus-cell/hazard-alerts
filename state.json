@@ -1271,8 +1271,8 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43649": {
-    "attachment_id": "1573941400473571391",
+   "VicEmergency:43650": {
+    "attachment_id": "1573952732992376882",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
@@ -1287,24 +1287,24 @@
      "footer": {
       "text": "VicEmergency"
      },
-     "timestamp": "2026-11-22T06:01:11.894853+00:00",
-     "title": "🔥 EMERGENCY WARNING: Emergency Warning"
+     "timestamp": "2026-11-22T06:46:13.782251+00:00",
+     "title": "🔥 EMERGENCY WARNING: Advice"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-22T06:01:01.724702+00:00",
+    "first_seen": "2026-11-22T06:46:01.947125+00:00",
     "history": [
-     "Emergency Warning · 22 Nov 17:01"
+     "Emergency Warning · 22 Nov 17:46"
     ],
-    "key": "VicEmergency:43649",
+    "key": "VicEmergency:43650",
     "lat": -35.32362797063162,
     "level": "Emergency Warning",
     "link": "",
     "lon": 142.7725503643763,
-    "message_id": "1573941400687607818",
+    "message_id": "1573952733050970124",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Emergency Warning",
+    "title": "EMERGENCY WARNING: Advice",
     "track_end": true
    }
   },
