@@ -820,10 +820,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": -7.3032412,
+    "lat": 2.1923519,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 110.0044145,
+    "lon": 99.3812201,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -936,6 +936,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Ireland",
+    "track_end": true
+   },
+   "gdacs:FL:1104297": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-23T13:59:31.389465+00:00",
+    "history": [
+     "Green · 24 Nov 00:59"
+    ],
+    "key": "gdacs:FL:1104297",
+    "lat": 7.543525,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104297",
+    "lon": 99.9971582,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Thailand",
     "track_end": true
    },
    "gdacs:TC:1001350": {
