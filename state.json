@@ -352,26 +352,7 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/nt/warnings/fire.shtml": {
-    "colour": 16088064,
-    "emoji": "🔥",
-    "first_seen": "2026-11-22T06:01:01.724702+00:00",
-    "history": [
-     "Warning · 22 Nov 17:01"
-    ],
-    "key": "bom:http://reg.bom.gov.au/nt/warnings/fire.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/nt/warnings/fire.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Fire Weather Warning for Simpson East fire weather district",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
@@ -839,10 +820,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": -6.8891904,
+    "lat": 2.1923519,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 107.6404716,
+    "lon": 99.3812201,
     "news": false,
     "notify": false,
     "rank": 0,

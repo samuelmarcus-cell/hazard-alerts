@@ -1034,3 +1034,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-23T12:14:31Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1795425575,Hazard news,Thousands displaced after deadly storm hits Brazil town,,,https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss,no
 2026-11-23T12:29:30Z,new,GDACS,gdacs:FL:1104295,Green,Flood — Ireland,51.6797696,-9.4523603,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104295,no
 2026-11-23T12:29:30Z,new,GDACS,gdacs:FL:1104269,Green,Flood — Democratic Republic of Congo,-4.4556553,15.2291133,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269,no
+2026-11-23T13:29:31Z,ended,BoM NT,bom:http://reg.bom.gov.au/nt/warnings/fire.shtml,Warning,Fire Weather Warning for Simpson East fire weather district,,,http://reg.bom.gov.au/nt/warnings/fire.shtml,no
