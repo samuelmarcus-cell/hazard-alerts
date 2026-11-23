@@ -330,24 +330,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795412195": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-23T06:18:19.338713+00:00",
-    "history": [
-     "Hazard news · 23 Nov 17:18"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795412195",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Alcaraz storms past world number one Zverev to win maiden ATP Finals title",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1795425575": {
     "colour": 2001125,
     "emoji": "📰",
