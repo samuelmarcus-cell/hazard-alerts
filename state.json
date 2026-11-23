@@ -867,6 +867,24 @@
     "title": "Flood — Indonesia",
     "track_end": true
    },
+   "gdacs:FL:1104269": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-23T12:29:30.993265+00:00",
+    "history": [
+     "Green · 23 Nov 23:29"
+    ],
+    "key": "gdacs:FL:1104269",
+    "lat": -4.4556553,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
+    "lon": 15.2291133,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Democratic Republic of Congo",
+    "track_end": true
+   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -937,6 +955,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Colombia",
+    "track_end": true
+   },
+   "gdacs:FL:1104295": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-23T12:29:30.993265+00:00",
+    "history": [
+     "Green · 23 Nov 23:29"
+    ],
+    "key": "gdacs:FL:1104295",
+    "lat": 51.6797696,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104295",
+    "lon": -9.4523603,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ireland",
     "track_end": true
    },
    "gdacs:TC:1001350": {
