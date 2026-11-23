@@ -1026,3 +1026,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-23T01:47:49Z,new,VicEmergency,VicEmergency:43661,Emergency Warning,EMERGENCY WARNING: Advice,-37.05374580801379,142.77427054323857,,yes
 2026-11-23T03:02:49Z,ended,VicEmergency,VicEmergency:43661,Emergency Warning,EMERGENCY WARNING: Advice,-37.05374580801379,142.77427054323857,,yes
 2026-11-23T03:47:49Z,new,Guardian World,Guardian World:https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert,Hazard news,Manchester’s Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert,,,https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert,no
+2026-11-23T05:18:19Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
