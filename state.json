@@ -329,26 +329,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795425575": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-23T12:14:31.366800+00:00",
-    "history": [
-     "Hazard news · 23 Nov 23:14"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795425575",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Thousands displaced after deadly storm hits Brazil town",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
