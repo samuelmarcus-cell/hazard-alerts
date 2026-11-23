@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1573983073995857930",
-  "map_hash": "b1a391f4e46c",
+  "attachment_id": "1574240105294729307",
+  "map_hash": "c4ede999934f",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1071,7 +1071,44 @@
     "track_end": true
    }
   },
-  "VicEmergency": {},
+  "VicEmergency": {
+   "VicEmergency:43661": {
+    "attachment_id": "1574240086038679632",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "VicEmergency: Emergency Warning current.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-37.0537&mlon=142.7743#map=8/-37.0537/142.7743)"
+      }
+     ],
+     "footer": {
+      "text": "VicEmergency"
+     },
+     "timestamp": "2026-11-23T01:48:03.964669+00:00",
+     "title": "🔥 EMERGENCY WARNING: Advice"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-23T01:47:49.704825+00:00",
+    "history": [
+     "Emergency Warning · 23 Nov 12:47"
+    ],
+    "key": "VicEmergency:43661",
+    "lat": -37.05374580801379,
+    "level": "Emergency Warning",
+    "link": "",
+    "lon": 142.77427054323857,
+    "message_id": "1574240085900271772",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Advice",
+    "track_end": true
+   }
+  },
   "WA DFES": {}
  },
  "version": 2
