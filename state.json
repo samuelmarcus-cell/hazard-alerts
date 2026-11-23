@@ -321,13 +321,33 @@
   "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
   "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
   "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108",
-  "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert"
+  "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+  "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1795412195": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-23T06:18:19.338713+00:00",
+    "history": [
+     "Hazard news · 23 Nov 17:18"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795412195",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Alcaraz storms past world number one Zverev to win maiden ATP Finals title",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
