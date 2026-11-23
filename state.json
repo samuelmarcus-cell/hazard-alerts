@@ -320,7 +320,8 @@
   "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714",
   "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
   "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
-  "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108"
+  "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108",
+  "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert"
  ],
  "sources": {
   "ABC News": {},
@@ -958,6 +959,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-23T03:47:49.878485+00:00",
+    "history": [
+     "Hazard news · 23 Nov 14:47"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Manchester’s Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
