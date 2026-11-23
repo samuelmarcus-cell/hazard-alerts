@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574258972179964116",
-  "map_hash": "b1a391f4e46c",
+  "attachment_id": "1574564156747550910",
+  "map_hash": "3bb55c9d9dd0",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -973,63 +973,6 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — Cook Islands",
-    "track_end": true
-   },
-   "gdacs:TC:1001351": {
-    "attachment_id": "1571982883743334471",
-    "colour": 16088064,
-    "embed": {
-     "color": 16088064,
-     "description": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (20.826 million in Tropical Storm).",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Level",
-       "value": "Orange"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Tropical cyclone"
-      },
-      {
-       "inline": true,
-       "name": "Country",
-       "value": "India"
-      },
-      {
-       "inline": true,
-       "name": "Severity",
-       "value": "Tropical Storm (maximum wind speed of 93 km/h)"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=11.3000&mlon=86.7000#map=8/11.3000/86.7000)"
-      }
-     ],
-     "footer": {
-      "text": "GDACS"
-     },
-     "timestamp": "2026-11-16T20:18:44.735130+00:00",
-     "title": "🌀 Tropical cyclone — India",
-     "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351"
-    },
-    "emoji": "🌀",
-    "first_seen": "2026-11-16T20:18:29.877565+00:00",
-    "history": [
-     "Orange · 17 Nov 07:18"
-    ],
-    "key": "gdacs:TC:1001351",
-    "lat": 17.2,
-    "level": "Orange",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
-    "lon": 84.7,
-    "message_id": "1571982883969704147",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Tropical cyclone — India",
     "track_end": true
    }
   },
