@@ -322,7 +322,8 @@
   "https://www.abc.net.au/news/2026-11-22/fire-warning-nandaly-north-west-victoria-emergency-services/107414556",
   "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108",
   "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
-  "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss"
+  "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -345,6 +346,24 @@
     "notify": false,
     "rank": 0,
     "title": "Alcaraz storms past world number one Zverev to win maiden ATP Finals title",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795425575": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-23T12:14:31.366800+00:00",
+    "history": [
+     "Hazard news · 23 Nov 23:14"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795425575",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Thousands displaced after deadly storm hits Brazil town",
     "track_end": false
    }
   },
@@ -371,26 +390,7 @@
     "track_end": true
    }
   },
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-23T05:18:19.325348+00:00",
-    "history": [
-     "Warning · 23 Nov 16:18"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},
   "BoM VIC": {},
@@ -803,10 +803,10 @@
      "Green · 22 Nov 22:31"
     ],
     "key": "gdacs:FL:1104167",
-    "lat": -2.1433138,
+    "lat": -1.5680202,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -80.7765374,
+    "lon": -79.3769672,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -921,6 +921,24 @@
     "title": "Flood — Chile",
     "track_end": true
    },
+   "gdacs:FL:1104294": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-23T12:14:31.366800+00:00",
+    "history": [
+     "Green · 23 Nov 23:14"
+    ],
+    "key": "gdacs:FL:1104294",
+    "lat": 6.2124521,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104294",
+    "lon": -75.5025086,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Colombia",
+    "track_end": true
+   },
    "gdacs:TC:1001350": {
     "colour": 4431943,
     "emoji": "🌀",
@@ -998,24 +1016,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-23T03:47:49.878485+00:00",
-    "history": [
-     "Hazard news · 23 Nov 14:47"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd at Don Toliver concert",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1056,7 +1056,26 @@
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
-  "TasALERT": {},
+  "TasALERT": {
+   "TasALERT:Bushfire|Palana Road, North East River Road and Surrounding Areas": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-23T12:14:31.366800+00:00",
+    "history": [
+     "Watch and Act · 23 Nov 23:14"
+    ],
+    "key": "TasALERT:Bushfire|Palana Road, North East River Road and Surrounding Areas",
+    "lat": -39.77789,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=8eb652e2-53e8-4a7a-836f-bca0031252d3",
+    "lon": 147.91272,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch & Act - Palana (Flinders Island) - Leave now if you are not prepared",
+    "track_end": true
+   }
+  },
   "US fires": {
    "us:2026-COCUX-001160": {
     "colour": 16361509,
