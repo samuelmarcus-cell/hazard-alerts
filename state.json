@@ -328,13 +328,33 @@
   "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
   "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
   "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-  "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo"
+  "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1795552583": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T21:17:48.154889+00:00",
+    "history": [
+     "Hazard news · 25 Nov 08:17"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795552583",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Brazil doctor uses surfboard and sledgehammer in flood rescue",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
