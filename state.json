@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574564156747550910",
-  "map_hash": "3bb55c9d9dd0",
+  "attachment_id": "1574927130830045395",
+  "map_hash": "99113de8d9f6",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -764,42 +764,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1104167": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-22T11:31:31.715917+00:00",
-    "history": [
-     "Green · 22 Nov 22:31"
-    ],
-    "key": "gdacs:FL:1104167",
-    "lat": -1.5680202,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -79.3769672,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Ecuador",
-    "track_end": true
-   },
-   "gdacs:FL:1104216": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-16T06:47:00.195384+00:00",
-    "history": [
-     "Green · 16 Nov 17:47"
-    ],
-    "key": "gdacs:FL:1104216",
-    "lat": -20.4640173,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
-    "lon": -54.6162947,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Brazil",
-    "track_end": true
-   },
    "gdacs:FL:1104220": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -834,24 +798,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Indonesia",
-    "track_end": true
-   },
-   "gdacs:FL:1104269": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-23T12:29:30.993265+00:00",
-    "history": [
-     "Green · 23 Nov 23:29"
-    ],
-    "key": "gdacs:FL:1104269",
-    "lat": -4.4556553,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104269",
-    "lon": 15.2291133,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Democratic Republic of Congo",
     "track_end": true
    },
    "gdacs:FL:1104270": {
@@ -906,24 +852,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Chile",
-    "track_end": true
-   },
-   "gdacs:FL:1104294": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-23T12:14:31.366800+00:00",
-    "history": [
-     "Green · 23 Nov 23:14"
-    ],
-    "key": "gdacs:FL:1104294",
-    "lat": 6.2124521,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104294",
-    "lon": -75.5025086,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Colombia",
     "track_end": true
    },
    "gdacs:FL:1104295": {
@@ -1057,6 +985,53 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Bushfire Watch & Act - Killikrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
+    "track_end": true
+   },
+   "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas": {
+    "attachment_id": "1574927118398263418",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Leeka & Mount Tanner (Flinders Island) - Leave immediately . Travel North to Killikrankie via Palana Road. An uncontrolled bushfire at Leeka & Mount Tanner (Flinders Island) is travelling South West towards Leeka & Mount Tanner and Surrounding Areas and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Conditions",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Area",
+       "value": "Leeka & Mount Tanner and Surrounding Areas"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8894&mlon=147.8191#map=8/-39.8894/147.8191)"
+      }
+     ],
+     "footer": {
+      "text": "TasALERT"
+     },
+     "timestamp": "2026-11-24T23:18:02.007071+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Leave immediately",
+     "url": "https://alert.tas.gov.au/?id=df3ff40d-18fd-4d59-8386-16fd030bc58a"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-24T23:17:47.948474+00:00",
+    "history": [
+     "Emergency Warning · 25 Nov 10:17"
+    ],
+    "key": "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas",
+    "lat": -39.88939,
+    "level": "Emergency Warning",
+    "link": "https://alert.tas.gov.au/?id=df3ff40d-18fd-4d59-8386-16fd030bc58a",
+    "lon": 147.81905,
+    "message_id": "1574927118242947123",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Leave immediately",
     "track_end": true
    }
   },
