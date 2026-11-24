@@ -329,26 +329,7 @@
   "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T04:00:28.803114+00:00",
-    "history": [
-     "Hazard news · 24 Nov 15:00"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "‘Terrifying' cyclone has not stopped caretakers from going back again",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
