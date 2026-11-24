@@ -326,7 +326,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
   "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
-  "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688"
+  "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
+  "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel"
  ],
  "sources": {
   "ABC News": {},
@@ -940,6 +941,24 @@
     "title": "Flood — Thailand",
     "track_end": true
    },
+   "gdacs:FL:1104298": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-24T12:16:36.350269+00:00",
+    "history": [
+     "Green · 24 Nov 23:16"
+    ],
+    "key": "gdacs:FL:1104298",
+    "lat": 39.6036596,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104298",
+    "lon": -8.4150492,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Portugal",
+    "track_end": true
+   },
    "gdacs:TC:1001350": {
     "colour": 4431943,
     "emoji": "🌀",
@@ -994,6 +1013,24 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T12:16:36.350269+00:00",
+    "history": [
+     "Hazard news · 24 Nov 23:16"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "California king tides threaten Thanksgiving travel as coastal flooding looms",
     "track_end": false
    }
   },

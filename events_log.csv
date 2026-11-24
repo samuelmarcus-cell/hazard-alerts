@@ -1049,3 +1049,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-24T07:16:05Z,new,GDACS,gdacs:TC:1001352,Green,Tropical cyclone,-10.08,77.27,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001352,no
 2026-11-24T08:16:06Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-24T08:46:05Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Daly, Arnhem, Carpentaria and Gregory districts.",,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-24T12:16:36Z,new,GDACS,gdacs:FL:1104298,Green,Flood — Portugal,39.6036596,-8.4150492,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104298,no
+2026-11-24T12:16:36Z,new,Guardian World,Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel,Hazard news,California king tides threaten Thanksgiving travel as coastal flooding looms,,,https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel,no
