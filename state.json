@@ -372,26 +372,7 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
-  "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-24T03:30:28.760025+00:00",
-    "history": [
-     "Warning · 24 Nov 14:30"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains and Upper Western Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM NSW/ACT": {},
   "BoM NT": {
    "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
     "colour": 16088064,
@@ -1050,6 +1031,24 @@
     "notify": false,
     "rank": 0,
     "title": "Tropical cyclone — Cook Islands",
+    "track_end": true
+   },
+   "gdacs:TC:1001352": {
+    "colour": 4431943,
+    "emoji": "🌀",
+    "first_seen": "2026-11-24T07:16:05.967002+00:00",
+    "history": [
+     "Green · 24 Nov 18:16"
+    ],
+    "key": "gdacs:TC:1001352",
+    "lat": -10.08,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001352",
+    "lon": 77.27,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Tropical cyclone",
     "track_end": true
    }
   },
