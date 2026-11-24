@@ -1052,3 +1052,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-24T12:16:36Z,new,GDACS,gdacs:FL:1104298,Green,Flood — Portugal,39.6036596,-8.4150492,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104298,no
 2026-11-24T12:16:36Z,new,Guardian World,Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel,Hazard news,California king tides threaten Thanksgiving travel as coastal flooding looms,,,https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel,no
 2026-11-24T14:16:36Z,new,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Gregory district.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-24T14:31:36Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of Kimberley district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
