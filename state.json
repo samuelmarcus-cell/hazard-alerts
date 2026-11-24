@@ -347,24 +347,6 @@
     "rank": 0,
     "title": "‘Terrifying' cyclone has not stopped caretakers from going back again",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T04:00:28.803114+00:00",
-    "history": [
-     "Hazard news · 24 Nov 15:00"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Munster calls Storm contract offer 'disappointing'",
-    "track_end": false
    }
   },
   "ACT ESA": {},
@@ -373,26 +355,7 @@
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-24T07:01:05.373867+00:00",
-    "history": [
-     "Warning · 24 Nov 18:01"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Daly, Arnhem, Carpentaria and Gregory districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {},

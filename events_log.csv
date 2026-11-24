@@ -1048,3 +1048,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-24T07:16:05Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of North West Slopes and Plains and Upper Western Forecast Districts.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
 2026-11-24T07:16:05Z,new,GDACS,gdacs:TC:1001352,Green,Tropical cyclone,-10.08,77.27,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001352,no
 2026-11-24T08:16:06Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-11-24T08:46:05Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Daly, Arnhem, Carpentaria and Gregory districts.",,,http://reg.bom.gov.au/products/IDD21033.shtml,no
