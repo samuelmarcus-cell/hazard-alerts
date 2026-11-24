@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574927130830045395",
-  "map_hash": "99113de8d9f6",
+  "attachment_id": "1574930888477642812",
+  "map_hash": "aecdfd1cefb3",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -963,12 +963,77 @@
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
     "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T23:32:47.604474+00:00",
+    "history": [
+     "Hazard news · 25 Nov 10:32"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+    "track_end": false
    }
   },
   "NSW RFS": {},
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
+   "TasALERT:Bushfire|Killikrankie, Leeka & Mount Tanner and surrounds": {
+    "attachment_id": "1574930874296963203",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killikrankie, Leeka & Mount Tanner - Too late to leave.An uncontrolled bushfire at Killikrankie, Leeka & Mount Tanner is travelling towards Killikrankie, Leeka & Mount Tanner and surrounds and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are atten",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Area",
+       "value": "Killikrankie, Leeka & Mount Tanner and surrounds"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8743&mlon=147.8252#map=8/-39.8743/147.8252)"
+      }
+     ],
+     "footer": {
+      "text": "TasALERT"
+     },
+     "timestamp": "2026-11-24T23:33:00.712209+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Killikrankie, Leeka & Mount Tanner - Too late to leave",
+     "url": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-24T23:32:47.604474+00:00",
+    "history": [
+     "Emergency Warning · 25 Nov 10:32"
+    ],
+    "key": "TasALERT:Bushfire|Killikrankie, Leeka & Mount Tanner and surrounds",
+    "lat": -39.87427,
+    "level": "Emergency Warning",
+    "link": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8",
+    "lon": 147.8252,
+    "message_id": "1574930874510745691",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Killikrankie, Leeka & Mount Tanner - Too late to leave",
+    "track_end": true
+   },
    "TasALERT:Bushfire|Killikrankie, Mount Killikrankie and Mount Blyth and Surrounding Areas": {
     "colour": 16361509,
     "emoji": "🔥",
