@@ -1041,6 +1041,24 @@
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
+   "TasALERT:Bushfire|Killikrankie, Mount Killikrankie and Mount Blyth and Surrounding Areas": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-24T21:32:47.564575+00:00",
+    "history": [
+     "Watch and Act · 25 Nov 08:32"
+    ],
+    "key": "TasALERT:Bushfire|Killikrankie, Mount Killikrankie and Mount Blyth and Surrounding Areas",
+    "lat": -39.83693,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=9d9ad3a4-0d4d-4e5d-add7-e91408eaa490",
+    "lon": 147.85231,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch & Act - Killikrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
+    "track_end": true
+   },
    "TasALERT:Bushfire|Palana Road, North East River Road and Surrounding Areas": {
     "colour": 16361509,
     "emoji": "🔥",
