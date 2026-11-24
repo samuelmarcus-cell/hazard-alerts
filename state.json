@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": null,
+   "failing_since": "2026-11-24T19:47:07.840235+00:00",
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -1014,24 +1014,6 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T17:32:07.904056+00:00",
-    "history": [
-     "Hazard news · 25 Nov 04:32"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California king tides threaten Thanksgiving travel as coastal flooding looms",
     "track_end": false
    }
   },
