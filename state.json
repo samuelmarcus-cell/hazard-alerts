@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574930888477642812",
-  "map_hash": "aecdfd1cefb3",
+  "attachment_id": "1574934696427651203",
+  "map_hash": "46ebaecfd358",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -329,10 +329,30 @@
   "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
   "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
   "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T23:47:48.496343+00:00",
+    "history": [
+     "Hazard news · 25 Nov 10:47"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Breaking: Flinders Island bushfire prompts emergency warning to residents, tourists",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -987,17 +1007,17 @@
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
-   "TasALERT:Bushfire|Killikrankie, Leeka & Mount Tanner and surrounds": {
-    "attachment_id": "1574930874296963203",
+   "TasALERT:Bushfire|Killiekrankie, Leeka & Mount Tanner and surrounds": {
+    "attachment_id": "1574934669751754752",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killikrankie, Leeka & Mount Tanner - Too late to leave.An uncontrolled bushfire at Killikrankie, Leeka & Mount Tanner is travelling towards Killikrankie, Leeka & Mount Tanner and surrounds and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are atten",
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killiekrankie, Leeka & Mount Tanner - Too late to leave.An uncontrolled bushfire at Killiekrankie, Leeka & Mount Tanner is travelling towards Killiekrankie, Leeka & Mount Tanner and surrounds and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are at",
      "fields": [
       {
        "inline": true,
        "name": "Area",
-       "value": "Killikrankie, Leeka & Mount Tanner and surrounds"
+       "value": "Killiekrankie, Leeka & Mount Tanner and surrounds"
       },
       {
        "inline": true,
@@ -1013,35 +1033,35 @@
      "footer": {
       "text": "TasALERT"
      },
-     "timestamp": "2026-11-24T23:33:00.712209+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Killikrankie, Leeka & Mount Tanner - Too late to leave",
+     "timestamp": "2026-11-24T23:48:05.632891+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Killiekrankie, Leeka & Mount Tanner - Too late to leave",
      "url": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-24T23:32:47.604474+00:00",
+    "first_seen": "2026-11-24T23:47:48.496343+00:00",
     "history": [
-     "Emergency Warning · 25 Nov 10:32"
+     "Emergency Warning · 25 Nov 10:47"
     ],
-    "key": "TasALERT:Bushfire|Killikrankie, Leeka & Mount Tanner and surrounds",
+    "key": "TasALERT:Bushfire|Killiekrankie, Leeka & Mount Tanner and surrounds",
     "lat": -39.87427,
     "level": "Emergency Warning",
     "link": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8",
     "lon": 147.8252,
-    "message_id": "1574930874510745691",
+    "message_id": "1574934669604950038",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Killikrankie, Leeka & Mount Tanner - Too late to leave",
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Killiekrankie, Leeka & Mount Tanner - Too late to leave",
     "track_end": true
    },
-   "TasALERT:Bushfire|Killikrankie, Mount Killikrankie and Mount Blyth and Surrounding Areas": {
+   "TasALERT:Bushfire|North of Killiekrankie Road, Mount Killiekrankie and Mount Blyth and Surrounding Areas": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-24T21:32:47.564575+00:00",
+    "first_seen": "2026-11-24T23:47:48.496343+00:00",
     "history": [
-     "Watch and Act · 25 Nov 08:32"
+     "Watch and Act · 25 Nov 10:47"
     ],
-    "key": "TasALERT:Bushfire|Killikrankie, Mount Killikrankie and Mount Blyth and Surrounding Areas",
+    "key": "TasALERT:Bushfire|North of Killiekrankie Road, Mount Killiekrankie and Mount Blyth and Surrounding Areas",
     "lat": -39.83693,
     "level": "Watch and Act",
     "link": "https://alert.tas.gov.au/?id=9d9ad3a4-0d4d-4e5d-add7-e91408eaa490",
@@ -1049,54 +1069,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - Killikrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
-    "track_end": true
-   },
-   "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas": {
-    "attachment_id": "1574927118398263418",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Leeka & Mount Tanner (Flinders Island) - Leave immediately . Travel North to Killikrankie via Palana Road. An uncontrolled bushfire at Leeka & Mount Tanner (Flinders Island) is travelling South West towards Leeka & Mount Tanner and Surrounding Areas and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Conditions",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Area",
-       "value": "Leeka & Mount Tanner and Surrounding Areas"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8894&mlon=147.8191#map=8/-39.8894/147.8191)"
-      }
-     ],
-     "footer": {
-      "text": "TasALERT"
-     },
-     "timestamp": "2026-11-24T23:18:02.007071+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Leave immediately",
-     "url": "https://alert.tas.gov.au/?id=df3ff40d-18fd-4d59-8386-16fd030bc58a"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-24T23:17:47.948474+00:00",
-    "history": [
-     "Emergency Warning · 25 Nov 10:17"
-    ],
-    "key": "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas",
-    "lat": -39.88939,
-    "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=df3ff40d-18fd-4d59-8386-16fd030bc58a",
-    "lon": 147.81905,
-    "message_id": "1574927118242947123",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Leave immediately",
+    "title": "Watch and Act: Bushfire Watch & Act - North of Killiekrankie Road, Mount Killiecrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
     "track_end": true
    }
   },
