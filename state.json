@@ -327,7 +327,8 @@
   "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
   "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
   "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
-  "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel"
+  "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+  "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo"
  ],
  "sources": {
   "ABC News": {},
@@ -1035,6 +1036,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T15:17:08.163976+00:00",
+    "history": [
+     "Hazard news · 25 Nov 02:17"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
