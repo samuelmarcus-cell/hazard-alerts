@@ -998,24 +998,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T15:17:08.163976+00:00",
-    "history": [
-     "Hazard news · 25 Nov 02:17"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1032,6 +1014,24 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T17:32:07.904056+00:00",
+    "history": [
+     "Hazard news · 25 Nov 04:32"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "California king tides threaten Thanksgiving travel as coastal flooding looms",
     "track_end": false
    }
   },
