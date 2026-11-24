@@ -324,10 +324,49 @@
   "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
   "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
-  "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
+  "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
+  "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T04:00:28.803114+00:00",
+    "history": [
+     "Hazard news · 24 Nov 15:00"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-24/berkeley-river-lodge-cyclone-fina-caretakers-kimberley/107420268",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Luxury resort caretakers hope for less intense cyclone season",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-24T04:00:28.803114+00:00",
+    "history": [
+     "Hazard news · 24 Nov 15:00"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Munster calls Storm contract offer 'disappointing'",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
