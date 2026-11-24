@@ -995,24 +995,6 @@
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
     "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-21T07:58:47.710036+00:00",
-    "history": [
-     "Hazard news · 21 Nov 18:58"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "When you see smoke, run: Rohingya who escaped Myanmar’s genocide tell their stories",
-    "track_end": false
    }
   },
   "NSW RFS": {},
