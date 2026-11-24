@@ -333,7 +333,26 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-24T03:30:28.760025+00:00",
+    "history": [
+     "Warning · 24 Nov 14:30"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains and Upper Western Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
