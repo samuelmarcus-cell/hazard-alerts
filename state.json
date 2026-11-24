@@ -330,26 +330,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795444314": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-23T18:30:01.236005+00:00",
-    "history": [
-     "Hazard news · 24 Nov 05:30"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795444314",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
