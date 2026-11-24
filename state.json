@@ -1058,24 +1058,6 @@
     "rank": 0,
     "title": "Watch and Act: Bushfire Watch & Act - Killikrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
     "track_end": true
-   },
-   "TasALERT:Bushfire|Palana Road, North East River Road and Surrounding Areas": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-23T12:14:31.366800+00:00",
-    "history": [
-     "Watch and Act · 23 Nov 23:14"
-    ],
-    "key": "TasALERT:Bushfire|Palana Road, North East River Road and Surrounding Areas",
-    "lat": -39.77789,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=8eb652e2-53e8-4a7a-836f-bca0031252d3",
-    "lon": 147.91272,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - Palana (Flinders Island) - Leave now if you are not prepared",
-    "track_end": true
    }
   },
   "US fires": {
