@@ -334,7 +334,8 @@
   "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
   "https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258",
   "https://www.abc.net.au/news/2026-11-25/cape-york-residents-swelter-heatwaves-water-outages/107426388",
-  "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket"
+  "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+  "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania"
  ],
  "sources": {
   "ABC News": {
@@ -1043,6 +1044,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-25T09:18:53.707012+00:00",
+    "history": [
+     "Hazard news · 25 Nov 20:18"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Large bushfire threatens homes and properties on remote island off Tasmania",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
     "colour": 2001125,
     "emoji": "📰",
