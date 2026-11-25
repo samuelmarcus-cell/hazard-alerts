@@ -337,7 +337,8 @@
   "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
   "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
   "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-  "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides"
+  "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+  "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast"
  ],
  "sources": {
   "ABC News": {
@@ -365,14 +366,14 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#0": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-25T10:33:53.529272+00:00",
+    "first_seen": "2026-11-25T15:04:25.221317+00:00",
     "history": [
-     "Hazard news · 25 Nov 21:33"
+     "Hazard news · 26 Nov 02:04"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#0",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
@@ -1061,6 +1062,24 @@
     "notify": false,
     "rank": 0,
     "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-25T15:04:25.221317+00:00",
+    "history": [
+     "Hazard news · 26 Nov 02:04"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Heavy rain and high winds on east coast threaten to disrupt Thanksgiving plans",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
