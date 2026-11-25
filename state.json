@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575017836902879283",
-  "map_hash": "5f7c759f082a",
+  "attachment_id": "1575085950642692238",
+  "map_hash": "718a55de23ae",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -380,7 +380,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Lasseter district.",
+    "title": "Severe Thunderstorm Warning for parts of Simpson, Lasseter and Tanami districts.",
     "track_end": true
    }
   },
@@ -400,7 +400,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Gulf Country, North West and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
@@ -1139,51 +1139,22 @@
     "title": "Watch and Act: Bushfire Watch and Act - Lughrata and Surrounds - Prepare to leave",
     "track_end": true
    },
-   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and surrounds": {
-    "attachment_id": "1575055740316422154",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)- Leave immediately .An uncontrolled bushfire at Palana is travelling towards Leeka and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are attending.Conditions are expected to be chan",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Area",
-       "value": "Mount Boyes, Carnacs Flat and surrounds"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8896&mlon=147.9255#map=8/-39.8896/147.9255)"
-      }
-     ],
-     "footer": {
-      "text": "TasALERT"
-     },
-     "timestamp": "2026-11-25T07:49:10.891919+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Surrounds - Leave immediately",
-     "url": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419"
-    },
+   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)": {
+    "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-25T07:48:54.175025+00:00",
+    "first_seen": "2026-11-25T09:48:53.799216+00:00",
     "history": [
-     "Emergency Warning · 25 Nov 18:48"
+     "Watch and Act · 25 Nov 20:48"
     ],
-    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and surrounds",
-    "lat": -39.88956,
-    "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419",
-    "lon": 147.92547,
-    "message_id": "1575055740605960264",
+    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)",
+    "lat": -39.88613,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=8cec4924-d841-4d69-aba9-b76e1faca064",
+    "lon": 147.93121,
     "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Surrounds - Leave immediately",
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch & Act - Mount Boyes, Carnacs Flat and Surrounds - Not safe to return",
     "track_end": true
    },
    "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds": {
