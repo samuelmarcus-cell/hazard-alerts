@@ -1064,24 +1064,6 @@
     "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T15:04:25.221317+00:00",
-    "history": [
-     "Hazard news · 26 Nov 02:04"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heavy rain and high winds on east coast threaten to disrupt Thanksgiving plans",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
