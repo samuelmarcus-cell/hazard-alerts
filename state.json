@@ -360,7 +360,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Houses impacted as bushfire makes 'significant run' across Flinders Island",
+    "title": "Houses affected as bushfire makes 'significant run' across Flinders Island",
     "track_end": false
    }
   },
@@ -813,24 +813,6 @@
     "title": "Flood — Brazil",
     "track_end": true
    },
-   "gdacs:FL:1104220": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-21T08:43:48.092232+00:00",
-    "history": [
-     "Green · 21 Nov 19:43"
-    ],
-    "key": "gdacs:FL:1104220",
-    "lat": 42.4046646,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 13.0650536,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Italy",
-    "track_end": true
-   },
    "gdacs:FL:1104253": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -847,42 +829,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Indonesia",
-    "track_end": true
-   },
-   "gdacs:FL:1104270": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-21T08:28:47.812535+00:00",
-    "history": [
-     "Green · 21 Nov 19:28"
-    ],
-    "key": "gdacs:FL:1104270",
-    "lat": 50.5100492,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": 1.7291708,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — France",
-    "track_end": true
-   },
-   "gdacs:FL:1104290": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-20T09:26:54.586833+00:00",
-    "history": [
-     "Green · 20 Nov 20:26"
-    ],
-    "key": "gdacs:FL:1104290",
-    "lat": 33.9926803,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290",
-    "lon": -117.760056,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — United States",
     "track_end": true
    },
    "gdacs:FL:1104292": {
@@ -1065,6 +1011,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flinders Island bushfire grows to 13,000 hectares with Tasmanian homes and properties at risk",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-25T23:05:22.668440+00:00",
+    "history": [
+     "Hazard news · 26 Nov 10:05"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Record-breaking California tides cause major flooding of roads and businesses",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
