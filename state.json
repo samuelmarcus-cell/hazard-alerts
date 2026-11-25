@@ -336,24 +336,6 @@
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T00:47:48.226741+00:00",
-    "history": [
-     "Hazard news · 25 Nov 11:47"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Live: Flinders Island bushfire prompts emergency warning for residents, tourists",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258": {
     "colour": 2001125,
     "emoji": "📰",
