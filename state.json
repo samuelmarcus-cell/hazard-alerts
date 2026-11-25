@@ -805,6 +805,24 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
+   "gdacs:FL:1104216": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-25T07:48:54.175025+00:00",
+    "history": [
+     "Green · 25 Nov 18:48"
+    ],
+    "key": "gdacs:FL:1104216",
+    "lat": -20.4640173,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
+    "lon": -54.6162947,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Brazil",
+    "track_end": true
+   },
    "gdacs:FL:1104220": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1082,17 +1100,17 @@
     "title": "Watch and Act: Bushfire Watch and Act - Lughrata and Surrounds - Prepare to leave",
     "track_end": true
    },
-   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds": {
-    "attachment_id": "1574945970670673990",
+   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and surrounds": {
+    "attachment_id": "1575055740316422154",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Boyes, Carnacs Flat and Lughrata - Leave immediately .An uncontrolled bushfire at Mount Boyes, Carnacs Flat and Lughrata is travelling towards Killiecrankie and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are attending.Conditions are expected t",
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)- Leave immediately .An uncontrolled bushfire at Palana is travelling towards Leeka and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are attending.Conditions are expected to be chan",
      "fields": [
       {
        "inline": true,
        "name": "Area",
-       "value": "Mount Boyes, Carnacs Flat and Lughrata and surrounds"
+       "value": "Mount Boyes, Carnacs Flat and surrounds"
       },
       {
        "inline": true,
@@ -1108,25 +1126,25 @@
      "footer": {
       "text": "TasALERT"
      },
-     "timestamp": "2026-11-25T00:33:00.006329+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
+     "timestamp": "2026-11-25T07:49:10.891919+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Surrounds - Leave immediately",
      "url": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-25T00:32:47.786762+00:00",
+    "first_seen": "2026-11-25T07:48:54.175025+00:00",
     "history": [
-     "Emergency Warning · 25 Nov 11:32"
+     "Emergency Warning · 25 Nov 18:48"
     ],
-    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds",
+    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and surrounds",
     "lat": -39.88956,
     "level": "Emergency Warning",
     "link": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419",
     "lon": 147.92547,
-    "message_id": "1574945970549162096",
+    "message_id": "1575055740605960264",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Surrounds - Leave immediately",
     "track_end": true
    },
    "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds": {
@@ -1220,7 +1238,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner - Too late to leave",
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner - Shelter indoors now",
     "track_end": true
    }
   },
