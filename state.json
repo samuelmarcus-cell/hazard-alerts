@@ -336,7 +336,8 @@
   "https://www.abc.net.au/news/2026-11-25/cape-york-residents-swelter-heatwaves-water-outages/107426388",
   "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
   "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
-  "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides"
  ],
  "sources": {
   "ABC News": {
@@ -1097,6 +1098,24 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-25T12:49:24.950983+00:00",
+    "history": [
+     "Hazard news · 25 Nov 23:49"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "California beaches close as record-breaking tides and major flooding loom",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
