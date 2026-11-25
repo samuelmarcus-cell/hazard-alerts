@@ -1066,24 +1066,6 @@
     "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T17:34:51.800756+00:00",
-    "history": [
-     "Hazard news · 26 Nov 04:34"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California beaches close as record-breaking tides and major flooding loom",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1135,7 +1117,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
+    "title": "All hostages rescued after Colombian security forces storm supermarket",
     "track_end": false
    }
   },
