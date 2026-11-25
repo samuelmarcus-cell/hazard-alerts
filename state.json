@@ -991,17 +991,17 @@
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
-   "TasALERT:Bushfire|Killiekrankie, Leeka & Mount Tanner and surrounds": {
-    "attachment_id": "1574934669751754752",
+   "TasALERT:Bushfire|Killiecrankie, Leeka & Mount Tanner and surrounds": {
+    "attachment_id": "1574991413492322314",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killiekrankie, Leeka & Mount Tanner - Too late to leave.An uncontrolled bushfire at Killiekrankie, Leeka & Mount Tanner is travelling towards Killiekrankie, Leeka & Mount Tanner and surrounds and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are at",
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killiecrankie, Leeka & Mount Tanner - Too late to leave.An uncontrolled bushfire at Killiecrankie, Leeka & Mount Tanner is travelling towards Killiecrankie, Leeka & Mount Tanner and surrounds and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are at",
      "fields": [
       {
        "inline": true,
        "name": "Area",
-       "value": "Killiekrankie, Leeka & Mount Tanner and surrounds"
+       "value": "Killiecrankie, Leeka & Mount Tanner and surrounds"
       },
       {
        "inline": true,
@@ -1017,25 +1017,25 @@
      "footer": {
       "text": "TasALERT"
      },
-     "timestamp": "2026-11-24T23:48:05.632891+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Killiekrankie, Leeka & Mount Tanner - Too late to leave",
+     "timestamp": "2026-11-25T03:33:34.108264+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Killiecrankie, Leeka & Mount Tanner - Too late to leave",
      "url": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-24T23:47:48.496343+00:00",
+    "first_seen": "2026-11-25T03:33:21.180294+00:00",
     "history": [
-     "Emergency Warning · 25 Nov 10:47"
+     "Emergency Warning · 25 Nov 14:33"
     ],
-    "key": "TasALERT:Bushfire|Killiekrankie, Leeka & Mount Tanner and surrounds",
+    "key": "TasALERT:Bushfire|Killiecrankie, Leeka & Mount Tanner and surrounds",
     "lat": -39.87427,
     "level": "Emergency Warning",
     "link": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8",
     "lon": 147.8252,
-    "message_id": "1574934669604950038",
+    "message_id": "1574991413316423723",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Killiekrankie, Leeka & Mount Tanner - Too late to leave",
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Killiecrankie, Leeka & Mount Tanner - Too late to leave",
     "track_end": true
    },
    "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds": {
@@ -1085,14 +1085,14 @@
     "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
     "track_end": true
    },
-   "TasALERT:Bushfire|North of Killiekrankie Road, Mount Killiekrankie and Mount Blyth and Surrounding Areas": {
+   "TasALERT:Bushfire|North of Killiecrankie Road, Mount Killiecrankie and Mount Blyth and Surrounding Areas": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-24T23:47:48.496343+00:00",
+    "first_seen": "2026-11-25T03:33:21.180294+00:00",
     "history": [
-     "Watch and Act · 25 Nov 10:47"
+     "Watch and Act · 25 Nov 14:33"
     ],
-    "key": "TasALERT:Bushfire|North of Killiekrankie Road, Mount Killiekrankie and Mount Blyth and Surrounding Areas",
+    "key": "TasALERT:Bushfire|North of Killiecrankie Road, Mount Killiecrankie and Mount Blyth and Surrounding Areas",
     "lat": -39.83693,
     "level": "Watch and Act",
     "link": "https://alert.tas.gov.au/?id=9d9ad3a4-0d4d-4e5d-add7-e91408eaa490",
@@ -1100,7 +1100,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - North of Killiekrankie Road, Mount Killiecrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
+    "title": "Watch and Act: Bushfire Watch & Act - North of Killiecrankie Road, Mount Killiecrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
     "track_end": true
    }
   },
