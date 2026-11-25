@@ -1066,24 +1066,6 @@
     "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T16:04:25.239738+00:00",
-    "history": [
-     "Hazard news · 26 Nov 03:04"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1099,7 +1081,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Iowa lead detonation: US army blows up bomb-making chemicals despite concerns - live updates",
+    "title": "US army calls Iowa lead detonation a ‘huge success’ and says threat of spontaneous explosions has been ‘eliminated’ – live",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
