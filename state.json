@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574945982742003825",
-  "map_hash": "a0eaa415efbb",
+  "attachment_id": "1575017836902879283",
+  "map_hash": "5f7c759f082a",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -338,26 +338,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795552583": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T21:17:48.154889+00:00",
-    "history": [
-     "Hazard news · 25 Nov 08:17"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795552583",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Brazil doctor uses surfboard and sledgehammer in flood rescue",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {},
   "BoM NSW/ACT": {},
@@ -1010,6 +991,24 @@
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
+   "TasALERT:Bushfire|Killicrankie between Boat Harbour Road and Quoin Road and surrounds": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-25T05:18:20.782862+00:00",
+    "history": [
+     "Watch and Act · 25 Nov 16:18"
+    ],
+    "key": "TasALERT:Bushfire|Killicrankie between Boat Harbour Road and Quoin Road and surrounds",
+    "lat": -39.8422,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=e8683cbe-8778-443c-86df-099cf4fc4e7d",
+    "lon": 147.83854,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch & Act - Killicrankie - Prepare to take shelter",
+    "track_end": true
+   },
    "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds": {
     "attachment_id": "1574945970670673990",
     "colour": 13840175,
@@ -1057,22 +1056,51 @@
     "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
     "track_end": true
    },
-   "TasALERT:Bushfire|North of Killiecrankie Road, Mount Killiecrankie and Mount Blyth and Surrounding Areas": {
-    "colour": 16361509,
+   "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds": {
+    "attachment_id": "1575017824894587050",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Killiecrankie Recreation Area - Leave immediately - go north to Palana.An uncontrolled bushfire at Mount Killiecrankie Recreation Area is travelling towards Mount Killicrankie.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service and Tasmania Parks & Wildlife Service are attending.Conditions are expected to be changeable.You are in",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Area",
+       "value": "Mount Killiecrankie Recreation Area, Mount Blyth and surrounds"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8077&mlon=147.8691#map=8/-39.8077/147.8691)"
+      }
+     ],
+     "footer": {
+      "text": "TasALERT"
+     },
+     "timestamp": "2026-11-25T05:18:31.273055+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Killiecrankie Recreation Area - Leave immediately",
+     "url": "https://alert.tas.gov.au/?id=a81fbdaf-c147-492f-a362-70f3e9a192bc"
+    },
     "emoji": "🔥",
-    "first_seen": "2026-11-25T03:33:21.180294+00:00",
+    "first_seen": "2026-11-25T05:18:20.782862+00:00",
     "history": [
-     "Watch and Act · 25 Nov 14:33"
+     "Emergency Warning · 25 Nov 16:18"
     ],
-    "key": "TasALERT:Bushfire|North of Killiecrankie Road, Mount Killiecrankie and Mount Blyth and Surrounding Areas",
-    "lat": -39.83693,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=9d9ad3a4-0d4d-4e5d-add7-e91408eaa490",
-    "lon": 147.85231,
+    "key": "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds",
+    "lat": -39.8077,
+    "level": "Emergency Warning",
+    "link": "https://alert.tas.gov.au/?id=a81fbdaf-c147-492f-a362-70f3e9a192bc",
+    "lon": 147.8691,
+    "message_id": "1575017825192640542",
     "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - North of Boat Harbour Road, Killiecrankie, Mount Killiecrankie & Mount Blyth (Flinders Island) - Leave now if you are not prepared",
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Killiecrankie Recreation Area - Leave immediately",
     "track_end": true
    },
    "TasALERT:Bushfire|South of Boat Harbour Road, Leeka & Mount Tanner and surrounds": {
