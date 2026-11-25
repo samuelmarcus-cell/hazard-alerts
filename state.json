@@ -330,26 +330,27 @@
   "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
   "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
   "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
-  "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360"
+  "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360",
+  "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360"
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360": {
+   "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-24T23:47:48.496343+00:00",
+    "first_seen": "2026-11-25T00:47:48.226741+00:00",
     "history": [
-     "Hazard news · 25 Nov 10:47"
+     "Hazard news · 25 Nov 11:47"
     ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360",
+    "key": "abc:https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
     "lat": null,
     "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie/107404360",
+    "link": "https://www.abc.net.au/news/2026-11-25/bushfire-flinders-island-killikrankie-leeka-mount-tanner/107404360",
     "lon": null,
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Breaking: Flinders Island bushfire prompts emergency warning to residents, tourists",
+    "title": "Breaking: Flinders Island bushfire prompts emergency warning for residents, tourists",
     "track_end": false
    }
   },
