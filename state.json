@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575290164421591201",
-  "map_hash": "86b81c23e56d",
+  "attachment_id": "1575297724805287956",
+  "map_hash": "78b47b7755e7",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -344,26 +344,7 @@
   "https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T19:49:52.095908+00:00",
-    "history": [
-     "Hazard news · 26 Nov 06:49"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Houses affected as bushfire makes 'significant run' across Flinders Island",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
@@ -537,72 +518,6 @@
     "lon": -89.468,
     "rank": 2,
     "title": "Large wildfire — Ontario, Canada",
-    "track_end": true
-   },
-   "ca:2026_PC_2026WB17": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "ca:2026_PC_2026WB17",
-    "lat": 60.0874,
-    "level": "10,000+ ha",
-    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
-    "lon": -113.9371,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Parks Canada, Canada",
-    "track_end": true
-   },
-   "ca:2026_PC_2026WB19": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "ca:2026_PC_2026WB19",
-    "lat": 60.209,
-    "level": "10,000+ ha",
-    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
-    "lon": -113.3417,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Parks Canada, Canada",
-    "track_end": true
-   },
-   "ca:2026_PC_2026WB20": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:42:07.759122+00:00",
-    "history": [
-     "10,000+ ha · 19 Oct 15:42"
-    ],
-    "key": "ca:2026_PC_2026WB20",
-    "lat": 60.116,
-    "level": "10,000+ ha",
-    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
-    "lon": -112.8568,
-    "notify": false,
-    "rank": 0,
-    "title": "Large wildfire — Parks Canada, Canada",
-    "track_end": true
-   },
-   "ca:2026_PC_2026WB4": {
-    "emoji": "🔥",
-    "first_seen": "2026-10-19T04:25:52.402037+00:00",
-    "history": [
-     "50,000+ ha · 19 Oct 15:25"
-    ],
-    "key": "ca:2026_PC_2026WB4",
-    "lat": 60.354,
-    "level": "50,000+ ha",
-    "link": "https://cwfis.cfs.nrcan.gc.ca/en/interactive-map",
-    "lon": -113.1068,
-    "rank": 1,
-    "title": "Large wildfire — Parks Canada, Canada",
     "track_end": true
    },
    "ca:2026_QC_215": {
