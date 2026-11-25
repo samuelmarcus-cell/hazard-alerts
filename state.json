@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575085950642692238",
-  "map_hash": "718a55de23ae",
+  "attachment_id": "1575089724467445790",
+  "map_hash": "b38c14a79c57",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1121,6 +1121,24 @@
     "title": "Watch and Act: Bushfire Watch & Act - Killicrankie - Prepare to take shelter",
     "track_end": true
    },
+   "TasALERT:Bushfire|Leeka & Mt Tanner": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-25T10:03:53.437555+00:00",
+    "history": [
+     "Watch and Act · 25 Nov 21:03"
+    ],
+    "key": "TasALERT:Bushfire|Leeka & Mt Tanner",
+    "lat": -39.89472,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=8eb97a8b-9b7b-4f59-9327-be9f1959ab50",
+    "lon": 147.79598,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act - Leeka, Mt Tanner and Surrounds - Not safe to return",
+    "track_end": true
+   },
    "TasALERT:Bushfire|Lughrata and Surrounds": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1202,53 +1220,6 @@
     "notify": true,
     "rank": 1,
     "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Killiecrankie Recreation Area - Leave immediately",
-    "track_end": true
-   },
-   "TasALERT:Bushfire|South of Boat Harbour Road, Leeka & Mount Tanner and surrounds": {
-    "attachment_id": "1574998959091617863",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Leeka & Mount Tanner, South of Boat Harbour Road - Too late to leave.An uncontrolled bushfire at Palana is travelling towards Leeka and Mount Tanner and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are attending.Conditions are expected to be chang",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Area",
-       "value": "South of Boat Harbour Road, Leeka & Mount Tanner and surrounds"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8743&mlon=147.8252#map=8/-39.8743/147.8252)"
-      }
-     ],
-     "footer": {
-      "text": "TasALERT"
-     },
-     "timestamp": "2026-11-25T04:03:32.937856+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner - Too late to leave",
-     "url": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-25T04:03:20.365384+00:00",
-    "history": [
-     "Emergency Warning · 25 Nov 15:03"
-    ],
-    "key": "TasALERT:Bushfire|South of Boat Harbour Road, Leeka & Mount Tanner and surrounds",
-    "lat": -39.87427,
-    "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=c18c5e5c-f9a8-4c95-b6c9-11c4b63d9cb8",
-    "lon": 147.8252,
-    "message_id": "1574998958978240713",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner - Shelter indoors now",
     "track_end": true
    }
   },
