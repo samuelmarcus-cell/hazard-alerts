@@ -351,7 +351,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Breaking: Flinders Island bushfire prompts emergency warning for residents, tourists",
+    "title": "Live: Flinders Island bushfire prompts emergency warning for residents, tourists",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258": {
@@ -1002,24 +1002,6 @@
     "notify": false,
     "rank": 0,
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-24T23:32:47.604474+00:00",
-    "history": [
-     "Hazard news · 25 Nov 10:32"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
     "track_end": false
    }
   },
