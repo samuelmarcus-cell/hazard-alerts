@@ -378,7 +378,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Gulf Country, Northern Goldfields and Upper Flinders, North West and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    }
   },
@@ -875,6 +875,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — United States",
+    "track_end": true
+   },
+   "gdacs:FL:1104292": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-25T07:18:54.187308+00:00",
+    "history": [
+     "Green · 25 Nov 18:18"
+    ],
+    "key": "gdacs:FL:1104292",
+    "lat": 40.8216536,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292",
+    "lon": 29.9507184,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Türkiye",
     "track_end": true
    },
    "gdacs:FL:1104293": {
