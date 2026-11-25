@@ -1091,3 +1091,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-25T06:33:53Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Maranoa and Warrego Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-25T07:03:53Z,new,BoM WA,bom:http://reg.bom.gov.au/products/IDW21033.shtml,Warning,Severe Thunderstorm Warning for parts of South Interior district.,,,http://reg.bom.gov.au/products/IDW21033.shtml,no
 2026-11-25T07:18:54Z,new,GDACS,gdacs:FL:1104292,Green,Flood — Türkiye,40.8216536,29.9507184,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292,no
+2026-11-25T07:33:54Z,new,TasALERT,TasALERT:Bushfire|Lughrata and Surrounds,Watch and Act,Watch and Act: Bushfire Watch and Act - Lughrata and Surrounds - Prepare to leave,-39.9666,147.92009,https://alert.tas.gov.au/?id=60e55dd9-f66f-423b-a7f0-caf30995e1a1,no
+2026-11-25T07:33:54Z,new,GDACS,gdacs:FL:1104299,Green,Flood — Uganda,0.1310412,30.0047968,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104299,no
