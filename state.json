@@ -335,26 +335,7 @@
   "https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T02:03:20.476831+00:00",
-    "history": [
-     "Hazard news · 25 Nov 13:03"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Inside the Melania Trump-brokered evacuation from Russian occupation",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
