@@ -1082,42 +1082,6 @@
     "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-20T09:26:54.586833+00:00",
-    "history": [
-     "Hazard news · 20 Nov 20:26"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California’s coastal communities on alert as biggest waves in years hit state",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T12:49:24.950983+00:00",
-    "history": [
-     "Hazard news · 25 Nov 23:49"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California beaches close as record-breaking tides and major flooding loom",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
