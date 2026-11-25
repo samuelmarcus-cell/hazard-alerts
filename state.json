@@ -343,26 +343,7 @@
   "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-25/cape-york-residents-swelter-heatwaves-water-outages/107426388": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T08:33:53.840070+00:00",
-    "history": [
-     "Hazard news · 25 Nov 19:33"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-25/cape-york-residents-swelter-heatwaves-water-outages/107426388",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-25/cape-york-residents-swelter-heatwaves-water-outages/107426388",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Cape York residents swelter through heatwaves and nightly water outages",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
