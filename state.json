@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575089724467445790",
-  "map_hash": "b38c14a79c57",
+  "attachment_id": "1575271153520484444",
+  "map_hash": "3bb55c9d9dd0",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1064,7 +1064,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Large bushfire threatens homes and properties on Flinders Island off Tasmania",
+    "title": "Flinders Island bushfire grows to 13,000 hectares with Tasmanian homes and properties at risk",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
@@ -1162,51 +1162,22 @@
     "title": "Watch and Act: Bushfire Watch & Act - Mount Boyes, Carnacs Flat and Surrounds - Not safe to return",
     "track_end": true
    },
-   "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds": {
-    "attachment_id": "1575017824894587050",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Killiecrankie Recreation Area - Leave immediately - go north to Palana.An uncontrolled bushfire at Mount Killiecrankie Recreation Area is travelling towards Mount Killicrankie.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service and Tasmania Parks & Wildlife Service are attending.Conditions are expected to be changeable.You are in",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Area",
-       "value": "Mount Killiecrankie Recreation Area, Mount Blyth and surrounds"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8077&mlon=147.8691#map=8/-39.8077/147.8691)"
-      }
-     ],
-     "footer": {
-      "text": "TasALERT"
-     },
-     "timestamp": "2026-11-25T05:18:31.273055+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Killiecrankie Recreation Area - Leave immediately",
-     "url": "https://alert.tas.gov.au/?id=a81fbdaf-c147-492f-a362-70f3e9a192bc"
-    },
+   "TasALERT:Bushfire|Mount Killiecrankie Recreation Area and Surrounds": {
+    "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-25T05:18:20.782862+00:00",
+    "first_seen": "2026-11-25T22:04:52.244736+00:00",
     "history": [
-     "Emergency Warning · 25 Nov 16:18"
+     "Watch and Act · 26 Nov 09:04"
     ],
-    "key": "TasALERT:Bushfire|Mount Killiecrankie Recreation Area, Mount Blyth and surrounds",
-    "lat": -39.8077,
-    "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=a81fbdaf-c147-492f-a362-70f3e9a192bc",
-    "lon": 147.8691,
-    "message_id": "1575017825192640542",
+    "key": "TasALERT:Bushfire|Mount Killiecrankie Recreation Area and Surrounds",
+    "lat": -39.80955,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=78c8fcf8-c5be-4a8f-8663-7a4a12512349",
+    "lon": 147.87318,
     "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Killiecrankie Recreation Area - Leave immediately",
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act - Mount Killiecrankie Recreation Area - Not safe to return",
     "track_end": true
    }
   },
