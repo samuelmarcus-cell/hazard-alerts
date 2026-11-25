@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1574934696427651203",
-  "map_hash": "46ebaecfd358",
+  "attachment_id": "1574945982742003825",
+  "map_hash": "a0eaa415efbb",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -1052,6 +1052,53 @@
     "notify": true,
     "rank": 1,
     "title": "EMERGENCY WARNING: Bushfire Emergency - Killiekrankie, Leeka & Mount Tanner - Too late to leave",
+    "track_end": true
+   },
+   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds": {
+    "attachment_id": "1574945970670673990",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Mount Boyes, Carnacs Flat and Lughrata - Leave immediately .An uncontrolled bushfire at Mount Boyes, Carnacs Flat and Lughrata is travelling towards Killiecrankie and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service & Tasmania Parks & Wildlife Service are attending.Conditions are expected t",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Area",
+       "value": "Mount Boyes, Carnacs Flat and Lughrata and surrounds"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8896&mlon=147.9255#map=8/-39.8896/147.9255)"
+      }
+     ],
+     "footer": {
+      "text": "TasALERT"
+     },
+     "timestamp": "2026-11-25T00:33:00.006329+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
+     "url": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-25T00:32:47.786762+00:00",
+    "history": [
+     "Emergency Warning · 25 Nov 11:32"
+    ],
+    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Lughrata and surrounds",
+    "lat": -39.88956,
+    "level": "Emergency Warning",
+    "link": "https://alert.tas.gov.au/?id=c617400f-891c-48d4-95ef-89547170a419",
+    "lon": 147.92547,
+    "message_id": "1574945970549162096",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Mount Boyes, Carnacs Flat and Lughrata - Leave immediately",
     "track_end": true
    },
    "TasALERT:Bushfire|North of Killiekrankie Road, Mount Killiekrankie and Mount Blyth and Surrounding Areas": {
