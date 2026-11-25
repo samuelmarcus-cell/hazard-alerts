@@ -1026,6 +1026,24 @@
     "title": "Flood — Uganda",
     "track_end": true
    },
+   "gdacs:FL:1104300": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-25T11:18:54.240902+00:00",
+    "history": [
+     "Green · 25 Nov 22:18"
+    ],
+    "key": "gdacs:FL:1104300",
+    "lat": 48.2953664,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104300",
+    "lon": 23.4466092,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Ukraine",
+    "track_end": true
+   },
    "gdacs:TC:1001350": {
     "colour": 4431943,
     "emoji": "🌀",
