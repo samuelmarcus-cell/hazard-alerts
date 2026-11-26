@@ -467,7 +467,26 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-26T06:20:53.420647+00:00",
+    "history": [
+     "Warning · 26 Nov 17:20"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Simpson, Lasseter and Tanami districts.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {
