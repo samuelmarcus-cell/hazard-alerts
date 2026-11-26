@@ -343,7 +343,8 @@
   "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
   "https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982",
   "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-  "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
+  "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -367,6 +368,24 @@
     "rank": 0,
     "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
     "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795646989": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T02:05:23.248706+00:00",
+    "history": [
+     "Hazard news · 26 Nov 13:05"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795646989",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Photos: Storms and an El Nino-charged king tide batter California’s coast",
+    "track_end": false
    }
   },
   "BBC Asia": {},
@@ -386,7 +405,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "California warned of potential Thanksgiving flooding as storms threaten US coasts",
+    "title": "California warns of flooding as king tides peak over Thanksgiving",
     "track_end": false
    },
    "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1": {
