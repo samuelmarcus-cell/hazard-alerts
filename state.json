@@ -373,26 +373,7 @@
   },
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795681182": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T09:06:19.270110+00:00",
-    "history": [
-     "Hazard news · 26 Nov 20:06"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795681182",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/articles/ckn806qq760po#1": {
@@ -929,10 +910,10 @@
      "Green · 26 Nov 22:51"
     ],
     "key": "gdacs:FL:1104270",
-    "lat": 45.835176,
+    "lat": 43.1202573,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270",
-    "lon": 5.7265433,
+    "lon": 6.1301614,
     "news": false,
     "notify": false,
     "rank": 0,
