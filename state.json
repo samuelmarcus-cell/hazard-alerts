@@ -1034,24 +1034,6 @@
     "title": "Watch and Act: Bushfire Watch and Act - Leeka, Mt Tanner and Surrounds - Not safe to return",
     "track_end": true
    },
-   "TasALERT:Bushfire|Lughrata and Surrounds": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-25T07:33:54.098691+00:00",
-    "history": [
-     "Watch and Act · 25 Nov 18:33"
-    ],
-    "key": "TasALERT:Bushfire|Lughrata and Surrounds",
-    "lat": -39.9666,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=60e55dd9-f66f-423b-a7f0-caf30995e1a1",
-    "lon": 147.92009,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act - Lughrata and Surrounds - Prepare to leave",
-    "track_end": true
-   },
    "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)": {
     "colour": 16361509,
     "emoji": "🔥",
