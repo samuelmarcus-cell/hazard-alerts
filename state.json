@@ -353,26 +353,7 @@
   "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T04:50:54.256722+00:00",
-    "history": [
-     "Hazard news · 26 Nov 15:50"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Victoria faces increased bushfire risk in 'mixed bag' of summer emergencies",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
