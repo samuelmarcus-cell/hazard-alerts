@@ -378,7 +378,26 @@
     "track_end": false
    }
   },
-  "BoM NSW/ACT": {},
+  "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
+    "colour": 16088064,
+    "emoji": "🌬️",
+    "first_seen": "2026-11-26T17:36:47.557399+00:00",
+    "history": [
+     "Warning · 27 Nov 04:36"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21037.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21037.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Weather Warning for parts of South West Slopes and Snowy Mountains Forecast Districts.",
+    "track_end": true
+   }
+  },
   "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
