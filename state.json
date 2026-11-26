@@ -347,7 +347,8 @@
   "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
   "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
-  "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -407,6 +408,24 @@
     "notify": false,
     "rank": 0,
     "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795681182": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T08:36:19.051469+00:00",
+    "history": [
+     "Hazard news · 26 Nov 19:36"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795681182",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
     "track_end": false
    }
   },
