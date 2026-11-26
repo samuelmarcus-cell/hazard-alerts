@@ -353,7 +353,9 @@
   "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
   "https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
-  "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+  "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves"
  ],
  "sources": {
   "ABC News": {
@@ -373,6 +375,24 @@
     "notify": false,
     "rank": 0,
     "title": "Severe weekend storms for Queensland as hot, dry summer looms",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T21:37:14.585838+00:00",
+    "history": [
+     "Hazard news · 27 Nov 08:37"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
     "track_end": false
    }
   },
@@ -420,26 +440,7 @@
     "track_end": true
    }
   },
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-26T18:36:48.154488+00:00",
-    "history": [
-     "Warning · 27 Nov 05:36"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Barkly and Tanami districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {
@@ -1089,6 +1090,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T21:37:14.585838+00:00",
+    "history": [
+     "Hazard news · 27 Nov 08:37"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
