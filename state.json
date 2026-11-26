@@ -1065,24 +1065,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T23:05:22.668440+00:00",
-    "history": [
-     "Hazard news · 26 Nov 10:05"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Record-breaking California tides cause major flooding of roads and businesses",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
