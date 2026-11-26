@@ -355,10 +355,29 @@
   "https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
   "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-  "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves"
+  "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
+  "https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T21:52:14.608797+00:00",
+    "history": [
+     "Hazard news · 27 Nov 08:52"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "'Significant concern' as summer bushfire risk grows",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386": {
     "colour": 2001125,
     "emoji": "📰",
