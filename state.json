@@ -348,7 +348,8 @@
   "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
   "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify?traffic_source=rss",
-  "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss"
+  "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
+  "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather"
  ],
  "sources": {
   "ABC News": {
@@ -414,26 +415,7 @@
    }
   },
   "BoM NSW/ACT": {},
-  "BoM NT": {
-   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-26T06:20:53.420647+00:00",
-    "history": [
-     "Warning · 26 Nov 17:20"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Barkly, Simpson and Tanami districts.",
-    "track_end": true
-   }
-  },
+  "BoM NT": {},
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {
@@ -1065,6 +1047,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T15:36:47.685280+00:00",
+    "history": [
+     "Hazard news · 27 Nov 02:36"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
