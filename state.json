@@ -945,42 +945,6 @@
     "title": "Flood — France",
     "track_end": true
    },
-   "gdacs:FL:1104292": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-25T07:18:54.187308+00:00",
-    "history": [
-     "Green · 25 Nov 18:18"
-    ],
-    "key": "gdacs:FL:1104292",
-    "lat": 40.8216536,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292",
-    "lon": 29.9507184,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Türkiye",
-    "track_end": true
-   },
-   "gdacs:FL:1104293": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-22T11:31:31.715917+00:00",
-    "history": [
-     "Green · 22 Nov 22:31"
-    ],
-    "key": "gdacs:FL:1104293",
-    "lat": -33.1045621,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104293",
-    "lon": -71.6675632,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Chile",
-    "track_end": true
-   },
    "gdacs:FL:1104295": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1051,24 +1015,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Uganda",
-    "track_end": true
-   },
-   "gdacs:FL:1104300": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-25T11:18:54.240902+00:00",
-    "history": [
-     "Green · 25 Nov 22:18"
-    ],
-    "key": "gdacs:FL:1104300",
-    "lat": 48.2953664,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104300",
-    "lon": 23.4466092,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Ukraine",
     "track_end": true
    },
    "gdacs:TC:1001350": {
