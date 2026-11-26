@@ -341,15 +341,54 @@
   "https://www.theguardian.com/us-news/2026/nov/25/heavy-rain-high-winds-thanksgiving-east-coast",
   "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
   "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-  "https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982"
+  "https://www.abc.net.au/news/2026-11-26/flinders-island-bushfire-thursday-making-significant-run/107425982",
+  "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+  "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {},
+  "Al Jazeera": {
+   "Al Jazeera:https://www.aljazeera.com/?t=1795645751": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T01:20:23.187285+00:00",
+    "history": [
+     "Hazard news · 26 Nov 12:20"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795645751",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+    "track_end": false
+   }
+  },
   "BBC Asia": {},
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ckn806qq760po#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T01:20:23.187285+00:00",
+    "history": [
+     "Hazard news · 26 Nov 12:20"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckn806qq760po#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "California warned of potential Thanksgiving flooding as storms threaten US coasts",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1": {
     "colour": 2001125,
     "emoji": "📰",
