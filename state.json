@@ -351,10 +351,29 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
   "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-  "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336"
+  "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
+  "https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386"
  ],
  "sources": {
   "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T20:07:14.328513+00:00",
+    "history": [
+     "Hazard news · 27 Nov 07:07"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe weekend storms for Queensland as hot, dry summer looms",
+    "track_end": false
+   },
    "abc:https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336": {
     "colour": 2001125,
     "emoji": "📰",
