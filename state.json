@@ -350,10 +350,30 @@
   "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify?traffic_source=rss",
   "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
-  "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T18:36:48.154488+00:00",
+    "history": [
+     "Hazard news · 27 Nov 05:36"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Sailors offer help to Flinders Island residents facing out-of-control bushfire",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {},
@@ -379,7 +399,26 @@
     "track_end": true
    }
   },
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-26T18:36:48.154488+00:00",
+    "history": [
+     "Warning · 27 Nov 05:36"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Barkly and Tanami districts.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {},
   "BoM SA": {},
   "BoM TAS": {
