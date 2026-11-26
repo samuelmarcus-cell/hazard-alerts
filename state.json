@@ -409,24 +409,6 @@
     "rank": 0,
     "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
     "track_end": false
-   },
-   "Al Jazeera:https://www.aljazeera.com/?t=1795681182": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T08:36:19.051469+00:00",
-    "history": [
-     "Hazard news · 26 Nov 19:36"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795681182",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
-    "track_end": false
    }
   },
   "BBC Asia": {},
