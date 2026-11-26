@@ -430,24 +430,6 @@
     "title": "California warns of flooding as King Tides peak over Thanksgiving",
     "track_end": false
    },
-   "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T15:04:25.221317+00:00",
-    "history": [
-     "Hazard news · 26 Nov 02:04"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckp80mjr9emyo#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo#1": {
     "colour": 2001125,
     "emoji": "📰",
@@ -909,10 +891,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 4.3685491,
+    "lat": 2.1923519,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 97.0253024,
+    "lon": 99.3812201,
     "news": false,
     "notify": false,
     "rank": 0,
