@@ -374,24 +374,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795646989": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T02:05:23.248706+00:00",
-    "history": [
-     "Hazard news · 26 Nov 13:05"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795646989",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Photos: Storms and an El Nino-charged king tide batter California’s coast",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1795673076": {
     "colour": 2001125,
     "emoji": "📰",
@@ -408,6 +390,24 @@
     "notify": false,
     "rank": 0,
     "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795681182": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T09:06:19.270110+00:00",
+    "history": [
+     "Hazard news · 26 Nov 20:06"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795681182",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
     "track_end": false
    }
   },
@@ -467,7 +467,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Simpson, Lasseter and Tanami districts.",
+    "title": "Severe Thunderstorm Warning for parts of Simpson, Tanami and Lasseter districts.",
     "track_end": true
    }
   },
@@ -964,10 +964,10 @@
      "Green · 24 Nov 00:59"
     ],
     "key": "gdacs:FL:1104297",
-    "lat": 7.543525,
+    "lat": 6.8790221,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104297",
-    "lon": 99.9971582,
+    "lon": 100.5498542,
     "news": false,
     "notify": false,
     "rank": 0,
