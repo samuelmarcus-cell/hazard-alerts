@@ -378,14 +378,14 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#1": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0": {
     "colour": 2001125,
     "emoji": "📰",
-    "first_seen": "2026-11-26T16:06:47.895960+00:00",
+    "first_seen": "2026-11-26T16:21:47.883823+00:00",
     "history": [
-     "Hazard news · 27 Nov 03:06"
+     "Hazard news · 27 Nov 03:21"
     ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#1",
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0",
     "lat": null,
     "level": "Hazard news",
     "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
@@ -394,42 +394,6 @@
     "notify": false,
     "rank": 0,
     "title": "Hundreds of flights cancelled as severe weather disrupts Thanksgiving travel in US",
-    "track_end": false
-   },
-   "BBC World:https://www.bbc.co.uk/news/articles/ckn806qq760po#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T03:05:22.722877+00:00",
-    "history": [
-     "Hazard news · 26 Nov 14:05"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckn806qq760po#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "California warns of flooding as King Tides peak over Thanksgiving",
-    "track_end": false
-   },
-   "BBC World:https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo#1": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T04:05:53.911836+00:00",
-    "history": [
-     "Hazard news · 26 Nov 15:05"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo#1",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Macy's postpones Thanksgiving parade due to severe weather",
     "track_end": false
    }
   },
