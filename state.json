@@ -1066,24 +1066,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-25T09:18:53.707012+00:00",
-    "history": [
-     "Hazard news · 25 Nov 20:18"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Flinders Island bushfire: Out-of-control fire with flames 10-metres high destroys at least six homes in Tasmania",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
     "colour": 2001125,
     "emoji": "📰",
