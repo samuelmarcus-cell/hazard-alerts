@@ -453,26 +453,7 @@
     "track_end": true
    }
   },
-  "BoM QLD": {
-   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-26T10:06:18.726883+00:00",
-    "history": [
-     "Warning · 26 Nov 21:06"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Channel Country Forecast District.",
-    "track_end": true
-   }
-  },
+  "BoM QLD": {},
   "BoM SA": {
    "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
     "colour": 16088064,
@@ -902,6 +883,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Brazil",
+    "track_end": true
+   },
+   "gdacs:FL:1104220": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-26T13:06:18.560248+00:00",
+    "history": [
+     "Green · 27 Nov 00:06"
+    ],
+    "key": "gdacs:FL:1104220",
+    "lat": 40.0615028,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
+    "lon": 9.0975894,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Italy",
     "track_end": true
    },
    "gdacs:FL:1104253": {
