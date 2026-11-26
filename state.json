@@ -483,24 +483,6 @@
    }
   },
   "BoM VIC": {
-   "bom:http://reg.bom.gov.au/products/IDV21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-26T20:52:14.498357+00:00",
-    "history": [
-     "Warning · 27 Nov 07:52"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mallee and Wimmera Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
     "colour": 16088064,
     "emoji": "🌬️",
@@ -516,7 +498,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, Northern Country and West and South Gippsland Forecast Districts.",
+    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, South West, Northern Country and West and South Gippsland Forecast Districts.",
     "track_end": true
    }
   },
@@ -1206,24 +1188,6 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Bushfire Watch and Act - Mt Boyes, Carnacs Flat and Surrounds (Flinders Island) - Not safe to return",
-    "track_end": true
-   },
-   "TasALERT:Bushfire|Palana (West of Palana Road) and surrounds": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-26T10:51:18.958239+00:00",
-    "history": [
-     "Watch and Act · 26 Nov 21:51"
-    ],
-    "key": "TasALERT:Bushfire|Palana (West of Palana Road) and surrounds",
-    "lat": -39.77547,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=b97363e4-8b39-4105-934a-bbe16545ad8d",
-    "lon": 147.87509,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - Palana - West of Palana Road (Flinders Island) - Monitor conditions as they are changing",
     "track_end": true
    }
   },

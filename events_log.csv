@@ -1173,3 +1173,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-26T23:07:14Z,ended,GDACS,gdacs:FL:1104292,Green,Flood — Türkiye,40.8216536,29.9507184,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104292,no
 2026-11-26T23:07:14Z,ended,GDACS,gdacs:FL:1104293,Green,Flood — Chile,-33.1045621,-71.6675632,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104293,no
 2026-11-26T23:07:14Z,ended,GDACS,gdacs:FL:1104300,Green,Flood — Ukraine,48.2953664,23.4466092,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104300,no
+2026-11-26T23:52:15Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,Severe Thunderstorm Warning for parts of Mallee and Wimmera Forecast Districts.,,,http://reg.bom.gov.au/products/IDV21033.shtml,no
+2026-11-26T23:52:15Z,ended,TasALERT,TasALERT:Bushfire|Palana (West of Palana Road) and surrounds,Watch and Act,Watch and Act: Bushfire Watch & Act - Palana - West of Palana Road (Flinders Island) - Monitor conditions as they are changing,-39.77547,147.87509,https://alert.tas.gov.au/?id=b97363e4-8b39-4105-934a-bbe16545ad8d,no
