@@ -1155,3 +1155,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-26T11:51:18Z,new,GDACS,gdacs:FL:1104270,Green,Flood — France,45.835176,5.7265433,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104270,no
 2026-11-26T13:06:18Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Channel Country Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-26T13:06:18Z,new,GDACS,gdacs:FL:1104220,Green,Flood — Italy,40.0615028,9.0975894,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220,no
+2026-11-26T14:21:47Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of North East Pastoral district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
