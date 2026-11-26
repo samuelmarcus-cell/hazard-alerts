@@ -345,10 +345,30 @@
   "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
   "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
   "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
-  "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+  "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694"
  ],
  "sources": {
-  "ABC News": {},
+  "ABC News": {
+   "abc:https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-26T04:50:54.256722+00:00",
+    "history": [
+     "Hazard news · 26 Nov 15:50"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Victoria faces increased bushfire risk in 'mixed bag' of summer emergencies",
+    "track_end": false
+   }
+  },
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -1002,7 +1022,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Out-of-control bushfire with flames 10-metres high destroys at least six homes on Flinders Island",
+    "title": "Flinders Island bushfire: Out-of-control fire with flames 10-metres high destroys at least six homes in Tasmania",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides": {
