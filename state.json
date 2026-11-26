@@ -374,24 +374,6 @@
     "rank": 0,
     "title": "Severe weekend storms for Queensland as hot, dry summer looms",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T18:36:48.154488+00:00",
-    "history": [
-     "Hazard news · 27 Nov 05:36"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-27/sailors-support-flinders-island-residents-during-bushfire/107432336",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Sailors offer help to Flinders Island residents facing out-of-control bushfire",
-    "track_end": false
    }
   },
   "ACT ESA": {},
