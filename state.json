@@ -1016,40 +1016,22 @@
     "title": "EMERGENCY WARNING: Bushfire Emergency Warning - Killicrankie , Mt Killicrankie Recreation Area and Surrounds - Too late to leave",
     "track_end": true
    },
-   "TasALERT:Bushfire|Leeka & Mt Tanner": {
+   "TasALERT:Bushfire|Leeka, Mt Tanner, Mt Boyes, & Carnacs Flat": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-25T10:03:53.437555+00:00",
+    "first_seen": "2026-11-26T00:20:22.438202+00:00",
     "history": [
-     "Watch and Act · 25 Nov 21:03"
+     "Watch and Act · 26 Nov 11:20"
     ],
-    "key": "TasALERT:Bushfire|Leeka & Mt Tanner",
-    "lat": -39.89472,
+    "key": "TasALERT:Bushfire|Leeka, Mt Tanner, Mt Boyes, & Carnacs Flat",
+    "lat": -39.88946,
     "level": "Watch and Act",
     "link": "https://alert.tas.gov.au/?id=8eb97a8b-9b7b-4f59-9327-be9f1959ab50",
-    "lon": 147.79598,
+    "lon": 147.91477,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act - Leeka, Mt Tanner and Surrounds - Not safe to return",
-    "track_end": true
-   },
-   "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-25T09:48:53.799216+00:00",
-    "history": [
-     "Watch and Act · 25 Nov 20:48"
-    ],
-    "key": "TasALERT:Bushfire|Mount Boyes, Carnacs Flat and Surrounds (North West of Five Mile Road)",
-    "lat": -39.88613,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=8cec4924-d841-4d69-aba9-b76e1faca064",
-    "lon": 147.93121,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch & Act - Mount Boyes, Carnacs Flat and Surrounds - Not safe to return",
+    "title": "Watch and Act: Bushfire Watch and Act - Leeka, Mt Tanner, Mt Boyes, Carnacs Flat and Surrounds - Not safe to return",
     "track_end": true
    }
   },
