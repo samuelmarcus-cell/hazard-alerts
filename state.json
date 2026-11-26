@@ -1050,24 +1050,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T15:36:47.685280+00:00",
-    "history": [
-     "Hazard news · 27 Nov 02:36"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
