@@ -1180,53 +1180,6 @@
     "title": "EMERGENCY WARNING: Bushfire Emergency Warning - Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds - Too late to leave",
     "track_end": true
    },
-   "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas": {
-    "attachment_id": "1575464036081082478",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Leeka & Mount Tanner (Flinders Island) - Too late to leave.An uncontrolled bushfire at Leeka & Mount Tanner (Flinders Island) is travelling towards Leeka & Mount Tanner and Surrounding Areas and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service and Tasmania Parks & Wildlife Service are a",
-     "fields": [
-      {
-       "inline": true,
-       "name": "Area",
-       "value": "Leeka & Mount Tanner and Surrounding Areas"
-      },
-      {
-       "inline": true,
-       "name": "Type",
-       "value": "Bushfire"
-      },
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8924&mlon=147.8132#map=8/-39.8924/147.8132)"
-      }
-     ],
-     "footer": {
-      "text": "TasALERT"
-     },
-     "timestamp": "2026-11-26T10:51:36.207068+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Too late to leave",
-     "url": "https://alert.tas.gov.au/?id=c1df4827-9cf4-46f1-b009-b0f7e1a2b471"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-26T10:51:18.958239+00:00",
-    "history": [
-     "Emergency Warning · 26 Nov 21:51"
-    ],
-    "key": "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas",
-    "lat": -39.89241,
-    "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=c1df4827-9cf4-46f1-b009-b0f7e1a2b471",
-    "lon": 147.81317,
-    "message_id": "1575464036320022608",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Leeka & Mount Tanner (Flinders Island) - Too late to leave",
-    "track_end": true
-   },
    "TasALERT:Bushfire|Mt Boyes, Carnacs Flat and Surrounds (Flinders Island)": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1243,6 +1196,53 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Bushfire Watch and Act - Mt Boyes, Carnacs Flat and Surrounds (Flinders Island) - Not safe to return",
+    "track_end": true
+   },
+   "TasALERT:Bushfire|Pine Scrub, Leeka & Mount Tanner and Surrounding Areas": {
+    "attachment_id": "1575728618271674439",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Take shelter now.An uncontrolled bushfire at Pine Scrub, Leeka & Mount Tanner (Flinders Island) and is putting lives in danger and threatening homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service and Tasmania Parks & Wildlife Service are attending.Conditions are expected to be cha",
+     "fields": [
+      {
+       "inline": true,
+       "name": "Area",
+       "value": "Pine Scrub, Leeka & Mount Tanner and Surrounding Areas"
+      },
+      {
+       "inline": true,
+       "name": "Type",
+       "value": "Bushfire"
+      },
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-39.8924&mlon=147.8132#map=8/-39.8924/147.8132)"
+      }
+     ],
+     "footer": {
+      "text": "TasALERT"
+     },
+     "timestamp": "2026-11-27T04:22:57.631066+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Take shelter now",
+     "url": "https://alert.tas.gov.au/?id=c1df4827-9cf4-46f1-b009-b0f7e1a2b471"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T04:22:40.384887+00:00",
+    "history": [
+     "Emergency Warning · 27 Nov 15:22"
+    ],
+    "key": "TasALERT:Bushfire|Pine Scrub, Leeka & Mount Tanner and Surrounding Areas",
+    "lat": -39.89241,
+    "level": "Emergency Warning",
+    "link": "https://alert.tas.gov.au/?id=c1df4827-9cf4-46f1-b009-b0f7e1a2b471",
+    "lon": 147.81317,
+    "message_id": "1575728618464874607",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Take shelter now",
     "track_end": true
    }
   },
