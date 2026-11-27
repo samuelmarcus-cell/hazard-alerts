@@ -377,24 +377,6 @@
     "rank": 0,
     "title": "'Significant concern' as summer bushfire risk grows",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T21:37:14.585838+00:00",
-    "history": [
-     "Hazard news · 27 Nov 08:37"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
-    "track_end": false
    }
   },
   "ACT ESA": {},
