@@ -478,7 +478,26 @@
    }
   },
   "BoM NT": {},
-  "BoM QLD": {},
+  "BoM QLD": {
+   "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-27T01:52:39.811761+00:00",
+    "history": [
+     "Warning · 27 Nov 12:52"
+    ],
+    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Bulloo River",
+    "track_end": true
+   }
+  },
   "BoM SA": {},
   "BoM TAS": {
    "bom:http://reg.bom.gov.au/products/IDT21037.shtml": {
