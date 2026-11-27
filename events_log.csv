@@ -1254,3 +1254,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T23:39:48Z,new,VicEmergency,VicEmergency:43746,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
 2026-11-27T23:39:48Z,ended,VicEmergency,VicEmergency:43745,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
 2026-11-27T23:39:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-27T23:54:48Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208,Hazard news,Are earthquakes becoming more common in the Top End? Here's what experts say,,,https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208,no
+2026-11-27T23:54:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

@@ -367,7 +367,8 @@
   "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
   "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
   "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
-  "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814"
+  "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
+  "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208"
  ],
  "sources": {
   "ABC News": {
@@ -405,6 +406,24 @@
     "notify": false,
     "rank": 0,
     "title": "Emergency warning after Mornington Peninsula landslide damages house",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T23:54:48.168638+00:00",
+    "history": [
+     "Hazard news · 28 Nov 10:54"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Are earthquakes becoming more common in the Top End? Here's what experts say",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
@@ -939,9 +958,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-27T23:39:48.274390+00:00",
+    "first_seen": "2026-11-27T23:54:48.168638+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 10:39"
+     "Australia + overseas · 28 Nov 10:54"
     ],
     "key": "concurrent:global",
     "lat": null,
