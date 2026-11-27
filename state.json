@@ -555,7 +555,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mallee, Northern Country, North Central, Wimmera and South West Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central, Mallee, South West, Northern Country, North Central and Wimmera Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
@@ -1128,24 +1128,6 @@
     "notify": false,
     "rank": 0,
     "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
-    "track_end": false
-   },
-   "Guardian World:https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T03:52:41.217321+00:00",
-    "history": [
-     "Hazard news · 27 Nov 14:52"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heatwaves, floods, fires and rain: weekend of weather extremes expected across Australia",
     "track_end": false
    }
   },
