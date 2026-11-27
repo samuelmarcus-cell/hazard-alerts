@@ -1250,7 +1250,26 @@
     "track_end": true
    }
   },
-  "VicEmergency": {},
+  "VicEmergency": {
+   "VicEmergency:43729": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T15:53:43.227937+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 02:53"
+    ],
+    "key": "VicEmergency:43729",
+    "lat": -36.853257459881554,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.70941890077836,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   }
+  },
   "WA DFES": {}
  },
  "version": 2
