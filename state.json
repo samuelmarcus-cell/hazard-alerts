@@ -363,7 +363,8 @@
   "https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water?traffic_source=rss",
   "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-  "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544"
+  "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544",
+  "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832"
  ],
  "sources": {
   "ABC News": {
@@ -383,6 +384,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flash flooding, river flooding possible across eastern states",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T20:24:15.446767+00:00",
+    "history": [
+     "Hazard news · 28 Nov 07:24"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Tight-knit community helps ease pain of bushfires on Flinders Island",
     "track_end": false
    }
   },
@@ -1337,6 +1356,42 @@
     "level": "Watch and Act",
     "link": "",
     "lon": 143.70941890077836,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43737": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T20:24:15.446767+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 07:24"
+    ],
+    "key": "VicEmergency:43737",
+    "lat": -36.6275,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.87874999999997,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43738": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T20:24:15.446767+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 07:24"
+    ],
+    "key": "VicEmergency:43738",
+    "lat": -37.1125,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.87625000000003,
     "news": false,
     "notify": false,
     "rank": 0,
