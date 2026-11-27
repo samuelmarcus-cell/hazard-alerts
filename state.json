@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575464048957587506",
-  "map_hash": "dfe09e5448b5",
+  "attachment_id": "1575789140811710574",
+  "map_hash": "fa93f091b581",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -358,7 +358,8 @@
   "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
   "https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264",
   "https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia",
-  "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+  "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving"
  ],
  "sources": {
   "ABC News": {},
@@ -1112,6 +1113,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T08:23:11.642070+00:00",
+    "history": [
+     "Hazard news · 27 Nov 19:23"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Heavy rain, wind and flooding hit much of US on Thanksgiving",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1236,15 +1255,15 @@
      "Emergency Warning · 27 Nov 15:22"
     ],
     "key": "TasALERT:Bushfire|Pine Scrub, Leeka & Mount Tanner and Surrounding Areas",
-    "lat": -39.89241,
+    "lat": -39.87542,
     "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=c1df4827-9cf4-46f1-b009-b0f7e1a2b471",
-    "lon": 147.81317,
+    "link": "https://alert.tas.gov.au/?id=aa583ea3-ae9d-47eb-a333-50e2718c3eba",
+    "lon": 147.81778,
     "message_id": "1575728618464874607",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Take shelter now",
+    "title": "EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Seek shelter now",
     "track_end": true
    },
    "TasALERT:Flood|Railton and surrounds": {
