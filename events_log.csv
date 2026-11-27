@@ -1182,3 +1182,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T01:52:39Z,new,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml,Warning,Moderate Flood Warning for the Bulloo River,,,http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml,no
 2026-11-27T02:07:39Z,new,VicEmergency,VicEmergency:43699,Watch and Act,Watch and Act: Watch & Act,-36.35514608235441,142.45141484344703,,no
 2026-11-27T02:52:40Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Lower Western, Upper Western and Riverina Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-27T03:07:40Z,new,VicEmergency,VicEmergency:43710,Watch and Act,Watch and Act: Watch & Act,-35.95157043122714,142.6601550778134,,no
+2026-11-27T03:07:40Z,ended,VicEmergency,VicEmergency:43699,Watch and Act,Watch and Act: Watch & Act,-36.35514608235441,142.45141484344703,,no

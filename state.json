@@ -1282,18 +1282,18 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43699": {
+   "VicEmergency:43710": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T02:07:39.616565+00:00",
+    "first_seen": "2026-11-27T03:07:40.766842+00:00",
     "history": [
-     "Watch and Act · 27 Nov 13:07"
+     "Watch and Act · 27 Nov 14:07"
     ],
-    "key": "VicEmergency:43699",
-    "lat": -36.35514608235441,
+    "key": "VicEmergency:43710",
+    "lat": -35.95157043122714,
     "level": "Watch and Act",
     "link": "",
-    "lon": 142.45141484344703,
+    "lon": 142.6601550778134,
     "news": false,
     "notify": false,
     "rank": 0,
