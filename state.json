@@ -537,7 +537,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Mallee, Northern Country and Wimmera Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mallee, Northern Country, North Central, Wimmera and South West Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
@@ -1302,22 +1302,22 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43717": {
+   "VicEmergency:43719": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T05:07:41.163944+00:00",
+    "first_seen": "2026-11-27T05:53:09.449747+00:00",
     "history": [
-     "Watch and Act · 27 Nov 16:07"
+     "Watch and Act · 27 Nov 16:53"
     ],
-    "key": "VicEmergency:43717",
-    "lat": -35.95157043122714,
+    "key": "VicEmergency:43719",
+    "lat": -36.52683241435123,
     "level": "Watch and Act",
     "link": "",
-    "lon": 142.6601550778134,
+    "lon": 143.4346912106423,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Advice",
+    "title": "Watch and Act: Watch & Act",
     "track_end": true
    }
   },
