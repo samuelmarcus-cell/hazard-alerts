@@ -1116,24 +1116,6 @@
    }
   },
   "Guardian World": {
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T08:23:11.642070+00:00",
-    "history": [
-     "Hazard news · 27 Nov 19:23"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Heavy rain, wind and flooding hit much of US on Thanksgiving",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations": {
     "colour": 2001125,
     "emoji": "📰",
