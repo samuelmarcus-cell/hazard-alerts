@@ -371,24 +371,6 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo#0": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T10:38:11.423387+00:00",
-    "history": [
-     "Hazard news · 27 Nov 21:38"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo#0",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/videos/cq808d704m22o#2": {
     "colour": 2001125,
     "emoji": "📰",
