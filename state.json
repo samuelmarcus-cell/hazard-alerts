@@ -938,9 +938,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-27T22:54:47.907796+00:00",
+    "first_seen": "2026-11-27T23:09:47.858059+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 09:54"
+     "Australia + overseas · 28 Nov 10:09"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -957,24 +957,6 @@
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
-   "gdacs:FL:1104167": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-26T07:05:54.256203+00:00",
-    "history": [
-     "Green · 26 Nov 18:05"
-    ],
-    "key": "gdacs:FL:1104167",
-    "lat": -0.8327853,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167",
-    "lon": -89.4321692,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Ecuador",
-    "track_end": true
-   },
    "gdacs:FL:1104216": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1135,42 +1117,6 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Uganda",
-    "track_end": true
-   },
-   "gdacs:FL:1104302": {
-    "colour": 4431943,
-    "emoji": "🌊",
-    "first_seen": "2026-11-27T07:23:12.202836+00:00",
-    "history": [
-     "Green · 27 Nov 18:23"
-    ],
-    "key": "gdacs:FL:1104302",
-    "lat": -20.5,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302",
-    "lon": -59.166667,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Flood — Paraguay",
-    "track_end": true
-   },
-   "gdacs:TC:1001350": {
-    "colour": 4431943,
-    "emoji": "🌀",
-    "first_seen": "2026-11-15T09:00:00.935785+00:00",
-    "history": [
-     "Green · 15 Nov 20:00"
-    ],
-    "key": "gdacs:TC:1001350",
-    "lat": -11.8,
-    "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350",
-    "lon": -168.8,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Tropical cyclone — Cook Islands",
     "track_end": true
    },
    "gdacs:TC:1001352": {

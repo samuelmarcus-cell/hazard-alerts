@@ -1245,3 +1245,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T22:39:47Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/videos/ckvg20y511p4o#2,Hazard news,Severe Thanksgiving storms leave roads flooded and trees fallen,,,https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss,no
 2026-11-27T22:39:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-27T22:54:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-27T23:09:47Z,ended,GDACS,gdacs:FL:1104167,Green,Flood — Ecuador,-0.8327853,-89.4321692,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104167,no
+2026-11-27T23:09:47Z,ended,GDACS,gdacs:FL:1104302,Green,Flood — Paraguay,-20.5,-59.166667,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302,no
+2026-11-27T23:09:47Z,ended,GDACS,gdacs:TC:1001350,Green,Tropical cyclone — Cook Islands,-11.8,-168.8,http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001350,no
+2026-11-27T23:09:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
