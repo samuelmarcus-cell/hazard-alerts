@@ -1079,24 +1079,6 @@
     "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T11:08:42.904289+00:00",
-    "history": [
-     "Hazard news · 27 Nov 22:08"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
     "colour": 2001125,
     "emoji": "📰",
