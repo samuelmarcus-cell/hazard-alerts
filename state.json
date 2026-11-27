@@ -447,7 +447,26 @@
     "track_end": true
    }
   },
-  "BoM NT": {},
+  "BoM NT": {
+   "bom:http://reg.bom.gov.au/products/IDD21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-27T12:08:43.193807+00:00",
+    "history": [
+     "Warning · 27 Nov 23:08"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDD21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Carpentaria and Arnhem districts.",
+    "track_end": true
+   }
+  },
   "BoM QLD": {
    "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
     "colour": 16088064,
@@ -522,7 +541,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for parts of North East, North West Coast, Central North, Central Plateau, Western and Midlands Forecast Districts.",
+    "title": "Severe Weather Warning for North West Coast and parts of Western, North East, Central North, Central Plateau and Midlands Forecast Districts.",
     "track_end": true
    }
   },
@@ -1361,24 +1380,6 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43723": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-27T09:38:11.619766+00:00",
-    "history": [
-     "Watch and Act · 27 Nov 20:38"
-    ],
-    "key": "VicEmergency:43723",
-    "lat": -37.25825814199041,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 144.89484288298044,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Advice",
-    "track_end": true
-   },
    "VicEmergency:43726": {
     "colour": 16361509,
     "emoji": "🔥",
