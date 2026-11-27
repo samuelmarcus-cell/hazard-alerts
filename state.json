@@ -1301,7 +1301,7 @@
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Seek shelter now",
+    "title": "Watch and Act: Watch and Act - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Not safe to return",
     "track_end": true
    },
    "TasALERT:Flood|Railton and surrounds": {
@@ -1377,22 +1377,22 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43722": {
+   "VicEmergency:43723": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T07:53:11.943270+00:00",
+    "first_seen": "2026-11-27T09:38:11.619766+00:00",
     "history": [
-     "Watch and Act · 27 Nov 18:53"
+     "Watch and Act · 27 Nov 20:38"
     ],
-    "key": "VicEmergency:43722",
-    "lat": -36.62931131799936,
+    "key": "VicEmergency:43723",
+    "lat": -37.25825814199041,
     "level": "Watch and Act",
     "link": "",
-    "lon": 143.13376881682836,
+    "lon": 144.89484288298044,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Watch and Act: Watch & Act",
+    "title": "Watch and Act: Advice",
     "track_end": true
    }
   },

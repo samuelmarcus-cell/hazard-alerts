@@ -1208,3 +1208,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T09:08:11Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-5.0,-80.333333,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
 2026-11-27T09:23:11Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lower South East district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-27T09:23:11Z,ended,VicEmergency,VicEmergency:43721,Watch and Act,Watch and Act: Watch & Act,-36.484197093653194,143.38250615204285,,no
+2026-11-27T09:38:11Z,new,VicEmergency,VicEmergency:43723,Watch and Act,Watch and Act: Advice,-37.25825814199041,144.89484288298044,,no
+2026-11-27T09:38:11Z,ended,VicEmergency,VicEmergency:43722,Watch and Act,Watch and Act: Watch & Act,-36.62931131799936,143.13376881682836,,no
