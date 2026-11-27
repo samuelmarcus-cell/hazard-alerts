@@ -390,24 +390,6 @@
   },
   "BBC Asia": {},
   "BBC World": {
-   "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T00:37:40.033411+00:00",
-    "history": [
-     "Hazard news · 27 Nov 11:37"
-    ],
-    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-    "track_end": false
-   },
    "BBC World:https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo#0": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1395,6 +1377,24 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Advice",
+    "track_end": true
+   },
+   "VicEmergency:43726": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T11:38:43.351374+00:00",
+    "history": [
+     "Watch and Act · 27 Nov 22:38"
+    ],
+    "key": "VicEmergency:43726",
+    "lat": -37.67778868470852,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.681711932062,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
     "track_end": true
    }
   },
