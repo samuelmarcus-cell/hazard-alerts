@@ -505,26 +505,7 @@
     "track_end": true
    }
   },
-  "BoM SA": {
-   "bom:http://reg.bom.gov.au/products/IDS21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-27T09:23:11.778284+00:00",
-    "history": [
-     "Warning · 27 Nov 20:23"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDS21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Lower South East district.",
-    "track_end": true
-   }
-  },
+  "BoM SA": {},
   "BoM TAS": {
    "bom:http://reg.bom.gov.au/products/IDT21037.shtml": {
     "colour": 16088064,
