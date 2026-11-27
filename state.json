@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575997169230417952",
-  "map_hash": "42ca503ccee2",
+  "attachment_id": "1576004722937303091",
+  "map_hash": "a0205dfa2ec8",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -365,7 +365,8 @@
   "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
   "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544",
   "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
-  "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676"
+  "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
+  "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss"
  ],
  "sources": {
   "ABC News": {
@@ -429,6 +430,24 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/videos/ckvg20y511p4o#2": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T22:39:47.359171+00:00",
+    "history": [
+     "Hazard news · 28 Nov 09:39"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/videos/ckvg20y511p4o#2",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/videos/cq808d704m22o#2": {
     "colour": 2001125,
     "emoji": "📰",
@@ -915,7 +934,26 @@
     "track_end": true
    }
   },
-  "Concurrent events": {},
+  "Concurrent events": {
+   "concurrent:global": {
+    "colour": 9315498,
+    "emoji": "🌏",
+    "first_seen": "2026-11-27T22:39:47.359171+00:00",
+    "history": [
+     "Australia + overseas · 28 Nov 09:39"
+    ],
+    "key": "concurrent:global",
+    "lat": null,
+    "level": "Australia + overseas",
+    "link": "",
+    "lon": null,
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "Major Australian events overlapping a top-level disaster overseas",
+    "track_end": true
+   }
+  },
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
@@ -1415,6 +1453,42 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43745": {
+    "attachment_id": "1576004704767316138",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "VicEmergency: Emergency Warning current.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-38.3448&mlon=144.9373#map=8/-38.3448/144.9373)"
+      }
+     ],
+     "footer": {
+      "text": "VicEmergency"
+     },
+     "timestamp": "2026-11-27T22:40:01.736416+00:00",
+     "title": "🔥 EMERGENCY WARNING: Emergency Warning"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T22:39:47.359171+00:00",
+    "history": [
+     "Emergency Warning · 28 Nov 09:39"
+    ],
+    "key": "VicEmergency:43745",
+    "lat": -38.34483787162119,
+    "level": "Emergency Warning",
+    "link": "",
+    "lon": 144.93726470078164,
+    "message_id": "1576004704620511264",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Emergency Warning",
     "track_end": true
    }
   },
