@@ -391,24 +391,6 @@
    }
   },
   "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-27T16:39:16.069984+00:00",
-    "history": [
-     "Warning · 28 Nov 03:39"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Riverina and Lower Western Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
     "colour": 16088064,
     "emoji": "🌬️",
