@@ -509,6 +509,24 @@
     "title": "Severe Weather Warning for North East and parts of Central, East Gippsland, Northern Country, North Central and West and South Gippsland Forecast Districts.",
     "track_end": true
    },
+   "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-27T19:54:15.763320+00:00",
+    "history": [
+     "Warning · 28 Nov 06:54"
+    ],
+    "key": "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Moderate Flood Warning for the Avoca River",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/vic/warnings/flood/loddonriver.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
