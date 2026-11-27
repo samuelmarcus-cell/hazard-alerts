@@ -1231,3 +1231,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T20:24:15Z,new,VicEmergency,VicEmergency:43737,Watch and Act,Watch and Act: Watch & Act,-36.6275,143.87874999999997,,no
 2026-11-27T20:24:15Z,new,VicEmergency,VicEmergency:43738,Watch and Act,Watch and Act: Watch & Act,-37.1125,143.87625000000003,,no
 2026-11-27T20:24:15Z,new,ABC News,abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832,Hazard news,Tight-knit community helps ease pain of bushfires on Flinders Island,,,https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832,no
+2026-11-27T21:09:15Z,new,VicEmergency,VicEmergency:43740,Emergency Warning,EMERGENCY WARNING: Advice,-36.853257459881554,143.70941890077836,,yes
+2026-11-27T21:09:15Z,ended,VicEmergency,VicEmergency:43729,Watch and Act,Watch and Act: Watch & Act,-36.853257459881554,143.70941890077836,,no
+2026-11-27T21:09:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
