@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575789140811710574",
-  "map_hash": "fa93f091b581",
+  "attachment_id": "1575796686025003079",
+  "map_hash": "42ca503ccee2",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -359,7 +359,8 @@
   "https://www.abc.net.au/news/2026-11-27/australia-summer-bushfire-risk/107425264",
   "https://www.theguardian.com/world/2026/nov/27/heatwaves-floods-fires-and-rain-weekend-of-extreme-weather-expected-across-australia",
   "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
-  "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving"
+  "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {},
@@ -382,6 +383,24 @@
     "notify": false,
     "rank": 0,
     "title": "Thanksgiving storms leave nearly a million without power across the US",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795767652": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T08:53:11.937852+00:00",
+    "history": [
+     "Hazard news · 27 Nov 19:53"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795767652",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Deadly floods leave parts of Ecuador under water",
     "track_end": false
    }
   },
@@ -538,7 +557,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central, Mallee, South West, Northern Country, North Central and Wimmera Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Mallee Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
@@ -556,7 +575,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, South West, Northern Country and West and South Gippsland Forecast Districts.",
+    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, Mallee, South West, Northern Country, West and South Gippsland and Wimmera Forecast Districts.",
     "track_end": true
    }
   },
