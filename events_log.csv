@@ -1206,3 +1206,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T08:38:11Z,ended,TasALERT,"TasALERT:Bushfire|Mt Boyes, Carnacs Flat and Surrounds (Flinders Island)",Watch and Act,"Watch and Act: Bushfire Watch and Act - Mt Boyes, Carnacs Flat and Surrounds (Flinders Island) - Not safe to return",-39.88946,147.91477,https://alert.tas.gov.au/?id=8eb97a8b-9b7b-4f59-9327-be9f1959ab50,no
 2026-11-27T08:53:11Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1795767652,Hazard news,Deadly floods leave parts of Ecuador under water,,,https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water?traffic_source=rss,no
 2026-11-27T09:08:11Z,new,GDACS,gdacs:FL:1104259,Green,Flood — Peru,-5.0,-80.333333,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259,no
+2026-11-27T09:23:11Z,new,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lower South East district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
+2026-11-27T09:23:11Z,ended,VicEmergency,VicEmergency:43721,Watch and Act,Watch and Act: Watch & Act,-36.484197093653194,143.38250615204285,,no
