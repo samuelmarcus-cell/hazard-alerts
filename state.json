@@ -420,6 +420,24 @@
   "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
+   "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T00:37:40.033411+00:00",
+    "history": [
+     "Hazard news · 27 Nov 11:37"
+    ],
+    "key": "BBC World:https://www.bbc.co.uk/news/articles/ckm2mz3prq77o#0",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+    "track_end": false
+   },
    "BBC World:https://www.bbc.co.uk/news/videos/cq808d704m22o#0": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1078,17 +1096,17 @@
   "QLD Fire": {},
   "SA CFS": {},
   "TasALERT": {
-   "TasALERT:Bushfire|Killicrankie , Mt Killicrankie Recreation Area": {
-    "attachment_id": "1575290150185992202",
+   "TasALERT:Bushfire|Killiecrankie, Mt Killiecrankie Recreation Area": {
+    "attachment_id": "1575671981922058260",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
-     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killicrankie , Mt Killicrankie Recreation Area and Surrounds - Too late to leave.An uncontrolled bushfire at Killicrankie , Mt Killicrankie Recreation Area and Surrounds is travelling towards Killicrankie , Mt Killicrankie Recreation Area and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Service",
+     "description": "Tasmania Fire Service has issued a Bushfire Emergency Warning for Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds - Too late to leave.An uncontrolled bushfire at Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds is travelling towards Killiecrankie, Mt Killiecrankie Recreation Area and could put lives in danger and threaten homes.Thick smoke, and showers of embers may cause fires around you.Spot fires may threaten your home before the main fire arrives.Tasmania Fire Se",
      "fields": [
       {
        "inline": true,
        "name": "Area",
-       "value": "Killicrankie , Mt Killicrankie Recreation Area"
+       "value": "Killiecrankie, Mt Killiecrankie Recreation Area"
       },
       {
        "inline": true,
@@ -1104,25 +1122,25 @@
      "footer": {
       "text": "TasALERT"
      },
-     "timestamp": "2026-11-25T23:20:38.551440+00:00",
-     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency Warning - Killicrankie , Mt Killicrankie Recreation Area and Surrounds - Too late to leave",
+     "timestamp": "2026-11-27T00:37:54.427926+00:00",
+     "title": "🔥 EMERGENCY WARNING: Bushfire Emergency Warning - Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds - Too late to leave",
      "url": "https://alert.tas.gov.au/?id=dbfd8242-db1e-4eb9-9482-4f35d7b40dbf"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-25T23:20:23.097577+00:00",
+    "first_seen": "2026-11-27T00:37:40.033411+00:00",
     "history": [
-     "Emergency Warning · 26 Nov 10:20"
+     "Emergency Warning · 27 Nov 11:37"
     ],
-    "key": "TasALERT:Bushfire|Killicrankie , Mt Killicrankie Recreation Area",
+    "key": "TasALERT:Bushfire|Killiecrankie, Mt Killiecrankie Recreation Area",
     "lat": -39.81262,
     "level": "Emergency Warning",
     "link": "https://alert.tas.gov.au/?id=dbfd8242-db1e-4eb9-9482-4f35d7b40dbf",
     "lon": 147.88195,
-    "message_id": "1575290150026739746",
+    "message_id": "1575671982626967662",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency Warning - Killicrankie , Mt Killicrankie Recreation Area and Surrounds - Too late to leave",
+    "title": "EMERGENCY WARNING: Bushfire Emergency Warning - Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds - Too late to leave",
     "track_end": true
    },
    "TasALERT:Bushfire|Leeka & Mount Tanner and Surrounding Areas": {
