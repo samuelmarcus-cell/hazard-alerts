@@ -364,7 +364,8 @@
   "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
   "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
   "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544",
-  "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832"
+  "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
+  "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676"
  ],
  "sources": {
   "ABC News": {
@@ -384,6 +385,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flash flooding, river flooding possible across eastern states",
+    "track_end": false
+   },
+   "abc:https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T21:54:47.434803+00:00",
+    "history": [
+     "Hazard news · 28 Nov 08:54"
+    ],
+    "key": "abc:https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Rain not enough to extinguish Flinders Island bushfire",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
@@ -900,9 +919,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-27T21:39:48.034118+00:00",
+    "first_seen": "2026-11-27T21:54:47.434803+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 08:39"
+     "Australia + overseas · 28 Nov 08:54"
     ],
     "key": "concurrent:global",
     "lat": null,
