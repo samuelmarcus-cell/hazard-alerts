@@ -361,7 +361,8 @@
   "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
   "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
   "https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water?traffic_source=rss",
-  "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss"
+  "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+  "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations"
  ],
  "sources": {
   "ABC News": {},
@@ -481,7 +482,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of North West, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -577,7 +578,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, Mallee, South West, Northern Country, West and South Gippsland and Wimmera Forecast Districts.",
+    "title": "Severe Weather Warning for North Central, North East and parts of Central, East Gippsland, South West, Northern Country, West and South Gippsland, Wimmera and Mallee Forecast Districts.",
     "track_end": true
    }
   },
@@ -1168,6 +1169,24 @@
     "notify": false,
     "rank": 0,
     "title": "Heavy rain, wind and flooding hit much of US on Thanksgiving",
+    "track_end": false
+   },
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T11:08:42.904289+00:00",
+    "history": [
+     "Hazard news · 27 Nov 22:08"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
     "track_end": false
    },
    "Guardian World:https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket": {
