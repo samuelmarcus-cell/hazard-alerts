@@ -1218,3 +1218,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T12:23:42Z,ended,BoM SA,bom:http://reg.bom.gov.au/products/IDS21033.shtml,Warning,Severe Thunderstorm Warning for parts of Lower South East district.,,,http://reg.bom.gov.au/products/IDS21033.shtml,no
 2026-11-27T13:38:42Z,ended,VicEmergency,VicEmergency:43726,Watch and Act,Watch and Act: Watch & Act,-37.67778868470852,143.681711932062,,no
 2026-11-27T14:23:43Z,ended,BoM VIC,bom:http://reg.bom.gov.au/products/IDV21033.shtml,Warning,Severe Thunderstorm Warning for parts of Mallee Forecast District.,,,http://reg.bom.gov.au/products/IDV21033.shtml,no
+2026-11-27T14:53:42Z,ended,BoM NT,bom:http://reg.bom.gov.au/products/IDD21033.shtml,Warning,Severe Thunderstorm Warning for parts of Carpentaria and Arnhem districts.,,,http://reg.bom.gov.au/products/IDD21033.shtml,no
+2026-11-27T14:53:42Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Central West Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
