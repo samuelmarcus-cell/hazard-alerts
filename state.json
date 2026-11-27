@@ -986,6 +986,24 @@
     "title": "Flood — Indonesia",
     "track_end": true
    },
+   "gdacs:FL:1104259": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-27T09:08:11.603370+00:00",
+    "history": [
+     "Green · 27 Nov 20:08"
+    ],
+    "key": "gdacs:FL:1104259",
+    "lat": -5.0,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
+    "lon": -80.333333,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Peru",
+    "track_end": true
+   },
    "gdacs:FL:1104270": {
     "colour": 4431943,
     "emoji": "🌊",
@@ -1084,10 +1102,10 @@
      "Green · 27 Nov 18:23"
     ],
     "key": "gdacs:FL:1104302",
-    "lat": -24.25,
+    "lat": -20.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302",
-    "lon": -56.5,
+    "lon": -59.166667,
     "news": false,
     "notify": false,
     "rank": 0,
