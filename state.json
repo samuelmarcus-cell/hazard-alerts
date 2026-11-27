@@ -479,7 +479,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Coast and Whitsundays, Central Highlands and Coalfields, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of North West, Central West, Channel Country and Maranoa and Warrego Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -921,10 +921,10 @@
      "Green · 25 Nov 18:48"
     ],
     "key": "gdacs:FL:1104216",
-    "lat": -25.4597726,
+    "lat": -19.5687682,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104216",
-    "lon": -49.5270851,
+    "lon": -40.1721991,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1190,33 +1190,15 @@
      "Emergency Warning · 27 Nov 11:37"
     ],
     "key": "TasALERT:Bushfire|Killiecrankie, Mt Killiecrankie Recreation Area",
-    "lat": -39.81262,
+    "lat": -39.85441,
     "level": "Emergency Warning",
-    "link": "https://alert.tas.gov.au/?id=dbfd8242-db1e-4eb9-9482-4f35d7b40dbf",
-    "lon": 147.88195,
+    "link": "https://alert.tas.gov.au/?id=f05476b9-a6d4-4343-a54d-fe03988cb39b",
+    "lon": 147.93675,
     "message_id": "1575671982626967662",
     "news": false,
     "notify": true,
     "rank": 1,
-    "title": "EMERGENCY WARNING: Bushfire Emergency Warning - Killiecrankie , Mt Killiecrankie Recreation Area and Surrounds - Too late to leave",
-    "track_end": true
-   },
-   "TasALERT:Bushfire|Mt Boyes, Carnacs Flat and Surrounds (Flinders Island)": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-26T10:51:18.958239+00:00",
-    "history": [
-     "Watch and Act · 26 Nov 21:51"
-    ],
-    "key": "TasALERT:Bushfire|Mt Boyes, Carnacs Flat and Surrounds (Flinders Island)",
-    "lat": -39.88946,
-    "level": "Watch and Act",
-    "link": "https://alert.tas.gov.au/?id=8eb97a8b-9b7b-4f59-9327-be9f1959ab50",
-    "lon": 147.91477,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act - Mt Boyes, Carnacs Flat and Surrounds (Flinders Island) - Not safe to return",
+    "title": "Watch and Act: Bushfire Watch and Act - Killiecrankie, Mt Killiecrankie Recreation Area, Mt Boyes, Carnacs Flat and Surrounds - Not safe to return",
     "track_end": true
    },
    "TasALERT:Bushfire|Pine Scrub, Leeka & Mount Tanner and Surrounding Areas": {
