@@ -1043,6 +1043,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-27T16:24:15.493297+00:00",
+    "history": [
+     "Hazard news · 28 Nov 03:24"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations": {
     "colour": 2001125,
     "emoji": "📰",
