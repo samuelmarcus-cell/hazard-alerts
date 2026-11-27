@@ -59,7 +59,7 @@
    "warned": false
   },
   "Canada fires": {
-   "failing_since": "2026-11-27T02:07:39.616565+00:00",
+   "failing_since": null,
    "warned": false
   },
   "Fire danger (NSW)": {
@@ -376,24 +376,6 @@
     "notify": false,
     "rank": 0,
     "title": "'Significant concern' as summer bushfire risk grows",
-    "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-26T20:07:14.328513+00:00",
-    "history": [
-     "Hazard news · 27 Nov 07:07"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-27/queensland-storms-rain-severe-weather-summer/107429386",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe weekend storms for Queensland as hot, dry summer looms",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308": {
