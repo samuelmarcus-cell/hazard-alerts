@@ -1194,3 +1194,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T05:53:09Z,new,VicEmergency,VicEmergency:43719,Watch and Act,Watch and Act: Watch & Act,-36.52683241435123,143.4346912106423,,no
 2026-11-27T05:53:09Z,ended,VicEmergency,VicEmergency:43717,Watch and Act,Watch and Act: Advice,-35.95157043122714,142.6601550778134,,no
 2026-11-27T06:38:10Z,new,BBC World,BBC World:https://www.bbc.co.uk/news/videos/cq808d704m22o#2,Hazard news,Watch: Roofs torn off and streets under water as severe weather hits US,,,https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss,no
+2026-11-27T07:23:12Z,new,VicEmergency,VicEmergency:43720,Watch and Act,Watch and Act: Watch & Act,-36.484197093653194,143.3783862789973,,no
+2026-11-27T07:23:12Z,ended,VicEmergency,VicEmergency:43719,Watch and Act,Watch and Act: Watch & Act,-36.52683241435123,143.4346912106423,,no
+2026-11-27T07:23:12Z,new,GDACS,gdacs:FL:1104302,Green,Flood — Paraguay,-24.25,-56.5,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302,no
