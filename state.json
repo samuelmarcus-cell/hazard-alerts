@@ -501,6 +501,24 @@
    }
   },
   "BoM VIC": {
+   "bom:http://reg.bom.gov.au/products/IDV21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-27T01:37:39.718034+00:00",
+    "history": [
+     "Warning · 27 Nov 12:37"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDV21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Mallee and Wimmera Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
     "colour": 16088064,
     "emoji": "🌬️",
