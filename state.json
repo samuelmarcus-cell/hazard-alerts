@@ -442,24 +442,6 @@
    }
   },
   "BoM NSW/ACT": {
-   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-27T02:52:40.925415+00:00",
-    "history": [
-     "Warning · 27 Nov 13:52"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Riverina and Lower Western Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
     "colour": 16088064,
     "emoji": "🌬️",
@@ -1338,18 +1320,36 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43720": {
+   "VicEmergency:43721": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T07:23:12.202836+00:00",
+    "first_seen": "2026-11-27T07:53:11.943270+00:00",
     "history": [
-     "Watch and Act · 27 Nov 18:23"
+     "Watch and Act · 27 Nov 18:53"
     ],
-    "key": "VicEmergency:43720",
+    "key": "VicEmergency:43721",
     "lat": -36.484197093653194,
     "level": "Watch and Act",
     "link": "",
-    "lon": 143.3783862789973,
+    "lon": 143.38250615204285,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43722": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-27T07:53:11.943270+00:00",
+    "history": [
+     "Watch and Act · 27 Nov 18:53"
+    ],
+    "key": "VicEmergency:43722",
+    "lat": -36.62931131799936,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.13376881682836,
     "news": false,
     "notify": false,
     "rank": 0,

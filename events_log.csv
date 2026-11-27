@@ -1198,3 +1198,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-27T07:23:12Z,ended,VicEmergency,VicEmergency:43719,Watch and Act,Watch and Act: Watch & Act,-36.52683241435123,143.4346912106423,,no
 2026-11-27T07:23:12Z,new,GDACS,gdacs:FL:1104302,Green,Flood — Paraguay,-24.25,-56.5,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302,no
 2026-11-27T07:38:12Z,new,TasALERT,TasALERT:Flood|Railton and surrounds,Watch and Act,Watch and Act: Flood Watch and Act - Redwater Creek - Railton - Monitor conditions as they are changing,-41.34569,146.42196,https://alert.tas.gov.au/?id=d60583a7-0374-4ad1-a130-f129ab6b97a2,no
+2026-11-27T07:53:11Z,ended,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,Severe Thunderstorm Warning for parts of Riverina and Lower Western Forecast Districts.,,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-27T07:53:11Z,new,VicEmergency,VicEmergency:43721,Watch and Act,Watch and Act: Watch & Act,-36.484197093653194,143.38250615204285,,no
+2026-11-27T07:53:11Z,new,VicEmergency,VicEmergency:43722,Watch and Act,Watch and Act: Watch & Act,-36.62931131799936,143.13376881682836,,no
+2026-11-27T07:53:11Z,ended,VicEmergency,VicEmergency:43720,Watch and Act,Watch and Act: Watch & Act,-36.484197093653194,143.3783862789973,,no
