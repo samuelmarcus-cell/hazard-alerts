@@ -488,6 +488,24 @@
     "rank": 0,
     "title": "Severe Weather Warning for North East and parts of Central, East Gippsland, Northern Country, North Central and West and South Gippsland Forecast Districts.",
     "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/vic/warnings/flood/loddonriver.shtml": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-27T19:09:15.603198+00:00",
+    "history": [
+     "Warning · 28 Nov 06:09"
+    ],
+    "key": "bom:http://reg.bom.gov.au/vic/warnings/flood/loddonriver.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/vic/warnings/flood/loddonriver.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Loddon River",
+    "track_end": true
    }
   },
   "BoM WA": {},
