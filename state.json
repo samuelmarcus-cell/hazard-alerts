@@ -1264,6 +1264,24 @@
     "rank": 1,
     "title": "EMERGENCY WARNING: Bushfire Emergency - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Take shelter now",
     "track_end": true
+   },
+   "TasALERT:Flood|Railton and surrounds": {
+    "colour": 16361509,
+    "emoji": "⚠️",
+    "first_seen": "2026-11-27T07:38:12.036412+00:00",
+    "history": [
+     "Watch and Act · 27 Nov 18:38"
+    ],
+    "key": "TasALERT:Flood|Railton and surrounds",
+    "lat": -41.34569,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=d60583a7-0374-4ad1-a130-f129ab6b97a2",
+    "lon": 146.42196,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Flood Watch and Act - Redwater Creek - Railton - Monitor conditions as they are changing",
+    "track_end": true
    }
   },
   "US fires": {
