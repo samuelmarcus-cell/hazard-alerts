@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1575981931638554794",
-  "map_hash": "165ce819b4e7",
+  "attachment_id": "1575997169230417952",
+  "map_hash": "42ca503ccee2",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -915,26 +915,7 @@
     "track_end": true
    }
   },
-  "Concurrent events": {
-   "concurrent:global": {
-    "colour": 9315498,
-    "emoji": "🌏",
-    "first_seen": "2026-11-27T21:54:47.434803+00:00",
-    "history": [
-     "Australia + overseas · 28 Nov 08:54"
-    ],
-    "key": "concurrent:global",
-    "lat": null,
-    "level": "Australia + overseas",
-    "link": "",
-    "lon": null,
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "Major Australian events overlapping a top-level disaster overseas",
-    "track_end": true
-   }
-  },
+  "Concurrent events": {},
   "Fire danger (NSW)": {},
   "Fire danger (VIC)": {},
   "GDACS": {
@@ -1418,40 +1399,22 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43740": {
-    "attachment_id": "1575981917785034833",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "VicEmergency: Emergency Warning current.",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-36.8533&mlon=143.7094#map=8/-36.8533/143.7094)"
-      }
-     ],
-     "footer": {
-      "text": "VicEmergency"
-     },
-     "timestamp": "2026-11-27T21:09:28.772230+00:00",
-     "title": "🔥 EMERGENCY WARNING: Advice"
-    },
+   "VicEmergency:43742": {
+    "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T21:09:15.888174+00:00",
+    "first_seen": "2026-11-27T22:09:48.081607+00:00",
     "history": [
-     "Emergency Warning · 28 Nov 08:09"
+     "Watch and Act · 28 Nov 09:09"
     ],
-    "key": "VicEmergency:43740",
-    "lat": -36.853257459881554,
-    "level": "Emergency Warning",
+    "key": "VicEmergency:43742",
+    "lat": -36.77250000000001,
+    "level": "Watch and Act",
     "link": "",
-    "lon": 143.70941890077836,
-    "message_id": "1575981917722116399",
+    "lon": 143.45375,
     "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Advice",
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
     "track_end": true
    }
   },
