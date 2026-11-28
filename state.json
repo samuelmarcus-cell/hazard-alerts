@@ -511,7 +511,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -946,9 +946,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T06:10:16.102281+00:00",
+    "first_seen": "2026-11-28T06:25:15.963297+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 17:10"
+     "Australia + overseas · 28 Nov 17:25"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1352,6 +1352,24 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Flood Watch and Act - Meander River - Deloraine & Surrounds - Monitor conditions as they are changing",
+    "track_end": true
+   },
+   "TasALERT:Flood|Lake River - Cressy & Surrounds": {
+    "colour": 16361509,
+    "emoji": "⚠️",
+    "first_seen": "2026-11-28T06:25:15.963297+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 17:25"
+    ],
+    "key": "TasALERT:Flood|Lake River - Cressy & Surrounds",
+    "lat": -41.77809,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=269ab285-923c-452e-b3b1-f25863ab389f",
+    "lon": 147.10251,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Flood Watch and Act - Lake River - Cressy & Surrounds - Monitor conditions as they are changing",
     "track_end": true
    },
    "TasALERT:Flood|Railton and surrounds": {
