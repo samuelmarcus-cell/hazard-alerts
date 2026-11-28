@@ -470,7 +470,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Hunter, South Coast, Central Tablelands, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Snowy Mountains and South West Slopes Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Central Tablelands and parts of Hunter, South Coast, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Snowy Mountains and South West Slopes Forecast Districts.",
     "track_end": true
    }
   },
@@ -870,9 +870,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T04:25:15.656853+00:00",
+    "first_seen": "2026-11-28T04:40:15.779891+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 15:25"
+     "Australia + overseas · 28 Nov 15:40"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1442,26 +1442,7 @@
     "track_end": true
    }
   },
-  "WA DFES": {
-   "WA DFES:832968": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-28T04:25:15.656853+00:00",
-    "history": [
-     "Watch and Act · 28 Nov 15:25"
-    ],
-    "key": "WA DFES:832968",
-    "lat": -32.88592282783598,
-    "level": "Watch and Act",
-    "link": "https://emergency.wa.gov.au/warnings/6b0a53504beeaba42beadc5f",
-    "lon": 117.28259238680872,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - BOUNDAIN",
-    "track_end": true
-   }
-  }
+  "WA DFES": {}
  },
  "version": 2
 }
