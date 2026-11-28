@@ -1308,3 +1308,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T05:10:15Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1795833287,Hazard news,"El Nino-linked deluges flood cities in Peru, Ecuador",,,https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss,no
 2026-11-28T05:10:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T05:25:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T05:40:15Z,new,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,"Fire Weather Warning for Mid West, North Midlands and Swan Inland North fire weather districts",,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
+2026-11-28T05:40:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

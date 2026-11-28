@@ -572,7 +572,26 @@
     "track_end": true
    }
   },
-  "BoM WA": {},
+  "BoM WA": {
+   "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml": {
+    "colour": 16088064,
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T05:40:15.945955+00:00",
+    "history": [
+     "Warning · 28 Nov 16:40"
+    ],
+    "key": "bom:http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/wa/warnings/fire.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Fire Weather Warning for Mid West, North Midlands and Swan Inland North fire weather districts",
+    "track_end": true
+   }
+  },
   "Canada fires": {
    "ca:2026_BC_2026-C40983": {
     "emoji": "🔥",
@@ -907,9 +926,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T05:25:15.508941+00:00",
+    "first_seen": "2026-11-28T05:40:15.945955+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 16:25"
+     "Australia + overseas · 28 Nov 16:40"
     ],
     "key": "concurrent:global",
     "lat": null,
