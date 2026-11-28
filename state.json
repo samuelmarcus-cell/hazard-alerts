@@ -407,24 +407,6 @@
     "rank": 0,
     "title": "Unoccupied house collapses in Mornington Peninsula landslide",
     "track_end": false
-   },
-   "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T20:24:15.446767+00:00",
-    "history": [
-     "Hazard news · 28 Nov 07:24"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Tight-knit community helps ease pain of bushfires on Flinders Island",
-    "track_end": false
    }
   },
   "ACT ESA": {},
@@ -507,24 +489,6 @@
     "notify": false,
     "rank": 0,
     "title": "Severe Thunderstorm Warning for parts of Southeast Coast Forecast District.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
-    "colour": 16088064,
-    "emoji": "🌊",
-    "first_seen": "2026-11-27T18:09:16.230204+00:00",
-    "history": [
-     "Warning · 28 Nov 05:09"
-    ],
-    "key": "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Moderate Flood Warning for Warrill Creek",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -958,9 +922,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T01:54:47.703488+00:00",
+    "first_seen": "2026-11-28T02:09:48.315914+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 12:54"
+     "Australia + overseas · 28 Nov 13:09"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1421,14 +1385,14 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43742": {
+   "VicEmergency:43748": {
     "colour": 16361509,
     "emoji": "🔥",
-    "first_seen": "2026-11-27T22:09:48.081607+00:00",
+    "first_seen": "2026-11-28T02:09:48.315914+00:00",
     "history": [
-     "Watch and Act · 28 Nov 09:09"
+     "Watch and Act · 28 Nov 13:09"
     ],
-    "key": "VicEmergency:43742",
+    "key": "VicEmergency:43748",
     "lat": -36.77250000000001,
     "level": "Watch and Act",
     "link": "",
@@ -1473,6 +1437,24 @@
     "notify": true,
     "rank": 1,
     "title": "EMERGENCY WARNING: Emergency Warning",
+    "track_end": true
+   },
+   "VicEmergency:43751": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T02:09:48.315914+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 13:09"
+    ],
+    "key": "VicEmergency:43751",
+    "lat": -36.742750287619884,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 147.17870980717456,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
     "track_end": true
    }
   },

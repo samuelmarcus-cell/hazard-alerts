@@ -1268,3 +1268,8 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T01:54:47Z,new,VicEmergency,VicEmergency:43749,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
 2026-11-28T01:54:47Z,ended,VicEmergency,VicEmergency:43746,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
 2026-11-28T01:54:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T02:09:48Z,ended,BoM QLD,bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml,Warning,Moderate Flood Warning for Warrill Creek,,,http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml,no
+2026-11-28T02:09:48Z,new,VicEmergency,VicEmergency:43751,Watch and Act,Watch and Act: Watch & Act,-36.742750287619884,147.17870980717456,,no
+2026-11-28T02:09:48Z,new,VicEmergency,VicEmergency:43748,Watch and Act,Watch and Act: Watch & Act,-36.77250000000001,143.45375,,no
+2026-11-28T02:09:48Z,ended,VicEmergency,VicEmergency:43742,Watch and Act,Watch and Act: Watch & Act,-36.77250000000001,143.45375,,no
+2026-11-28T02:09:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
