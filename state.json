@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1576084116657410098",
-  "map_hash": "f350bf57d48a",
+  "attachment_id": "1576091675493662751",
+  "map_hash": "8d7110494c45",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -496,26 +496,7 @@
    }
   },
   "BoM SA": {},
-  "BoM TAS": {
-   "bom:http://reg.bom.gov.au/products/IDT21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-11-26T05:50:53.466173+00:00",
-    "history": [
-     "Warning · 26 Nov 16:50"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDT21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDT21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of North East, North West Coast, Central North, Central Plateau and Midlands Forecast Districts.",
-    "track_end": true
-   }
-  },
+  "BoM TAS": {},
   "BoM VIC": {
    "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml": {
     "colour": 16088064,
@@ -889,9 +870,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T04:10:15.631858+00:00",
+    "first_seen": "2026-11-28T04:25:15.656853+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 15:10"
+     "Australia + overseas · 28 Nov 15:25"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1352,42 +1333,6 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43749": {
-    "attachment_id": "1576053791265001562",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "VicEmergency: Emergency Warning current.",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-38.3448&mlon=144.9373#map=8/-38.3448/144.9373)"
-      }
-     ],
-     "footer": {
-      "text": "VicEmergency"
-     },
-     "timestamp": "2026-11-28T01:55:04.298604+00:00",
-     "title": "🔥 EMERGENCY WARNING: Emergency Warning"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-28T01:54:47.703488+00:00",
-    "history": [
-     "Emergency Warning · 28 Nov 12:54"
-    ],
-    "key": "VicEmergency:43749",
-    "lat": -38.34483787162119,
-    "level": "Emergency Warning",
-    "link": "",
-    "lon": 144.93726470078164,
-    "message_id": "1576053791076253849",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Emergency Warning",
-    "track_end": true
-   },
    "VicEmergency:43755": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1459,9 +1404,64 @@
     "rank": 1,
     "title": "EMERGENCY WARNING: Advice",
     "track_end": true
+   },
+   "VicEmergency:43765": {
+    "attachment_id": "1576091650076311602",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "VicEmergency: Emergency Warning current.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-38.3451&mlon=144.9377#map=8/-38.3451/144.9377)"
+      }
+     ],
+     "footer": {
+      "text": "VicEmergency"
+     },
+     "timestamp": "2026-11-28T04:25:29.835376+00:00",
+     "title": "🔥 EMERGENCY WARNING: Emergency Warning"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T04:25:15.656853+00:00",
+    "history": [
+     "Emergency Warning · 28 Nov 15:25"
+    ],
+    "key": "VicEmergency:43765",
+    "lat": -38.345064016320535,
+    "level": "Emergency Warning",
+    "link": "",
+    "lon": 144.93771799408768,
+    "message_id": "1576091650437025854",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Emergency Warning",
+    "track_end": true
    }
   },
-  "WA DFES": {}
+  "WA DFES": {
+   "WA DFES:832968": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T04:25:15.656853+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 15:25"
+    ],
+    "key": "WA DFES:832968",
+    "lat": -32.88592282783598,
+    "level": "Watch and Act",
+    "link": "https://emergency.wa.gov.au/warnings/6b0a53504beeaba42beadc5f",
+    "lon": 117.28259238680872,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - BOUNDAIN",
+    "track_end": true
+   }
+  }
  },
  "version": 2
 }
