@@ -453,7 +453,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Northern Tablelands and parts of Northern Rivers, Mid North Coast and North West Slopes and Plains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Northern Rivers, Mid North Coast and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -474,7 +474,25 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
+    "title": "Severe Thunderstorm Warning for parts of Maranoa and Warrego, Darling Downs and Granite Belt and Central Highlands and Coalfields Forecast Districts.",
+    "track_end": true
+   },
+   "bom:http://reg.bom.gov.au/products/IDQ21035.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-28T13:10:49.899630+00:00",
+    "history": [
+     "Warning · 29 Nov 00:10"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21035.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Toowoomba and Western Downs Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -927,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T12:55:50.090726+00:00",
+    "first_seen": "2026-11-28T13:10:49.899630+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 23:55"
+     "Australia + overseas · 29 Nov 00:10"
     ],
     "key": "concurrent:global",
     "lat": null,
