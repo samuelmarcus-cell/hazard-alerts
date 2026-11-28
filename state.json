@@ -945,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T10:55:50.021843+00:00",
+    "first_seen": "2026-11-28T11:10:49.521123+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 21:55"
+     "Australia + overseas · 28 Nov 22:10"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1200,24 +1200,6 @@
     "title": "Australia’s east coast deluged by storms as roads flood and damaging winds forecast for NSW and Victoria",
     "track_end": false
    },
-   "Guardian World:https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-28T06:10:16.102281+00:00",
-    "history": [
-     "Hazard news · 28 Nov 17:10"
-    ],
-    "key": "Guardian World:https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Stunted sprouts: heatwaves and drought take toll on festive vegetable",
-    "track_end": false
-   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1369,6 +1351,24 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Flood Watch and Act - Meander River - Deloraine & Surrounds - Monitor conditions as they are changing",
+    "track_end": true
+   },
+   "TasALERT:Flood|Kimberley, Merseylea, Native Plains, Latrobe and Surrounds": {
+    "colour": 16361509,
+    "emoji": "⚠️",
+    "first_seen": "2026-11-28T11:10:49.521123+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 22:10"
+    ],
+    "key": "TasALERT:Flood|Kimberley, Merseylea, Native Plains, Latrobe and Surrounds",
+    "lat": -41.39375,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=f253111b-c853-4664-b7c2-99c836848dbf",
+    "lon": 146.49009,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Flood Watch and Act - Mersey River – Kimberley to Latrobe - Monitor conditions as they are changing",
     "track_end": true
    },
    "TasALERT:Flood|Lake River - Cressy & Surrounds": {
