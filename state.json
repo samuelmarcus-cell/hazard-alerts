@@ -563,7 +563,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for North West Coast and parts of Western, North East, Central North, Central Plateau and Midlands Forecast Districts.",
+    "title": "Severe Weather Warning for parts of North East, North West Coast, Central North, Central Plateau and Midlands Forecast Districts.",
     "track_end": true
    }
   },
@@ -583,7 +583,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Weather Warning for North East and parts of Central, East Gippsland, Northern Country, North Central and West and South Gippsland Forecast Districts.",
+    "title": "Severe Weather Warning for parts of East Gippsland and North East Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml": {
@@ -958,9 +958,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-27T23:54:48.168638+00:00",
+    "first_seen": "2026-11-28T00:09:48.047467+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 10:54"
+     "Australia + overseas · 28 Nov 11:09"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1137,6 +1137,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — Uganda",
+    "track_end": true
+   },
+   "gdacs:FL:1104302": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-28T00:09:48.047467+00:00",
+    "history": [
+     "Green · 28 Nov 11:09"
+    ],
+    "key": "gdacs:FL:1104302",
+    "lat": -23.0,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302",
+    "lon": -56.0,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — Paraguay",
     "track_end": true
    },
    "gdacs:TC:1001352": {
