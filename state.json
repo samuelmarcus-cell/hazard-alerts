@@ -470,43 +470,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Australian Capital Territory and parts of Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, South West Slopes, Snowy Mountains and Central Tablelands Forecast Districts.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21036.shtml": {
-    "colour": 16088064,
-    "emoji": "⛈️",
-    "first_seen": "2026-11-28T03:25:15.553874+00:00",
-    "history": [
-     "Warning · 28 Nov 14:25"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21036.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21036.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Thunderstorm Warning - Canberra for Canberra and Queanbeyan.",
-    "track_end": true
-   },
-   "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-11-26T17:36:47.557399+00:00",
-    "history": [
-     "Warning · 27 Nov 04:36"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDN21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of South West Slopes and Snowy Mountains Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Hunter, South Coast, Central Tablelands, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Snowy Mountains and South West Slopes Forecast Districts.",
     "track_end": true
    }
   },
@@ -553,24 +517,6 @@
    }
   },
   "BoM VIC": {
-   "bom:http://reg.bom.gov.au/products/IDV21037.shtml": {
-    "colour": 16088064,
-    "emoji": "🌬️",
-    "first_seen": "2026-11-26T05:50:53.466173+00:00",
-    "history": [
-     "Warning · 26 Nov 16:50"
-    ],
-    "key": "bom:http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lat": null,
-    "level": "Warning",
-    "link": "http://reg.bom.gov.au/products/IDV21037.shtml",
-    "lon": null,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Severe Weather Warning for parts of East Gippsland and North East Forecast Districts.",
-    "track_end": true
-   },
    "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -943,9 +889,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T03:55:15.962694+00:00",
+    "first_seen": "2026-11-28T04:10:15.631858+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 14:55"
+     "Australia + overseas · 28 Nov 15:10"
     ],
     "key": "concurrent:global",
     "lat": null,
