@@ -492,7 +492,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Darling Downs and Granite Belt Forecast District.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -945,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T11:40:50.218983+00:00",
+    "first_seen": "2026-11-28T11:55:50.288079+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 22:40"
+     "Australia + overseas · 28 Nov 22:55"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1361,10 +1361,10 @@
      "Watch and Act · 28 Nov 22:10"
     ],
     "key": "TasALERT:Flood|Kimberley, Merseylea, Native Plains, Latrobe and Surrounds",
-    "lat": -41.39375,
+    "lat": -41.29628,
     "level": "Watch and Act",
     "link": "https://alert.tas.gov.au/?id=f253111b-c853-4664-b7c2-99c836848dbf",
-    "lon": 146.49009,
+    "lon": 146.4355,
     "news": false,
     "notify": false,
     "rank": 0,
