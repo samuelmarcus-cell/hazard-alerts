@@ -378,26 +378,7 @@
   "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
-  "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795833287": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-28T05:10:15.415247+00:00",
-    "history": [
-     "Hazard news · 28 Nov 16:10"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795833287",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-    "track_end": false
-   }
-  },
+  "Al Jazeera": {},
   "BBC Asia": {},
   "BBC World": {
    "BBC World:https://www.bbc.co.uk/news/videos/ckvg20y511p4o#2": {
@@ -492,7 +473,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Toowoomba and Western Downs Council Areas.",
+    "title": "Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Western Downs and Toowoomba Council Areas.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -945,9 +926,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T13:26:21.306877+00:00",
+    "first_seen": "2026-11-28T13:41:20.829948+00:00",
     "history": [
-     "Australia + overseas · 29 Nov 00:26"
+     "Australia + overseas · 29 Nov 00:41"
     ],
     "key": "concurrent:global",
     "lat": null,
