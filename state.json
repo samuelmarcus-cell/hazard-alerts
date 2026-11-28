@@ -489,7 +489,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Central Tablelands and parts of Hunter, South Coast, Southern Tablelands, North West Slopes and Plains, Central West Slopes and Plains, Snowy Mountains and South West Slopes Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for North West Slopes and Plains and parts of Hunter, South Coast, Central Tablelands, Central West Slopes and Plains, Upper Western and Mid North Coast Forecast Districts.",
     "track_end": true
    }
   },
@@ -907,9 +907,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T05:10:15.415247+00:00",
+    "first_seen": "2026-11-28T05:25:15.508941+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 16:10"
+     "Australia + overseas · 28 Nov 16:25"
     ],
     "key": "concurrent:global",
     "lat": null,
