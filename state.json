@@ -476,6 +476,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-28T04:55:16.213783+00:00",
+    "history": [
+     "Warning · 28 Nov 15:55"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -870,9 +888,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T04:40:15.779891+00:00",
+    "first_seen": "2026-11-28T04:55:16.213783+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 15:40"
+     "Australia + overseas · 28 Nov 15:55"
     ],
     "key": "concurrent:global",
     "lat": null,

@@ -1303,3 +1303,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T04:25:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T04:40:15Z,ended,WA DFES,WA DFES:832968,Watch and Act,Watch and Act: Bushfire Watch and Act MONITOR CONDITIONS - BOUNDAIN,-32.88592282783598,117.28259238680872,https://emergency.wa.gov.au/warnings/6b0a53504beeaba42beadc5f,no
 2026-11-28T04:40:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T04:55:16Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,"Severe Thunderstorm Warning for parts of Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
+2026-11-28T04:55:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
