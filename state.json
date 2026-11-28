@@ -379,24 +379,6 @@
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
-   "Al Jazeera:https://www.aljazeera.com/?t=1795827253": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-28T03:25:15.553874+00:00",
-    "history": [
-     "Hazard news · 28 Nov 14:25"
-    ],
-    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795827253",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-    "track_end": false
-   },
    "Al Jazeera:https://www.aljazeera.com/?t=1795833287": {
     "colour": 2001125,
     "emoji": "📰",
@@ -945,9 +927,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T11:55:50.288079+00:00",
+    "first_seen": "2026-11-28T12:10:49.693805+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 22:55"
+     "Australia + overseas · 28 Nov 23:10"
     ],
     "key": "concurrent:global",
     "lat": null,
