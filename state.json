@@ -601,7 +601,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Initial Moderate Flood Warning for the Avoca River",
+    "title": "Moderate Flood Warning for the Avoca River",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/vic/warnings/flood/loddonriver.shtml": {
@@ -958,9 +958,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T00:09:48.047467+00:00",
+    "first_seen": "2026-11-28T00:24:48.268576+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 11:09"
+     "Australia + overseas · 28 Nov 11:24"
     ],
     "key": "concurrent:global",
     "lat": null,
