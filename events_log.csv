@@ -1265,3 +1265,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T01:09:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T01:24:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T01:39:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T01:54:47Z,new,VicEmergency,VicEmergency:43749,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
+2026-11-28T01:54:47Z,ended,VicEmergency,VicEmergency:43746,Emergency Warning,EMERGENCY WARNING: Emergency Warning,-38.34483787162119,144.93726470078164,,yes
+2026-11-28T01:54:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

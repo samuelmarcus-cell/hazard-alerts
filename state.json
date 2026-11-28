@@ -958,9 +958,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T01:39:47.735014+00:00",
+    "first_seen": "2026-11-28T01:54:47.703488+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 12:39"
+     "Australia + overseas · 28 Nov 12:54"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1439,8 +1439,8 @@
     "title": "Watch and Act: Watch & Act",
     "track_end": true
    },
-   "VicEmergency:43746": {
-    "attachment_id": "1576019811857596476",
+   "VicEmergency:43749": {
+    "attachment_id": "1576053791265001562",
     "colour": 13840175,
     "embed": {
      "color": 13840175,
@@ -1455,20 +1455,20 @@
      "footer": {
       "text": "VicEmergency"
      },
-     "timestamp": "2026-11-27T23:40:03.430060+00:00",
+     "timestamp": "2026-11-28T01:55:04.298604+00:00",
      "title": "🔥 EMERGENCY WARNING: Emergency Warning"
     },
     "emoji": "🔥",
-    "first_seen": "2026-11-27T23:39:48.274390+00:00",
+    "first_seen": "2026-11-28T01:54:47.703488+00:00",
     "history": [
-     "Emergency Warning · 28 Nov 10:39"
+     "Emergency Warning · 28 Nov 12:54"
     ],
-    "key": "VicEmergency:43746",
+    "key": "VicEmergency:43749",
     "lat": -38.34483787162119,
     "level": "Emergency Warning",
     "link": "",
     "lon": 144.93726470078164,
-    "message_id": "1576019812218572800",
+    "message_id": "1576053791076253849",
     "news": false,
     "notify": true,
     "rank": 1,
