@@ -533,7 +533,26 @@
    }
   },
   "BoM SA": {},
-  "BoM TAS": {},
+  "BoM TAS": {
+   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-28T05:55:15.847664+00:00",
+    "history": [
+     "Warning · 28 Nov 16:55"
+    ],
+    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html",
+    "lat": null,
+    "level": "Warning",
+    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Initial Minor to Moderate Flood Warning for the Macquarie River",
+    "track_end": true
+   }
+  },
   "BoM VIC": {
    "bom:http://reg.bom.gov.au/vic/warnings/flood/avocariver.shtml": {
     "colour": 16088064,
@@ -926,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T05:40:15.945955+00:00",
+    "first_seen": "2026-11-28T05:55:15.847664+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 16:40"
+     "Australia + overseas · 28 Nov 16:55"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1296,6 +1315,24 @@
     "notify": true,
     "rank": 1,
     "title": "Watch and Act: Bushfire Watch and Act - Pine Scrub, Leeka & Mount Tanner (Flinders Island) - Not safe to return",
+    "track_end": true
+   },
+   "TasALERT:Flood|Deloraine and surrounding low-lying areas": {
+    "colour": 16361509,
+    "emoji": "⚠️",
+    "first_seen": "2026-11-28T05:55:15.847664+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 16:55"
+    ],
+    "key": "TasALERT:Flood|Deloraine and surrounding low-lying areas",
+    "lat": -41.71194,
+    "level": "Watch and Act",
+    "link": "https://alert.tas.gov.au/?id=f8a352ce-fac7-48b8-ac6d-2319bd744460",
+    "lon": 147.82244,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Flood Watch and Act - Meander River - Deloraine & Surrounds - Monitor conditions as they are changing",
     "track_end": true
    },
    "TasALERT:Flood|Railton and surrounds": {

@@ -1310,3 +1310,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T05:25:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T05:40:15Z,new,BoM WA,bom:http://reg.bom.gov.au/wa/warnings/fire.shtml,Warning,"Fire Weather Warning for Mid West, North Midlands and Swan Inland North fire weather districts",,,http://reg.bom.gov.au/wa/warnings/fire.shtml,no
 2026-11-28T05:40:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T05:55:15Z,new,BoM TAS,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html,Warning,Initial Minor to Moderate Flood Warning for the Macquarie River,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html,no
+2026-11-28T05:55:15Z,new,TasALERT,TasALERT:Flood|Deloraine and surrounding low-lying areas,Watch and Act,Watch and Act: Flood Watch and Act - Meander River - Deloraine & Surrounds - Monitor conditions as they are changing,-41.71194,147.82244,https://alert.tas.gov.au/?id=f8a352ce-fac7-48b8-ac6d-2319bd744460,no
+2026-11-28T05:55:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
