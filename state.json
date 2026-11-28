@@ -471,7 +471,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for Central Tablelands, North West Slopes and Plains and parts of Mid North Coast, Hunter, Central West Slopes and Plains, Upper Western and Northern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Hunter and parts of Mid North Coast, Central Tablelands, North West Slopes and Plains, Central West Slopes and Plains and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -492,7 +492,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Central West, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for parts of Central Highlands and Coalfields, Maranoa and Warrego and Darling Downs and Granite Belt Forecast Districts.",
     "track_end": true
    },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bulloo-river.shtml": {
@@ -516,6 +516,24 @@
   },
   "BoM SA": {},
   "BoM TAS": {
+   "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20605.html": {
+    "colour": 16088064,
+    "emoji": "🌊",
+    "first_seen": "2026-11-28T10:40:50.379514+00:00",
+    "history": [
+     "Warning · 28 Nov 21:40"
+    ],
+    "key": "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20605.html",
+    "lat": null,
+    "level": "Warning",
+    "link": "https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20605.html",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Moderate Flood Warning for the Mersey River",
+    "track_end": true
+   },
    "bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20612.html": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -927,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T10:25:49.883478+00:00",
+    "first_seen": "2026-11-28T10:40:50.379514+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 21:25"
+     "Australia + overseas · 28 Nov 21:40"
     ],
     "key": "concurrent:global",
     "lat": null,
