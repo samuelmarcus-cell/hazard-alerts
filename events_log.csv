@@ -1344,3 +1344,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T10:55:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T11:10:49Z,new,TasALERT,"TasALERT:Flood|Kimberley, Merseylea, Native Plains, Latrobe and Surrounds",Watch and Act,Watch and Act: Flood Watch and Act - Mersey River – Kimberley to Latrobe - Monitor conditions as they are changing,-41.39375,146.49009,https://alert.tas.gov.au/?id=f253111b-c853-4664-b7c2-99c836848dbf,no
 2026-11-28T11:10:49Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T11:25:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
