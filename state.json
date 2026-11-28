@@ -370,7 +370,8 @@
   "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
   "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
   "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
-  "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss"
  ],
  "sources": {
   "ABC News": {
@@ -412,6 +413,24 @@
     "notify": false,
     "rank": 0,
     "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+    "track_end": false
+   },
+   "Al Jazeera:https://www.aljazeera.com/?t=1795833287": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-28T05:10:15.415247+00:00",
+    "history": [
+     "Hazard news · 28 Nov 16:10"
+    ],
+    "key": "Al Jazeera:https://www.aljazeera.com/?t=1795833287",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
     "track_end": false
    }
   },
@@ -888,9 +907,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T04:55:16.213783+00:00",
+    "first_seen": "2026-11-28T05:10:15.415247+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 15:55"
+     "Australia + overseas · 28 Nov 16:10"
     ],
     "key": "concurrent:global",
     "lat": null,
