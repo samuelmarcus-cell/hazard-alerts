@@ -490,7 +490,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for North West Slopes and Plains and parts of Mid North Coast, Hunter, Central Tablelands, Central West Slopes and Plains, Upper Western, Northern Tablelands and South West Slopes Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for North West Slopes and Plains and parts of Mid North Coast, Hunter, Central Tablelands, Central West Slopes and Plains, South West Slopes, Upper Western, Northern Tablelands and Southern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -946,9 +946,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T07:40:15.659235+00:00",
+    "first_seen": "2026-11-28T07:55:16.084698+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 18:40"
+     "Australia + overseas · 28 Nov 18:55"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1027,10 +1027,10 @@
      "Green · 27 Nov 20:08"
     ],
     "key": "gdacs:FL:1104259",
-    "lat": -5.0,
+    "lat": -3.5707875,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104259",
-    "lon": -80.333333,
+    "lon": -80.4596454,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1135,10 +1135,10 @@
      "Green · 28 Nov 11:09"
     ],
     "key": "gdacs:FL:1104302",
-    "lat": -23.0,
+    "lat": -23.5,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302",
-    "lon": -56.0,
+    "lon": -58.833333,
     "news": false,
     "notify": false,
     "rank": 0,
