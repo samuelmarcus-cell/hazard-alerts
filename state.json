@@ -405,7 +405,7 @@
     "news": true,
     "notify": false,
     "rank": 0,
-    "title": "Emergency warning after Mornington Peninsula landslide damages house",
+    "title": "Unoccupied house collapses in Mornington Peninsula landslide",
     "track_end": false
    },
    "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
@@ -491,6 +491,24 @@
   },
   "BoM NT": {},
   "BoM QLD": {
+   "bom:http://reg.bom.gov.au/products/IDQ21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-28T00:54:47.517691+00:00",
+    "history": [
+     "Warning · 28 Nov 11:54"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDQ21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of Southeast Coast Forecast District.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/qld/warnings/flood/bremer-river-and-warrill-creek.shtml": {
     "colour": 16088064,
     "emoji": "🌊",
@@ -940,9 +958,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T00:39:47.471292+00:00",
+    "first_seen": "2026-11-28T00:54:47.517691+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 11:39"
+     "Australia + overseas · 28 Nov 11:54"
     ],
     "key": "concurrent:global",
     "lat": null,
