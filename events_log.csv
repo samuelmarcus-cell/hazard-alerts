@@ -1273,3 +1273,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T02:09:48Z,new,VicEmergency,VicEmergency:43748,Watch and Act,Watch and Act: Watch & Act,-36.77250000000001,143.45375,,no
 2026-11-28T02:09:48Z,ended,VicEmergency,VicEmergency:43742,Watch and Act,Watch and Act: Watch & Act,-36.77250000000001,143.45375,,no
 2026-11-28T02:09:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T02:24:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
