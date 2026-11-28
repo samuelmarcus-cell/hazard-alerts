@@ -927,9 +927,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T09:25:50.295442+00:00",
+    "first_seen": "2026-11-28T09:40:50.267853+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 20:25"
+     "Australia + overseas · 28 Nov 20:40"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -990,10 +990,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": -6.8891904,
+    "lat": 1.4773227,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 107.6404716,
+    "lon": 102.110402,
     "news": false,
     "notify": false,
     "rank": 0,
