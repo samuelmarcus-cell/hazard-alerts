@@ -1341,3 +1341,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T10:25:49Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T10:40:50Z,new,BoM TAS,bom:https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20605.html,Warning,Moderate Flood Warning for the Mersey River,,,https://reg.bom.gov.au/cgi-bin/wrap_fwo.pl?IDT20605.html,no
 2026-11-28T10:40:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T10:55:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
