@@ -1264,3 +1264,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T00:54:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T01:09:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T01:24:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T01:39:47Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
