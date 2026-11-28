@@ -1277,3 +1277,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T02:39:48Z,ended,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21033.shtml,Warning,Severe Thunderstorm Warning for parts of Southeast Coast Forecast District.,,,http://reg.bom.gov.au/products/IDQ21033.shtml,no
 2026-11-28T02:39:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T02:40:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T02:55:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
