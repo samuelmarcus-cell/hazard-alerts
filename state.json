@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1576004722937303091",
-  "map_hash": "a0205dfa2ec8",
+  "attachment_id": "1576084116657410098",
+  "map_hash": "f350bf57d48a",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -943,9 +943,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T03:40:15.554943+00:00",
+    "first_seen": "2026-11-28T03:55:15.962694+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 14:40"
+     "Australia + overseas · 28 Nov 14:55"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1442,24 +1442,6 @@
     "title": "EMERGENCY WARNING: Emergency Warning",
     "track_end": true
    },
-   "VicEmergency:43751": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-28T02:09:48.315914+00:00",
-    "history": [
-     "Watch and Act · 28 Nov 13:09"
-    ],
-    "key": "VicEmergency:43751",
-    "lat": -36.742750287619884,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 147.17870980717456,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Watch & Act",
-    "track_end": true
-   },
    "VicEmergency:43755": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1494,6 +1476,42 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43764": {
+    "attachment_id": "1576084103562924143",
+    "colour": 13840175,
+    "embed": {
+     "color": 13840175,
+     "description": "VicEmergency: Emergency Warning current.",
+     "fields": [
+      {
+       "inline": false,
+       "name": "Map",
+       "value": "[Open map](https://www.openstreetmap.org/?mlat=-36.7428&mlon=147.1787#map=8/-36.7428/147.1787)"
+      }
+     ],
+     "footer": {
+      "text": "VicEmergency"
+     },
+     "timestamp": "2026-11-28T03:55:31.754206+00:00",
+     "title": "🔥 EMERGENCY WARNING: Advice"
+    },
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T03:55:15.962694+00:00",
+    "history": [
+     "Emergency Warning · 28 Nov 14:55"
+    ],
+    "key": "VicEmergency:43764",
+    "lat": -36.742750287619884,
+    "level": "Emergency Warning",
+    "link": "",
+    "lon": 147.17870980717456,
+    "message_id": "1576084103810256977",
+    "news": false,
+    "notify": true,
+    "rank": 1,
+    "title": "EMERGENCY WARNING: Advice",
     "track_end": true
    }
   },

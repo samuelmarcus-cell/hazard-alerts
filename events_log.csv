@@ -1289,3 +1289,6 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T03:25:15Z,new,Al Jazeera,Al Jazeera:https://www.aljazeera.com/?t=1795827253,Hazard news,Parts of US clean up after Thanksgiving storm lashes East Coast,,,https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss,no
 2026-11-28T03:25:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T03:40:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T03:55:15Z,new,VicEmergency,VicEmergency:43764,Emergency Warning,EMERGENCY WARNING: Advice,-36.742750287619884,147.17870980717456,,yes
+2026-11-28T03:55:15Z,ended,VicEmergency,VicEmergency:43751,Watch and Act,Watch and Act: Watch & Act,-36.742750287619884,147.17870980717456,,no
+2026-11-28T03:55:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
