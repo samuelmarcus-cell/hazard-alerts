@@ -1318,3 +1318,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T06:10:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T06:25:15Z,new,TasALERT,TasALERT:Flood|Lake River - Cressy & Surrounds,Watch and Act,Watch and Act: Flood Watch and Act - Lake River - Cressy & Surrounds - Monitor conditions as they are changing,-41.77809,147.10251,https://alert.tas.gov.au/?id=269ab285-923c-452e-b3b1-f25863ab389f,no
 2026-11-28T06:25:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T06:40:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
