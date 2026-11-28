@@ -1,7 +1,7 @@
 {
  "dashboard": {
-  "attachment_id": "1576091675493662751",
-  "map_hash": "8d7110494c45",
+  "attachment_id": "1576118079773999125",
+  "map_hash": "62512642fa9d",
   "message_id": "1561600365747507283"
  },
  "filters_version": 4,
@@ -371,7 +371,8 @@
   "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
   "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
   "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-  "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss"
+  "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+  "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable"
  ],
  "sources": {
   "ABC News": {
@@ -489,7 +490,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for North West Slopes and Plains and parts of Hunter, South Coast, Central Tablelands, Central West Slopes and Plains, Upper Western and Mid North Coast Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Central Tablelands, North West Slopes and Plains and parts of Hunter, Illawarra, Southern Tablelands, Central West Slopes and Plains, Upper Western, Mid North Coast, Metropolitan and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -945,9 +946,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T05:55:15.847664+00:00",
+    "first_seen": "2026-11-28T06:10:16.102281+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 16:55"
+     "Australia + overseas · 28 Nov 17:10"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1182,6 +1183,24 @@
     "title": "Australia’s east coast deluged by storms as roads flood and damaging winds forecast for NSW and Victoria",
     "track_end": false
    },
+   "Guardian World:https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-28T06:10:16.102281+00:00",
+    "history": [
+     "Hazard news · 28 Nov 17:10"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Stunted sprouts: heatwaves and drought take toll on festive vegetable",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1325,10 +1344,10 @@
      "Watch and Act · 28 Nov 16:55"
     ],
     "key": "TasALERT:Flood|Deloraine and surrounding low-lying areas",
-    "lat": -41.71194,
+    "lat": -41.52434,
     "level": "Watch and Act",
     "link": "https://alert.tas.gov.au/?id=f8a352ce-fac7-48b8-ac6d-2319bd744460",
-    "lon": 147.82244,
+    "lon": 146.66036,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1460,42 +1479,6 @@
     "notify": false,
     "rank": 0,
     "title": "Watch and Act: Watch & Act",
-    "track_end": true
-   },
-   "VicEmergency:43764": {
-    "attachment_id": "1576084103562924143",
-    "colour": 13840175,
-    "embed": {
-     "color": 13840175,
-     "description": "VicEmergency: Emergency Warning current.",
-     "fields": [
-      {
-       "inline": false,
-       "name": "Map",
-       "value": "[Open map](https://www.openstreetmap.org/?mlat=-36.7428&mlon=147.1787#map=8/-36.7428/147.1787)"
-      }
-     ],
-     "footer": {
-      "text": "VicEmergency"
-     },
-     "timestamp": "2026-11-28T03:55:31.754206+00:00",
-     "title": "🔥 EMERGENCY WARNING: Advice"
-    },
-    "emoji": "🔥",
-    "first_seen": "2026-11-28T03:55:15.962694+00:00",
-    "history": [
-     "Emergency Warning · 28 Nov 14:55"
-    ],
-    "key": "VicEmergency:43764",
-    "lat": -36.742750287619884,
-    "level": "Emergency Warning",
-    "link": "",
-    "lon": 147.17870980717456,
-    "message_id": "1576084103810256977",
-    "news": false,
-    "notify": true,
-    "rank": 1,
-    "title": "EMERGENCY WARNING: Advice",
     "track_end": true
    },
    "VicEmergency:43765": {
