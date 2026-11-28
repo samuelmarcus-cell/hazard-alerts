@@ -1354,3 +1354,5 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T13:10:49Z,new,BoM QLD,bom:http://reg.bom.gov.au/products/IDQ21035.shtml,Warning,"Severe Thunderstorm Warning - Southeast Queensland for parts of Southern Downs, Toowoomba and Western Downs Council Areas.",,,http://reg.bom.gov.au/products/IDQ21035.shtml,no
 2026-11-28T13:10:49Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T13:11:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T13:26:21Z,new,GDACS,gdacs:FL:1104286,Green,Flood — South Africa,-26.004472,28.0042447,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104286,no
+2026-11-28T13:26:21Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes

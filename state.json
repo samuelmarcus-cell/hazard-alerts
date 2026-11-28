@@ -945,9 +945,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T13:11:21.404853+00:00",
+    "first_seen": "2026-11-28T13:26:21.306877+00:00",
     "history": [
-     "Australia + overseas · 29 Nov 00:11"
+     "Australia + overseas · 29 Nov 00:26"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -990,10 +990,10 @@
      "Green · 27 Nov 00:06"
     ],
     "key": "gdacs:FL:1104220",
-    "lat": 40.0615028,
+    "lat": 40.8358846,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
-    "lon": 9.0975894,
+    "lon": 14.2487679,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1052,6 +1052,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — France",
+    "track_end": true
+   },
+   "gdacs:FL:1104286": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-28T13:26:21.306877+00:00",
+    "history": [
+     "Green · 29 Nov 00:26"
+    ],
+    "key": "gdacs:FL:1104286",
+    "lat": -26.004472,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104286",
+    "lon": 28.0042447,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — South Africa",
     "track_end": true
    },
    "gdacs:FL:1104290": {
