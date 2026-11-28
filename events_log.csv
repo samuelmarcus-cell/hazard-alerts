@@ -1334,3 +1334,4 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T08:55:49Z,ended,GDACS,gdacs:FL:1104302,Green,Flood — Paraguay,-23.5,-58.833333,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302,no
 2026-11-28T08:55:49Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T09:10:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T09:25:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
