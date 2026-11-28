@@ -408,24 +408,6 @@
     "title": "Emergency warning after Mornington Peninsula landslide damages house",
     "track_end": false
    },
-   "abc:https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T23:54:48.168638+00:00",
-    "history": [
-     "Hazard news · 28 Nov 10:54"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Are earthquakes becoming more common in the Top End? Here's what experts say",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-28/tas-flinders-island-bushfire-community-comes-together/107433832": {
     "colour": 2001125,
     "emoji": "📰",
@@ -958,9 +940,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T00:24:48.268576+00:00",
+    "first_seen": "2026-11-28T00:39:47.471292+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 11:24"
+     "Australia + overseas · 28 Nov 11:39"
     ],
     "key": "concurrent:global",
     "lat": null,
