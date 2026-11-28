@@ -368,28 +368,11 @@
   "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
   "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
   "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
-  "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208"
+  "https://www.abc.net.au/news/2026-11-28/nt-are-earthquakes-becoming-more-common-in-darwin-tremors/107432208",
+  "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria"
  ],
  "sources": {
   "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T21:54:47.434803+00:00",
-    "history": [
-     "Hazard news · 28 Nov 08:54"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Rain not enough to extinguish Flinders Island bushfire",
-    "track_end": false
-   },
    "abc:https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814": {
     "colour": 2001125,
     "emoji": "📰",
@@ -452,6 +435,24 @@
    }
   },
   "BoM NSW/ACT": {
+   "bom:http://reg.bom.gov.au/products/IDN21033.shtml": {
+    "colour": 16088064,
+    "emoji": "⛈️",
+    "first_seen": "2026-11-28T03:10:15.287933+00:00",
+    "history": [
+     "Warning · 28 Nov 14:10"
+    ],
+    "key": "bom:http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lat": null,
+    "level": "Warning",
+    "link": "http://reg.bom.gov.au/products/IDN21033.shtml",
+    "lon": null,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Severe Thunderstorm Warning for parts of North West Slopes and Plains, Central West Slopes and Plains and Central Tablelands Forecast Districts.",
+    "track_end": true
+   },
    "bom:http://reg.bom.gov.au/products/IDN21037.shtml": {
     "colour": 16088064,
     "emoji": "🌬️",
@@ -904,9 +905,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T02:55:16.093899+00:00",
+    "first_seen": "2026-11-28T03:10:15.287933+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 13:55"
+     "Australia + overseas · 28 Nov 14:10"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1123,6 +1124,24 @@
    }
   },
   "Guardian World": {
+   "Guardian World:https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria": {
+    "colour": 2001125,
+    "emoji": "📰",
+    "first_seen": "2026-11-28T03:10:15.287933+00:00",
+    "history": [
+     "Hazard news · 28 Nov 14:10"
+    ],
+    "key": "Guardian World:https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+    "lat": null,
+    "level": "Hazard news",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria",
+    "lon": null,
+    "news": true,
+    "notify": false,
+    "rank": 0,
+    "title": "Australia’s east coast deluged by storms as roads flood and damaging winds forecast for NSW and Victoria",
+    "track_end": false
+   },
    "Guardian World:https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving": {
     "colour": 2001125,
     "emoji": "📰",
@@ -1331,42 +1350,6 @@
    }
   },
   "VicEmergency": {
-   "VicEmergency:43737": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-27T20:24:15.446767+00:00",
-    "history": [
-     "Watch and Act · 28 Nov 07:24"
-    ],
-    "key": "VicEmergency:43737",
-    "lat": -36.6275,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 143.87874999999997,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Watch & Act",
-    "track_end": true
-   },
-   "VicEmergency:43738": {
-    "colour": 16361509,
-    "emoji": "🔥",
-    "first_seen": "2026-11-27T20:24:15.446767+00:00",
-    "history": [
-     "Watch and Act · 28 Nov 07:24"
-    ],
-    "key": "VicEmergency:43738",
-    "lat": -37.1125,
-    "level": "Watch and Act",
-    "link": "",
-    "lon": 143.87625000000003,
-    "news": false,
-    "notify": false,
-    "rank": 0,
-    "title": "Watch and Act: Watch & Act",
-    "track_end": true
-   },
    "VicEmergency:43748": {
     "colour": 16361509,
     "emoji": "🔥",
@@ -1433,6 +1416,42 @@
     "level": "Watch and Act",
     "link": "",
     "lon": 147.17870980717456,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43755": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T03:10:15.287933+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 14:10"
+    ],
+    "key": "VicEmergency:43755",
+    "lat": -37.1125,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.87625000000003,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Watch and Act: Watch & Act",
+    "track_end": true
+   },
+   "VicEmergency:43760": {
+    "colour": 16361509,
+    "emoji": "🔥",
+    "first_seen": "2026-11-28T03:10:15.287933+00:00",
+    "history": [
+     "Watch and Act · 28 Nov 14:10"
+    ],
+    "key": "VicEmergency:43760",
+    "lat": -36.6275,
+    "level": "Watch and Act",
+    "link": "",
+    "lon": 143.87874999999997,
     "news": false,
     "notify": false,
     "rank": 0,

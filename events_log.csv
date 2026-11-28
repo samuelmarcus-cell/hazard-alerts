@@ -1278,3 +1278,10 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T02:39:48Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T02:40:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T02:55:16Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T03:10:15Z,new,BoM NSW/ACT,bom:http://reg.bom.gov.au/products/IDN21033.shtml,Warning,"Severe Thunderstorm Warning for parts of North West Slopes and Plains, Central West Slopes and Plains and Central Tablelands Forecast Districts.",,,http://reg.bom.gov.au/products/IDN21033.shtml,no
+2026-11-28T03:10:15Z,new,VicEmergency,VicEmergency:43755,Watch and Act,Watch and Act: Watch & Act,-37.1125,143.87625000000003,,no
+2026-11-28T03:10:15Z,new,VicEmergency,VicEmergency:43760,Watch and Act,Watch and Act: Watch & Act,-36.6275,143.87874999999997,,no
+2026-11-28T03:10:15Z,ended,VicEmergency,VicEmergency:43737,Watch and Act,Watch and Act: Watch & Act,-36.6275,143.87874999999997,,no
+2026-11-28T03:10:15Z,ended,VicEmergency,VicEmergency:43738,Watch and Act,Watch and Act: Watch & Act,-37.1125,143.87625000000003,,no
+2026-11-28T03:10:15Z,new,Guardian World,Guardian World:https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria,Hazard news,Australia’s east coast deluged by storms as roads flood and damaging winds forecast for NSW and Victoria,,,https://www.theguardian.com/australia-news/2026/nov/28/australias-east-coast-deluged-by-storms-as-roads-flood-and-damaging-winds-forecast-for-nsw-and-victoria,no
+2026-11-28T03:10:15Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
