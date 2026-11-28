@@ -375,26 +375,7 @@
   "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable"
  ],
  "sources": {
-  "ABC News": {
-   "abc:https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814": {
-    "colour": 2001125,
-    "emoji": "📰",
-    "first_seen": "2026-11-27T23:24:47.862058+00:00",
-    "history": [
-     "Hazard news · 28 Nov 10:24"
-    ],
-    "key": "abc:https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
-    "lat": null,
-    "level": "Hazard news",
-    "link": "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
-    "lon": null,
-    "news": true,
-    "notify": false,
-    "rank": 0,
-    "title": "Unoccupied house collapses in Mornington Peninsula landslide",
-    "track_end": false
-   }
-  },
+  "ABC News": {},
   "ACT ESA": {},
   "ASMC haze": {},
   "Al Jazeera": {
@@ -490,7 +471,7 @@
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Severe Thunderstorm Warning for North West Slopes and Plains and parts of Mid North Coast, Hunter, Central Tablelands, Central West Slopes and Plains, South West Slopes, Upper Western, Northern Tablelands and Southern Tablelands Forecast Districts.",
+    "title": "Severe Thunderstorm Warning for Central Tablelands, North West Slopes and Plains and parts of Mid North Coast, Hunter, Central West Slopes and Plains, Upper Western and Northern Tablelands Forecast Districts.",
     "track_end": true
    }
   },
@@ -946,9 +927,9 @@
    "concurrent:global": {
     "colour": 9315498,
     "emoji": "🌏",
-    "first_seen": "2026-11-28T08:40:50.405672+00:00",
+    "first_seen": "2026-11-28T08:55:49.758911+00:00",
     "history": [
-     "Australia + overseas · 28 Nov 19:40"
+     "Australia + overseas · 28 Nov 19:55"
     ],
     "key": "concurrent:global",
     "lat": null,
@@ -1009,10 +990,10 @@
      "Green · 11 Nov 18:50"
     ],
     "key": "gdacs:FL:1104253",
-    "lat": 2.1923519,
+    "lat": -6.8891904,
     "level": "Green",
     "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-    "lon": 99.3812201,
+    "lon": 107.6404716,
     "news": false,
     "notify": false,
     "rank": 0,
@@ -1053,6 +1034,24 @@
     "notify": false,
     "rank": 0,
     "title": "Flood — France",
+    "track_end": true
+   },
+   "gdacs:FL:1104290": {
+    "colour": 4431943,
+    "emoji": "🌊",
+    "first_seen": "2026-11-28T08:55:49.758911+00:00",
+    "history": [
+     "Green · 28 Nov 19:55"
+    ],
+    "key": "gdacs:FL:1104290",
+    "lat": 40.739203,
+    "level": "Green",
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290",
+    "lon": -124.2180001,
+    "news": false,
+    "notify": false,
+    "rank": 0,
+    "title": "Flood — United States",
     "track_end": true
    },
    "gdacs:FL:1104295": {
@@ -1127,22 +1126,22 @@
     "title": "Flood — Uganda",
     "track_end": true
    },
-   "gdacs:FL:1104302": {
+   "gdacs:FL:1104303": {
     "colour": 4431943,
     "emoji": "🌊",
-    "first_seen": "2026-11-28T00:09:48.047467+00:00",
+    "first_seen": "2026-11-28T08:55:49.758911+00:00",
     "history": [
-     "Green · 28 Nov 11:09"
+     "Green · 28 Nov 19:55"
     ],
-    "key": "gdacs:FL:1104302",
-    "lat": -23.5,
+    "key": "gdacs:FL:1104303",
+    "lat": -17.4012458,
     "level": "Green",
-    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302",
-    "lon": -58.833333,
+    "link": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104303",
+    "lon": -66.1675681,
     "news": false,
     "notify": false,
     "rank": 0,
-    "title": "Flood — Paraguay",
+    "title": "Flood — Bolivia",
     "track_end": true
    },
    "gdacs:TC:1001352": {

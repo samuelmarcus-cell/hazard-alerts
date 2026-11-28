@@ -1329,3 +1329,7 @@ time_utc,change,source,key,level,title,lat,lon,link,major
 2026-11-28T08:25:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
 2026-11-28T08:40:50Z,ended,TasALERT,TasALERT:Flood|Railton and surrounds,Watch and Act,Watch and Act: Flood Watch and Act - Redwater Creek - Railton - Monitor conditions as they are changing,-41.34569,146.42196,https://alert.tas.gov.au/?id=d60583a7-0374-4ad1-a130-f129ab6b97a2,no
 2026-11-28T08:40:50Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
+2026-11-28T08:55:49Z,new,GDACS,gdacs:FL:1104303,Green,Flood — Bolivia,-17.4012458,-66.1675681,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104303,no
+2026-11-28T08:55:49Z,new,GDACS,gdacs:FL:1104290,Green,Flood — United States,40.739203,-124.2180001,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104290,no
+2026-11-28T08:55:49Z,ended,GDACS,gdacs:FL:1104302,Green,Flood — Paraguay,-23.5,-58.833333,http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104302,no
+2026-11-28T08:55:49Z,seen_at_start,Concurrent events,concurrent:global,Australia + overseas,Major Australian events overlapping a top-level disaster overseas,,,,yes
